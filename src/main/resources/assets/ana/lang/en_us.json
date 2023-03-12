@@ -1,0 +1,30 @@
+{
+
+  "item.ana.copper_crow": "Copper Crow",
+  "item.ana.silver_shield": "Silver Shield",
+  "item.ana.gold_griffon": "Gold Griffon",
+  "item.ana.platinum_dragon": "Platinum Dragon",
+
+  "item.ana.club": "Club",
+  "item.ana.greatclub": "Greatclub",
+
+  "item.ana.silver_shortsword": "Silver Shortsword",
+
+  "item.ana.golden_shortsword": "Golden Shortsword",
+  "item.ana.golden_hatchet": "Golden Hatchet",
+  "item.ana.golden_pickaxe": "Golden Pickaxe",
+  "item.ana.golden_shovel": "Golden Shovel",
+  "item.ana.golden_hoe": "Golden Hoe",
+
+
+  "item.ana.adamantine_ingot": "§cAdamantine Ingot",
+  "item.ana.raw_adamantine": "§cRaw Adamantine",
+  "item.ana.adamantine_shortsword": "§cAdamantine Shortsword",
+  "item.ana.adamantine_hatchet": "§cAdamantine Hatchet",
+  "item.ana.adamantine_pickaxe": "§cAdamantine Pickaxe",
+  "item.ana.adamantine_shovel": "§cAdamantine Shovel",
+  "item.ana.adamantine_hoe": "§cAdamantine Hoe",
+
+  "creativemodetab.ana_materials": "A&A Materials",
+  "creativemodetab.ana_war": "A&A Weapons and Armor"
+}
