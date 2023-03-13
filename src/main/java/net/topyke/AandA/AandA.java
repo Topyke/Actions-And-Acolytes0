@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.topyke.AandA.block.ModBlocks;
 import net.topyke.AandA.item.ModCreativeModeTabs;
 import net.topyke.AandA.item.ModItems;
 import org.slf4j.Logger;
@@ -27,6 +28,7 @@ public class AandA
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -73,6 +75,7 @@ public class AandA
             event.accept(ModItems.ADAMANTINE_SHORTSWORD);
 
         }
+
         if(event.getTab() == ModCreativeModeTabs.ANA_TOOLS) {
             event.accept(ModItems.WOODEN_PICKAXE);
             event.accept(ModItems.WOODEN_HATCHET);
@@ -107,6 +110,14 @@ public class AandA
             event.accept(ModItems.ADAMANTINE_SHOVEL);
             event.accept(ModItems.ADAMANTINE_HOE);
 
+
+        }
+        if(event.getTab() == ModCreativeModeTabs.ANA_NATURAL) {
+            event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.PLATINUM_ORE);
+            event.accept(ModBlocks.MITHRAL_ORE_HIGH);
+            event.accept(ModBlocks.MITHRAL_ORE);
+            event.accept(ModBlocks.ADAMANTINE_ORE);
         }
 
     }

@@ -8,6 +8,7 @@ import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.topyke.AandA.AandA;
+import net.topyke.AandA.block.ModBlocks;
 
 @Mod.EventBusSubscriber(modid = AandA.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
@@ -29,7 +30,7 @@ public class ModCreativeModeTabs {
                 builder -> builder.icon(() -> new ItemStack(ModItems.ADAMANTINE_PICKAXE.get()))
                         .title(Component.translatable("creativemodetab.ana_tools")));
         ANA_NATURAL = event.registerCreativeModeTab(new ResourceLocation(AandA.MOD_ID, "ana_natural"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.ADAMANTINE_PICKAXE.get()))
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.ADAMANTINE_ORE.get()))
                         .title(Component.translatable("creativemodetab.ana_nature")));
     }
 }

@@ -1,5 +1,10 @@
 {
   "replace": false,
   "values": [
+    "ana:silver_ore",
+    "ana:platinum_ore",
+    "ana:mithral_ore",
+    "ana:mithral_ore_high",
+    "ana:adamantine_ore"
   ]
 }
