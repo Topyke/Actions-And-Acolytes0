@@ -351,9 +351,46 @@ Starting Equipment:
 An explorer's pack
 4 Wooden Javelins
 
+  -------------------
+  PROF Bonus Table 
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table*
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      0     ----     0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        0         ---
+  2    ---      0     ----     0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        0         ---
+  3    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  4    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  5    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  6    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  7    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  8    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  9    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  10   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  11   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  12   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  13   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9        ---
+  14   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  15   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  16   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  17   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  18   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  19   ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  20   ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        13        ---
+  -----------------------------------------------------------------------------------------------------------------------------------------
+  *Barbarians do not learn any spells via level up, and must learn them through other means.
+
 Abilities:
 
-LVL 1
+- LVL 1 -
 
 Rage
 You can press <ClassAbility1Key> to activate Rage.
@@ -633,6 +670,153 @@ Starting Equipment:
 a Diplomats pack (or) an entertainers pack
 a lute (or) any other musical instrument
 Leather Chestplate and a Stone Dagger
+
+  -------------------
+  PROF Bonus Table 
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  2    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  3    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  4    ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  5    ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  6    ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  7    ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  8    ---      3     ----     4   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  9    ---      3     ----     4   ---   3   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  10   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---        14        ---
+  11   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        15        ---
+  12   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        15        ---
+  13   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        16        ---
+  14   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        18        ---
+  15   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        19        ---
+  16   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        19        ---
+  17   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        20        ---
+  18   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        22        ---
+  19   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        22        ---
+  20   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        22        ---
+  
+  
+ 
+Abilities:
+
+- LVL 1 -
+
+Spellcasting
+You have the ability to cast Musical Spells.
+Musical spells use CHA instead of INT when adding bonuses.
+Spell Resistance: 80 + ((PROF Bonus + CHA Bonus) * 10)
+You need a musical instrument that you are profiecent with in order to cast spells.
+
+Bardic Inspiration
+When holding a musical instrument you are profiecent in, press the <ClassAbility1Key> when looking at a friendly entity
+to grant Bardic Inspiration for the next 2 minutes.
+You can use this a number of times equal to your CHA modifier. (minimum of 1)
+You regain all lost charges after sleeping through a night.
+You grant Bardic Inspiration 2 at LVL 5, Bardic Inspiration 3 at LVL 10, and Bardic Inspiration 4 at LVL 15.
+
+- LVL 2 -
+
+Jack of All Trades
+You can add half of your PROF Bonus to skills that you don't already have proficency in.
+
+Song of Rest
+While Resting, you can play a tune that revitalizes wounded allies. Any ally that can hear the song during the rest will restore an additional 4 HP.
+This increases to 6 HP at LVL 9, 7 HP at LVL 13, and 9 HP at LVL 17.
+
+- LVL 3 -
+
+You can now select a subclass.
+Subclass options:
+Spellsinger
+Bladedancer
+
+Expertise 1
+Choose 2 skills you are proficent in, your profiecency bonus is doubled for those 2 skills.
+
+- LVL 5 -
+
+Font of Inspiration
+You restore all of your Bardic Inspiration Charges after a short or long rest.
+
+- LVL 6 -
+
+Countercharm
+You can press <ClassAbility2Key> to start a preformance that disrupts charming magics.
+As long as you continue to play, you and all allied creatures that can hear you have resistance to being Charmed or Frieghtend.
+You cannot use this ability if you are Silenced or Incapacitated.
+
+- LVL 10 - 
+
+Expertise 2
+Choose 2 skills you are proficent in that are unaffected by Expertise 1, your profiecency bonus is doubled for those 2 skills.
+
+Magical Secrets
+You unlock magical secrets, you learn any 2 spells of your choice (except Paladin Spells).
+The spells chosen must be at a level you can cast.
+This ability triggers again at LVL 14 and at LVL 18.
+
+- LVL 20 -
+
+Superior Inspiration
+When initiating battle and have no charges of Bardic Inspiration left, regain 1 charge.
+
+-- Spellsinger-Unique Ablities --
+
+- LVL 3 -
+
+Bonus Proficencies
+You gain proficency with 3 skills of your choice.
+
+Cutting Words
+Using <ClassAbility3Key> will reduce the stats of a target in your line of sight within 18 blocks by 15%.
+This effect lasts 30 seconds.
+Using this ability expends a Bardic Inspiration Charge.
+
+- LVL 6 -
+
+Spell Secrets
+You unlock magical secrets, you learn any 2 spells of your choice (except Paladin Spells).
+The spells chosen must be at a level you can cast.
+
+- LVL 14 -
+
+Peerless Skill
+You can press SHIFT + <ClassAbility1Key> to use Bardic Inspiration on yourself, at half duration.
+
+-- Bladedancer-Unique Ablities --
+
+- LVL 3 - 
+
+Bonus Proficencies
+You gain proficency with Medium Armor, Shields, and 1 Martial Weapon of your choice.
+
+Combat Inspiration
+Using <ClassAbility3Key> will buff a ally in your line of sight within 18 blocks,
+Boosting their AC by 5 and melee damage by 20%.
+This effect lasts 2 minutes.
+Using this ability expends a Bardic Inspiration Charge.
+
+- LVL 6 - 
+
+Attack Swiftness
+Your base Attack Speed is increased to 4.1.
+
+- LVL 14 -
+
+Battle Magic
+After casting a spell, You gain Combat Inspiration for 15 seconds.
+
 
 --- Cleric ---
 
@@ -1834,6 +2018,9 @@ None
 
 ----- Status Conditions -----
 
+Bardic Inspiration
+Increases all stats by (10 * Potency)%.
+
 Bleed
 Deals damage equal to its potency every 3 seconds.
 If bleed would be applied to a creature that is already bleeding,
@@ -1937,6 +2124,11 @@ Resistance to Physical Damage.
 Your Unarmored Attribute is changed from 5 + CON mod to 10 + CON mod.
 Unable to cast spells.
 
+Resting
+Allows for benefits of resting to occur, can only activate while near a campfire, or in a inn.
+
+Silence
+Prevents the use of any vocal spells or the use of chat.
 
 Stunned
 Identical to Paralyzed.
