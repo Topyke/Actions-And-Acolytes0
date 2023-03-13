@@ -51,19 +51,57 @@ public class AandA
             event.accept(ModItems.SILVER_SHIELD);
             event.accept(ModItems.GOLD_GRIFFON);
             event.accept(ModItems.PLATINUM_DRAGON);
+            event.accept(ModItems.RAW_SILVER);
+            event.accept(ModItems.SILVER_INGOT);
+            event.accept(ModItems.RAW_PLATINUM);
+            event.accept(ModItems.PLATINUM_INGOT);
+            event.accept(ModItems.RAW_MITHRAL);
+            event.accept(ModItems.MITHRAL_INGOT);
             event.accept(ModItems.RAW_ADAMANTINE);
             event.accept(ModItems.ADAMANTINE_INGOT);
         }
         if(event.getTab() == ModCreativeModeTabs.ANA_WAR) {
             event.accept(ModItems.CLUB);
             event.accept(ModItems.GREATCLUB);
+            event.accept(ModItems.WOODEN_SHORTSWORD);
+            event.accept(ModItems.STONE_SHORTSWORD);
+            event.accept(ModItems.IRON_SHORTSWORD);
             event.accept(ModItems.GOLDEN_SHORTSWORD);
+            event.accept(ModItems.SILVER_SHORTSWORD);
+            event.accept(ModItems.PLATINUM_SHORTSWORD);
+            event.accept(ModItems.MITHRAL_SHORTSWORD);
+            event.accept(ModItems.ADAMANTINE_SHORTSWORD);
+
+        }
+        if(event.getTab() == ModCreativeModeTabs.ANA_TOOLS) {
+            event.accept(ModItems.WOODEN_PICKAXE);
+            event.accept(ModItems.WOODEN_HATCHET);
+            event.accept(ModItems.WOODEN_SHOVEL);
+            event.accept(ModItems.WOODEN_HOE);
+            event.accept(ModItems.STONE_PICKAXE);
+            event.accept(ModItems.STONE_HATCHET);
+            event.accept(ModItems.STONE_SHOVEL);
+            event.accept(ModItems.STONE_HOE);
+            event.accept(ModItems.IRON_PICKAXE);
+            event.accept(ModItems.IRON_HATCHET);
+            event.accept(ModItems.IRON_SHOVEL);
+            event.accept(ModItems.IRON_HOE);
             event.accept(ModItems.GOLDEN_PICKAXE);
             event.accept(ModItems.GOLDEN_HATCHET);
             event.accept(ModItems.GOLDEN_SHOVEL);
             event.accept(ModItems.GOLDEN_HOE);
-            event.accept(ModItems.SILVER_SHORTSWORD);
-            event.accept(ModItems.ADAMANTINE_SHORTSWORD);
+            event.accept(ModItems.SILVER_PICKAXE);
+            event.accept(ModItems.SILVER_HATCHET);
+            event.accept(ModItems.SILVER_SHOVEL);
+            event.accept(ModItems.SILVER_HOE);
+            event.accept(ModItems.PLATINUM_PICKAXE);
+            event.accept(ModItems.PLATINUM_HATCHET);
+            event.accept(ModItems.PLATINUM_SHOVEL);
+            event.accept(ModItems.PLATINUM_HOE);
+            event.accept(ModItems.MITHRAL_PICKAXE);
+            event.accept(ModItems.MITHRAL_HATCHET);
+            event.accept(ModItems.MITHRAL_SHOVEL);
+            event.accept(ModItems.MITHRAL_HOE);
             event.accept(ModItems.ADAMANTINE_PICKAXE);
             event.accept(ModItems.ADAMANTINE_HATCHET);
             event.accept(ModItems.ADAMANTINE_SHOVEL);

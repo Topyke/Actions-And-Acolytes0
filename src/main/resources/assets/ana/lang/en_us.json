@@ -8,7 +8,23 @@
   "item.ana.club": "Club",
   "item.ana.greatclub": "Greatclub",
 
-  "item.ana.silver_shortsword": "Silver Shortsword",
+  "item.ana.wooden_shortsword": "§8Wooden Shortsword",
+  "item.ana.wooden_hatchet": "§8Wooden Hatchet",
+  "item.ana.wooden_pickaxe": "§8Wooden Pickaxe",
+  "item.ana.wooden_shovel": "§8Wooden Shovel",
+  "item.ana.wooden_hoe": "§8Wooden Hoe",
+
+  "item.ana.stone_shortsword": "§7Stone Shortsword",
+  "item.ana.stone_hatchet": "§7Stone Hatchet",
+  "item.ana.stone_pickaxe": "§7Stone Pickaxe",
+  "item.ana.stone_shovel": "§7Stone Shovel",
+  "item.ana.stone_hoe": "§7Stone Hoe",
+
+  "item.ana.iron_shortsword": "Iron Shortsword",
+  "item.ana.iron_hatchet": "Iron Hatchet",
+  "item.ana.iron_pickaxe": "Iron Pickaxe",
+  "item.ana.iron_shovel": "Iron Shovel",
+  "item.ana.iron_hoe": "Iron Hoe",
 
   "item.ana.golden_shortsword": "Golden Shortsword",
   "item.ana.golden_hatchet": "Golden Hatchet",
@@ -16,6 +32,29 @@
   "item.ana.golden_shovel": "Golden Shovel",
   "item.ana.golden_hoe": "Golden Hoe",
 
+  "item.ana.silver_ingot": "Silver Ingot",
+  "item.ana.raw_silver": "Raw Silver",
+  "item.ana.silver_shortsword": "Silver Shortsword",
+  "item.ana.silver_hatchet": "Silver Hatchet",
+  "item.ana.silver_pickaxe": "Silver Pickaxe",
+  "item.ana.silver_shovel": "Silver Shovel",
+  "item.ana.silver_hoe": "Silver Hoe",
+
+  "item.ana.platinum_ingot": "Platinum Ingot",
+  "item.ana.raw_platinum": "Raw Platinum",
+  "item.ana.platinum_shortsword": "Platinum Shortsword",
+  "item.ana.platinum_hatchet": "Platinum Hatchet",
+  "item.ana.platinum_pickaxe": "Platinum Pickaxe",
+  "item.ana.platinum_shovel": "Platinum Shovel",
+  "item.ana.platinum_hoe": "Platinum Hoe",
+
+  "item.ana.mithral_ingot": "§bMithral Ingot",
+  "item.ana.raw_mithral": "§bRaw Mithral",
+  "item.ana.mithral_shortsword": "§bMithral Shortsword",
+  "item.ana.mithral_hatchet": "§bMithral Hatchet",
+  "item.ana.mithral_pickaxe": "§bMithral Pickaxe",
+  "item.ana.mithral_shovel": "§bMithral Shovel",
+  "item.ana.mithral_hoe": "§bMithral Hoe",
 
   "item.ana.adamantine_ingot": "§cAdamantine Ingot",
   "item.ana.raw_adamantine": "§cRaw Adamantine",
@@ -26,5 +65,7 @@
   "item.ana.adamantine_hoe": "§cAdamantine Hoe",
 
   "creativemodetab.ana_materials": "A&A Materials",
-  "creativemodetab.ana_war": "A&A Weapons and Armor"
+  "creativemodetab.ana_war": "A&A Weapons and Armor",
+  "creativemodetab.ana_tools": "A&A Tools",
+  "creativemodetab.ana_nature": "A&A Natural Blocks"
 }

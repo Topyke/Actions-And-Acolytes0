@@ -306,15 +306,16 @@ Absolute Max HP: 132
 
 Default Stats:
 HP: 12
-STR: 150 (12)
-DEX: 80 (9)
-CON: 100 (10)
-INT: 30 (6)
-WIS: 30 (6)
-CHA: 50 (7)
+STR: 150 (+2)
+DEX: 80 (-1)
+CON: 100 (0)
+INT: 30 (-4)
+WIS: 30 (-4)
+CHA: 50 (-3)
 Melee Power: +10%
 Ranged Power: -5%
 Magic Power: -20%
+Crit Chance: 2%
 Stealth Rating: 45
 Speed: 95%
 Chat Success: 35%
@@ -351,9 +352,46 @@ Starting Equipment:
 An explorer's pack
 4 Wooden Javelins
 
+  -------------------
+  PROF Bonus Table
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table*
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      0     ----     0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        0         ---
+  2    ---      0     ----     0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        0         ---
+  3    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  4    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  5    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  6    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  7    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  8    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  9    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  10   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  11   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  12   ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  13   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9        ---
+  14   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  15   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  16   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  17   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  18   ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  19   ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  20   ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        13        ---
+  -----------------------------------------------------------------------------------------------------------------------------------------
+  *Barbarians do not learn any spells via level up, and must learn them through other means.
+
 Abilities:
 
-LVL 1
+- LVL 1 -
 
 Rage
 You can press <ClassAbility1Key> to activate Rage.
@@ -394,12 +432,12 @@ Subclass options:
 Berserker
 Totem Warrior
 
-- LVL 4 - 
+- LVL 4 -
 
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
-- LVL 5 - 
+- LVL 5 -
 
 Attack Swiftness
 Your base Attack Speed is increased to 4.1.
@@ -407,17 +445,17 @@ Your base Attack Speed is increased to 4.1.
 Fast Movement
 While not wearing Heavy Armor, you gain +20% movement speed.
 
-- LVL 7 - 
+- LVL 7 -
 
 Feral Instinct
 Your instincts have been honed. You now have advantage on perception checks that rely on Sight, Smell, or Hearing.
 
-- LVL 8 - 
+- LVL 8 -
 
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
-- LVL 9 - 
+- LVL 9 -
 
 Brutal Critical 1
 Criticals deal 33% more damage.
@@ -430,12 +468,12 @@ If it passes, you drop to 1 HP instead.
 Each time this ability procs, the CR increases by 50.
 CR can be reset to 100 by completing a short rest.
 
-- LVL 12 - 
+- LVL 12 -
 
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
-- LVL 13 - 
+- LVL 13 -
 
 Brutal Critical 2
 Criticals deal 66% more damage.
@@ -445,12 +483,12 @@ Criticals deal 66% more damage.
 Persistant Rage
 Your rage now lasts forever until you fall unconsious or you deactivate it.
 
-- LVL 16 - 
+- LVL 16 -
 
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
-- LVL 17 - 
+- LVL 17 -
 
 Brutal Critical 3
 Criticals deal 99% more damage.
@@ -460,12 +498,12 @@ Criticals deal 99% more damage.
 Indomitable Might
 You now have advantage on all strength checks, even when outside of rage.
 
-- LVL 19 - 
+- LVL 19 -
 
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
-- LVL 20 - 
+- LVL 20 -
 
 Primal Champion
 +40 STR and CON. Your maximum base value for these stats is now 240.
@@ -475,7 +513,7 @@ Primal Champion
 - LVL 3 -
 
 Frenzy
-Holding Shift + <ClassAbility1Key> will enable Frenzy. 
+Holding Shift + <ClassAbility1Key> will enable Frenzy.
 While under Frenzy, your Attack speed is increased by 25% in addition
 to rage's other effects.
 When Frenzy ends, you suffer one level of exaustion.
@@ -536,7 +574,7 @@ Bear
 Increases break speed by 25%.
 
 Eagle
-You can use the <ClassAbility3Key> to Zoom in, as if using a spyglass. 
+You can use the <ClassAbility3Key> to Zoom in, as if using a spyglass.
 
 Elk
 Your movement speed is doubled.
@@ -589,15 +627,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 6
-STR: 50 (7)
-DEX: 110 (10)
-CON: 60 (8)
-INT: 80 (9)
-WIS: 80 (9)
-CHA: 120 (11)
+STR: 50 (-3)
+DEX: 110 (0)
+CON: 60 (-2)
+INT: 80 (-1)
+WIS: 80 (-1)
+CHA: 120 (+1)
 Melee Power: -15%
 Ranged Power: 0%
-Magic Power: -5% 
+Magic Power: -5%
+Crit Chance: 1%
 Stealth Rating: 50
 Speed: 100%
 Chat Success: 55%
@@ -634,6 +673,153 @@ a Diplomats pack (or) an entertainers pack
 a lute (or) any other musical instrument
 Leather Chestplate and a Stone Dagger
 
+  -------------------
+  PROF Bonus Table
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  2    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  3    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  4    ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  5    ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  6    ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  7    ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  8    ---      3     ----     4   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  9    ---      3     ----     4   ---   3   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  10   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---        14        ---
+  11   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        15        ---
+  12   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        15        ---
+  13   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        16        ---
+  14   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        18        ---
+  15   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        19        ---
+  16   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        19        ---
+  17   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        20        ---
+  18   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        22        ---
+  19   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        22        ---
+  20   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        22        ---
+
+
+
+Abilities:
+
+- LVL 1 -
+
+Spellcasting
+You have the ability to cast Musical Spells.
+Musical spells use CHA instead of INT when adding bonuses.
+Spell Resistance: 80 + ((PROF Bonus + CHA Bonus) * 10)
+You need a musical instrument that you are profiecent with in order to cast spells.
+
+Bardic Inspiration
+When holding a musical instrument you are profiecent in, press the <ClassAbility1Key> when looking at a friendly entity
+to grant Bardic Inspiration for the next 2 minutes.
+You can use this a number of times equal to your CHA modifier. (minimum of 1)
+You regain all lost charges after sleeping through a night.
+You grant Bardic Inspiration 2 at LVL 5, Bardic Inspiration 3 at LVL 10, and Bardic Inspiration 4 at LVL 15.
+
+- LVL 2 -
+
+Jack of All Trades
+You can add half of your PROF Bonus to skills that you don't already have proficency in.
+
+Song of Rest
+While Resting, you can play a tune that revitalizes wounded allies. Any ally that can hear the song during the rest will restore an additional 4 HP.
+This increases to 6 HP at LVL 9, 7 HP at LVL 13, and 9 HP at LVL 17.
+
+- LVL 3 -
+
+You can now select a subclass.
+Subclass options:
+Spellsinger
+Bladedancer
+
+Expertise 1
+Choose 2 skills you are proficent in, your profiecency bonus is doubled for those 2 skills.
+
+- LVL 5 -
+
+Font of Inspiration
+You restore all of your Bardic Inspiration Charges after a short or long rest.
+
+- LVL 6 -
+
+Countercharm
+You can press <ClassAbility2Key> to start a preformance that disrupts charming magics.
+As long as you continue to play, you and all allied creatures that can hear you have resistance to being Charmed or Frieghtend.
+You cannot use this ability if you are Silenced or Incapacitated.
+
+- LVL 10 -
+
+Expertise 2
+Choose 2 skills you are proficent in that are unaffected by Expertise 1, your profiecency bonus is doubled for those 2 skills.
+
+Magical Secrets
+You unlock magical secrets, you learn any 2 spells of your choice (except Paladin Spells).
+The spells chosen must be at a level you can cast.
+This ability triggers again at LVL 14 and at LVL 18.
+
+- LVL 20 -
+
+Superior Inspiration
+When initiating battle and have no charges of Bardic Inspiration left, regain 1 charge.
+
+-- Spellsinger-Unique Ablities --
+
+- LVL 3 -
+
+Bonus Proficencies
+You gain proficency with 3 skills of your choice.
+
+Cutting Words
+Using <ClassAbility3Key> will reduce the stats of a target in your line of sight within 18 blocks by 15%.
+This effect lasts 30 seconds.
+Using this ability expends a Bardic Inspiration Charge.
+
+- LVL 6 -
+
+Spell Secrets
+You unlock magical secrets, you learn any 2 spells of your choice (except Paladin Spells).
+The spells chosen must be at a level you can cast.
+
+- LVL 14 -
+
+Peerless Skill
+You can press SHIFT + <ClassAbility1Key> to use Bardic Inspiration on yourself, at half duration.
+
+-- Bladedancer-Unique Ablities --
+
+- LVL 3 -
+
+Bonus Proficencies
+You gain proficency with Medium Armor, Shields, and 1 Martial Weapon of your choice.
+
+Combat Inspiration
+Using <ClassAbility3Key> will buff a ally in your line of sight within 18 blocks,
+Boosting their AC by 5 and melee damage by 20%.
+This effect lasts 2 minutes.
+Using this ability expends a Bardic Inspiration Charge.
+
+- LVL 6 -
+
+Attack Swiftness
+Your base Attack Speed is increased to 4.1.
+
+- LVL 14 -
+
+Battle Magic
+After casting a spell, You gain Combat Inspiration for 15 seconds.
+
+
 --- Cleric ---
 
 Base HP: 8
@@ -643,15 +829,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 8
-STR: 100 (10)
-DEX: 50 (7)
-CON: 100 (10)
-INT: 65 (8)
-WIS: 110 (10)
-CHA: 75 (8)
+STR: 100 (0)
+DEX: 50 (-3)
+CON: 100 (0)
+INT: 65 (-2)
+WIS: 110 (0)
+CHA: 75 (-2)
 Melee Power: 0%
 Ranged Power: -15%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 0%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
@@ -690,6 +877,65 @@ a light crossbow and 20 bolts (or) any Stone Simple Weapon
 a Priest's Pack (or) an Explorer's pack
 a shield and a holy symbol
 
+  -------------------
+  PROF Bonus Table
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      3     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        1         ---
+  2    ---      3     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        2         ---
+  3    ---      3     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  4    ---      4     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  5    ---      4     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  6    ---      4     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  7    ---      4     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  8    ---      4     ----     4   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  9    ---      4     ----     4   ---   3   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  10   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  11   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        11        ---
+  12   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        12        ---
+  13   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        13        ---
+  14   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        14        ---
+  15   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        15        ---
+  16   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        16        ---
+  17   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        17        ---
+  18   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        18        ---
+  19   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        19        ---
+  20   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
+
+ Abilities:
+
+ - LVL 1 -
+
+Spellcasting
+You have the ability to cast Holy Spells.
+Spell Resistance: 80 + ((PROF Bonus + WIS Bonus) * 10)
+You need a holy symbol in order to cast spells.
+
+Divine Domain
+Select a domain related to your Deity.
+Knowledge
+Life
+Light
+Nature
+Tempest
+Trickery
+War
+
+- LVL 2 -
+
+Channel Divinity
+
+
 --- Druid ---
 
 Base HP: 8
@@ -699,15 +945,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 8
-STR: 55 (7)
-DEX: 55 (7)
-CON: 110 (10)
-INT: 100 (10)
-WIS: 130 (11)
-CHA: 50 (7)
+STR: 55 (-3)
+DEX: 55 (-3)
+CON: 110 (0)
+INT: 100 (0)
+WIS: 130 (+1)
+CHA: 50 (-3)
 Melee Power: -15%
 Ranged Power: -15%
-Magic Power: 0% 
+Magic Power: 0%
+Crit Chance: 0%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 35%
@@ -752,15 +999,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 10
-STR: 120 (11)
-DEX: 120 (11)
-CON: 100 (10)
-INT: 50 (7)
-WIS: 50 (7)
-CHA: 60 (8)
+STR: 120 (+1)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 50 (-3)
+WIS: 50 (-3)
+CHA: 60 (-2)
 Melee Power: 5%
 Ranged Power: 5%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 4%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
@@ -806,15 +1054,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 6
-STR: 70 (8)
-DEX: 120 (11)
-CON: 70 (8)
-INT: 70 (8)
-WIS: 100 (10)
-CHA: 70 (8)
+STR: 70 (-2)
+DEX: 120 (+1)
+CON: 70 (-2)
+INT: 70 (-2)
+WIS: 100 (0)
+CHA: 70 (-2)
 Melee Power: -10%
 Ranged Power: 5%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 2%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
@@ -859,15 +1108,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 6
-STR: 130 (11)
-DEX: 20 (6)
-CON: 100 (10)
-INT: 60 (8)
-WIS: 60 (8)
-CHA: 130 (11)
+STR: 130 (+1)
+DEX: 20 (-4)
+CON: 100 (0)
+INT: 60 (-2)
+WIS: 60 (-2)
+CHA: 130 (+1)
 Melee Power: +5%
 Ranged Power: -20%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 0%
 Stealth Rating: 30
 Speed: 80%
 Chat Success: 55%
@@ -913,15 +1163,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 9
-STR: 50 (7)
-DEX: 130 (11)
-CON: 80 (9)
-INT: 60 (8)
-WIS: 130 (11)
-CHA: 50 (7)
+STR: 50 (-3)
+DEX: 130 (+1)
+CON: 80 (-1)
+INT: 60 (-1)
+WIS: 130 (+1)
+CHA: 50 (-3)
 Melee Power: -15%
 Ranged Power: +5%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 2%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 35%
@@ -967,15 +1218,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 5
-STR: 60 (8)
-DEX: 150 (12)
-CON: 50 (7)
-INT: 70 (8)
-WIS: 40 (7)
-CHA: 130 (11)
+STR: 60 (-2)
+DEX: 150 (+2)
+CON: 50 (-3)
+INT: 70 (-2)
+WIS: 40 (-3)
+CHA: 130 (+1)
 Melee Power: -10%
 Ranged Power: +10%
-Magic Power: -10% 
+Magic Power: -10%
+Crit Chance: 3%
 Stealth Rating: 60
 Speed: 110%
 Chat Success: 55%
@@ -1021,15 +1273,16 @@ Absolute Max HP: 66
 
 Default Stats:
 HP: 12
-STR: 10 (5)
-DEX: 70 (8)
-CON: 130 (11)
-INT: 80 (9)
-WIS: 80 (9)
-CHA: 130 (11)
+STR: 10 (-5)
+DEX: 70 (-2)
+CON: 130 (+1)
+INT: 80 (-1)
+WIS: 80 (-1)
+CHA: 130 (+1)
 Melee Power: -25%
 Ranged Power: -10%
-Magic Power: -5% 
+Magic Power: -5%
+Crit Chance: 0%
 Stealth Rating: 40
 Speed: 90%
 Chat Success: 55%
@@ -1075,15 +1328,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 16
-STR: 30 (6)
-DEX: 30 (6)
-CON: 130 (11)
-INT: 100 (10)
-WIS: 100 (10)
-CHA: 110 (10)
+STR: 30 (-4)
+DEX: 30 (-4)
+CON: 130 (+1)
+INT: 100 (0)
+WIS: 100 (0)
+CHA: 110 (0)
 Melee Power: -20%
 Ranged Power: -20%
-Magic Power: 0% 
+Magic Power: 0%
+Crit Chance: 0%
 Stealth Rating: 30
 Speed: 80%
 Chat Success: 50%
@@ -1129,15 +1383,16 @@ Absolute Max HP: 66
 
 Default Stats:
 HP: 6
-STR: 40 (7)
-DEX: 40 (7)
-CON: 110 (10)
-INT: 150 (12)
-WIS: 100 (10)
-CHA: 60 (8)
+STR: 40 (-3)
+DEX: 40 (-3)
+CON: 110 (0)
+INT: 150 (+2)
+WIS: 100 (0)
+CHA: 60 (-2)
 Melee Power: -15%
 Ranged Power: -15%
-Magic Power: 10% 
+Magic Power: 10%
+Crit Chance: 1%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
@@ -1191,7 +1446,7 @@ WIS: +10
 CHA: +0
 Melee Power: 0%
 Ranged Power: 0%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
@@ -1237,7 +1492,7 @@ WIS: +0
 CHA: +0
 Melee Power: +5%
 Ranged Power: 0%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
@@ -1283,7 +1538,7 @@ WIS: +0
 CHA: +0
 Melee Power: 0%
 Ranged Power: +5%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 105%
 Chat Success: 50%
@@ -1335,7 +1590,7 @@ WIS: +10
 CHA: +0
 Melee Power: 0%
 Ranged Power: +5%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 115%
 Chat Success: 50%
@@ -1385,7 +1640,7 @@ WIS: +0
 CHA: +10
 Melee Power: 0%
 Ranged Power: +5%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 65
 Base Speed: 95%
 Chat Success: 50%
@@ -1431,7 +1686,7 @@ WIS: +0
 CHA: +0
 Melee Power: 0%
 Ranged Power: +5%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 95%
 Chat Success: 50%
@@ -1480,7 +1735,7 @@ WIS: +10
 CHA: +10
 Melee Power: 0%
 Ranged Power: +0%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
@@ -1522,7 +1777,7 @@ WIS: +0
 CHA: +10
 Melee Power: +5%
 Ranged Power: 0%
-Magic Power: 0% 
+Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
@@ -1545,7 +1800,7 @@ Gold - Fire
 Diamond - Cold
 ------------------
 
-You have Draconic Ancestry, choose one type of dragon from the table. 
+You have Draconic Ancestry, choose one type of dragon from the table.
 Your breath weapon is determined by the origin you select.
 
 Breath Weapon
@@ -1596,7 +1851,7 @@ WIS: +0
 CHA: +0
 Melee Power: +0%
 Ranged Power: 0%
-Magic Power: +5% 
+Magic Power: +5%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
@@ -1646,7 +1901,7 @@ WIS: +0
 CHA: +0
 Melee Power: +0%
 Ranged Power: 0%
-Magic Power: +5% 
+Magic Power: +5%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
@@ -1834,6 +2089,9 @@ None
 
 ----- Status Conditions -----
 
+Bardic Inspiration
+Increases all stats by (10 * Potency)%.
+
 Bleed
 Deals damage equal to its potency every 3 seconds.
 If bleed would be applied to a creature that is already bleeding,
@@ -1904,11 +2162,11 @@ Grappled
 As long as the victim is within 5 blocks of the grappler,
 they cannot move, and will pulled towards the grappler.
 
-Incapacitated 
+Incapacitated
 The victim is unable to take actions or reactions.
 
 Invisible
-The user becomes impossible to see without 
+The user becomes impossible to see without
 aid from magic or a special sense.
 
 Paralyzed
@@ -1937,6 +2195,11 @@ Resistance to Physical Damage.
 Your Unarmored Attribute is changed from 5 + CON mod to 10 + CON mod.
 Unable to cast spells.
 
+Resting
+Allows for benefits of resting to occur, can only activate while near a campfire, or in a inn.
+
+Silence
+Prevents the use of any vocal spells or the use of chat.
 
 Stunned
 Identical to Paralyzed.
@@ -1960,12 +2223,123 @@ Can by inflicted by weapons that deal Bludgeoning damage.
 
 ----- Spells -----
 
+--- Abjuration ---
+
+Blade Ward
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds
+Effect: Grants resistance to melee attacks for 30 seconds.
+Range: Self
+This spell does not benefit from INT.
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Abjuration
+Required: Vocal, Free Hand
+
+Resistance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Grants +10 to the result of the next resistance check the target makes.
+This effect wears off once the resistance check occurs or once 1 minute passes.
+Range: Touch
+This spell does not benefit from INT.
+Learn Tables: Cleric, Druid
+Category: Abjuration
+Required: Vocal, Free Hand, 1 Miniature Cloak
+
+--- Conjuration ---
+
+Acid Splash
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Throw a bubble of acid at a target up to 18 blocks away. The target must pass a Dexterity Resistance Check or take 3 Acid Damage.
+This spell increases it's damage to 7 Acid Damage at LVL 5, 11 Acid Damage at LVL 11, and 14 Acid Damage at LVL 17.
+Range: 18 Blocks
+Learn Tables: Sorcerer, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Create Bonfire
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Creates a fire block that deals 4 Fire damage to whoever stands in it. Any creature caught in the fires space must pass a Dexterity Resistance Check
+or take 4 Fire Damage.
+The fire spreads as normal fire does, however the spread fire blocks deal normal fire damage.
+This spell increases it's damage to 9 Fire Damage at LVL 5, 13 Fire Damage at LVL 11, and 18 Fire Damage at LVL 17.
+This spell does not benefit from INT.
+Range: 18 Blocks (1 Block Cube)
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Mage Hand
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Creates a transluscant hand that can interact with doors, Traps, and other objects. Apon casting the spell, you must instruct the Hand what to do.
+The hand cannot move farther then 10 blocks away from you.
+This spell does not benefit from INT.
+Range: 10 Blocks
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Poison Spray
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Shoot a puff of noxious gas from your palm, the target must succeed a CON Resistance Check or take 6 Poison Damage.
+The hand cannot move farther then 10 blocks away from you.
+This spell increases it's damage to 13 Poison Damage at LVL 5, 19 Poison Damage at LVL 11, and 26 Poison Damage at LVL 17.
+Range: 5 Blocks
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Produce Flame
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 5 Minutes
+Effect: Create a flickering flame in your hand. The flame lasts until you cancel it or 5 minutes have passed.
+The flame produces have a Light Level of 7.
+Range: Self
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+--- Divination ---
+
+Guidance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Grants +20 to the stat used for the next skill check the target makes.
+This effect wears off once the skill check occurs or once 1 minute passes.
+Range: Touch
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
+
+True Strike
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds (Concentration)
+Effect: Grants +10% critical strike chance.
+This effect wears off once you attack or 30 seconds pass.
+Range: 10 Blocks
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
+
 ----- Gear -----
 
 --- Ammo ---
 
 Arrow
-Cost: 5 CP 
+Cost: 5 CP
 Sell: 2 CP
 Stack Size: 20
 Used as ammunition for Shortbows and Longbows.
@@ -1977,13 +2351,13 @@ Used as ammunition for Blowguns.
 
 
 Crossbow Bolt
-Cost: 5 CP 
+Cost: 5 CP
 Sell: 2 CP
 Stack Size: 20
-Used as ammunition for Hand Crossbows, Light Crossbows, and Heavy Crossbows. 
+Used as ammunition for Hand Crossbows, Light Crossbows, and Heavy Crossbows.
 
 Fine Stone
-Cost: 1 CP 
+Cost: 1 CP
 Sell: -
 Stack Size: 20
 Used as ammunition for the Slingshot.
@@ -1991,73 +2365,73 @@ Used as ammunition for the Slingshot.
 --- Foci ---
 
 Crystal
-Cost: 1 PP 
+Cost: 1 PP
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
 
 Orb
-Cost: 2 PP 
+Cost: 2 PP
 Sell: 1 PP
 Instability Rate: 1%
 Used as a catalyst to cast arcane spells.
 
 Rod
-Cost: 1 PP 
+Cost: 1 PP
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
 
 Staff
-Cost: 5 GP 
+Cost: 5 GP
 Sell: 5 GP
 Instability Rate: 5%
 Used as a catalyst to cast arcane spells.
 
 Wand
-Cost: 1 PP 
+Cost: 1 PP
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
 
 Sprig of mistletoe
-Cost: 1 GP 
+Cost: 1 GP
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
 
 Totem
-Cost: 1 GP 
+Cost: 1 GP
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
 
 Wooden Staff
-Cost: 5 GP 
+Cost: 5 GP
 Sell: 2 GP, 5 SP
 Instability Rate: 2.5%
 Used as a catalyst to cast druidic spells.
 
 Yew Wand
-Cost: 10 GP 
+Cost: 10 GP
 Sell: 5 GP
 Instability Rate: 1%
 Used as a catalyst to cast druidic spells.
 
 Amulet
-Cost: 5 GP 
+Cost: 5 GP
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
 
 Emblem
-Cost: 5 GP 
+Cost: 5 GP
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
 
 Reliquary
-Cost: 5 GP 
+Cost: 5 GP
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
@@ -2080,9 +2454,9 @@ Alchemist's Fire
 Cost: 5 PP
 Sell: 2 PP, 5 GP
 Type: Throwable
-Can be thrown to drench the target in 
-the chemicals, dealing 2 fire damage 
-every 3 seconds. This can be extinguished 
+Can be thrown to drench the target in
+the chemicals, dealing 2 fire damage
+every 3 seconds. This can be extinguished
 by beating a CR 10 Dexterity check.
 
 Antitoxin
@@ -2504,7 +2878,7 @@ Sell: 1 SP
 Attack Speed: 1.1
 Reach: 111%
 Durability: 222
-Category: Onehanded, Versatile  
+Category: Onehanded, Versatile
 
 --- Sickle ---
 
@@ -2607,7 +2981,7 @@ Sell: 5 SP
 Attack Speed: 1
 Reach: 125%
 Durability: 250
-Category: Onehanded, Versatile 
+Category: Onehanded, Versatile
 
 Golden Spear
 Cost: 3 GP (3x base)
@@ -3245,7 +3619,7 @@ Sell: 2 PP, 2 GP, 5 SP
 Attack Speed: 1.3
 Reach: 111%
 Durability: 32
-Category: Onehanded, Versatile 
+Category: Onehanded, Versatile
 
 Silver Longsword
 Cost: 2 PP, 2 GP, 5 SP (1.5x base)
@@ -3903,7 +4277,7 @@ Sell: 7 GP, 5 SP
 Attack Speed: 1.1
 Reach: 100%
 Durability: 250
-Category: Onehanded, Versatile 
+Category: Onehanded, Versatile
 
 Golden Warhammer
 Cost: 4 PP, 5 GP (3x base)
@@ -3968,7 +4342,7 @@ Sell: 1 GP
 Attack Speed: 1
 Reach: 144%
 Durability: 250
-Category: Onehanded, Finesse 
+Category: Onehanded, Finesse
 
 Gold-Barbed Whip
 Cost: 6 GP (3x base)
@@ -4291,32 +4665,32 @@ Cost: 5 GP (x0.1)
 Sell: 2 GP, 5 SP
 AC: 2 (x0.1)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Light Chain Chestplate
 Cost: 2 PP, 5 GP (x0.5)
 Sell: 1 PP, 2 GP, 5 SP
 AC: 7 (x0.5)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Light Chain Leggings
 Cost: 1 PP, 5 GP (x0.3)
 Sell: 7 GP, 5 SP
 AC: 4 (x0.3)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Light Chain Boots
 Cost: 5 GP (x0.1)
 Sell: 2 GP, 5 SP
 AC: 1 (x0.1)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Light Chain Armor Set
 Cost: 5 PP
@@ -4330,32 +4704,32 @@ Cost: 5 GP (x0.1)
 Sell: 2 GP, 5 SP
 AC: 2 (x0.1)
 Stealth Mod: -2
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Scalemail Chestplate
 Cost: 2 PP, 5 GP (x0.5)
 Sell: 1 PP, 2 GP, 5 SP
 AC: 7 (x0.5)
 Stealth Mod: -4
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Scalemail Leggings
 Cost: 1 PP, 5 GP (x0.3)
 Sell: 7 GP, 5 SP
 AC: 4 (x0.3)
 Stealth Mod: -2
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Scalemail Boots
 Cost: 5 GP (x0.1)
 Sell: 2 GP, 5 SP
 AC: 2 (x0.1)
 Stealth Mod: -2
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Scalemail Armor Set
 Cost: 5 PP
@@ -4366,35 +4740,35 @@ Weight: 45
 
 Mixed Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 1 (x0.1)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Mixed Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 8 (x0.5)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Mixed Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 4 (x0.3)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Mixed Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: 0
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Mixed Armor Set
 Cost: 40 PP
@@ -4405,35 +4779,35 @@ Weight: 20
 
 Half-Plate Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -3
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Half-Plate Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 8 (x0.5)
 Stealth Mod: -5
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Half-Plate Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 4 (x0.3)
 Stealth Mod: -4
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Half-Plate Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -3
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Half-Plate Armor Set
 Cost: 75 PP
@@ -4446,35 +4820,35 @@ Weight: 40
 
 Ringmail Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -3
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Ringmail Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 7 (x0.5)
 Stealth Mod: -5
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Ringmail Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 4 (x0.3)
 Stealth Mod: -4
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Ringmail Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -3
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Ringmail Armor Set
 Cost: 3 PP
@@ -4485,35 +4859,35 @@ Weight: 40
 
 Chainmail Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -4
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Chainmail Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 8 (x0.5)
 Stealth Mod: -7
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Chainmail Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 5 (x0.3)
 Stealth Mod: -5
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Chainmail Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -4
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Chainmail Armor Set
 Cost: 3 PP
@@ -4524,35 +4898,35 @@ Weight: 55
 
 Splint Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -5
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Splint Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 9 (x0.5)
 Stealth Mod: -9
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Splint Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 5 (x0.3)
 Stealth Mod: -6
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Splint Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -5
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Splint Armor Set
 Cost: 20 PP
@@ -4563,35 +4937,35 @@ Weight: 60
 
 Full Plate Helmet
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -6
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Full Plate Breastplate
 Cost: (x0.5)
-Sell: 
+Sell:
 AC: 9 (x0.5)
 Stealth Mod: -11
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Full Plate Leggings
 Cost: (x0.3)
-Sell: 
+Sell:
 AC: 6 (x0.3)
 Stealth Mod: -7
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Full Plate Boots
 Cost: (x0.1)
-Sell: 
+Sell:
 AC: 2 (x0.1)
 Stealth Mod: -6
-Weight: 
-Durability: 
+Weight:
+Durability:
 
 Full Plate Armor Set
 Cost: 20 PP
@@ -4638,12 +5012,13 @@ AC: 0
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
-STR: 93 (9)
-DEX: 93 (9)
-CON: 93 (9)
-INT: 93 (9)
-WIS: 93 (9)
-CHA: 93 (9)
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Crit Chance: 2%
 Level: 0
 AXP Yield: 10
 
@@ -4669,30 +5044,32 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Good
-HP: 4
-AC: 0
+HP: 9
+AC: 9
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
-STR: 93 (9)
-DEX: 93 (9)
-CON: 93 (9)
-INT: 93 (9)
-WIS: 93 (9)
-CHA: 93 (9)
-Level: 0
-AXP Yield: 10
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+1)
+CHA: 150 (+2)
+Crit Chance: 5%
+Level: 0.125
+AXP Yield: 25
 
 Special:
 
 Actions:
 
-Attack (Shortsworz)
-4 Bludgeoning Damage
+Attack (Shortsword)
+7 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
-Stone Sickle (25%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 Kobold
 
@@ -4712,6 +5089,7 @@ CON: 90 (9)
 INT: 80 (9)
 WIS: 70 (8)
 CHA: 80 (9)
+Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
 
@@ -4744,12 +5122,13 @@ AC: 5
 Speed: 100%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
-STR: 70 (8)
-DEX: 150 (12)
-CON: 90 (9)
-INT: 80 (9)
-WIS: 70 (8)
-CHA: 80 (9)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
 
@@ -4782,12 +5161,13 @@ HP: 1
 AC: 0
 Speed: 100%
 Senses: Blindsight (12 Blocks)
-STR: 20 (6)
-DEX: 150 (12)
-CON: 80 (9)
-INT: 20 (6)
-WIS: 120 (11)
-CHA: 40 (7)
+STR: 20 (-4)
+DEX: 150 (+2)
+CON: 80 (-1)
+INT: 20 (-4)
+WIS: 120 (+1)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -4815,12 +5195,13 @@ HP: 2
 AC: 0
 Speed: 120%
 Senses: Darkvision (12 Blocks)
-STR: 30 (6)
-DEX: 150 (12)
-CON: 100 (10)
-INT: 30 (6)
-WIS: 120 (11)
-CHA: 70 (8)
+STR: 30 (-4)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 30 (-4)
+WIS: 120 (+1)
+CHA: 70 (-2)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -4845,12 +5226,13 @@ HP: 3
 AC: 0
 Speed: 50%
 Senses: Passive Sight (10 Blocks)
-STR: 40 (7)
-DEX: 60 (8)
-CON: 100 (10)
-INT: 20 (6)
-WIS: 70 (8)
-CHA: 40 (7)
+STR: 40 (-3)
+DEX: 60 (-2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 70 (-2)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -4872,12 +5254,13 @@ HP: 6
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 110 (10)
-DEX: 90 (9)
-CON: 100 (10)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 30 (6)
+STR: 110 (0)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 30 (-4)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -4899,12 +5282,13 @@ HP: 4
 AC: 0
 Speed: 140%
 Senses: Passive Sight (12 Blocks)
-STR: 110 (10)
-DEX: 160 (13)
-CON: 110 (10)
-INT: 20 (6)
-WIS: 140 (11)
-CHA: 50 (7)
+STR: 110 (0)
+DEX: 160 (+3)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 50 (-3)
+Crit Chance: 4%
 Level: 0
 AXP Yield: 10
 
@@ -4926,12 +5310,13 @@ HP: 3
 AC: 0
 Speed: 125%
 Senses: Passive Sight (21 Blocks)
-STR: 60 (8)
-DEX: 150 (12)
-CON: 100 (10)
-INT: 20 (6)
-WIS: 140 (11)
-CHA: 70 (8)
+STR: 60 (-2)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 70 (-2)
+Crit Chance: 1%
 Level: 0
 AXP Yield: 10
 
@@ -4956,12 +5341,13 @@ HP: 6
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 90 (9)
-DEX: 90 (9)
-CON: 100 (10)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 50 (7)
+STR: 90 (-1)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -4983,12 +5369,13 @@ HP: 1
 AC: 0
 Speed: 80%
 Senses: Passive Sight (15 Blocks), Darkvision (45 Blocks)
-STR: 20 (6)
-DEX: 110 (10)
-CON: 90 (9)
-INT: 20 (6)
-WIS: 100 (10)
-CHA: 40 (7)
+STR: 20 (-4)
+DEX: 110 (0)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5013,12 +5400,13 @@ HP: 4
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 100 (10)
-DEX: 80 (9)
-CON: 90 (9)
-INT: 20 (4)
-WIS: 100 (10)
-CHA: 50 (7)
+STR: 100 (0)
+DEX: 80 (-1)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 50 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5040,12 +5428,13 @@ HP: 11
 AC: 5 (natural armor)
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 130 (11)
-DEX: 110 (10)
-CON: 120 (11)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 50 (7)
+STR: 130 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Crit Chance: 2%
 Level: 0.125
 AXP Yield: 50
 
@@ -5076,12 +5465,13 @@ HP: 11
 AC: 5 (natural armor)
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 150 (12)
-DEX: 110 (10)
-CON: 150 (12)
-INT: 20 (4)
-WIS: 60 (9)
-CHA: 30 (6)
+STR: 150 (+2)
+DEX: 110 (+0)
+CON: 150 (+2)
+INT: 20 (-4)
+WIS: 60 (-1)
+CHA: 30 (-4)
+Crit Chance: 3%
 Level: 0.125
 AXP Yield: 50
 
@@ -5114,12 +5504,13 @@ HP: 22
 AC: 8
 Speed: 80%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
-STR: 130 (11)
-DEX: 60 (8)
-CON: 160 (13)
-INT: 30 (6)
-WIS: 60 (8)
-CHA: 50 (7)
+STR: 130 (+1)
+DEX: 60 (-2)
+CON: 160 (+3)
+INT: 30 (-4)
+WIS: 60 (-2)
+CHA: 50 (-3)
+Crit Chance: 0%
 Base Level: 0.25
 AXP Yield: 50
 
@@ -5134,7 +5525,6 @@ Actions:
 
 Attack
 4 Bludgeoning Damage
-
 
 
 

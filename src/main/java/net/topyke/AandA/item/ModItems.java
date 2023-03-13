@@ -24,10 +24,46 @@ public class ModItems {
             () -> new GoldGriffonItem());
     public static final RegistryObject<Item> PLATINUM_DRAGON = ITEMS.register("platinum_dragon",
             () -> new PlatinumDragonItem());
+
+
     public static final RegistryObject<Item> CLUB = ITEMS.register("club",
             () -> new ClubItem());
     public static final RegistryObject<Item> GREATCLUB = ITEMS.register("greatclub",
             () -> new GreatclubItem());
+    public static final RegistryObject<Item> WOODEN_SHORTSWORD = ITEMS.register("wooden_shortsword",
+            () -> new WoodenShortswordItem());
+    public static final RegistryObject<Item> WOODEN_PICKAXE = ITEMS.register("wooden_pickaxe",
+            () -> new WoodenPickaxeItem());
+    public static final RegistryObject<Item> WOODEN_HATCHET = ITEMS.register("wooden_hatchet",
+            () -> new WoodenHatchetItem());
+    public static final RegistryObject<Item> WOODEN_SHOVEL = ITEMS.register("wooden_shovel",
+            () -> new WoodenShovelItem());
+    public static final RegistryObject<Item> WOODEN_HOE = ITEMS.register("wooden_hoe",
+            () -> new WoodenHoeItem());
+
+
+    public static final RegistryObject<Item> STONE_SHORTSWORD = ITEMS.register("stone_shortsword",
+            () -> new StoneShortswordItem());
+    public static final RegistryObject<Item> STONE_PICKAXE = ITEMS.register("stone_pickaxe",
+            () -> new StonePickaxeItem());
+    public static final RegistryObject<Item> STONE_HATCHET = ITEMS.register("stone_hatchet",
+            () -> new StoneHatchetItem());
+    public static final RegistryObject<Item> STONE_SHOVEL = ITEMS.register("stone_shovel",
+            () -> new StoneShovelItem());
+    public static final RegistryObject<Item> STONE_HOE = ITEMS.register("stone_hoe",
+            () -> new StoneHoeItem());
+
+    public static final RegistryObject<Item> IRON_SHORTSWORD = ITEMS.register("iron_shortsword",
+            () -> new IronShortswordItem());
+    public static final RegistryObject<Item> IRON_PICKAXE = ITEMS.register("iron_pickaxe",
+            () -> new IronPickaxeItem());
+    public static final RegistryObject<Item> IRON_HATCHET = ITEMS.register("iron_hatchet",
+            () -> new IronHatchetItem());
+    public static final RegistryObject<Item> IRON_SHOVEL = ITEMS.register("iron_shovel",
+            () -> new IronShovelItem());
+    public static final RegistryObject<Item> IRON_HOE = ITEMS.register("iron_hoe",
+            () -> new IronHoeItem());
+
     public static final RegistryObject<Item> GOLDEN_SHORTSWORD = ITEMS.register("golden_shortsword",
             () -> new GoldenShortswordItem());
     public static final RegistryObject<Item> GOLDEN_PICKAXE = ITEMS.register("golden_pickaxe",
@@ -38,8 +74,53 @@ public class ModItems {
             () -> new GoldenShovelItem());
     public static final RegistryObject<Item> GOLDEN_HOE = ITEMS.register("golden_hoe",
             () -> new GoldenHoeItem());
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new SilverIngotItem());
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new RawSilverItem());
     public static final RegistryObject<Item> SILVER_SHORTSWORD = ITEMS.register("silver_shortsword",
             () -> new SilverShortswordItem());
+    public static final RegistryObject<Item> SILVER_PICKAXE = ITEMS.register("silver_pickaxe",
+            () -> new SilverPickaxeItem());
+    public static final RegistryObject<Item> SILVER_HATCHET = ITEMS.register("silver_hatchet",
+            () -> new SilverHatchetItem());
+    public static final RegistryObject<Item> SILVER_SHOVEL = ITEMS.register("silver_shovel",
+            () -> new SilverShovelItem());
+    public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
+            () -> new SilverHoeItem());
+
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new PlatinumIngotItem());
+    public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
+            () -> new RawPlatinumItem());
+    public static final RegistryObject<Item> PLATINUM_SHORTSWORD = ITEMS.register("platinum_shortsword",
+            () -> new PlatinumShortswordItem());
+    public static final RegistryObject<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe",
+            () -> new PlatinumPickaxeItem());
+    public static final RegistryObject<Item> PLATINUM_HATCHET = ITEMS.register("platinum_hatchet",
+            () -> new PlatinumHatchetItem());
+    public static final RegistryObject<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel",
+            () -> new PlatinumShovelItem());
+    public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
+            () -> new PlatinumHoeItem());
+
+    public static final RegistryObject<Item> MITHRAL_INGOT = ITEMS.register("mithral_ingot",
+            () -> new MithralIngotItem());
+    public static final RegistryObject<Item> RAW_MITHRAL = ITEMS.register("raw_mithral",
+            () -> new RawMithralItem());
+    public static final RegistryObject<Item> MITHRAL_SHORTSWORD = ITEMS.register("mithral_shortsword",
+            () -> new MithralShortswordItem());
+    public static final RegistryObject<Item> MITHRAL_PICKAXE = ITEMS.register("mithral_pickaxe",
+            () -> new MithralPickaxeItem());
+    public static final RegistryObject<Item> MITHRAL_HATCHET = ITEMS.register("mithral_hatchet",
+            () -> new MithralHatchetItem());
+    public static final RegistryObject<Item> MITHRAL_SHOVEL = ITEMS.register("mithral_shovel",
+            () -> new MithralShovelItem());
+    public static final RegistryObject<Item> MITHRAL_HOE = ITEMS.register("mithral_hoe",
+            () -> new MithralHoeItem());
+
+
     public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
             () -> new AdamantineIngotItem());
     public static final RegistryObject<Item> RAW_ADAMANTINE = ITEMS.register("raw_adamantine",
