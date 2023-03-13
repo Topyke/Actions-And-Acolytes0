@@ -306,15 +306,16 @@ Absolute Max HP: 132
 
 Default Stats:
 HP: 12
-STR: 150 (12)
-DEX: 80 (9)
-CON: 100 (10)
-INT: 30 (6)
-WIS: 30 (6)
-CHA: 50 (7)
+STR: 150 (+2)
+DEX: 80 (-1)
+CON: 100 (0)
+INT: 30 (-4)
+WIS: 30 (-4)
+CHA: 50 (-3)
 Melee Power: +10%
 Ranged Power: -5%
 Magic Power: -20%
+Crit Chance: 2%
 Stealth Rating: 45
 Speed: 95%
 Chat Success: 35%
@@ -626,15 +627,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 6
-STR: 50 (7)
-DEX: 110 (10)
-CON: 60 (8)
-INT: 80 (9)
-WIS: 80 (9)
-CHA: 120 (11)
+STR: 50 (-3)
+DEX: 110 (0)
+CON: 60 (-2)
+INT: 80 (-1)
+WIS: 80 (-1)
+CHA: 120 (+1)
 Melee Power: -15%
 Ranged Power: 0%
 Magic Power: -5% 
+Crit Chance: 1%
 Stealth Rating: 50
 Speed: 100%
 Chat Success: 55%
@@ -827,15 +829,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 8
-STR: 100 (10)
-DEX: 50 (7)
-CON: 100 (10)
-INT: 65 (8)
-WIS: 110 (10)
-CHA: 75 (8)
+STR: 100 (0)
+DEX: 50 (-3)
+CON: 100 (0)
+INT: 65 (-2)
+WIS: 110 (0)
+CHA: 75 (-2)
 Melee Power: 0%
 Ranged Power: -15%
 Magic Power: -10% 
+Crit Chance: 0%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
@@ -942,15 +945,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 8
-STR: 55 (7)
-DEX: 55 (7)
-CON: 110 (10)
-INT: 100 (10)
-WIS: 130 (11)
-CHA: 50 (7)
+STR: 55 (-3)
+DEX: 55 (-3)
+CON: 110 (0)
+INT: 100 (0)
+WIS: 130 (+1)
+CHA: 50 (-3)
 Melee Power: -15%
 Ranged Power: -15%
 Magic Power: 0% 
+Crit Chance: 0%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 35%
@@ -995,15 +999,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 10
-STR: 120 (11)
-DEX: 120 (11)
-CON: 100 (10)
-INT: 50 (7)
-WIS: 50 (7)
-CHA: 60 (8)
+STR: 120 (+1)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 50 (-3)
+WIS: 50 (-3)
+CHA: 60 (-2)
 Melee Power: 5%
 Ranged Power: 5%
 Magic Power: -10% 
+Crit Chance: 4%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
@@ -1049,15 +1054,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 6
-STR: 70 (8)
-DEX: 120 (11)
-CON: 70 (8)
-INT: 70 (8)
-WIS: 100 (10)
-CHA: 70 (8)
+STR: 70 (-2)
+DEX: 120 (+1)
+CON: 70 (-2)
+INT: 70 (-2)
+WIS: 100 (0)
+CHA: 70 (-2)
 Melee Power: -10%
 Ranged Power: 5%
 Magic Power: -10% 
+Crit Chance: 2%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
@@ -1102,15 +1108,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 6
-STR: 130 (11)
-DEX: 20 (6)
-CON: 100 (10)
-INT: 60 (8)
-WIS: 60 (8)
-CHA: 130 (11)
+STR: 130 (+1)
+DEX: 20 (-4)
+CON: 100 (0)
+INT: 60 (-2)
+WIS: 60 (-2)
+CHA: 130 (+1)
 Melee Power: +5%
 Ranged Power: -20%
 Magic Power: -10% 
+Crit Chance: 0%
 Stealth Rating: 30
 Speed: 80%
 Chat Success: 55%
@@ -1156,15 +1163,16 @@ Absolute Max HP: 110
 
 Default Stats:
 HP: 9
-STR: 50 (7)
-DEX: 130 (11)
-CON: 80 (9)
-INT: 60 (8)
-WIS: 130 (11)
-CHA: 50 (7)
+STR: 50 (-3)
+DEX: 130 (+1)
+CON: 80 (-1)
+INT: 60 (-1)
+WIS: 130 (+1)
+CHA: 50 (-3)
 Melee Power: -15%
 Ranged Power: +5%
 Magic Power: -10% 
+Crit Chance: 2%
 Stealth Rating: 55
 Speed: 105%
 Chat Success: 35%
@@ -1210,15 +1218,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 5
-STR: 60 (8)
-DEX: 150 (12)
-CON: 50 (7)
-INT: 70 (8)
-WIS: 40 (7)
-CHA: 130 (11)
+STR: 60 (-2)
+DEX: 150 (+2)
+CON: 50 (-3)
+INT: 70 (-2)
+WIS: 40 (-3)
+CHA: 130 (+1)
 Melee Power: -10%
 Ranged Power: +10%
 Magic Power: -10% 
+Crit Chance: 3%
 Stealth Rating: 60
 Speed: 110%
 Chat Success: 55%
@@ -1264,15 +1273,16 @@ Absolute Max HP: 66
 
 Default Stats:
 HP: 12
-STR: 10 (5)
-DEX: 70 (8)
-CON: 130 (11)
-INT: 80 (9)
-WIS: 80 (9)
-CHA: 130 (11)
+STR: 10 (-5)
+DEX: 70 (-2)
+CON: 130 (+1)
+INT: 80 (-1)
+WIS: 80 (-1)
+CHA: 130 (+1)
 Melee Power: -25%
 Ranged Power: -10%
 Magic Power: -5% 
+Crit Chance: 0%
 Stealth Rating: 40
 Speed: 90%
 Chat Success: 55%
@@ -1318,15 +1328,16 @@ Absolute Max HP: 88
 
 Default Stats:
 HP: 16
-STR: 30 (6)
-DEX: 30 (6)
-CON: 130 (11)
-INT: 100 (10)
-WIS: 100 (10)
-CHA: 110 (10)
+STR: 30 (-4)
+DEX: 30 (-4)
+CON: 130 (+1)
+INT: 100 (0)
+WIS: 100 (0)
+CHA: 110 (0)
 Melee Power: -20%
 Ranged Power: -20%
 Magic Power: 0% 
+Crit Chance: 0%
 Stealth Rating: 30
 Speed: 80%
 Chat Success: 50%
@@ -1372,15 +1383,16 @@ Absolute Max HP: 66
 
 Default Stats:
 HP: 6
-STR: 40 (7)
-DEX: 40 (7)
-CON: 110 (10)
-INT: 150 (12)
-WIS: 100 (10)
-CHA: 60 (8)
+STR: 40 (-3)
+DEX: 40 (-3)
+CON: 110 (0)
+INT: 150 (+2)
+WIS: 100 (0)
+CHA: 60 (-2)
 Melee Power: -15%
 Ranged Power: -15%
 Magic Power: 10% 
+Crit Chance: 1%
 Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
@@ -2210,6 +2222,117 @@ Can by inflicted by weapons that deal Bludgeoning damage.
 
 
 ----- Spells -----
+
+--- Abjuration ---
+
+Blade Ward
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds
+Effect: Grants resistance to melee attacks for 30 seconds.
+Range: Self
+This spell does not benefit from INT.
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Abjuration
+Required: Vocal, Free Hand
+
+Resistance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Grants +10 to the result of the next resistance check the target makes.
+This effect wears off once the resistance check occurs or once 1 minute passes.
+Range: Touch
+This spell does not benefit from INT.
+Learn Tables: Cleric, Druid
+Category: Abjuration
+Required: Vocal, Free Hand, 1 Miniature Cloak
+
+--- Conjuration ---
+
+Acid Splash
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Throw a bubble of acid at a target up to 18 blocks away. The target must pass a Dexterity Resistance Check or take 3 Acid Damage.
+This spell increases it's damage to 7 Acid Damage at LVL 5, 11 Acid Damage at LVL 11, and 14 Acid Damage at LVL 17.
+Range: 18 Blocks
+Learn Tables: Sorcerer, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Create Bonfire
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Creates a fire block that deals 4 Fire damage to whoever stands in it. Any creature caught in the fires space must pass a Dexterity Resistance Check
+or take 4 Fire Damage. 
+The fire spreads as normal fire does, however the spread fire blocks deal normal fire damage.
+This spell increases it's damage to 9 Fire Damage at LVL 5, 13 Fire Damage at LVL 11, and 18 Fire Damage at LVL 17.
+This spell does not benefit from INT.
+Range: 18 Blocks (1 Block Cube)
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Mage Hand
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Creates a transluscant hand that can interact with doors, Traps, and other objects. Apon casting the spell, you must instruct the Hand what to do.
+The hand cannot move farther then 10 blocks away from you.
+This spell does not benefit from INT.
+Range: 10 Blocks
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Poison Spray
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Shoot a puff of noxious gas from your palm, the target must succeed a CON Resistance Check or take 6 Poison Damage.
+The hand cannot move farther then 10 blocks away from you.
+This spell increases it's damage to 13 Poison Damage at LVL 5, 19 Poison Damage at LVL 11, and 26 Poison Damage at LVL 17.
+Range: 5 Blocks
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Produce Flame
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 5 Minutes
+Effect: Create a flickering flame in your hand. The flame lasts until you cancel it or 5 minutes have passed.
+The flame produces have a Light Level of 7.
+Range: Self
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+--- Divination ---
+
+Guidance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Grants +20 to the stat used for the next skill check the target makes.
+This effect wears off once the skill check occurs or once 1 minute passes.
+Range: Touch
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
+
+True Strike
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds (Concentration)
+Effect: Grants +10% critical strike chance.
+This effect wears off once you attack or 30 seconds pass.
+Range: 10 Blocks
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
 
 ----- Gear -----
 
@@ -4889,12 +5012,13 @@ AC: 0
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
-STR: 93 (9)
-DEX: 93 (9)
-CON: 93 (9)
-INT: 93 (9)
-WIS: 93 (9)
-CHA: 93 (9)
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Crit Chance: 2%
 Level: 0
 AXP Yield: 10
 
@@ -4920,30 +5044,32 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Good
-HP: 4
-AC: 0
+HP: 9
+AC: 9
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
-STR: 93 (9)
-DEX: 93 (9)
-CON: 93 (9)
-INT: 93 (9)
-WIS: 93 (9)
-CHA: 93 (9)
-Level: 0
-AXP Yield: 10
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+1)
+CHA: 150 (+2)
+Crit Chance: 5%
+Level: 0.125
+AXP Yield: 25
 
 Special:
 
 Actions:
 
-Attack (Shortsworz)
-4 Bludgeoning Damage
+Attack (Shortsword)
+7 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
-Stone Sickle (25%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 Kobold
 
@@ -4963,6 +5089,7 @@ CON: 90 (9)
 INT: 80 (9)
 WIS: 70 (8)
 CHA: 80 (9)
+Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
 
@@ -4995,12 +5122,13 @@ AC: 5
 Speed: 100%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
-STR: 70 (8)
-DEX: 150 (12)
-CON: 90 (9)
-INT: 80 (9)
-WIS: 70 (8)
-CHA: 80 (9)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
 
@@ -5033,12 +5161,13 @@ HP: 1
 AC: 0
 Speed: 100%
 Senses: Blindsight (12 Blocks)
-STR: 20 (6)
-DEX: 150 (12)
-CON: 80 (9)
-INT: 20 (6)
-WIS: 120 (11)
-CHA: 40 (7)
+STR: 20 (-4)
+DEX: 150 (+2)
+CON: 80 (-1)
+INT: 20 (-4)
+WIS: 120 (+1)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5066,12 +5195,13 @@ HP: 2
 AC: 0
 Speed: 120%
 Senses: Darkvision (12 Blocks)
-STR: 30 (6)
-DEX: 150 (12)
-CON: 100 (10)
-INT: 30 (6)
-WIS: 120 (11)
-CHA: 70 (8)
+STR: 30 (-4)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 30 (-4)
+WIS: 120 (+1)
+CHA: 70 (-2)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5096,12 +5226,13 @@ HP: 3
 AC: 0
 Speed: 50%
 Senses: Passive Sight (10 Blocks)
-STR: 40 (7)
-DEX: 60 (8)
-CON: 100 (10)
-INT: 20 (6)
-WIS: 70 (8)
-CHA: 40 (7)
+STR: 40 (-3)
+DEX: 60 (-2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 70 (-2)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5123,12 +5254,13 @@ HP: 6
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 110 (10)
-DEX: 90 (9)
-CON: 100 (10)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 30 (6)
+STR: 110 (0)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 30 (-4)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5150,12 +5282,13 @@ HP: 4
 AC: 0
 Speed: 140%
 Senses: Passive Sight (12 Blocks)
-STR: 110 (10)
-DEX: 160 (13)
-CON: 110 (10)
-INT: 20 (6)
-WIS: 140 (11)
-CHA: 50 (7)
+STR: 110 (0)
+DEX: 160 (+3)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 50 (-3)
+Crit Chance: 4%
 Level: 0
 AXP Yield: 10
 
@@ -5177,12 +5310,13 @@ HP: 3
 AC: 0
 Speed: 125%
 Senses: Passive Sight (21 Blocks)
-STR: 60 (8)
-DEX: 150 (12)
-CON: 100 (10)
-INT: 20 (6)
-WIS: 140 (11)
-CHA: 70 (8)
+STR: 60 (-2)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 70 (-2)
+Crit Chance: 1%
 Level: 0
 AXP Yield: 10
 
@@ -5207,12 +5341,13 @@ HP: 6
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 90 (9)
-DEX: 90 (9)
-CON: 100 (10)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 50 (7)
+STR: 90 (-1)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5234,12 +5369,13 @@ HP: 1
 AC: 0
 Speed: 80%
 Senses: Passive Sight (15 Blocks), Darkvision (45 Blocks)
-STR: 20 (6)
-DEX: 110 (10)
-CON: 90 (9)
-INT: 20 (6)
-WIS: 100 (10)
-CHA: 40 (7)
+STR: 20 (-4)
+DEX: 110 (0)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5264,12 +5400,13 @@ HP: 4
 AC: 0
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 100 (10)
-DEX: 80 (9)
-CON: 90 (9)
-INT: 20 (4)
-WIS: 100 (10)
-CHA: 50 (7)
+STR: 100 (0)
+DEX: 80 (-1)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 50 (-3)
+Crit Chance: 0%
 Level: 0
 AXP Yield: 10
 
@@ -5291,12 +5428,13 @@ HP: 11
 AC: 5 (natural armor)
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 130 (11)
-DEX: 110 (10)
-CON: 120 (11)
-INT: 20 (4)
-WIS: 90 (9)
-CHA: 50 (7)
+STR: 130 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Crit Chance: 2%
 Level: 0.125
 AXP Yield: 50
 
@@ -5327,12 +5465,13 @@ HP: 11
 AC: 5 (natural armor)
 Speed: 120%
 Senses: Passive Sight (13 Blocks)
-STR: 150 (12)
-DEX: 110 (10)
-CON: 150 (12)
-INT: 20 (4)
-WIS: 60 (9)
-CHA: 30 (6)
+STR: 150 (+2)
+DEX: 110 (+0)
+CON: 150 (+2)
+INT: 20 (-4)
+WIS: 60 (-1)
+CHA: 30 (-4)
+Crit Chance: 3%
 Level: 0.125
 AXP Yield: 50
 
@@ -5365,12 +5504,13 @@ HP: 22
 AC: 8
 Speed: 80%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
-STR: 130 (11)
-DEX: 60 (8)
-CON: 160 (13)
-INT: 30 (6)
-WIS: 60 (8)
-CHA: 50 (7)
+STR: 130 (+1)
+DEX: 60 (-2)
+CON: 160 (+3)
+INT: 30 (-4)
+WIS: 60 (-2)
+CHA: 50 (-3)
+Crit Chance: 0%
 Base Level: 0.25
 AXP Yield: 50
 
