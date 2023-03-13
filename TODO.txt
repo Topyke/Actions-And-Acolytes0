@@ -909,6 +909,29 @@ Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- L
   19   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        19        ---
   20   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
   
+ Abilities:
+
+ - LVL 1 -
+
+Spellcasting
+You have the ability to cast Holy Spells.
+Spell Resistance: 80 + ((PROF Bonus + WIS Bonus) * 10)
+You need a holy symbol in order to cast spells.
+
+Divine Domain
+Select a domain related to your Deity.
+Knowledge
+Life
+Light
+Nature
+Tempest
+Trickery
+War
+
+- LVL 2 -
+
+Channel Divinity
+
 
 --- Druid ---
 
