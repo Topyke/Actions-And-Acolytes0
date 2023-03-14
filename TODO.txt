@@ -1,13 +1,13 @@
 ----- Materials -----
 
---- Foodstuff ---
+--- Foodstuffs ---
 
 Wheat
 Value: 1 CP
 
 --- Building Materials ---
 
--- Wood --
+-- Woods --
 
 Planks x 4
 Value: 2 CP
@@ -16,7 +16,12 @@ Logs x 4
 Value: 8 CP
 
 Stairs (wood) x 4
-Value: 5 CP
+Value: 1 SP
+
+Door (wood) 
+Value: 1 SP
+
+Trapdoor
 
 Scaffolding x 4
 Value: 5 CP
@@ -30,7 +35,7 @@ Cobblestone Wall x 4
 Value: 2 CP
 
 Cobblestone Stairs x 4
-Value: 3 CP
+Value: 5 CP
 
 Stone x 4
 Value: 2 CP
@@ -39,7 +44,7 @@ Stone Wall x 4
 Value: 4 CP
 
 Stone Stairs x 4
-Value: 5 CP
+Value: 1 SP
 
 Stone Bricks x 4
 Value: 5 CP
@@ -48,7 +53,7 @@ Stone Brick Wall x 4
 Value 1 SP
 
 Stone Brick Stairs x 4
-Value: 1 SP, 2 CP
+Value: 2 SP, 5 CP
 
 Cobbled Deepslate x 4
 Value: 2 CP
@@ -111,6 +116,12 @@ Value: 1 SP, 1 CP
 
 Gold Block
 Value: 9 GP
+
+--- New Foodstuffs ---
+
+--- New Building Materials ---
+
+--- New Cloths ---
 
 --- New Metals ---
 
