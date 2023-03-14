@@ -2,99 +2,177 @@
 
 --- Foodstuff ---
 
+Wheat
+Value: 1 CP
+
 --- Building Materials ---
+
+-- Wood --
+
+Planks x 4
+Value: 2 CP
+
+Logs x 4
+Value: 8 CP
+
+Stairs (wood) x 4
+Value: 5 CP
+
+Scaffolding x 4
+Value: 5 CP
+
+-- Stones --
+
+Cobblestone x 4
+Value: 1 CP
+
+Cobblestone Wall x 4
+Value: 2 CP
+
+Cobblestone Stairs x 4
+Value: 3 CP
+
+Stone x 4
+Value: 2 CP
+
+Stone Wall x 4
+Value: 4 CP
+
+Stone Stairs x 4
+Value: 5 CP
+
+Stone Bricks x 4
+Value: 5 CP
+
+Stone Brick Wall x 4
+Value 1 SP
+
+Stone Brick Stairs x 4
+Value: 1 SP, 2 CP
+
+Cobbled Deepslate x 4
+Value: 2 CP
+
+Cobbled Deepslate Wall x 4
+Value 4 CP
+
+Cobbled Deepslate Stairs x 4
+Value: 5 CP
+
+-- Cloths --
+
+Wool x 4
+Value: 8 CP
+
 
 --- Metals ---
 
+Copper Ore
+Value: 2 CP
+
+Raw Copper
+Value: 5 CP
+
+Copper Ingot
+Value: 1 SP
+
+Copper Nugget
+Value: 1 CP
+
+Copper Block
+Value: 9 SP
+
+Iron Ore
+Value: 1 SP, 2 CP
+
+Raw Iron
+Value: 2 SP, 5 CP
+
+Iron Ingot
+Value: 5 SP
+
+Iron Nugget
+Value: 4 CP
+
+Iron Block
+Value: 4 GP, 5 SP
+
+Gold Ore
+Value: 2 SP, 5 CP
+
+Raw Gold
+Value: 5 SP
+
+Gold Ingot
+Value: 1 GP
+
+Gold Nugget
+Value: 1 SP, 1 CP
+
+Gold Block
+Value: 9 GP
+
 --- New Metals ---
 
--- Silver --
-
 Silver Ore (done)
-Cost:
-Sell:
+Value: 1 SP, 8 CP
 
 Raw Silver (done)
-Cost:
-Sell:
+Value: 3 SP, 7 CP
 
 Silver Ingot (done)
-Cost: 
-Sell:
+Value: 7 SP, 5 CP
 
 Silver Nugget
-Cost:
-Sell:
+Value: 8 CP
 
 Silver Block
-Cost: 
-Sell:
-
--- Platinum --
+Value: 6 GP, 7 SP, 5 CP
 
 Platinum Ore (done)
-Cost: 
-Sell:
+Value: 2 GP, 5 SP
 
 Raw Platinum (done)
-Cost: 
-Sell:
+Value: 5 GP
 
 Platinum Ingot (done)
-Cost: 
-Sell:
+Value: 1 PP
 
 Platinum Nugget
-Cost: 
-Sell:
+Value: 1 GP, 1 SP, 1 CP
 
 Platinum Block
-Cost: 
-Sell:
-
--- Mithral --
+Value: 9 PP
 
 Mithral Ore (done)
-Cost: 
-Sell:
+Value: 6 GP, 2 SP, 5 CP
 
 Raw Mithral (done)
-Cost: 
-Sell:
+Value: 1 PP, 2 GP, 5 SP
 
 Mithral Ingot (done)
-Cost: 
-Sell:
+Value: 2 PP, 5 GP
 
 Mithral Nugget
-Cost: 
-Sell:
+Value: 2 GP, 7 SP, 7 CP
 
 Mithral Block
-Cost: 
-Sell:
-
--- Adamantine --
+Value: 22 PP, 9 GP
 
 Adamantine Ore (done)
-Cost: 
-Sell:
+Value: 1 PP, 2 GP, 5 SP
 
 Raw Adamantine (done)
-Cost: 
-Sell:
+Value: 2 PP, 5 GP
 
 Adamantine Ingot (done)
-Cost: 
-Sell:
+Value: 5 PP
 
 Adamantine Nugget
-Cost: 
-Sell:
+Value: 5 GP, 5 SP, 5 CP
 
 Adamantine Block
-Cost: 
-Sell:
+Value: 45 PP
 
 ----- Coins -----
 
