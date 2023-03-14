@@ -1111,6 +1111,244 @@ Your Spell Power is doubled if it is a positive value.
 Corona of Light
 You can now press SHIFT + <ClassAbility2Key> to make yourself glow radiantly. You glow with a light level of 15 while active, and any creatures within 10 blocks of you have disadvantage on Resistance Checks for spells that deal Radiant or Fire damage.
 
+- Nature Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Nature Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---  Animal Friendship, Speak with Animals      ---
+ 3  ---            Barkskin, Spike Growth           ---
+ 5  ---            Plant Growth, Wind Wall          --- 
+ 7  ---         Dominate Beast, Grasping Vine       ---
+ 9  ---          Insect Plague, Tree Stride         ---
+ 
+ - LVL 1 -
+
+Acolyte of Nature
+You learn a druid cantrip of your choice, this spell dosen't count towards your max cantrips.
+
+Bonus Proficiency
+You gain Profiency with Heavy Armor. 
+
+
+- LVL 2 -
+
+Channel Divinity - Charm Animals and Plants
+Presenting your holy symbol, you can press <ClassAbility1Key> to attempt to charm nearby animals and plants.
+each plant and animal within 10 blocks of you must make a WIS Resistance Check (CR: Spell CR). Each creature that fails becomes charmed for 1 minute
+or until they take damage.
+they are friendly to you and creatures and players in your party.
+
+
+- LVL 6 -
+
+Dampen Elements
+You can press <ClassAbility2Key> to grant a allied creature
+in your line of sight resistance to Acid, Cold, Fire, or Thunder damage.
+Pressing SHIFT + <ClassAbility2Key> will let you select damage type.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Cold, Fire, or Lightning damage.
+The type is chosen once the ability is unlocked.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Cold, Fire, or Lightning damage.
+the type is chosen once the ability is unlocked.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Master of Nature
+While under your Charmed effect, Animals and Plants
+can be commanded like a hired unit.
+Charmed effect now lasts 3 minutes instead of 1.
+
+- Tempest Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Tempest Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---           Fog Cloud, Thunderwave            ---
+ 3  ---            Gust of Wind, Shatter            ---
+ 5  ---        Call Lightning, Sleet Storm          --- 
+ 7  ---         Control Water, Ice Storm            ---
+ 9  ---       Insect Plague, Destructive Wave       ---
+ 
+ - LVL 1 -
+
+Wrath of the Storm
+When a enemy hits you with a melee attack,
+you can press <ClassAbility2Key> within 3 seconds
+to make the attacker make a DEX Resistance Save. (CR: Spell CR)
+The attacker takes 9 Thunder damage on a failed check,
+and 4 Thunder damage on a successful one.
+This ability can be used a number of times equal to your WIS MOD (minimum of once).
+
+Bonus Proficiency
+You gain Profiency with Heavy Armor and 2 martial weapons of your choice.
+
+
+- LVL 2 -
+
+Channel Divinity - Destructive Wrath
+You can press <ClassAbility1Key> to deal 
+bonus Thunder damage equal to your level
+on your next melee attack. This effect wears
+off if no melee attack occurs in 30 seconds.
+
+
+
+
+- LVL 6 -
+
+Thunderbolt Strike
+When you deal Lightning Damage, you deal additional knockback.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Thunder damage.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Thunder damage.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Stormborn
+You can now fly while it is raining and you are outside.
+
+- Trickery Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Trickery Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---         Charm Person, Disguise Self         ---
+ 3  ---      Mirror Image, Pass Without Trace       ---
+ 5  ---              Blink, Dispel Magic            --- 
+ 7  ---         Dimensional Door, Polymorph         ---
+ 9  ---        Dominate Person, Modify Memory       ---
+ 
+ - LVL 1 -
+
+Blessing of the Trickster
+You can prsss <ClassAbility2Key> while looking
+at an allied creature within 5 blocks. This 
+creature has 50% increased stealth rating for
+the next 2 minutes.
+
+
+- LVL 2 -
+
+Channel Divinity - Duplicity
+You can press <ClassAbility1Key> to turn Invisible and create a
+illusion of yourself 3 blocks to the left, right, or behind you. the illusion mirrors your
+movements, and is incorporeal.
+The Illusion has 10 HP. It will vanish if it dies or the invisibility wears off.
+
+
+- LVL 6 -
+
+Channel Divinity - Cloak of Shadows
+You can press <ClassAbility1Key> to turn
+invisible for 1 minute.
+The invisibility wears off if you attack or cast a spell.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Poison damage.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Poison damage.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Improved Duplicity
+You now create 4 illusions, you turn invisible and create
+illusions 3 blocks in each direction.
+The illusions each have 10 HP, and vanish when they die or the invisibility wears off.
+
+- War Domain-Unique Abilities -
+
+-------------------------------------------------------
+                     War Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---         Divine Favor, Shield of Faith       ---
+ 3  ---      Magic Weapon, Spiritual Weapon         ---
+ 5  ---     Crusader's Mantle, Spirit Guardians     --- 
+ 7  ---       Freedom of Movement, Stoneskin        ---
+ 9  ---        Flame Strike, Hold Monster           ---
+ 
+ - LVL 1 -
+
+Warpriest
+You can prsss <ClassAbility2Key> within 3
+seconds after attacking to gain 50% attack speed bonus for 5 seconds.
+You can use this skill a number of times equal to your WIS MOD (minimum of once).
+
+
+- LVL 2 -
+
+Channel Divinity - Guided Strike
+You can press <ClassAbility1Key> to grant 
+a +25% crit chance bonus to your next melee
+attack.
+This buff lasts 30 seconds.
+
+
+
+- LVL 6 -
+
+Channel Divinity - War Gods Blessing
+You can press <ClassAbility1Key> to an
+allied creature +25% crit chance bonus
+for their next melee attack.
+This buff lasts 30 seconds.
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 (DamageType) damage.
+Damage Type is the damage type that the weapon does.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 (DamageType) damage.
+Damage Type is the damage type that the weapon does.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Avatar of Battle
+You now have resistance to nonmagical
+Piercing, Slashing, and Bludgeoning damage.
+
 
 --- Druid ---
 
