@@ -1,10 +1,14 @@
------ Metals -----
+----- Materials -----
 
+--- Foodstuff ---
 
+--- Building Materials ---
+
+--- Metals ---
 
 --- New Metals ---
 
---- Silver ---
+-- Silver --
 
 Silver Ore (done)
 Cost:
@@ -26,7 +30,7 @@ Silver Block
 Cost: 
 Sell:
 
---- Platinum ---
+-- Platinum --
 
 Platinum Ore (done)
 Cost: 
@@ -48,7 +52,7 @@ Platinum Block
 Cost: 
 Sell:
 
---- Mithral ---
+-- Mithral --
 
 Mithral Ore (done)
 Cost: 
@@ -70,7 +74,7 @@ Mithral Block
 Cost: 
 Sell:
 
---- Adamantine ---
+-- Adamantine --
 
 Adamantine Ore (done)
 Cost: 
