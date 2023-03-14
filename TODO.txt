@@ -5507,13 +5507,15 @@ how many pieces you get, at a base of 10 pieces.
 
 --- NPCs ---
 
+-- Humans --
+
 Human Commoner
 
 Stats:
 
 Type: Humanoid
 Size: Medium
-Alignment: Good
+Alignment: Matches Town Alignment
 HP: 4
 AC: 0
 Speed: 100%
@@ -5525,7 +5527,12 @@ CON: 93 (-1)
 INT: 93 (-1)
 WIS: 93 (-1)
 CHA: 93 (-1)
+Melee Power: -5%
+Ranged Power: -5%
+Magic Power: -5% 
+Base Stealth Rating: 45
 Crit Chance: 2%
+Skills: None
 Level: 0
 AXP Yield: 10
 
@@ -5534,15 +5541,145 @@ Special:
 Actions:
 
 Unarmed Attack
-1 Bludgeoning Damage
+0.95 Bludgeoning Damage
 
-Club (used instead of Unarmed attack if they have a weapon)
-4 Bludgeoning Damage
+Club (used instead of Unarmed attack if they have a Club)
+3.8 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+2.85 Slashing Damage
 
 Equipment:
 None (50%)
 Club (25%)
 Stone Sickle (25%)
+
+Human Bandit
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+Human Cultist
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+Human Guard
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.3 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
 
 Human Merchant
 
@@ -5550,7 +5687,7 @@ Stats:
 
 Type: Humanoid
 Size: Medium
-Alignment: Good
+Alignment: Matches Town Alignment
 HP: 9
 AC: 9
 Speed: 100%
@@ -5562,7 +5699,12 @@ CON: 100 (0)
 INT: 110 (0)
 WIS: 130 (+1)
 CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
 Crit Chance: 5%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
 Level: 0.125
 AXP Yield: 25
 
@@ -5570,13 +5712,138 @@ Special:
 
 Actions:
 
-Attack (Shortsword)
-7 Slashing Damage
+Shortsword
+6 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
+
+Human Tribesman
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.2 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+Human Acolyte
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+Human Noble
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 110 (0)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+-- Kobolds --
 
 Kobold
 
@@ -5590,12 +5857,16 @@ AC: 5
 Speed: 100%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
-STR: 70 (8)
-DEX: 150 (12)
-CON: 90 (9)
-INT: 80 (9)
-WIS: 70 (8)
-CHA: 80 (9)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: 10%
+Magic Power: -5% 
+Base Stealth Rating: 60
 Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
@@ -5611,7 +5882,7 @@ Pack Tactics
 Actions:
 
 Attack (Dagger)
-4 Piercing Damage
+2.2 (wood) or 3.3 (stone) Piercing Damage
 
 Equipment:
 Wooden Dagger (75%)
@@ -5635,6 +5906,10 @@ CON: 90 (-1)
 INT: 80 (-1)
 WIS: 70 (-2)
 CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: +10%
+Magic Power: -5% 
+Base Stealth Rating: 60
 Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
@@ -5655,6 +5930,10 @@ Attack (Sling)
 Equipment
 Sling (100%)
 
+-- Goblinoids --
+
+
+
 --- Animals ---
 
 Bat
@@ -5674,6 +5953,10 @@ CON: 80 (-1)
 INT: 20 (-4)
 WIS: 120 (+1)
 CHA: 40 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 60
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5708,6 +5991,10 @@ CON: 100 (0)
 INT: 30 (-4)
 WIS: 120 (+1)
 CHA: 70 (-2)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 60
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5739,6 +6026,10 @@ CON: 100 (0)
 INT: 20 (-4)
 WIS: 70 (-2)
 CHA: 40 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 40
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5767,6 +6058,10 @@ CON: 100 (0)
 INT: 20 (-4)
 WIS: 90 (-1)
 CHA: 30 (-4)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 45
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5795,6 +6090,10 @@ CON: 110 (0)
 INT: 20 (-4)
 WIS: 140 (+1)
 CHA: 50 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 65
 Crit Chance: 4%
 Level: 0
 AXP Yield: 10
@@ -5823,6 +6122,10 @@ CON: 100 (0)
 INT: 20 (-4)
 WIS: 140 (+1)
 CHA: 70 (-2)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 60
 Crit Chance: 1%
 Level: 0
 AXP Yield: 10
@@ -5854,6 +6157,10 @@ CON: 100 (0)
 INT: 20 (-4)
 WIS: 90 (-1)
 CHA: 50 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 45
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5882,6 +6189,10 @@ CON: 90 (-1)
 INT: 20 (-4)
 WIS: 100 (0)
 CHA: 40 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 50
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5913,6 +6224,10 @@ CON: 90 (-1)
 INT: 20 (-4)
 WIS: 100 (0)
 CHA: 50 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 45
 Crit Chance: 0%
 Level: 0
 AXP Yield: 10
@@ -5941,6 +6256,10 @@ CON: 120 (+1)
 INT: 20 (-4)
 WIS: 90 (-1)
 CHA: 50 (-3)
+Melee Power: -
+Ranged Power: 0%
+Magic Power: -20%
+Base Stealth Rating: 50
 Crit Chance: 2%
 Level: 0.125
 AXP Yield: 50
@@ -5978,6 +6297,10 @@ CON: 150 (+2)
 INT: 20 (-4)
 WIS: 60 (-1)
 CHA: 30 (-4)
+Melee Power: -
+Ranged Power: 0%
+Magic Power: -20%
+Base Stealth Rating: 50
 Crit Chance: 3%
 Level: 0.125
 AXP Yield: 50
@@ -5998,6 +6321,44 @@ The bull stops for 2 seconds, then dashes forward, anyone caught in the way take
 If a creature is hit, it must pass a Strength Resistance Check (110) or be knocked back.
 This ability has a 10 second cooldown.
 
+Giant Rat
+
+Stats:
+
+Type: Beast
+Size: Small
+Alignment: Unaligned
+HP: 7
+AC: 0
+Speed: 80%
+Senses: Passive Sight (15 Blocks), Darkvision (45 Blocks)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Melee Power: -
+Ranged Power: -
+Magic Power: -
+Base Stealth Rating: 50
+Crit Chance: 0%
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Keen Smell
+Rats have advantage on perception checks that rely on smell.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack
+4 Piercing Damage
+
 --- Monsters ---
 
 Zombie
@@ -6017,6 +6378,10 @@ CON: 160 (+3)
 INT: 30 (-4)
 WIS: 60 (-2)
 CHA: 50 (-3)
+Melee Power: -
+Ranged Power: -10%
+Magic Power: -20%
+Base Stealth Rating: 40
 Crit Chance: 0%
 Base Level: 0.25
 AXP Yield: 50
