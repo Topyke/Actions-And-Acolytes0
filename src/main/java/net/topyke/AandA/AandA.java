@@ -113,6 +113,13 @@ public class AandA
 
         }
         if(event.getTab() == ModCreativeModeTabs.ANA_NATURAL) {
+            event.accept(ModBlocks.FEYWOOD_LOG);
+            event.accept(ModBlocks.FEYWOOD_WOOD);
+            event.accept(ModBlocks.FEYWOOD_LEAVES);
+            event.accept(ModBlocks.STRIPPED_FEYWOOD_LOG);
+            event.accept(ModBlocks.STRIPPED_FEYWOOD_WOOD);
+            event.accept(ModBlocks.FEYWOOD_SAPLING);
+            event.accept(ModBlocks.FEYWOOD_PLANKS);
             event.accept(ModBlocks.SILVER_ORE);
             event.accept(ModBlocks.PLATINUM_ORE);
             event.accept(ModBlocks.MITHRAL_ORE_HIGH);

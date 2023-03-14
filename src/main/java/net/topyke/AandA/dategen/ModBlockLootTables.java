@@ -28,6 +28,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.SILVER_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.SILVER_ORE.get(), ModItems.RAW_SILVER.get()));
 
+        this.dropSelf(ModBlocks.FEYWOOD_LOG.get());
+        this.dropSelf(ModBlocks.FEYWOOD_WOOD.get());
+        this.dropSelf(ModBlocks.FEYWOOD_PLANKS.get());
+        this.dropSelf(ModBlocks.STRIPPED_FEYWOOD_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_FEYWOOD_LOG.get());
+        this.dropSelf(ModBlocks.FEYWOOD_SAPLING.get());
+
+        this.add(ModBlocks.FEYWOOD_LEAVES.get(), (block) ->
+                createLeavesDrops(block, ModBlocks.FEYWOOD_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     @Override

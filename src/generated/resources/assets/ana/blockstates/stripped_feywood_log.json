@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ana:block/stripped_feywood_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ana:block/stripped_feywood_log"
+    },
+    "axis=z": {
+      "model": "ana:block/stripped_feywood_log_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ana:block/feywood_log_top",
+    "side": "ana:block/feywood_log"
+  }
+}

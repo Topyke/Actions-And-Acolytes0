@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ana:block/feywood_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ana:block/feywood_wood"
+    },
+    "axis=z": {
+      "model": "ana:block/feywood_wood_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+// 1.19.3	2023-03-14T15:16:10.9216149	Loot Tables
+44c4c473bfdeb84fb55456dfe6b1ed5762cf0767 data/ana/loot_tables/blocks/adamantine_ore.json
+cac80893de98329f23a10689cf31807f02092dd6 data/ana/loot_tables/blocks/feywood_leaves.json
+4a31981ff8615fc87a7de3ae9f6397d94590048f data/ana/loot_tables/blocks/feywood_log.json
+de4a211fc2ef2c955461f7bf53578c6d8c915357 data/ana/loot_tables/blocks/feywood_planks.json
+2fc0fe70295316d31ab0548a4b0d1bdee11e964a data/ana/loot_tables/blocks/feywood_sapling.json
+cfe6259af41e67643eae4ba8f34b73fa8e4e98e9 data/ana/loot_tables/blocks/feywood_wood.json
+929173bf2b9af05427dc2b9ba0552a2e7b534045 data/ana/loot_tables/blocks/mithral_ore.json
+7f5bc0f786cb55d90b9da61816561788bbc5f8f6 data/ana/loot_tables/blocks/mithral_ore_high.json
+7073e1190e9bd09808392817f5cce2f259d226b4 data/ana/loot_tables/blocks/platinum_ore.json
+65ac378eca58b19505d66c476c2548b330c10157 data/ana/loot_tables/blocks/silver_ore.json
+17175dbf104807a829cb5e72723698cdcb5455f0 data/ana/loot_tables/blocks/stripped_feywood_log.json
+6704baa70f8a632fcc4314c40870a6004b431fb6 data/ana/loot_tables/blocks/stripped_feywood_wood.json

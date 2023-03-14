@@ -25,6 +25,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_PLATINUM);
         simpleItem(ModItems.RAW_SILVER);
 
+        simpleItem(ModItems.SILVER_INGOT);
+        simpleItem(ModItems.PLATINUM_INGOT);
+        simpleItem(ModItems.MITHRAL_INGOT);
+        simpleItem(ModItems.ADAMANTINE_INGOT);
+
+        simpleItem(ModItems.COPPER_CROW);
+        simpleItem(ModItems.SILVER_SHIELD);
+        simpleItem(ModItems.GOLD_GRIFFON);
+        simpleItem(ModItems.PLATINUM_DRAGON);
+
+        saplingItem(ModBlocks.FEYWOOD_SAPLING);
+
         handheldItem(ModItems.WOODEN_HATCHET);
         handheldItem(ModItems.WOODEN_HOE);
         handheldItem(ModItems.WOODEN_PICKAXE);

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ana:feywood_log",
+    "ana:feywood_wood",
+    "ana:stripped_feywood_log",
+    "ana:stripped_feywood_wood"
+  ]
+}

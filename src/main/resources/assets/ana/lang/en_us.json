@@ -8,6 +8,14 @@
   "item.ana.club": "Club",
   "item.ana.greatclub": "Greatclub",
 
+  "block.ana.feywood_log": "Feywood log",
+  "block.ana.feywood_wood": "Feywood Wood",
+  "block.ana.stripped_feywood_log": "Stripped Feywood Log",
+  "block.ana.stripped_feywood_wood": "Stripped Feywood Wood",
+  "block.ana.feywood_planks": "Feywood Planks",
+  "block.ana.feywood_leaves": "Feywood Leaves",
+  "block.ana.feywood_sapling": "Feywood Sapling",
+
   "item.ana.wooden_shortsword": "§8Wooden Shortsword",
   "item.ana.wooden_hatchet": "§8Wooden Hatchet",
   "item.ana.wooden_pickaxe": "§8Wooden Pickaxe",
