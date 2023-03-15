@@ -1,1 +1,5487 @@
+----- Metals -----
+
+
+
+--- New Metals ---
+
+--- Silver ---
+
+Silver Ore (done)
+Cost:
+Sell:
+
+Raw Silver (done)
+Cost:
+Sell:
+
+Silver Ingot (done)
+Cost: 
+Sell:
+
+Silver Nugget
+Cost:
+Sell:
+
+Silver Block
+Cost: 
+Sell:
+
+--- Platinum ---
+
+Platinum Ore (done)
+Cost: 
+Sell:
+
+Raw Platinum (done)
+Cost: 
+Sell:
+
+Platinum Ingot (done)
+Cost: 
+Sell:
+
+Platinum Nugget
+Cost: 
+Sell:
+
+Platinum Block
+Cost: 
+Sell:
+
+--- Mithral ---
+
+Mithral Ore (done)
+Cost: 
+Sell:
+
+Raw Mithral (done)
+Cost: 
+Sell:
+
+Mithral Ingot (done)
+Cost: 
+Sell:
+
+Mithral Nugget
+Cost: 
+Sell:
+
+Mithral Block
+Cost: 
+Sell:
+
+--- Adamantine ---
+
+Adamantine Ore (done)
+Cost: 
+Sell:
+
+Raw Adamantine (done)
+Cost: 
+Sell:
+
+Adamantine Ingot (done)
+Cost: 
+Sell:
+
+Adamantine Nugget
+Cost: 
+Sell:
+
+Adamantine Block
+Cost: 
+Sell:
+
+----- Coins -----
+
+Coins:
+Copper Crow
+Silver Sentinel (Worth 10 Copper Pieces)
+Gold Griffon (Worth 10 Silver Pieces)
+Platinum Dragon (Worth 10 Gold Pieces)
+
+----- Stats -----
+
+Stats can range from 0 to 300.
+When players select a class, they get 500 
+stat points to allocate, in groups of 5, 
+up to a maximum of 150. 
+Player stats cap at 200.
+Attributes increase by 25% for weapons 
+and skills the player are proficient in. 
+Attributes can be increased by passing
+skill checks or leveling up.
+Only passing a skill check that is higher then
+your current stat will be considered for a boost.
+Boost by skill check chance is a stat/CR chance.
+How often a stat increases by level up is based on class.
+a increased stat by level up is increased by 20.
+a increased stat by skill check in increased by 1.
+
+Modifocation Table:
+Using a stat to preform a skill check
+will result in a puzzle, your stat will determine
+how many pieces you get, at a base of 10 pieces.
+0-19: -5
+20-39: -4
+40-59: -3
+60-79: -2
+80-99: -1
+100-119: 0
+120-139: +1
+140-159: +2
+160-179: +3
+180-199: +4
+200-219: +5
+220-239: +6
+240-259: +7
+260-279: +8
+280-299: +9
+300: +10
+
+STR:
+Impacts melee damage. 
+Used for athletics.
+STR Table
+0-19: -25% melee damage
+20-39: -20% melee damage
+40-59: -15% melee damage
+60-79: -10% melee damage
+80-99: -5% melee damage
+100-119: +0% melee damage
+120-139: +5% melee damage
+140-159: +10% melee damage
+160-179: +15% melee damage
+180-199: +20% melee damage
+200-219: +25% melee damage
+220-239: +30% melee damage
+240-259: +35% melee damage
+260-279: +40% melee damage
+280-299: +45% melee damage
+300: +50% melee damage
+
+DEX:
+Impacts movement speed, ranged damage, and stealth.
+Used for acrobatics, and slight of hand.
+DEX Table
+0-19: -25% ranged damage and movement speed, -25 stealth
+20-39: -20% ranged damage and movement speed, +20 stealth
+40-59: -15% ranged damage and movement speed, -15 stealth
+60-79: -10% ranged damage and movement speed, -10 stealth
+80-99: -5% ranged damage and movement speed, -5 stealth
+100-119: +0% ranged damage and movement speed
+120-139: +5% ranged damage and movement speed, +5 stealth
+140-159: +10% ranged damage and movement speed, +10 stealth
+160-179: +15% ranged damage and movement speed, +15 stealth
+180-199: +20% ranged damage and movement speed, +20 stealth
+200-219: +25% ranged damage and movement speed, +25 stealth
+220-239: +30% ranged damage and movement speed, +30 stealth
+240-259: +35% ranged damage and movement speed, +35 stealth
+260-279: +40% ranged damage and movement speed, +40 stralth
+280-299: +45% ranged damage and movement speed, +45 stealth
+300: +50% ranged damage and movement speed, +50 stealth
+
+CON:
+Impacts Max HP.
+Used for stamina.
+CON Table
+0-19: (0.5 * Class Base) Max Hit Points (rounded down)
+20-39: (0.6 * Class Base) Max Hit Points (rounded down)
+40-59: (0.7 * Class Base) Max Hit Points (rounded down)
+60-79: (0.8 * Class Base) Max Hit Points (rounded down)
+80-99: (0.9 * Class Base) Max Hit Points (rounded down)
+100-119: (1 * Class Base) Max Hit Points
+120-139: (2 * Class Base) Max Hit Points
+140-159: (3 * Class Base) Max Hit Points
+160-179: (4 * Class Base) Max Hit Points
+180-199: (5 * Class Base) Max Hit Points
+200-219: (6 * Class Base) Max Hit Points
+220-239: (7 * Class Base) Max Hit Points
+240-259: (8 * Class Base) Max Hit Points
+260-279: (9 * Class Base) Max Hit Points
+280-299: (10 * Class Base) Max Hit Points
+300: (11 * Class Base) Max Hit Points
+
+INT:
+Impacts magic damage.
+Used for arcana, history, investigation, nature, and religion.
+INT Table
+This attribute increases by 50% for weapons 
+and skills you are proficient in. 
+0-19: -25% magic damage
+20-39: -20% magic damage
+40-59: -15% magic damage
+60-79: -10% magic damage
+80-99: -5% magic damage
+100-119: no effect
+120-139: +5% magic damage
+140-159: +10% magic damage
+160-179: +15% magic damage
+180-199: +20% magic damage
+200-219: +25% magic damage
+220-239: +30% magic damage
+240-259: +35% magic damage
+260-279: +40% magic damage
+280-299: +45% magic damage
+300: +50% magic damage
+
+WIS:
+Impacts spell slots.
+Used for animal handling, insight, medicine, perception, and survival.
+WIS Table
+0-19: -5 spell slots (takes highest first)
+20-39: -4 spell slots
+40-59: -3 spell slots
+60-79: -2 spell slots
+80-99: -1 spell slot
+100-119: no effect
+120-139: +1 spell slot (starts at highest spell slot tier, up to 25% additonal per tier)
+140-159: +2 spell slots
+160-179: +3 spell slots
+180-199: +4 spell slots
+200-219: +5 spell slots
+220-239: +6 spell slots
+240-259: +7 spell slots
+260-279: +8 spell slots
+280-299: +9 spell slots
+300: +10 spell slots
+
+CHA:
+Impacts NPC interaction.
+Used for deception, intimidation, performance, and persuasion.
+CHA Table
+0-19: -25% positive interaction rate
+20-39: -20% positive interaction rate
+40-59: -15% positive interaction rate
+60-79: -10% positive interaction rate
+80-99: -5% positive interaction rate
+100-119: no effect
+120-139: +5% positive interaction rate
+140-159: +10% positive interaction rate
+160-179: +15% positive interaction rate
+180-199: +20% positive interaction rate
+200-219: +25% positive interaction rate
+220-239: +30% positive interaction rate
+240-259: +35% positive interaction rate
+260-279: +40% positive interaction rate
+280-299: +45% positive interaction rate
+300: +50% positive interaction rate
+
+
+----- Overhauled Level System -----
+
+Killing A&A mobs grants AXP, which can be
+used to level up.
+
+AXP Table
+LVL 1: starting level
+LVL 2: 300 AXP (300 total)
+LVL 3: 900 AXP (1200 total)
+LVL 4: 2700 AXP (3900 total)
+LVL 5: 6500 AXP (10400 total)
+LVL 6: 14000 AXP (24400 total)
+LVL 7: 23000 AXP (47400 total)
+LVL 8: 34000 AXP (81400 total)
+LVL 9: 48000 AXP (129400 total)
+LVL 10: 64000 AXP (193400 total)
+LVL 11: 85000 AXP (278400 total)
+LVL 12: 100000 AXP (378400 total)
+LVL 13: 120000 AXP (498400 total)
+LVL 14: 140000 AXP (638400 total)
+LVL 15: 165000 AXP (803400 total)
+LVL 16: 195000 AXP (998400 total)
+LVL 17: 225000 AXP (1223400 total)
+LVL 18: 265000 AXP (1488400 total)
+LVL 19: 305000 AXP (1793400 total)
+LVL 20: 355000 AXP (2148400 total)
+
+----- Classes -----
+
+--- Barbarian ---
+
+Base HP: 12
+Minimum HP: 6
+Max HP: 72
+Absolute Max HP: 132
+
+Default Stats:
+HP: 12
+STR: 150 (12)
+DEX: 80 (9)
+CON: 100 (10)
+INT: 30 (6)
+WIS: 30 (6)
+CHA: 50 (7)
+Melee Power: +10%
+Ranged Power: -5%
+Magic Power: -20%
+Stealth Rating: 45
+Speed: 95%
+Chat Success: 35%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 95%
+DEX: 40%
+CON: 95%
+INT: 10%
+WIS: 30%
+CHA: 30%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor, Medium Armor, Shields
+
+Weapons:
+Simple Weapons, 3 Martial Weapons
+
+Tools:
+None
+
+Saving Throws:
+Strength, Consititution
+
+Skills:
+2 of the following: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival
+
+Starting Equipment:
+1 Wooden Greataxe (or) any Wooden Martial Weapon
+2 Stone Handaxes (or) any Stone Simple Weapon
+An explorer's pack
+4 Wooden Javelins
+
+Abilities:
+
+LVL 1
+
+Rage
+You can press <ClassAbility1Key> to activate Rage.
+Rage ends in 1 minute or if you fall unconsious.
+You can also end Rage prematurely by pressing <ClassAbility1Key>.
+You have a limited number of Rage Charges based on your level.
+-----------------------
+Rage Charge Table
+-----------------------
+Level --- Rage Charges
+-----------------------
+1-2   --- 2
+3-5   --- 3
+6-11  --- 4
+12-16 --- 5
+17-19 --- 6
+20    --- Infinite
+-----------------------
+See Status Conditions to see the effects of rage.
+
+
+Unarmored Defense
+While waering no armor, you AC is equal to 5 + CON modifier.
+
+- LVL 2 -
+
+Reckless Attack
+You can press <ClassAbility2Key> to toggle Reckless attack.
+Reckless attack reduces AC by 25% but increased damage by 25%.
+
+Danger Sense
+You permanently have the Dangersense effect.
+
+- LVL 3 -
+
+You can now select a subclass.
+Subclass options:
+Berserker
+Totem Warrior
+
+- LVL 4 - 
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 5 - 
+
+Attack Swiftness
+Your base Attack Speed is increased to 4.1.
+
+Fast Movement
+While not wearing Heavy Armor, you gain +20% movement speed.
+
+- LVL 7 - 
+
+Feral Instinct
+Your instincts have been honed. You now have advantage on perception checks that rely on Sight, Smell, or Hearing.
+
+- LVL 8 - 
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 9 - 
+
+Brutal Critical 1
+Criticals deal 33% more damage.
+
+- LVL 11 -
+
+Relentless Rage
+While raging, if you would take a fatal wound, and drop to 0 HP, You make a CON Resistance Check (CR 100),
+If it passes, you drop to 1 HP instead.
+Each time this ability procs, the CR increases by 50.
+CR can be reset to 100 by completing a short rest.
+
+- LVL 12 - 
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 13 - 
+
+Brutal Critical 2
+Criticals deal 66% more damage.
+
+- LVL 15 -
+
+Persistant Rage
+Your rage now lasts forever until you fall unconsious or you deactivate it.
+
+- LVL 16 - 
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 17 - 
+
+Brutal Critical 3
+Criticals deal 99% more damage.
+
+- LVL 18 -
+
+Indomitable Might
+You now have advantage on all strength checks, even when outside of rage.
+
+- LVL 19 - 
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 20 - 
+
+Primal Champion
++40 STR and CON. Your maximum base value for these stats is now 240.
+
+-- Berserker-Unique Ablities --
+
+- LVL 3 -
+
+Frenzy
+Holding Shift + <ClassAbility1Key> will enable Frenzy. 
+While under Frenzy, your Attack speed is increased by 25% in addition
+to rage's other effects.
+When Frenzy ends, you suffer one level of exaustion.
+
+- LVL 6 -
+
+Mindless Rage
+You are immune to Charmed or Frightened while raging.
+you are cured of these conditions when you enter rage.
+
+- LVL 10 -
+
+Frightening Presence
+You can use the <ClassAbility3Key> to attempt to Frighten a creature.
+The target must pass a Resistance check (CR 80 * (Profiecncy Bonus + Charisma Mod)).
+If it fails, it will become Frightened of you for 15 seconds.
+As long as they don't pass the check, you can continue to use this ability.
+If the check passes, this ability is disabled for 24 minutes.
+
+- LVL 14 -
+
+Retaliation
+When taking damage from a melee attack, you can automatically counterattack if your weapon is fully recharged.
+This ability can be disabled in the Class Passives Setting.
+
+-- Totem Warrior-Unique Ablities --
+
+
+- LVL 3 -
+
+Spirit Seeker
+You now have the ability to cast Beast Sense and Speak With Animals as Rituals.
+
+Totom Spirit
+Select a totem spirit and gain it's benefits.
+
+Bear
+While Raging, you have resistance to all damage except Psychic damage.
+
+Eagle
+While Raging, increases attack speed by 25%.
+
+Elk
+While Raging, increases movement speed by 33%.
+
+Tiger
+While Raging, increases jump height by 150%, and increases air velocity.
+
+Wolf
+While Raging, You gain Pack Tactics.
+
+- LVL 6 -
+
+Aspect of the Beast
+You gain a magical benefit based on which animal you select.
+
+Bear
+Increases break speed by 25%.
+
+Eagle
+You can use the <ClassAbility3Key> to Zoom in, as if using a spyglass. 
+
+Elk
+Your movement speed is doubled.
+Taking damage or Attacking will disable this effect for 60 seconds.
+
+
+Tiger
+Gain Proficency in two of the following skills: Athletics, Acrobatics, Stealth, Survival
+
+Wolf
++25 Stealth Rating.
+
+- LVL 10 -
+
+Spirit Walker
+You can cast the Commune with Nature Spell, but only as a ritual.
+When cast, one of the animals you've chosen will appear and divulge the info you request.
+
+- LVL 14 -
+
+Totemic Attunement
+You gain a magical benefit based on which animal you select.
+
+Bear
+Reduces Critical Hit damage by 50% while Raging.
+
+Eagle
+While Raging, you can fly for up to 10 seconds at a time.
+You restore 1 second of flight every 2 seconds, restoring a completely depleted flight after 20 seconds.
+
+Elk
+While Raging AND sprinting, your movement speed modifier is added to your melee damage as a % bonus.
+EX. +33% movement speed = +33% melee damage.
+
+Tiger
+While Raging AND sprinting, your movement speed modifier is added to your melee attack speed as a % bonus.
+EX. +33% movement speed = +33% attack speed.
+
+Wolf
+While Raging, melee attacks have a 15% chance to inflict Bleed on a creature.
+
+
+
+--- Bard ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 6
+STR: 50 (7)
+DEX: 110 (10)
+CON: 60 (8)
+INT: 80 (9)
+WIS: 80 (9)
+CHA: 120 (11)
+Melee Power: -15%
+Ranged Power: 0%
+Magic Power: -5% 
+Stealth Rating: 50
+Speed: 100%
+Chat Success: 55%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 40%
+DEX: 40%
+CON: 40%
+INT: 50%
+WIS: 50%
+CHA: 80%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor
+
+Weapons:
+Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords
+
+Tools:
+3 musical instruments of your choice
+
+Saving Throws:
+Dexterity, Charisma
+
+Skills:
+Any 3 skills.
+
+Starting Equipment:
+1 Stone Rapier (or) 1 Stone Longsword (or) any Stone Simple Weapon
+a Diplomats pack (or) an entertainers pack
+a lute (or) any other musical instrument
+Leather Chestplate and a Stone Dagger
+
+--- Cleric ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 8
+STR: 100 (10)
+DEX: 50 (7)
+CON: 100 (10)
+INT: 65 (8)
+WIS: 110 (10)
+CHA: 75 (8)
+Melee Power: 0%
+Ranged Power: -15%
+Magic Power: -10% 
+Stealth Rating: 35
+Speed: 85%
+Chat Success: 40%
+Remaining: 0 / 500
+
+
+Base Growth Rates:
+STR: 45%
+DEX: 45%
+CON: 45%
+INT: 45%
+WIS: 60%
+CHA: 60%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor, Medium Armor, Shields
+
+Weapons:
+Simple Weapons
+
+Tools:
+None
+
+Saving Throws:
+Wisdom, Charisma
+
+Skills:
+2 of the following: History, Insight, Medicine, Persuasion, Religion
+
+Starting Equipment:
+1 Stone Mace (or) 1 Stone Warhammer
+Scalemail Chestplate (or) Leather Tunic (or) Chainmail Breastplate
+a light crossbow and 20 bolts (or) any Stone Simple Weapon
+a Priest's Pack (or) an Explorer's pack
+a shield and a holy symbol
+
+--- Druid ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 8
+STR: 55 (7)
+DEX: 55 (7)
+CON: 110 (10)
+INT: 100 (10)
+WIS: 130 (11)
+CHA: 50 (7)
+Melee Power: -15%
+Ranged Power: -15%
+Magic Power: 0% 
+Stealth Rating: 35
+Speed: 85%
+Chat Success: 35%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 40%
+DEX: 50%
+CON: 30%
+INT: 60%
+WIS: 80%
+CHA: 40%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor, Medium Armor, Shields
+
+Weapons:
+Clubs, Daggers, Darts, Javelins, Maces, Quarterstaffs, Scimitars, Sickles, Slings, Spears
+
+Tools:
+Herbalism
+
+Saving Throws:
+Wisdom, Intelligence
+
+Skills:
+2 of the following: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival
+
+Starting Equipment:
+1 Wooden Shield (or) any 1 Wooden Simple Weapon
+Stone Scimitar (or) any 1 Stone Simple Weapon
+Leather Tunic, an Explorer's Pack, Druidic Focus
+
+--- Fighter ---
+
+Base HP: 10
+Minimum HP: 5
+Max HP: 60
+Absolute Max HP: 110
+
+Default Stats:
+HP: 10
+STR: 120 (11)
+DEX: 120 (11)
+CON: 100 (10)
+INT: 50 (7)
+WIS: 50 (7)
+CHA: 60 (8)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: -10% 
+Stealth Rating: 55
+Speed: 105%
+Chat Success: 40%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 60%
+DEX: 60%
+CON: 60%
+INT: 40%
+WIS: 40%
+CHA: 40%
+
+Starting Proficiencies:
+
+Armor:
+All Armor, Shields
+
+Weapons:
+Simple Weapons, 5 Martial Weapons of your choice
+
+Tools:
+None
+
+Saving Throws:
+Strength, Constitution
+
+Skills:
+2 of the following: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
+
+Starting Equipment:
+Chainmail Breastplate (or) Leather Tunic, Longbow, 20 Arrows
+Any 1 Iron Martial Weapon (or) any 2 Stone Martial Weapons
+a Light Crossbow and 20 bolts (or) 2 Stone Handaxes
+a Dungeoneer's Pack (or) an Explorer's Pack
+
+--- Monk ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 6
+STR: 70 (8)
+DEX: 120 (11)
+CON: 70 (8)
+INT: 70 (8)
+WIS: 100 (10)
+CHA: 70 (8)
+Melee Power: -10%
+Ranged Power: 5%
+Magic Power: -10% 
+Stealth Rating: 55
+Speed: 105%
+Chat Success: 40%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 50%
+DEX: 50%
+CON: 50%
+INT: 50%
+WIS: 50%
+CHA: 50%
+
+Starting Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Simple Weapons, Shortswords
+
+Tools:
+Artisan's Tools (or) 1 musical instrument of your choice
+
+Saving Throws:
+Strength, Dexterity
+
+Skills:
+2 of the following: Acrobatics, Athletics, History, Insight, Religion, Stealth
+
+Starting Equipment:
+1 Iron Shortsword (or) any 1 Iron Simple Weapon
+a Dungeoneer's Pack (or) an Explorer's Pack
+10 Darts
+
+--- Paladin ---
+
+Base HP: 10
+Minimum HP: 5
+Max HP: 60
+Absolute Max HP: 110
+
+Default Stats:
+HP: 6
+STR: 130 (11)
+DEX: 20 (6)
+CON: 100 (10)
+INT: 60 (8)
+WIS: 60 (8)
+CHA: 130 (11)
+Melee Power: +5%
+Ranged Power: -20%
+Magic Power: -10% 
+Stealth Rating: 30
+Speed: 80%
+Chat Success: 55%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 60%
+DEX: 30%
+CON: 60%
+INT: 45%
+WIS: 45%
+CHA: 60%
+
+Starting Proficiencies:
+
+Armor:
+All Armor, Shields
+
+Weapons:
+Simple Weapons, 3 Martial Weapons of your choice
+
+Tools:
+None
+
+Saving Throws:
+Wisdom, Charisma
+
+Skills:
+2 of the following: Athletics, Insight, Intimidation, Medicine, Persuasion, Religion
+
+Starting Equipment:
+any 1 Stone Martial Weapon and a Shield (or) any 1 Iron Martial Weapon
+5 Stone Javelins (or) any Stone Simple Melee Weapon
+a Priest's Pack (or) an Explorer's Pack
+Chainmail Breastplate and a Holy Symbol
+
+--- Ranger ---
+
+Base HP: 10
+Minimum HP: 5
+Max HP: 60
+Absolute Max HP: 110
+
+Default Stats:
+HP: 9
+STR: 50 (7)
+DEX: 130 (11)
+CON: 80 (9)
+INT: 60 (8)
+WIS: 130 (11)
+CHA: 50 (7)
+Melee Power: -15%
+Ranged Power: +5%
+Magic Power: -10% 
+Stealth Rating: 55
+Speed: 105%
+Chat Success: 35%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 50%
+DEX: 60%
+CON: 40%
+INT: 50%
+WIS: 60%
+CHA: 40%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor, Medium Armor, Shields
+
+Weapons:
+Simple Weapons, 3 Martial Weapons of your choice
+
+Tools:
+None
+
+Saving Throws:
+Strength, Dexterity
+
+Skills:
+2 of the following: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
+
+Starting Equipment:
+Scalemail Chestplate (or) Leather Tunic
+2 Stone Shortswords (or) any 2 Stone Simple Melee Weapons
+a Dungeoneer's Pack (or) an Explorer's Pack
+a Longbow and a Quiver of 20 Arrows
+
+--- Rogue ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 5
+STR: 60 (8)
+DEX: 150 (12)
+CON: 50 (7)
+INT: 70 (8)
+WIS: 40 (7)
+CHA: 130 (11)
+Melee Power: -10%
+Ranged Power: +10%
+Magic Power: -10% 
+Stealth Rating: 60
+Speed: 110%
+Chat Success: 55%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 50%
+DEX: 70%
+CON: 50%
+INT: 40%
+WIS: 40%
+CHA: 50%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor
+
+Weapons:
+Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords
+
+Tools:
+Thieves’ tools
+
+Saving Throws:
+Dexterity, Intelligence
+
+Skills:
+4 of the following: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persausion, Sleight of Hand, Stealth
+
+Starting Equipment:
+Iron Rapier (or) Iron Shortsword
+a Shortbow and a Quiver of 20 Arrows (or) a Stone Shortsword
+a Burglar's Pack (or) an Dungeoneer's Pack (or) an Explorer's Pack
+Leather Tunic, 2 Stone Daggers, and Thieves’ tools
+
+--- Sorcerer ---
+
+Base HP: 6
+Minimum HP: 3
+Max HP: 36
+Absolute Max HP: 66
+
+Default Stats:
+HP: 12
+STR: 10 (5)
+DEX: 70 (8)
+CON: 130 (11)
+INT: 80 (9)
+WIS: 80 (9)
+CHA: 130 (11)
+Melee Power: -25%
+Ranged Power: -10%
+Magic Power: -5% 
+Stealth Rating: 40
+Speed: 90%
+Chat Success: 55%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 40%
+DEX: 60%
+CON: 50%
+INT: 50%
+WIS: 40%
+CHA: 60%
+
+Starting Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
+
+Tools:
+None
+
+Saving Throws:
+Constitution, Charisma
+
+Skills:
+2 of the following: Arcana, Deception, Insight, Intimidation, Persausion, Religion
+
+Starting Equipment:
+a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
+a component pouch (or) an Arcane Focus
+a Dungeoneer's Pack (or) an Explorer's Pack
+2 Stone Daggers
+
+--- Warlock ---
+
+Base HP: 8
+Minimum HP: 4
+Max HP: 48
+Absolute Max HP: 88
+
+Default Stats:
+HP: 16
+STR: 30 (6)
+DEX: 30 (6)
+CON: 130 (11)
+INT: 100 (10)
+WIS: 100 (10)
+CHA: 110 (10)
+Melee Power: -20%
+Ranged Power: -20%
+Magic Power: 0% 
+Stealth Rating: 30
+Speed: 80%
+Chat Success: 50%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 50%
+DEX: 50%
+CON: 30%
+INT: 70%
+WIS: 70%
+CHA: 30%
+
+Starting Proficiencies:
+
+Armor:
+Light Armor
+
+Weapons:
+Simple Weapons
+
+Tools:
+None
+
+Saving Throws:
+Wisdom, Charisma
+
+Skills:
+2 of the following: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
+
+Starting Equipment:
+a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
+a component pouch (or) an Arcane Focus
+a Scholar's Pack (or) a Dungeoneer's Pack
+Leather Tunic, any Simple Wooden Weapon, and two Stone Daggers.
+
+--- Wizard ---
+
+Base HP: 6
+Minimum HP: 3
+Max HP: 36
+Absolute Max HP: 66
+
+Default Stats:
+HP: 6
+STR: 40 (7)
+DEX: 40 (7)
+CON: 110 (10)
+INT: 150 (12)
+WIS: 100 (10)
+CHA: 60 (8)
+Melee Power: -15%
+Ranged Power: -15%
+Magic Power: 10% 
+Stealth Rating: 35
+Speed: 85%
+Chat Success: 40%
+Remaining: 0 / 500
+
+Base Growth Rates:
+STR: 30%
+DEX: 40%
+CON: 20%
+INT: 75%
+WIS: 75%
+CHA: 60%
+
+Starting Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
+
+Tools:
+None
+
+Saving Throws:
+Wisdom, Intelligence
+
+Skills:
+2 of the following: Arcana, History, Insight, Investigation, Medicine, Religion
+
+Starting Equipment:
+a Quarterstaff (or) a Iron Dagger
+a component pouch (or) an Arcane Focus
+a Scholar's Pack (or) a Explorer's Pack
+a Spellbook
+
+----- Races -----
+
+---- Common Races ----
+
+--- Hill Dwarf ---
+
+Stats:
+Size: Medium (1.5 Blocks)
+Base HP: +1
+STR: +0
+DEX: +0
+CON: +20
+INT: +0
+WIS: +10
+CHA: +0
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Base Speed: 90%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Dwarven Resilience
+You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
+Stonecunning
+You add twice your proficiency bonus when doing a history check involving stonework.
+
+Languages:
+Common, Elvish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Battleaxes, Handaxes, Light Hammers, Warhammers
+
+Tools:
+One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
+
+Skills:
+History (Stonework)
+
+--- Mountain Dwarf ---
+
+Stats:
+Size: Medium (1.5 Blocks)
+Base HP: +0
+STR: +20
+DEX: +0
+CON: +20
+INT: +0
+WIS: +0
+CHA: +0
+Melee Power: +5%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Base Speed: 90%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Dwarven Resilience
+You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
+Stonecunning
+You add twice your proficiency bonus when doing a history check involving stonework.
+
+Languages
+Common, Dwarvish
+
+Racial Proficiencies:
+
+Armor:
+Light Armor, Medium Armor
+
+Weapons:
+Battleaxes, Handaxes, Light Hammers, Warhammers
+
+Tools:
+One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
+
+Skills:
+History (Stonework)
+
+--- High Elf ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +0
+DEX: +20
+CON: +0
+INT: +10
+WIS: +0
+CHA: +0
+Melee Power: 0%
+Ranged Power: +5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Base Speed: 105%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Fey Anscestry
+You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
+
+Trance
+You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
+
+Cantrip:
+You can learn 1 cantrip of your choice from the arcane spell list.
+
+Extra Language
+You can speak, read, and write one extra language of your choice.
+
+Languages
+Common, Elvish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Longsword, Shortsword, Shortbow, Longbow
+
+Tools:
+None
+
+Skills:
+None
+
+--- Wood Elf ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +0
+DEX: +20
+CON: +0
+INT: +0
+WIS: +10
+CHA: +0
+Melee Power: 0%
+Ranged Power: +5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Base Speed: 115%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Fey Anscestry
+You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
+
+Trance
+You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
+
+Mask of the Wild
+While in nature, you get +25 Stealth Rating.
+
+
+Languages
+Common, Elvish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+Longsword, Shortsword, Shortbow, Longbow
+
+Tools:
+None
+
+Skills:
+None
+
+--- Lightfoot Halfling ---
+
+Stats:
+Size: Small (1 Block)
+Base HP: +0
+STR: +0
+DEX: +20
+CON: +0
+INT: +0
+WIS: +0
+CHA: +10
+Melee Power: 0%
+Ranged Power: +5%
+Magic Power: 0% 
+Base Stealth Rating: 65
+Base Speed: 95%
+Chat Success: 50%
+
+Racial Traits:
+
+Lucky
+If a disastrous result would occur from a check of any kind, it can be reattempted once only.
+
+Brave
+You are 50% less likely to be inflicted with Frightened.
+
+Halfling Nimbleness
+You can freely move through other creatures.
+
+Languages
+Common, Halfling
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+--- Stout Halfling ---
+
+Stats:
+Size: Small (1 Block)
+Base HP: +0
+STR: +0
+DEX: +20
+CON: +10
+INT: +0
+WIS: +0
+CHA: +0
+Melee Power: 0%
+Ranged Power: +5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Base Speed: 95%
+Chat Success: 50%
+
+Racial Traits:
+
+Lucky
+If a disastrous result would occur from a check of any kind, it can be reattempted once only.
+
+Brave
+You are 50% less likely to be inflicted with Frightened.
+
+Halfling Nimbleness
+You can freely move through other creatures.
+
+Stout Resilience
+You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
+Languages
+Common, Halfling
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+--- Human ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +10
+DEX: +10
+CON: +10
+INT: +10
+WIS: +10
+CHA: +10
+Melee Power: 0%
+Ranged Power: +0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Base Speed: 100%
+Chat Success: 50%
+
+Racial Traits:
+
+Fiery Spirit
+You may take one additional feat.
+
+Languages
+Common, One additional language of your choice.
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+---- Uncommon Races ----
+
+--- Dragonborn ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +20
+DEX: +0
+CON: +0
+INT: +0
+WIS: +0
+CHA: +10
+Melee Power: +5%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Base Speed: 100%
+Chat Success: 50%
+
+Racial Traits:
+
+-----------------
+Draconic Ancestry
+-----------------
+Black - Acid
+Storm - Lightning
+Plague - Poison
+Blaze - Fire
+Blizzard - Cold
+------------------
+Coal - Poison
+Iron - Lightning
+Copper - Acid
+Gold - Fire
+Diamond - Cold
+------------------
+
+You have Draconic Ancestry, choose one type of dragon from the table. 
+Your breath weapon is determined by the origin you select.
+
+Breath Weapon
+Unleash a breath attack in a 15 block cone. the damage type is based off of your Draconic Ancestry.
+Each creature caught in the attack must make a Resistance Check with a CR of (40 * (CON Modifier + Prof Bonus)).
+Creatures take damage based on the Breath Weapon table below.
+---------------------------------------
+Breath Weapon Damage Table
+---------------------------------------
+Level ---- Failed Save ---- Passed Save
+---------------------------------------
+1-5   ---- 8 Damage    ---- 4 Damage
+6-10  ---- 10 Damage   ---- 5 Damage
+11-15 ---- 14 Damage   ---- 7 Damage
+16-20 ---- 18 Damage   ---- 9 Damage
+---------------------------------------
+
+Draconic Resistance
+You have resistance to your Breath Weapon damage type.
+
+Languages
+Common, Draconic
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+--- Forest Gnome ---
+
+Stats:
+Size: Small (1 Blocks)
+Base HP: +0
+STR: +0
+DEX: +10
+CON: +0
+INT: +20
+WIS: +0
+CHA: +0
+Melee Power: +0%
+Ranged Power: 0%
+Magic Power: +5% 
+Base Stealth Rating: 50
+Base Speed: 90%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Gnomish Cunning
+you have advantage against all INT, WIS, and CHA
+resistance checks against magic.
+
+Natural Illusionist
+You know the Minor Illusion Cantrip.
+
+Speak with small beasts
+You can communicate simple ideas with small or tiny animals.
+
+Languages
+Common, Gnomish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+--- Rock Gnome ---
+
+Stats:
+Size: Small (1 Blocks)
+Base HP: +0
+STR: +0
+DEX: +0
+CON: +10
+INT: +20
+WIS: +0
+CHA: +0
+Melee Power: +0%
+Ranged Power: 0%
+Magic Power: +5% 
+Base Stealth Rating: 50
+Base Speed: 90%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Gnomish Cunning
+you have advantage against all INT, WIS, and CHA
+resistance checks against magic.
+
+Artificer's Lore
+You apply double your profcency bonus when
+making history checks involving magic items,
+Alchemical objects, and mechanical devices.
+
+Tinker
+You have the unique ability to craft the following:
+Gnomish Clockwork Toy
+Gnomish Fire Starter
+Gnomish Music Box
+
+Languages
+Common, Gnomish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+History (Magic Items, Alchemical Objects, Devices)
+
+--- Half-Elf ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +0
+DEX: +0
+CON: +0
+INT: +0
+WIS: +0
+CHA: +20
+Melee Power: +0%
+Ranged Power: 0%
+Magic Power: +0%
+Base Stealth Rating: 50
+Base Speed: 100%
+Chat Success: 55%
+
+Racial Traits:
+
+Minor Darkvision
+You can see up to 9 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Fey Anscestry
+You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
+
+Mixed Blood
++50 stat points.
+
+Languages
+Common, Elvish, one language of your choice
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+Two skills of your choice
+
+--- Half-Orc ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +20
+DEX: +0
+CON: +10
+INT: +0
+WIS: +0
+CHA: +0
+Melee Power: +0%
+Ranged Power: 0%
+Magic Power: +0%
+Base Stealth Rating: 50
+Base Speed: 100%
+Chat Success: 50%
+
+Racial Traits:
+
+Darkvision
+You can see up to 60 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Relentless Endurance
+If you would be killed by an attack, you drop
+to 1 HP instead. this ability cannot be used again
+until the player sleeps through a night.
+
+Harsh Criticals
+Criticals do 50% more damage.
+
+Languages
+Common, Orcish
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+Indimidation
+
+--- Teifling ---
+
+Stats:
+Size: Medium (2 Blocks)
+Base HP: +0
+STR: +0
+DEX: +0
+CON: +0
+INT: +10
+WIS: +0
+CHA: +20
+Melee Power: +0%
+Ranged Power: 0%
+Magic Power: +0%
+Base Stealth Rating: 50
+Base Speed: 100%
+Chat Success: 55%
+
+Racial Traits:
+
+Darkvision
+You can see up to 60 blocks away in darkness as dim light. You cannot discern color using this skill.
+
+Hellish Resistance
+You have resistance to fire damage.
+
+Infernal Legacy
+You know the Thaumaturgy Cantrip.
+at LVL 3, you can Hellish Rebuke (LVL 2) once.
+at LVL 5, you can cast Darkness (LVL 1) once.
+You regain the ability to cast these spells
+after sleeping through a night.
+
+Languages
+Common, Infernal
+
+Racial Proficiencies:
+
+Armor:
+None
+
+Weapons:
+None
+
+Tools:
+None
+
+Skills:
+None
+
+----- Status Conditions -----
+
+Bleed
+Deals damage equal to its potency every 3 seconds.
+If bleed would be applied to a creature that is already bleeding,
+the New bleed effect's potency and duration is added to the old effect.
+Bleed is caused by Slashing and Piercing Weapons.
+----------------------------------------------------
+                 Bleed Chance Table
+----------------------------------------------------
+% HP damage dealt --- Chance --- Chance with Crit ---
+        <1%       ---   0%   ---         3%       ---
+        1-3%      ---   2%   ---         7%       ---
+        4-6%      ---   4%   ---         11%      ---
+        7-9%      ---   6%   ---         15%      ---
+        10-13%    ---   8%   ---         19%      ---
+        14-17%    ---   10%  ---         23%      ---
+        20-23%    ---   12%  ---         27%      ---
+        26-29%    ---   14%  ---         31%      ---
+        30-33%    ---   16%  ---         35%      ---
+        34-37%    ---   18%  ---         39%      ---
+          >38%    ---   20%  ---         43%      ---
+
+Blinded
+Functions very similarly to blindness.
+The victim cannot see, and will fail
+all checks relying on sight automatically.
+A creatures perception range is reduced by
+75% while under this effect.
+
+Charmed
+The victim cannot attack or attempt to
+inflict negitive effects on the charmer.
+The charmer has advantage on any social
+interaction with the charmed victim.
+
+Dangersense
+When a trap or hostile creature is within 15 blocks of you, you will get the Dangersense Active status effect until you leave the 15 block range.
+
+Dangersense Active
+Dangersense Active Plays a sound that only you can hear when it is first applied.
+
+Deafened
+A creature cannot hear anything
+while under this effect.
+
+Disease
+Can do a wide variety of things.
+
+Exaustion
+--------------------------------------------
+Exaustion Table
+--------------------------------------------
+Level --- Effect
+--------------------------------------------
+1     --- Disadvantage on ability checks
+2     --- -50% movement speed
+3     --- -50% resistance check success rate
+4     --- -50% max HP and damage
+5     --- -50% movement speed and damage
+6     --- Death
+--------------------------------------------
+
+Frightened
+The victim has disadvantage on checks and
+a -25% damage penalty while the source of
+fear is within its line of sight.
+
+Grappled
+As long as the victim is within 5 blocks of the grappler,
+they cannot move, and will pulled towards the grappler.
+
+Incapacitated 
+The victim is unable to take actions or reactions.
+
+Invisible
+The user becomes impossible to see without 
+aid from magic or a special sense.
+
+Paralyzed
+The victim is unable to move.
+The victim is Incapacitated while under this effect.
+
+Petrified
+The victim is turned to stone, along with
+any non-magical items they were carrying.
+The victim is Paralyzed while under this effect.
+All Strength and Dexterity Resistance Checks
+fail while under this condition.
+The victim takes 50% less damage while under
+this condition.
+The victim is immune to poison and disease
+while under this effect.
+
+Poisoned
+a poisoned creature has disadvantage on
+ability checks, and have a 25% damage penalty.
+
+Rage
++50% Strength Bonus
+Melee Damage Bonus based on level (stacks with Strength Bonus)
+Resistance to Physical Damage.
+Your Unarmored Attribute is changed from 5 + CON mod to 10 + CON mod.
+Unable to cast spells.
+
+
+Stunned
+Identical to Paralyzed.
+Can by inflicted by weapons that deal Bludgeoning damage.
+----------------------------------------------------
+                 Stun Chance Table
+----------------------------------------------------
+% HP damage dealt --- Chance --- Chance with Crit ---
+        <1%       ---   0%   ---         3%       ---
+        1-3%      ---   2%   ---         7%       ---
+        4-6%      ---   4%   ---         11%      ---
+        7-9%      ---   6%   ---         15%      ---
+        10-13%    ---   8%   ---         19%      ---
+        14-17%    ---   10%  ---         23%      ---
+        20-23%    ---   12%  ---         27%      ---
+        26-29%    ---   14%  ---         31%      ---
+        30-33%    ---   16%  ---         35%      ---
+        34-37%    ---   18%  ---         39%      ---
+          >38%    ---   20%  ---         43%      ---
+
+
+----- Spells -----
+
+----- Gear -----
+
+--- Ammo ---
+
+Arrow
+Cost: 5 CP 
+Sell: 2 CP
+Stack Size: 20
+Used as ammunition for Shortbows and Longbows.
+
+Blowgun Needle
+Cost: 2 CP
+Sell: 1 CP
+Used as ammunition for Blowguns.
+
+
+Crossbow Bolt
+Cost: 5 CP 
+Sell: 2 CP
+Stack Size: 20
+Used as ammunition for Hand Crossbows, Light Crossbows, and Heavy Crossbows. 
+
+Fine Stone
+Cost: 1 CP 
+Sell: -
+Stack Size: 20
+Used as ammunition for the Slingshot.
+
+--- Foci ---
+
+Crystal
+Cost: 1 PP 
+Sell: 5 GP
+Instability Rate: 2.5%
+Used as a catalyst to cast arcane spells.
+
+Orb
+Cost: 2 PP 
+Sell: 1 PP
+Instability Rate: 1%
+Used as a catalyst to cast arcane spells.
+
+Rod
+Cost: 1 PP 
+Sell: 5 GP
+Instability Rate: 2.5%
+Used as a catalyst to cast arcane spells.
+
+Staff
+Cost: 5 GP 
+Sell: 5 GP
+Instability Rate: 5%
+Used as a catalyst to cast arcane spells.
+
+Wand
+Cost: 1 PP 
+Sell: 5 GP
+Instability Rate: 2.5%
+Used as a catalyst to cast arcane spells.
+
+Sprig of mistletoe
+Cost: 1 GP 
+Sell: 5 SP
+Instability Rate: 5%
+Used as a catalyst to cast druidic spells.
+
+Totem
+Cost: 1 GP 
+Sell: 5 SP
+Instability Rate: 5%
+Used as a catalyst to cast druidic spells.
+
+Wooden Staff
+Cost: 5 GP 
+Sell: 2 GP, 5 SP
+Instability Rate: 2.5%
+Used as a catalyst to cast druidic spells.
+
+Yew Wand
+Cost: 10 GP 
+Sell: 5 GP
+Instability Rate: 1%
+Used as a catalyst to cast druidic spells.
+
+Amulet
+Cost: 5 GP 
+Sell: 2 GP, 5 SP
+Instability Rate: 3%
+Used as a catalyst to cast divine spells.
+
+Emblem
+Cost: 5 GP 
+Sell: 2 GP, 5 SP
+Instability Rate: 3%
+Used as a catalyst to cast divine spells.
+
+Reliquary
+Cost: 5 GP 
+Sell: 2 GP, 5 SP
+Instability Rate: 3%
+Used as a catalyst to cast divine spells.
+
+--- Items ---
+
+Abacus
+Cost: 2 GP
+Sell: 1 GP
+Type: Block
+Emits a redstone signal based on calculations.
+
+Acid Vial
+Cost: 2 PP, 5 GP
+Sell: 1 PP 2 GP, 5 SP
+Type: Throwable
+Can be thrown to deal 4 Acid damage.
+
+Alchemist's Fire
+Cost: 5 PP
+Sell: 2 PP, 5 GP
+Type: Throwable
+Can be thrown to drench the target in 
+the chemicals, dealing 2 fire damage 
+every 3 seconds. This can be extinguished 
+by beating a CR 10 Dexterity check.
+
+Antitoxin
+Cost: 5 PP
+Sell: 2 PP, 5 GP
+Type: Drink
+Can be consumed to grant immunity to
+poison for 30 minutes.
+
+Backpack
+Cost: 2 GP
+Sell: 1 GP
+Type: Item
+up to 9 stacks of items can be placed in
+the backpack.
+
+----- Weapons -----
+
+New Weapons:
+Vanilla Minecraft Swords are considered Shortswords.
+
+Simple Weapons:
+
+--- clubs ---
+
+Club
+Cost: 1 SP
+Sell: 5 CP
+4 Base Bludgeoning Damage
+Attack Speed: 1.2
+Reach: 100%
+Durability: 59
+
+Greatclub
+Cost: 2 SP
+Sell: 1 SP
+8 Base Bludgeoning Damage
+Attack Speed: 0.6
+Reach: 120%
+Category: Twohanded
+Durability: 131
+
+--- Daggers ---
+
+Wooden Dagger
+Cost: 2 SP (0.1x base)
+Sell: 1 SP
+2 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 59
+Category: Onehanded, Finesse
+
+Stone Dagger
+Cost: 5 SP (0.25x base)
+Sell: 2 SP, 5 CP
+3 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 131
+Category: Onehanded, Finesse
+
+Iron Dagger
+Cost: 2 GP (1x base)
+Sell: 1 GP
+4 Base Piercing Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 250
+Category: Onehanded, Finesse
+
+Golden Dagger
+Cost: 6 GP (3x base)
+Sell: 3 GP
+2 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 32
+Category: Onehanded, Finesse
+
+Silver Dagger
+Cost: 3 GP (1.5x base)
+Sell: 1 GP, 5 SP
+3 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 96
+Category: Onehanded, Finesse, Silvered
+
+Platinum Dagger
+Cost: 1 PP (5x base)
+Sell: 5 GP
+4 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 288
+Category: Onehanded, Finesse, Silvered
+
+Mithral Dagger
+Cost: 2 PP (10x base)
+Sell: 1 PP
+4 Base Piercng Damage
+Attack Speed: 2.3
+Reach: 75%
+Durability: 1561
+Category: Onehanded, Finesse, Magical
+
+Adamantine Dagger
+Cost: 4 PP (20x base)
+Sell: 2 PP
+5 Base Piercng Damage
+Attack Speed: 2
+Reach: 75%
+Durability: 2031
+Category: Onehanded, Finesse, Magical, Adamantine
+
+--- Handaxe ---
+
+Wooden Handaxe
+Cost: 5 SP (0.1x base)
+Sell: 2 SP, 5 CP
+3 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 59
+Category: Onehanded, Thrown
+
+Stone Handaxe
+Cost: 1 GP, 2 SP, 5 CP (0.25x base)
+Sell: 6 SP, 2 CP
+4 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 131
+Category: Onehanded, Thrown
+
+Iron Handaxe
+Cost: 5 GP (1x base)
+Sell: 2 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 250
+Category: Onehanded, Thrown
+
+Golden Handaxe
+Cost: 15 GP (3x base)
+Sell: 7 GP, 5 SP
+3 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 32
+Category: Onehanded, Thrown
+
+Silver Handaxe
+Cost: 7 GP, 5 SP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+4 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 96
+Category: Onehanded, Thrown, Silvered
+
+Platinum Handaxe
+Cost: 2 PP, 5 GP (5x base)
+Sell: 1 PP, 2 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 288
+Category: Onehanded, Thrown, Silvered
+
+Mithral Handaxe
+Cost: 5 PP (10x base)
+Sell: 2 PP, 5 GP
+6 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 75%
+Durability: 1561
+Category: Onehanded, Thrown, Magical
+
+Adamantine Handaxe
+Cost: 10 PP (20x base)
+Sell: 5 PP
+8 Base Slashing Damage
+Attack Speed: 1
+Reach: 75%
+Durability: 2031
+Category: Onehanded, Thrown, Magical, Adamantine
+
+--- Javelin ---
+
+Wooden Javelin
+Cost: 5 CP (0.1x base)
+Sell: 2 CP
+3 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 59
+Category: Onehanded, Thrown
+
+Stone Javelin
+Cost: 1 SP, 2 CP (0.25x base)
+Sell: 6 CP
+4 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 131
+Category: Onehanded, Thrown
+
+Iron Javelin
+Cost: 5 SP (1x base)
+Sell: 2 SP, 5 CP
+6 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 250
+Category: Onehanded, Thrown
+
+Golden Javelin
+Cost: 1 GP, 5 SP (3x base)
+Sell: 7 SP, 5 CP
+3 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 32
+Category: Onehanded, Thrown
+
+Silver Javelin
+Cost: 7 GP, 5 SP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 96
+Category: Onehanded, Thrown, Silvered
+
+Platinum Javelin
+Cost: 2 GP, 5 SP (5x base)
+Sell: 1 GP, 2 SP, 5 CP
+6 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 288
+Category: Onehanded, Thrown, Silvered
+
+Mithral Javelin
+Cost: 5 GP (10x base)
+Sell: 2 GP, 5 SP
+6 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Thrown, Magical
+
+Adamantine Javelin
+Cost: 1 PP (20x base)
+Sell: 5 GP
+8 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Thrown, Magical, Adamantine
+
+--- Light Hammer ---
+
+Wooden Light Hammer
+Cost: 2 SP (0.1x base)
+Sell: 1 SP
+2 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 59
+Category: Onehanded, Thrown
+
+Stone Light Hammer
+Cost: 5 SP (0.25x base)
+Sell: 2 SP, 5 CP
+3 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 131
+Category: Onehanded, Thrown
+
+Iron Light Hammer
+Cost: 2 GP (1x base)
+Sell: 1 GP
+4 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 250
+Category: Onehanded, Thrown
+
+Golden Light Hammer
+Cost: 6 GP (3x base)
+Sell: 3 GP
+2 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 32
+Category: Onehanded, Thrown
+
+Silver Light Hammer
+Cost: 3 GP (1.5x base)
+Sell: 1 GP, 5 SP
+3 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 96
+Category: Onehanded, Thrown, Silvered
+
+Platinum Light Hammer
+Cost: 1 PP (5x base)
+Sell: 5 GP
+4 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 288
+Category: Onehanded, Thrown, Silvered
+
+Mithral Light Hammer
+Cost: 2 PP (10x base)
+Sell: 1 PP
+4 Base BLudgeoning Damage
+Attack Speed: 1.2
+Reach: 75%
+Durability: 1561
+Category: Onehanded, Thrown, Magical
+
+Adamantine Light Hammer
+Cost: 4 PP (20x base)
+Sell: 2 PP
+5 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 75%
+Durability: 2031
+Category: Onehanded, Thrown, Magical, Adamantine
+
+--- Mace ---
+
+Wooden Mace
+Cost: 5 SP (0.1x base)
+Sell: 2 SP, 5 CP
+3 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 59
+Category: Onehanded
+
+Stone Mace
+Cost: 1 GP, 2 SP, 5 CP (0.25x base)
+Sell: 6 SP, 2 CP
+4 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 131
+Category: Onehanded
+
+Iron Mace
+Cost: 5 GP (1x base)
+Sell: 2 GP, 5 SP
+6 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 250
+Category: Onehanded
+
+Golden Mace
+Cost: 1 PP, 5 GP (3x base)
+Sell: 7 GP, 5 SP
+3 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 32
+Category: Onehanded
+
+Silver Mace
+Cost: 7 GP, 5 SP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+4 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 96
+Category: Onehanded, Silvered
+
+Platinum Mace
+Cost: 2 PP, 5 GP (5x base)
+Sell: 1 PP, 2 GP, 5 SP
+6 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 288
+Category: Onehanded, Silvered
+
+Mithral Mace
+Cost: 5 PP (10x base)
+Sell: 2 PP, 5 GP
+6 Base BLudgeoning Damage
+Attack Speed: 1.2
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Mace
+Cost: 10 PP (20x base)
+Sell: 5 PP
+8 Base BLudgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Magical, Adamantine
+
+--- Quarterstaff ---
+
+Quarterstaff
+Cost: 2 SP (1x base)
+Sell: 1 SP
+6 Base BLudgeoning Damage
+Attack Speed: 1.1
+Reach: 111%
+Durability: 222
+Category: Onehanded, Versatile  
+
+--- Sickle ---
+
+Wooden Sickle
+Cost: 1 SP (0.1x base)
+Sell: 5 CP
+2 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 59
+Category: Onehanded
+
+Stone Sickle
+Cost: 2 SP, 5 CP (0.25x base)
+Sell: 1 SP, 2 CP
+3 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 131
+Category: Onehanded
+
+Iron Sickle
+Cost: 1 GP (1x base)
+Sell: 5 SP
+4 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 250
+Category: Onehanded
+
+Golden Sickle
+Cost: 3 GP (3x base)
+Sell: 1 GP, 5 SP
+2 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 32
+Category: Onehanded
+
+Silver Sickle
+Cost: 1 GP, 5 SP (1.5x base)
+Sell: 7 SP, 5 CP
+3 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 96
+Category: Onehanded, Silvered
+
+Platinum Sickle
+Cost: 5 GP (5x base)
+Sell: 2 GP, 5 SP
+4 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 288
+Category: Onehanded, Silvered
+
+Mithral Sickle
+Cost: 1 PP (10x base)
+Sell: 5 GP
+4 Base Slashing Damage
+Attack Speed: 2
+Reach: 80%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Sickle
+Cost: 2 PP (20x base)
+Sell: 1 PP
+5 Base Slashing Damage
+Attack Speed: 1.7
+Reach: 80%
+Durability: 2031
+Category: Onehanded, Magical, Adamantine
+
+--- Spear ---
+
+Wooden Spear
+Cost: 1 SP (0.1x base)
+Sell: 5 CP
+3 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 59
+Category: Onehanded, Versatile
+
+Stone Spear
+Cost: 2 SP, 5 CP (0.25x base)
+Sell: 1 SP, 2 CP
+4 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 131
+Category: Onehanded, Versatile
+
+Iron Spear
+Cost: 1 GP (1x base)
+Sell: 5 SP
+6 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 250
+Category: Onehanded, Versatile 
+
+Golden Spear
+Cost: 3 GP (3x base)
+Sell: 1 GP, 5 SP
+3 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 32
+Category: Onehanded, Versatile
+
+Silver Spear
+Cost: 1 GP, 5 SP (1.5x base)
+Sell: 7 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 96
+Category: Onehanded, Versatile, Silvered
+
+Platinum Spear
+Cost: 5 GP (5x base)
+Sell: 2 GP, 5 SP
+6 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 288
+Category: Onehanded, Versatile, Silvered
+
+Mithral Spear
+Cost: 1 PP (10x base)
+Sell: 5 GP
+6 Base Piercing Damage
+Attack Speed: 1.3
+Reach: 125%
+Durability: 1561
+Category: Onehanded, Versatile, Magical
+
+Adamantine Spear
+Cost: 2 PP (20x base)
+Sell: 1 PP
+8 Base Piercing Damage
+Attack Speed: 1
+Reach: 125%
+Durability: 2031
+Category: Onehanded, Versatile, Magical, Adamantine
+
+--- Light Crossbow ---
+
+Light Crossbow
+Cost: 2 PP, 5 GP (1x base)
+Sell: 1 PP, 2 GP, 5 SP
+8 Base Piercing Damage
+Draw Speed: 60%
+Range: 100%
+Durability: 464
+Category: Twohanded, loaded
+
+Iron-Strengthened Light Crossbow
+Cost: 3 PP, 7 GP, 5 SP (1.5x base)
+Sell: 1 PP, 8 GP, 5 SP
+10 Base Piercing Damage (x1.2)
+Draw Speed: 40% (-20%)
+Range: 125% (+25%)
+Durability: 696
+Category: Twohanded, loaded
+
+Mithral-Strengthened Light Crossbow
+Cost: 25 PP (10x base)
+Sell: 12 PP, 5 GP
+8 Base Piercing Damage
+Draw Speed: 85% (+25%)
+Range: 100%
+Durability: 928
+Category: Twohanded, loaded
+
+--- Dart ---
+
+Dart
+Cost: 5 CP (1x base)
+Sell: 2 CP
+2 Base Piercing Damage
+Draw Speed: 150%
+Range: 50%
+Durability: 4
+Category: Onehanded, Thrown
+
+--- Shortbow ---
+
+Shortbow
+Cost: 25 GP (1x base)
+Sell: 1 PP, 2 GP, 5 SP
+6 Base Piercing Damage
+Draw Speed: 100%
+Range: 100%
+Durability: 384
+Category: Twohanded
+
+Iron-Strengthened Shortbow
+Cost: 37 GP, 5 SP (1.5x base)
+Sell: 1 PP, 8 GP, 5 SP
+7 Base Piercing Damage (x1.2)
+Draw Speed: 80% (-20%)
+Range: 125% (+25%)
+Durability: 576
+Category: Twohanded
+
+Mithral-Strengthened Shortbow
+Cost: 25 PP (10x base)
+Sell: 12 PP, 5 GP
+6 Base Piercing Damage
+Draw Speed: 125% (+25%)
+Range: 100%
+Durability: 960
+Category: Twohanded
+
+--- Sling ---
+
+Sling
+Cost: 1 SP (1x base)
+Sell: 5 CP
+3 Base Bludgeoning Damage
+Draw Speed: 144%
+Range: 66%
+Durability: 150
+Category: Onehanded
+
+Martial Weapons:
+
+--- Battleaxes ---
+
+Wooden Battleaxe
+Cost: 1 GP (0.1x base)
+Sell: 5 SP
+4 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 59
+Category: Onehanded, Versatile
+
+Stone Battleaxe
+Cost: 2 GP, 5 SP (0.25x base)
+Sell: 1 GP, 2 SP, 5 CP
+6 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 131
+Category: Onehanded, Versatile
+
+Iron Battleaxe
+Cost: 1 PP (1x base)
+Sell: 5 GP
+8 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 250
+Category: Onehanded, Versatile
+
+Golden Battleaxe
+Cost: 3 PP (3x base)
+Sell: 1 PP
+4 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 32
+Category: Onehanded, Versatile
+
+Silver Battleaxe
+Cost: 1 PP, 5 GP (1.5x base)
+Sell: 7 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 96
+Category: Onehanded, Versatile, Silvered
+
+Platinum Battleaxe
+Cost: 5 PP (5x base)
+Sell: 2 PP, 5 GP
+8 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 288
+Category: Onehanded, Versatile, Silvered
+
+Mithral Battleaxe
+Cost: 10 PP (10x base)
+Sell: 5 PP
+8 Base Slashing Damage
+Attack Speed: 1.2
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Versatile, Magical
+
+Adamantine Battleaxe
+Cost: 20 PP (20x base)
+Sell: 10 PP
+10 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Versatile, Magical, Adamantine
+
+--- Flails ---
+
+Wooden Flail
+Cost: 1 GP (0.1x base)
+Sell: 5 SP
+4 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 59
+Category: Onehanded
+
+Stone Flail
+Cost: 2 GP, 5 SP (0.25x base)
+Sell: 1 GP, 2 SP, 5 CP
+6 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 131
+Category: Onehanded
+
+Iron Flail
+Cost: 1 PP (1x base)
+Sell: 5 GP
+8 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 250
+Category: Onehanded
+
+Golden Flail
+Cost: 3 PP (3x base)
+Sell: 1 PP
+4 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 32
+Category: Onehanded
+
+Silver Flail
+Cost: 1 PP, 5 GP (1.5x base)
+Sell: 7 GP, 5 SP
+6 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 96
+Category: Onehanded, Silvered
+
+Platinum Flail
+Cost: 5 PP (5x base)
+Sell: 2 PP, 5 GP
+8 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 288
+Category: Onehanded, Silvered
+
+Mithral Flail
+Cost: 10 PP (10x base)
+Sell: 5 PP
+8 Base Bludgeoning Damage
+Attack Speed: 1.2
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Flail
+Cost: 20 PP (20x base)
+Sell: 10 PP
+10 Base Bludgeoning Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Versatile, Magical, Adamantine
+
+--- Glaives ---
+
+Wooden Glaive
+Cost: 1 GP (0.1x base)
+Sell: 1 GP
+5 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Glaive
+Cost: 5 GP (0.25x base)
+Sell: 2 GP, 5 SP
+7 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Glaive
+Cost: 2 PP (1x base)
+Sell: 1 PP
+10 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Glaive
+Cost: 6 PP (3x base)
+Sell: 3 PP
+5 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Glaive
+Cost: 3 PP (1.5x base)
+Sell: 1 PP, 5 GP
+7 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Glaive
+Cost: 10 PP (5x base)
+Sell: 5 PP
+10 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Glaive
+Cost: 20 PP (10x base)
+Sell: 10 PP
+10 Base Slashing Damage
+Attack Speed: 1.1
+Reach: 133%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Glaive
+Cost: 40 PP (20x base)
+Sell: 20 PP
+13 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 133%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Greataxes ---
+
+Wooden Greataxe
+Cost: 3 GP (0.1x base)
+Sell: 1 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Greataxe
+Cost: 7 GP, 5 SP (0.25x base)
+Sell: 3 GP, 7 SP, 5 CP
+9 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Greataxe
+Cost: 3 PP (1x base)
+Sell: 1 PP, 5 GP
+12 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Greataxe
+Cost: 9 PP (3x base)
+Sell: 4 PP, 5 GP
+6 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Greataxe
+Cost: 4 PP, 5 GP (1.5x base)
+Sell: 2 PP, 2 GP, 5 SP
+9 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Greataxe
+Cost: 15 PP (5x base)
+Sell: 7 PP, 5 GP
+12 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Greataxe
+Cost: 30 PP (10x base)
+Sell: 15 PP
+12 Base Slashing Damage
+Attack Speed: 0.9
+Reach: 100%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Greataxe
+Cost: 60 PP (20x base)
+Sell: 30 PP
+16 Base Slashing Damage
+Attack Speed: 0.6
+Reach: 100%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Greatswords ---
+
+Wooden Greatsword
+Cost: 5 GP (0.1x base)
+Sell: 2 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Greatsword
+Cost: 1 PP, 2 GP, 5 SP (0.25x base)
+Sell: 6 GP, 2 SP, 5 CP
+9 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Greatsword
+Cost: 5 PP (1x base)
+Sell: 2 PP, 5 GP
+12 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Greatsword
+Cost: 15 PP (3x base)
+Sell: 4 PP, 5 GP
+6 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Greatsword
+Cost: 7 PP, 5 GP (1.5x base)
+Sell: 3 PP, 7 GP, 5 SP
+9 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Greatsword
+Cost: 25 PP (5x base)
+Sell: 12 PP, 5 GP
+12 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Greatsword
+Cost: 50 PP (10x base)
+Sell: 25 PP
+12 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Greatsword
+Cost: 100 PP (20x base)
+Sell: 50 PP
+16 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Halberds ---
+
+Wooden Halberd
+Cost: 2 GP (0.1x base)
+Sell: 1 GP
+5 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 150%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Halberd
+Cost: 5 GP (0.25x base)
+Sell: 2 GP, 5 SP
+7 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 150%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Halberd
+Cost: 2 PP (1x base)
+Sell: 1 PP
+10 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 150%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Halberd
+Cost: 6 PP (3x base)
+Sell: 3 PP
+5 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 150%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Halberd
+Cost: 3 PP (1.5x base)
+Sell: 1 PP, 5 GP
+7 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 150%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Halberd
+Cost: 10 PP (5x base)
+Sell: 5 PP
+10 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Halberd
+Cost: 20 PP (10x base)
+Sell: 10 PP
+10 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Halberd
+Cost: 40 PP (20x base)
+Sell: 20 PP
+13 Base Slashing Damage
+Attack Speed: 0.8
+Reach: 115%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Lances ---
+
+Lance
+Cost: 1 PP (1x base)
+Sell: 5 GP
+12 Base Piercing Damage
+Attack Speed: 0.7
+Reach: 200%
+Durability: 250
+Category: Onehanded
+
+Mithral Lance
+Cost: 10 PP (10x base)
+Sell: 5 PP
+12 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 200%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Lance
+Cost: 20 PP (20x base)
+Sell: 10 PP
+16 Base Slashing Damage
+Attack Speed: 0.7
+Reach: 200%
+Durability: 2031
+Category: Onehanded, Magical, Adamantine
+
+--- Longswords ---
+
+Wooden Longsword
+Cost: 1 GP, 5 SP (0.1x base)
+Sell: 7 SP, 5 CP
+4 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 59
+Category: Onehanded, Versatile
+
+Stone Longsword
+Cost: 3 GP, 7 SP, 5 CP (0.25x base)
+Sell: 1 GP, 8 SP, 7 CP
+6 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 131
+Category: Onehanded, Versatile
+
+Iron Longsword
+Cost: 1 PP, 5 GP (1x base)
+Sell: 7 GP, 5 SP
+8 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 250
+Category: Onehanded, Versatile
+
+Golden Longsword
+Cost: 4 PP, 5 GP (3x base)
+Sell: 2 PP, 2 GP, 5 SP
+4 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 32
+Category: Onehanded, Versatile 
+
+Silver Longsword
+Cost: 2 PP, 2 GP, 5 SP (1.5x base)
+Sell: 1 PP, 1 GP, 2 SP, 5 CP
+6 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 96
+Category: Onehanded, Versatile, Silvered
+
+Platinum Longsword
+Cost: 7 PP, 5 GP (5x base)
+Sell: 3 PP, 7 GP, 5 SP
+8 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 288
+Category: Onehanded, Versatile, Silvered
+
+Mithral Longsword
+Cost: 15 PP (10x base)
+Sell: 7 PP, 5 GP
+8 Base Slashing Damage
+Attack Speed: 1.6
+Reach: 111%
+Durability: 1561
+Category: Onehanded, Versatile, Magical
+
+Adamantine Longsword
+Cost: 30 PP (20x base)
+Sell: 15 PP
+10 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 111%
+Durability: 2031
+Category: Onehanded, Versatile, Magical, Adamantine
+
+--- Longswords ---
+
+Wooden Maul
+Cost: 1 GP (0.1x base)
+Sell: 5 SP
+7 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Maul
+Cost: 2 GP, 5 SP (0.25x base)
+Sell: 1 GP, 2 SP, 5 CP
+10 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Maul
+Cost: 1 PP (1x base)
+Sell: 5 GP
+14 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Maul
+Cost: 3 PP (3x base)
+Sell: 1 PP, 5 GP
+7 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Maul
+Cost: 1 PP, 5 GP (1.5x base)
+Sell: 7 GP, 5 SP
+10 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Maul
+Cost: 5 PP (5x base)
+Sell: 2 PP, 5 GP
+14 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Maul
+Cost: 10 PP (10x base)
+Sell: 5 PP
+14 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Maul
+Cost: 20 PP (20x base)
+Sell: 10 PP
+18 Base Bludgeoning Damage
+Attack Speed: 0.5
+Reach: 100%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Morningstars ---
+
+Wooden Morningstar
+Cost: 1 GP, 5 SP (0.1x base)
+Sell: 7 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 59
+Category: Onehanded, Finesse
+
+Stone Morningstar
+Cost: 3 GP, 7 SP, 5 CP (0.25x base)
+Sell: 1 GP, 8 SP, 7 CP
+6 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 131
+Category: Onehanded, Finesse
+
+Iron Morningstar
+Cost: 1 PP, 5 GP (1x base)
+Sell: 7 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 250
+Category: Onehanded
+
+Golden Morningstar
+Cost: 4 PP, 5 GP (3x base)
+Sell: 2 PP, 2 GP, 5 SP
+4 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 32
+Category: Onehanded
+
+Silver Morningstar
+Cost: 2 PP, 2 GP, 5 SP (1.5x base)
+Sell: 1 PP, 1 GP, 2 SP, 5 CP
+6 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 96
+Category: Onehanded, Silvered
+
+Platinum Morningstar
+Cost: 7 PP, 5 GP (5x base)
+Sell: 3 PP, 7 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 288
+Category: Onehanded, Silvered
+
+Mithral Morningstar
+Cost: 15 PP (10x base)
+Sell: 3 PP, 7 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.7
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Morningstar
+Cost: 30 PP (20x base)
+Sell: 15 PP
+10 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Magical, Adamantine
+
+--- Pikes ---
+
+Wooden Pike
+Cost: 5 SP (0.1x base)
+Sell: 2 SP, 5 CP
+5 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 59
+Category: Twohanded, Heavy
+
+Stone Pike
+Cost: 1 GP, 2 SP, 5 CP (0.25x base)
+Sell: 6 SP, 2 CP
+7 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 131
+Category: Twohanded, Heavy
+
+Iron Pike
+Cost: 5 GP (1x base)
+Sell: 2 GP, 5 SP
+10 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 250
+Category: Twohanded, Heavy
+
+Golden Pike
+Cost: 1 PP, 5 GP (3x base)
+Sell: 7 GP, 5 SP
+5 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 32
+Category: Twohanded, Heavy
+
+Silver Pike
+Cost: 7 GP, 5 SP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+7 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 96
+Category: Twohanded, Heavy, Silvered
+
+Platinum Pike
+Cost: 2 PP, 5 GP (5x base)
+Sell: 1 PP, 2 GP, 5 SP
+10 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 288
+Category: Twohanded, Heavy, Silvered
+
+Mithral Pike
+Cost: 5 PP (10x base)
+Sell: 2 PP, 5 GP
+10 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 200%
+Durability: 1561
+Category: Twohanded, Heavy, Magical
+
+Adamantine Pike
+Cost: 10 PP (20x base)
+Sell: 5 PP
+13 Base Piercing Damage
+Attack Speed: 0.8
+Reach: 200%
+Durability: 2031
+Category: Twohanded, Heavy, Magical, Adamantine
+
+--- Rapiers ---
+
+Wooden Rapier
+Cost: 2 GP, 5 SP (0.1x base)
+Sell: 1 GP, 2 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 59
+Category: Onehanded, Finesse
+
+Stone Rapier
+Cost: 6 GP, 2 SP, 5 CP (0.25x base)
+Sell: 3 GP, 1 SP, 2 CP
+6 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 131
+Category: Onehanded, Finesse
+
+Iron Rapier
+Cost: 2 PP, 5 GP (1x base)
+Sell: 1 PP, 2 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 250
+Category: Onehanded, Finesse
+
+Golden Rapier
+Cost: 7 PP, 5 GP (3x base)
+Sell: 3 PP, 7 GP, 5 SP
+4 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 32
+Category: Onehanded, Finesse
+
+Silver Rapier
+Cost: 3 PP, 7 GP, 5 SP (1.5x base)
+Sell: 1 PP, 8 GP, 7 SP, 5 CP
+6 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 96
+Category: Onehanded, Finesse, Silvered
+
+Platinum Rapier
+Cost: 12 PP, 5 GP (5x base)
+Sell: 6 PP, 2 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 288
+Category: Onehanded, Finesse, Silvered
+
+Mithral Rapier
+Cost: 25 PP (10x base)
+Sell: 12 PP, 5 GP
+8 Base Piercing Damage
+Attack Speed: 2.1
+Reach: 85%
+Durability: 1561
+Category: Onehanded, Finesse, Magical
+
+Adamantine Rapier
+Cost: 50 PP (20x base)
+Sell: 25 PP
+10 Base Piercing Damage
+Attack Speed: 1.8
+Reach: 85%
+Durability: 2031
+Category: Onehanded, Finesse, Magical, Adamantine
+
+--- Scimitars ---
+
+Wooden Scimitar
+Cost: 2 GP, 5 SP (0.1x base)
+Sell: 1 GP, 2 SP, 5 CP
+3 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 59
+Category: Onehanded, Finesse, Light
+
+Stone Scimitar
+Cost: 6 GP, 2 SP, 5 CP (0.25x base)
+Sell: 3 GP, 1 SP, 2 CP
+4 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 131
+Category: Onehanded, Finesse, Light
+
+Iron Scimitar
+Cost: 2 PP, 5 GP (1x base)
+Sell: 1 PP, 2 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 250
+Category: Onehanded, Finesse, Light
+
+Golden Scimitar
+Cost: 7 PP, 5 GP (3x base)
+Sell: 3 PP, 7 GP, 5 SP
+3 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 32
+Category: Onehanded, Finesse, Light
+
+Silver Scimitar
+Cost: 3 PP, 7 GP, 5 SP (1.5x base)
+Sell: 1 PP, 8 GP, 7 SP, 5 CP
+4 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 96
+Category: Onehanded, Finesse, Light, Silvered
+
+Platinum Scimitar
+Cost: 12 PP, 5 GP (5x base)
+Sell: 6 PP, 2 GP, 5 SP
+6 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 288
+Category: Onehanded, Finesse, Light, Silvered
+
+Mithral Scimitar
+Cost: 25 PP (10x base)
+Sell: 12 PP, 5 GP
+6 Base Slashing Damage
+Attack Speed: 1.8
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Finesse, Light, Magical
+
+Adamantine Scimitar
+Cost: 50 PP (20x base)
+Sell: 25 PP
+8 Base Slashing Damage
+Attack Speed: 1.5
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Finesse, Light, Magical, Adamantine
+
+
+--- Shortswords ---
+
+Wooden Shortsword
+Cost: 2 GP (0.1x base)
+Sell: 1 GP
+3 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 59
+Category: Onehanded, Finesse
+
+Stone Shortsword
+Cost: 2 GP, 5 SP (0.25x base)
+Sell: 1 GP, 2 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 131
+Category: Onehanded, Finesse
+
+Iron Shortsword
+Cost: 1 PP (1x base)
+Sell: 5 GP
+6 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 250
+Category: Onehanded, Finesse
+
+Golden Shortsword
+Cost: 3 PP (3x base)
+Sell: 1 PP, 5 GP
+3 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 32
+Category: Onehanded, Finesse
+
+Silver Shortsword
+Cost: 1 PP, 5 GP (1.5x base)
+Sell: 7 GP, 5 SP
+4 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 96
+Category: Onehanded, Finesse, Silvered
+
+Platinum Shortsword
+Cost: 5 PP (5x base)
+Sell: 2 PP, 5 GP
+6 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 288
+Category: Onehanded, Finesse, Silvered
+
+Mithral Shortsword
+Cost: 10 PP (10x base)
+Sell: 5 PP
+6 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Finesse, Magical
+
+Adamantine Shortsword
+Cost: 20 PP (20x base)
+Sell: 10 PP
+8 Base Piercing Damage
+Attack Speed: 1.6
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Finesse, Magical, Adamantine
+
+--- Tridents ---
+
+Wooden Trident
+Cost: 5 SP (0.1x base)
+Sell: 2 SP, 5 CP
+3 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 59
+Category: Onehanded, Versatile, Thrown
+
+Stone Trident
+Cost: 1 GP, 2 SP, 5 CP (0.25x base)
+Sell: 6 SP, 2 CP
+4 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 131
+Category: Onehanded, Versatile, Thrown
+
+Iron Trident
+Cost: 5 GP (1x base)
+Sell: 2 GP, 5 SP
+6 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 250
+Category: Onehanded, Versatile, Thrown
+
+Golden Trident
+Cost: 1 PP, 5 GP (3x base)
+Sell: 7 GP, 5 SP
+3 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 32
+Category: Onehanded, Versatile, Thrown
+
+Silver Trident
+Cost: 7 PP, 5 GP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 96
+Category: Onehanded, Versatile, Thrown, Silvered
+
+Platinum Trident
+Cost: 2 PP, 5 GP (5x base)
+Sell: 1 PP, 2 GP, 5 SP
+6 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 288
+Category: Onehanded, Versatile, Thrown, Silvered
+
+Mithral Trident
+Cost: 5 PP (10x base)
+Sell: 2 PP, 5 GP
+6 Base Piercing Damage
+Attack Speed: 1.7
+Reach: 120%
+Durability: 1561
+Category: Onehanded, Versatile, Thrown, Magical
+
+Adamantine Trident
+Cost: 10 PP (20x base)
+Sell: 5 PP
+8 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 120%
+Durability: 2031
+Category: Onehanded, Versatile, Thrown, Magical, Adamantine
+
+--- Warpicks ---
+
+Wooden Warpick
+Cost: 5 SP (0.1x base)
+Sell: 2 SP, 5 CP
+4 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 59
+Category: Onehanded
+
+Stone Warpick
+Cost: 1 GP, 2 SP, 5 CP (0.25x base)
+Sell: 6 SP, 2 CP
+6 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 131
+Category: Onehanded
+
+Iron Warpick
+Cost: 5 GP (1x base)
+Sell: 2 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 250
+Category: Onehanded
+
+Golden Warpick
+Cost: 1 PP, 5 GP (3x base)
+Sell: 7 GP, 5 SP
+4 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 32
+Category: Onehanded
+
+Silver Warpick
+Cost: 7 PP, 5 GP (1.5x base)
+Sell: 3 GP, 7 SP, 5 CP
+6 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 96
+Category: Onehanded, Silvered
+
+Platinum Warpick
+Cost: 2 PP, 5 GP (5x base)
+Sell: 1 PP, 2 GP, 5 SP
+8 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 288
+Category: Onehanded, Silvered
+
+Mithral Warpick
+Cost: 5 PP (10x base)
+Sell: 2 PP, 5 GP
+8 Base Piercing Damage
+Attack Speed: 1.4
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Magical
+
+Adamantine Warpick
+Cost: 10 PP (20x base)
+Sell: 5 PP
+10 Base Piercing Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Magical, Adamantine
+
+--- Warhammers ---
+
+Wooden Warhammer
+Cost: 1 GP, 5 SP (0.1x base)
+Sell: 7 SP, 5 CP
+4 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 59
+Category: Onehanded, Versatile
+
+Stone Warhammer
+Cost: 3 GP, 7 SP, 5 CP (0.25x base)
+Sell: 1 GP, 8 SP, 7 CP
+6 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 131
+Category: Onehanded, Versatile
+
+Iron Warhammer
+Cost: 1 PP, 5 GP (1x base)
+Sell: 7 GP, 5 SP
+8 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 250
+Category: Onehanded, Versatile 
+
+Golden Warhammer
+Cost: 4 PP, 5 GP (3x base)
+Sell: 2 PP, 2 GP, 5 SP
+4 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 32
+Category: Onehanded, Versatile
+
+Silver Warhammer
+Cost: 2 PP, 2 GP, 5 SP (1.5x base)
+Sell: 1 PP, 1 GP, 2 SP, 5 CP
+6 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 96
+Category: Onehanded, Versatile, Silvered
+
+Platinum Warhammer
+Cost: 7 PP, 5 GP (5x base)
+Sell: 3 PP, 7 GP, 5 SP
+8 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 288
+Category: Onehanded, Versatile, Silvered
+
+Mithral Warhammer
+Cost: 15 PP (10x base)
+Sell: 7 PP, 5 GP
+8 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 1561
+Category: Onehanded, Versatile, Magical
+
+Adamantine Warhammer
+Cost: 30 PP (20x base)
+Sell: 15 PP
+10 Base Bludgeoning Damage
+Attack Speed: 1.1
+Reach: 100%
+Durability: 2031
+Category: Onehanded, Versatile, Magical, Adamantine
+
+--- Whips ---
+
+Leather Whip
+Cost: 1 GP (0.5x base)
+Sell: 5 SP
+3 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 100
+Category: Onehanded, Finesse
+
+Iron-Barbed Whip
+Cost: 2 GP (1x base)
+Sell: 1 GP
+4 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 250
+Category: Onehanded, Finesse 
+
+Gold-Barbed Whip
+Cost: 6 GP (3x base)
+Sell: 3 GP
+2 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 32
+Category: Onehanded, Finesse
+
+Silver-Barbed Whip
+Cost: 3 GP (1.5x base)
+Sell: 1 GP, 5 SP
+3 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 96
+Category: Onehanded, Finesse, Silvered
+
+Platinum-Barbed Whip
+Cost: 1 PP (5x base)
+Sell: 5 GP
+4 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 288
+Category: Onehanded, Finesse, Silvered
+
+Mithral-Barbed Whip
+Cost: 2 PP (10x base)
+Sell: 1 PP
+4 Base Slashing Damage
+Attack Speed: 1.3
+Reach: 144%
+Durability: 1561
+Category: Onehanded, Finesse, Magical
+
+Adamantine-Barbed Whip
+Cost: 4 PP (20x base)
+Sell: 2 PP
+5 Base Slashing Damage
+Attack Speed: 1
+Reach: 144%
+Durability: 2031
+Category: Onehanded, Finesse, Magical, Adamantine
+
+--- Blowgun ---
+
+Blowgun
+Cost: 1 PP (1x base)
+Sell: 5 GP
+1 Base Piercing Damage
+Draw Speed: 200%
+Range: 50%
+Durability: 250
+Category: Onehanded, Loading
+
+--- Hand Crossbow ---
+
+Hand Crossbow
+Cost: 7 PP, 5 GP (1x base)
+Sell: 3 PP, 7 GP, 5 SP
+6 Base Piercing Damage
+Draw Speed: 77%
+Range: 100%
+Durability: 464
+Category: Onehanded, Loading, Light
+
+Iron-Strengthened Light Crossbow
+Cost: 11 PP, 2 GP, 5 SP (1.5x base)
+Sell: 5 PP, 5 GP, 2 SP, 5 CP
+7 Base Piercing Damage (x1.2)
+Draw Speed: 57% (-20%)
+Range: 125% (+25%)
+Durability: 696
+Category: Onehanded, Loading, Light
+
+Mithral-Strengthened Light Crossbow
+Cost: 75 PP (10x base)
+Sell: 37 PP, 5 GP
+6 Base Piercing Damage
+Draw Speed: 102% (+25%)
+Range: 100%
+Durability: 928
+Category: Onehanded, Loading, Light
+
+--- Hand Crossbow ---
+
+Heavy Crossbow
+Cost: 5 PP (1x base)
+Sell: 2 PP, 5 GP
+10 Base Piercing Damage
+Draw Speed: 45%
+Range: 125%
+Durability: 464
+Category: Twohanded, Loading, Heavy
+
+Iron-Strengthened Heavy Crossbow
+Cost: 7 PP, 5 GP (1.5x base)
+Sell: 3 PP, 7 GP, 4 SP
+12 Base Piercing Damage (x1.2)
+Draw Speed: 25% (-20%)
+Range: 150% (+25%)
+Durability: 696
+Category: Twohanded, Loading, Heavy
+
+Mithral-Strengthened Heavy Crossbow
+Cost: 50 PP (10x base)
+Sell: 25 PP
+10 Base Piercing Damage
+Draw Speed: 65% (+25%)
+Range: 125%
+Durability: 928
+Category: Twohanded, Loading, Heavy
+
+
+--- Longbow ---
+
+Longbow
+Cost: 5 PP (1x base)
+Sell: 2 PP, 5 GP
+8 Base Piercing Damage
+Draw Speed: 70%
+Range: 150%
+Durability: 384
+Category: Twohanded, Heavy
+
+Iron-Strengthened Longbow
+Cost: 7 PP, 5 GP (1.5x base)
+Sell: 3 PP, 7 GP, 5 SP
+10 Base Piercing Damage (x1.2)
+Draw Speed: 50% (-20%)
+Range: 175% (+25%)
+Durability: 576
+Category: Twohanded, Heavy
+
+Mithral-Strengthened Longbow
+Cost: 50 PP (10x base)
+Sell: 25 PP
+8 Base Piercing Damage
+Draw Speed: 95% (+25%)
+Range: 150%
+Durability: 960
+Category: Twohanded, Heavy
+
+--- Net ---
+
+Net
+Cost: 1 GP (1x base)
+Sell: 5 SP
+0 Base Damage
+Draw Speed: 100%
+Range: 33%
+Durability: 3
+Category: Onehanded, Thrown
+
+----- Armor -----
+
+--- Light Armor ---
+
+Padded Helmet
+Cost: 5 SP (x0.1)
+Sell: 2 SP, 5 CP
+AC: 1 (x0.1)
+Stealth Mod: -1
+Weight: 1
+Durability: 38
+
+Padded Tunic
+Cost: 2 GP, 5 SP (x0.5)
+Sell: 1 GP, 2 SP, 5 CP
+AC: 6 (x0.5)
+Stealth Mod: -1
+Weight: 4
+Durability: 56
+
+Padded Pants
+Cost: 1 GP, 5 SP (x0.3)
+Sell: 7 SP, 5 CP
+AC: 3 (x0.3)
+Stealth Mod: -1
+Weight: 2
+Durability: 52
+
+Padded Boots
+Cost: 5 SP (x0.1)
+Sell: 2 SP, 5 CP
+AC: 1 (x0.1)
+Stealth Mod: -1
+Weight: 1
+Durability: 45
+
+Padded Armor Set
+Cost: 5 GP
+Sell: 2 GP, 5 SP
+AC: 11
+Stealth Mod: -4
+Weight: 8
+
+Leather Helmet
+Cost: 1 GP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 55
+
+Leather Tunic
+Cost: 5 GP (x0.5)
+Sell: 2 GP, 5 SP
+AC: 6 (x0.5)
+Stealth Mod: 0
+Weight: 5
+Durability: 80
+
+Leather Pants
+Cost: 3 GP (x0.3)
+Sell: 1 GP, 5 SP
+AC: 3 (x0.3)
+Stealth Mod: 0
+Weight: 3
+Durability: 75
+
+Leather Boots
+Cost: 1 GP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 65
+
+Leather Armor Set
+Cost: 1 PP
+Sell: 5 GP
+AC: 11
+Stealth Mod: 0
+
+Studded Leather Helmet
+Cost: 4 GP, 5 SP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 55
+
+Studded Leather Tunic
+Cost: 2 PP, 2 GP, 5 SP (x0.5)
+Sell: 2 GP, 5 SP
+AC: 7 (x0.5)
+Stealth Mod: 0
+Weight: 7
+Durability: 80
+
+Studded Leather Pants
+Cost: 1 PP, 3 GP, 5 SP (x0.3)
+Sell: 1 GP, 5 SP
+AC: 4 (x0.3)
+Stealth Mod: 0
+Weight: 4
+Durability: 75
+
+Studded Leather Boots
+Cost: 4 GP, 5 SP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 65
+
+Studded Leather Armor Set
+Cost: 4 PP, 5 GP
+Sell: 2 PP, 2 GP, 5 SP
+AC: 13
+Stealth Mod: 0
+Weight: 13
+
+--- Medium Armor ---
+
+Hide Helmet
+Cost: 1 GP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 66
+
+Hide Tunic
+Cost: 5 GP (x0.5)
+Sell: 2 GP, 5 SP
+AC: 7 (x0.5)
+Stealth Mod: 0
+Weight: 6
+Durability: 96
+
+Hide Pants
+Cost: 3 GP (x0.3)
+Sell: 1 GP, 5 SP
+AC: 4 (x0.3)
+Stealth Mod: 0
+Weight: 4
+Durability: 90
+
+Hide Boots
+Cost: 1 GP (x0.1)
+Sell: 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 1
+Durability: 78
+
+Hide Armor Set
+Cost: 1 PP
+Sell: 5 GP
+AC: 13
+Stealth Mod: 0
+Weight: 12
+
+Light Chain Helmet
+Cost: 5 GP (x0.1)
+Sell: 2 GP, 5 SP
+AC: 2 (x0.1)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Light Chain Chestplate
+Cost: 2 PP, 5 GP (x0.5)
+Sell: 1 PP, 2 GP, 5 SP
+AC: 7 (x0.5)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Light Chain Leggings
+Cost: 1 PP, 5 GP (x0.3)
+Sell: 7 GP, 5 SP
+AC: 4 (x0.3)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Light Chain Boots
+Cost: 5 GP (x0.1)
+Sell: 2 GP, 5 SP
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Light Chain Armor Set
+Cost: 5 PP
+Sell: 2 PP, 5 GP
+AC: 14
+Stealth Mod: 0
+Weight: 20
+
+Scalemail Helmet
+Cost: 5 GP (x0.1)
+Sell: 2 GP, 5 SP
+AC: 2 (x0.1)
+Stealth Mod: -2
+Weight: 
+Durability: 
+
+Scalemail Chestplate
+Cost: 2 PP, 5 GP (x0.5)
+Sell: 1 PP, 2 GP, 5 SP
+AC: 7 (x0.5)
+Stealth Mod: -4
+Weight: 
+Durability: 
+
+Scalemail Leggings
+Cost: 1 PP, 5 GP (x0.3)
+Sell: 7 GP, 5 SP
+AC: 4 (x0.3)
+Stealth Mod: -2
+Weight: 
+Durability: 
+
+Scalemail Boots
+Cost: 5 GP (x0.1)
+Sell: 2 GP, 5 SP
+AC: 2 (x0.1)
+Stealth Mod: -2
+Weight: 
+Durability: 
+
+Scalemail Armor Set
+Cost: 5 PP
+Sell: 2 PP, 5 GP
+AC: 15
+Stealth Mod: -10
+Weight: 45
+
+Mixed Helmet
+Cost: (x0.1)
+Sell: 
+AC: 1 (x0.1)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Mixed Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 8 (x0.5)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Mixed Leggings
+Cost: (x0.3)
+Sell: 
+AC: 4 (x0.3)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Mixed Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: 0
+Weight: 
+Durability: 
+
+Mixed Armor Set
+Cost: 40 PP
+Sell: 20 PP
+AC: 15
+Stealth Mod: 0
+Weight: 20
+
+Half-Plate Helmet
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -3
+Weight: 
+Durability: 
+
+Half-Plate Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 8 (x0.5)
+Stealth Mod: -5
+Weight: 
+Durability: 
+
+Half-Plate Leggings
+Cost: (x0.3)
+Sell: 
+AC: 4 (x0.3)
+Stealth Mod: -4
+Weight: 
+Durability: 
+
+Half-Plate Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -3
+Weight: 
+Durability: 
+
+Half-Plate Armor Set
+Cost: 75 PP
+Sell: 37 PP, 5 GP
+AC: 16
+Stealth Mod: -15
+Weight: 40
+
+--- Heavy Armor ---
+
+Ringmail Helmet
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -3
+Weight: 
+Durability: 
+
+Ringmail Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 7 (x0.5)
+Stealth Mod: -5
+Weight: 
+Durability: 
+
+Ringmail Leggings
+Cost: (x0.3)
+Sell: 
+AC: 4 (x0.3)
+Stealth Mod: -4
+Weight: 
+Durability: 
+
+Ringmail Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -3
+Weight: 
+Durability: 
+
+Ringmail Armor Set
+Cost: 3 PP
+Sell: 1 PP, 5 GP
+AC: 15
+Stealth Mod: -15
+Weight: 40
+
+Chainmail Helmet
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -4
+Weight: 
+Durability: 
+
+Chainmail Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 8 (x0.5)
+Stealth Mod: -7
+Weight: 
+Durability: 
+
+Chainmail Leggings
+Cost: (x0.3)
+Sell: 
+AC: 5 (x0.3)
+Stealth Mod: -5
+Weight: 
+Durability: 
+
+Chainmail Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -4
+Weight: 
+Durability: 
+
+Chainmail Armor Set
+Cost: 3 PP
+Sell: 1 PP, 5 GP
+AC: 17
+Stealth Mod: -20
+Weight: 55
+
+Splint Helmet
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -5
+Weight: 
+Durability: 
+
+Splint Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 9 (x0.5)
+Stealth Mod: -9
+Weight: 
+Durability: 
+
+Splint Leggings
+Cost: (x0.3)
+Sell: 
+AC: 5 (x0.3)
+Stealth Mod: -6
+Weight: 
+Durability: 
+
+Splint Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -5
+Weight: 
+Durability: 
+
+Splint Armor Set
+Cost: 20 PP
+Sell: 10 PP
+AC: 18
+Stealth Mod: -25
+Weight: 60
+
+Full Plate Helmet
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -6
+Weight: 
+Durability: 
+
+Full Plate Breastplate
+Cost: (x0.5)
+Sell: 
+AC: 9 (x0.5)
+Stealth Mod: -11
+Weight: 
+Durability: 
+
+Full Plate Leggings
+Cost: (x0.3)
+Sell: 
+AC: 6 (x0.3)
+Stealth Mod: -7
+Weight: 
+Durability: 
+
+Full Plate Boots
+Cost: (x0.1)
+Sell: 
+AC: 2 (x0.1)
+Stealth Mod: -6
+Weight: 
+Durability: 
+
+Full Plate Armor Set
+Cost: 20 PP
+Sell: 10 PP
+AC: 19
+Stealth Mod: -30
+Weight: 65
+
+----- Entities -----
+
+--- Reference ---
+Modifocation Table:
+Using a stat to preform a skill check
+will result in a puzzle, your stat will determine
+how many pieces you get, at a base of 10 pieces.
+0-19: -5
+20-39: -4
+40-59: -3
+60-79: -2
+80-99: -1
+100-119: 0
+120-139: +1
+140-159: +2
+160-179: +3
+180-199: +4
+200-219: +5
+220-239: +6
+240-259: +7
+260-279: +8
+280-299: +9
+300: +10
+
+Scale:
+Medium: 1.6-2.25 blocks
+Small: 1-1.5 blocks
+Tiny: 0.1-0.5 blocks
+
+--- NPCs ---
+
+-- Humans --
+
+- LEVEL 0 -
+
+- Human Commoner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Good
+HP: 4
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (=1)
+CHA: 93 (-1)
+Melee Power: -5%
+Ranged Power: -5%
+Magic Power: -5%% 
+Stealth Rating: 30
+Crit Chance: 2%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Unarmed Attack
+0.95 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+3.8 Bludgeoning Damage
+
+Sickle (used instead of Unarmed attack if they have a Stone Sickle)
+2.85 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+-- Kobolds --
+
+-- LEVEL 0.125 --
+
+- Kobold -
+
+Base Stats:
+
+Type: Humanoid
+Size: Small 
+Alignment: Lawful Evil
+HP: 5
+AC: 5
+Speed: 100%
+Senses: Passive Sight (12 Blocks), Darkvision (18 Blocks)
+Languages: Common, Draconic
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: +10%
+Magic Power: -5% 
+Stealth Rating: 30
+Crit Chance: 4%
+Skills: None
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Sunlight Sensitivity
+While in the sun, STR and WIS are reduced by 25%.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack (Dagger)
+2.2 (if using Wooden Dagger) or 3.3 (if using Stone Dagger) Piercing Damage
+
+Equipment:
+Wooden Dagger (75%)
+Stone Dagger (25%)
+
+- Kobold Slinger -
+
+Base Stats:
+
+Type: Humanoid
+Size: Small
+Alignment: Lawful Evil
+HP: 5
+AC: 5
+Speed: 100%
+Senses: Passive Sight (12 Blocks), Darkvision (18 Blocks)
+Languages: Common, Draconic
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: +10%
+Magic Power: -5% 
+Stealth Rating: 30
+Crit Chance: 4%
+Skills: None
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Sunlight Sensitivity
+While in the sun, STR and WIS are reduced by 25%.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack (Sling)
+4.4 Bludgeoning Damage
+
+Equipment
+Sling (100%)
+
+--- Animals ---
+
+-- LEVEL 0 --
+
+- Bat -
+
+Stats:
+
+Type: Beast
+Size: Tiny
+Alignment: Unaligned
+HP: 1
+AC: 0
+Speed: 100%
+Senses: Blindsight (18 Blocks)
+STR: 20 (-4)
+DEX: 150 (+2)
+CON: 80 (-1)
+INT: 20 (-4)
+WIS: 120 (+1)
+CHA: 40 (-3)
+Stealth Rating: 60
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Echolocation
+Bats cannot see while deafened.
+
+Keen Hearing
+Bats have advantage on perception checks involving hearing.
+
+Actions:
+
+Attack
+1 Piercing Damage
+
+- Cat -
+
+Stats:
+
+Type: Beast
+Size: Tiny
+Alignment: Unaligned
+HP: 2
+AC: 0
+Speed: 120%
+Senses: Passive Sight (19 Blocks), Darkvision (12 Blocks)
+STR: 30 (-4)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 30 (-4)
+WIS: 120 (+1)
+CHA: 70 (-2)
+Stealth Rating: 72
+Crit Chance: 0%
+Skills: Perception (+3), Stealth (+4)
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Keen Hearing
+Cats have advantage on perception checks involving hearing.
+
+Actions:
+
+Attack
+1 Slashing Damage
+
+- Chicken -
+
+Stats:
+
+Type: Beast
+Size: Tiny
+Alignment: Unaligned
+HP: 3
+AC: 0
+Speed: 50%
+Senses: Passive Sight (10 Blocks)
+STR: 40 (-3)
+DEX: 60 (-2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 70 (-2)
+CHA: 40 (-3)
+Stealth Rating: 40
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Attack
+1 Piercing Damage
+
+- Cow -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 6
+AC: 0
+Speed: 120%
+Senses: Passive Sight (13 Blocks)
+STR: 110 (0)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 30 (-4)
+Stealth Rating: 45
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Attack
+2 Bludgeoning Damage
+
+- Deer -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 4
+AC: 0
+Speed: 140%
+Senses: Passive Sight (18 Blocks)
+STR: 110 (0)
+DEX: 160 (+3)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 50 (-3)
+Stealth Rating: 65
+Crit Chance: 4%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Attack
+2 Piercing Damage
+
+- Eagle -
+
+Stats:
+
+Type: Beast
+Size: Small
+Alignment: Unaligned
+HP: 3
+AC: 0
+Speed: 125%
+Senses: Passive Sight (21 Blocks)
+STR: 60 (-2)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 140 (+1)
+CHA: 70 (-2)
+Stealth Rating: 60
+Crit Chance: 1%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Keen Eye
+Eagles have advantage on perception checks that rely on sight.
+
+Actions:
+
+Attack
+4 Piercing Damage
+
+- Pig -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 6
+AC: 0
+Speed: 120%
+Senses: Passive Sight (13 Blocks)
+STR: 90 (-1)
+DEX: 90 (-1)
+CON: 100 (0)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Stealth Rating: 45
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Attack
+2 Bludgeoning Damage
+
+- Rat -
+
+Stats:
+
+Type: Beast
+Size: Timy
+Alignment: Unaligned
+HP: 1
+AC: 0
+Speed: 80%
+Senses: Passive Sight (15 Blocks), Darkvision (9 Blocks)
+STR: 20 (-4)
+DEX: 110 (0)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Stealth Rating: 50
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Keen Smell
+Rats have advantage on perception checks that rely on smell.
+
+Actions:
+
+Attack
+1 Piercing Damage
+
+- Sheep -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 4
+AC: 0
+Speed: 120%
+Senses: Passive Sight (13 Blocks)
+STR: 100 (0)
+DEX: 80 (-1)
+CON: 90 (-1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 50 (-3)
+Stealth Rating: 45
+Crit Chance: 0%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Attack
+2 Bludgeoning Damage
+
+-- LEVEL 0.25 --
+
+- Boar -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 11
+AC: 5 (natural armor)
+Speed: 120%
+Senses: Passive Sight (13 Blocks)
+STR: 130 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 90 (-1)
+CHA: 50 (-3)
+Stealth Rating: 50
+Crit Chance: 2%
+Skills: None
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Relentless
+If a boar would take an attack that deals 7 or less damage and die from it, it drops to 1 HP instead.
+This ability has a 60 second cooldown.
+
+Actions:
+
+Attack
+4 Piercing Damage
+
+Charge
+The boar stops for 2 seconds, then dashes forward, anyone caught in the way takes 7 Piercing damage.
+If a creature is hit, it must pass a Strength Resistance Check (110) or be knocked back.
+This ability has a 10 second cooldown.
+
+Bull
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+HP: 11
+AC: 5 (natural armor)
+Speed: 120%
+Senses: Passive Sight (13 Blocks)
+STR: 150 (+2)
+DEX: 110 (0)
+CON: 150 (+2)
+INT: 20 (-4)
+WIS: 60 (-1)
+CHA: 30 (-4)
+Stealth Rating: 50
+Crit Chance: 3%
+Skills: None
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Relentless
+If a bull would take an attack that deals 7 or less damage and die from it, it drops to 1 HP instead.
+This ability has a 60 second cooldown.
+
+Actions:
+
+Attack
+4 Piercing Damage
+
+Charge
+The bull stops for 2 seconds, then dashes forward, anyone caught in the way takes 7 Piercing damage.
+If a creature is hit, it must pass a Strength Resistance Check (110) or be knocked back.
+This ability has a 10 second cooldown.
+
+--- Monsters ---
+
+-- LEVEL 0 --
+
+- Awakened Shrub -
+
+Base Stats:
+
+Type: Plant
+Size: Small
+Alignment: Unaligned
+HP: 10
+AC: 2
+Speed: 66%
+Senses: Passive Sight (15 Blocks)
+STR: 30 (-4)
+DEX: 80 (-1)
+CON: 110 (0)
+INT: 100 (0)
+WIS: 100 (0)
+CHA: 60 (-2)
+Damage Vulnerabilities: Fire
+Damage Resistances: Piercing
+Languages: 1 Language known by it's creator
+Stealth Rating: 40
+Crit Chance: 0%
+Skills: None
+Base Level: 0
+AXP Yield: 10
+
+Special:
+
+False Appearance
+When not moving, looks identical to a normal shrub.
+
+Actions:
+
+Rake
+1 Slashing Damage
+
+- Crawling Claw -
+
+Base Stats:
+
+Type: Undead
+Size: Tiny
+Alignment: Evil
+HP: 2
+AC: 0
+Speed: 66%, Can climb walls.
+Senses: Blindsight (9 Blocks)
+STR: 130 (+1)
+DEX: 140 (+2)
+CON: 110 (0)
+INT: 50 (-3)
+WIS: 100 (0)
+CHA: 40 (-3)
+Damage Immunities: Poison
+Condition Immunities: Charmed, Exaustion, Poisoned
+Languages: Understand Common but cannot speak
+Stealth Rating: 60
+Crit Chance: 5%
+Skills: None
+Base Level: 0
+AXP Yield: 10
+
+Special:
+
+Turn Immunity
+The Claw is immune to the effects of Turn Undead.
+
+Actions:
+
+Punch
+3 Bludgeoning Damage
+
+Scratch
+3 Slashing Damage
+
+- Lemure -
+
+Base Stats:
+
+Type: Fiend (Devil)
+Size: Medium
+Alignment: Lawful Evil
+HP: 13
+AC: 3
+Speed: 50%
+Senses: Passive Sight (15 Blocks), Darkvision (36 Blocks)
+STR: 100 (0)
+DEX: 50 (-3)
+CON: 110 (0)
+INT: 10 (-5)
+WIS: 110 (0)
+CHA: 30 (-4)
+Damage Resistances: Cold
+Damage Immunities: Fire, Poison
+Condition Immunities: Charmed, Frightened, Poisoned
+Languages: Understand Infernal but cannot speak
+Stealth Rating: 35
+Crit Chance: 0%
+Skills: None
+Base Level: 0
+AXP Yield: 10
+
+Special:
+
+Devil's Sight
+Magical Darkness does not impede the Lemure's Darkvision.
+
+Hellish Rejuvenation
+A lemure that dies in the Nine Hells comes back to life with all its hit points in 1 hour unless it is killed by a good-aligned creature 
+with a bless spell cast on that creature or its remains are sprinkled with holy water.
+
+Actions:
+
+Punch
+2 Bludgeoning Damage
+
+-- LEVEL 0.125 --
+
+- Stirge -
+
+Base Stats:
+
+Type: Beast
+Size: Tiny
+Alignment: Unaligned
+HP: 2
+AC: 0
+Speed: 33% (120% speed flight)
+Senses: Passive Sight (13 Blocks), Darkvision (18 Blocks)
+STR: 60 (-2)
+DEX: 130 (+1)
+CON: 120 (+1)
+INT: 40 (-3)
+WIS: 80 (-1)
+CHA: 30 (-4)
+Languages: None
+Stealth Rating: 55
+Crit Chance: 1%
+Skills: None
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Blood Drain
+The Stirge Attaches to the target, dealing 1 Bleed Damage every second.
+The Stirge deatches once 10 seconds have passed or the target dies.
+Hitting the Stirge will also detatch it, even if it survives.
+
+- Twig Blight -
+
+Base Stats:
+
+Type: Plant
+Size: Small
+Alignment: Neutral Evil
+HP: 4
+AC: 13
+Speed: 66%
+Senses: Blindsight (18 Blocks)
+STR: 60 (-2)
+DEX: 130 (+1)
+CON: 120 (+1)
+INT: 40 (-3)
+WIS: 80 (-1)
+CHA: 30 (-4)
+Damage Vulnerabilities: Fire
+Condition Immunities: Blinded, Deafened
+Languages: Understands Common but can't speak
+Stealth Rating: 55
+Crit Chance: 1%
+Skills: None
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+False Appearance
+When not moving, looks identical to a dead shrub.
+
+Actions:
+
+Claws
+3 Piercing Damage
+
+
+-- LEVEL 0.25 --
+
+- Bullywug -
+
+Base Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 8
+Speed: 66% (Swim 120%)
+Senses: Passive Sight (15 Blocks)
+STR: 120 (+1)
+DEX: 120 (+1)
+CON: 130 (+1)
+INT: 70 (-2)
+WIS: 100 (0)
+CHA: 70 (-2)
+Languages: Bullywug
+Stealth Rating: 67
+Crit Chance: 5%
+Skills: Stealth (+3)
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Amphibious
+The Bullywug can breathe Water and Air.
+
+Speak with Frogs and Toads
+Bullywugs can communicate simple concepts to Frogs and Toads when it speaks in Bullywug.
+
+Swamp Camouflage
+The Bullywug has advantage when hiding in swampy biomes.
+
+Standing Leap
+Bullywugs have a jump height of 3 blocks.
+
+
+
+Actions:
+
+Bite
+3 Bludgeoning Damage
+
+Spear
+4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Wooden Shield (100%)
+Hide Chestplate (100%)
+Hide Leggings (50%)
+
+Flying Weapon
+
+Base Stats:
+
+Type: Construct
+Size: Small
+Alignment: Unaligned
+HP: 17
+AC: 10
+Speed: Hover 140%
+Senses: Blindsight (18 Blocks)
+STR: 120 (+1)
+DEX: 150 (+2)
+CON: 110 (0)
+INT: 10 (-5)
+WIS: 50 (-3)
+CHA: 10 (-5)
+Damage Immunities: Poison, Psychic
+Condition Immunites: Blinded, Charmed, Deafened, Frieghtened, Paralyzed, Petrified, Poisoned
+Languages: None
+Stealth Rating: 60
+Crit Chance: 3%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Antimagic Susceptibility
+The weapon is Incapacitated while within a Antimagic Field. If targeted by Dispel Magic, 
+The weapon must succeed a CON Resistance Check against the Spells CR or fall Unconscious for 1 minute.
+
+
+Actions:
+
+Attack
+4 Bludgeoning Damage
+
+Zombie
+
+Base Stats:
+
+Type: Undead
+Size: Medium
+Alignment: Evil
+HP: 22
+AC: 8
+Speed: 80%
+Senses: Passive Sight (12 Blocks), Darkvision (27 Blocks)
+STR: 130 (+1)
+DEX: 60 (-2)
+CON: 160 (+3)
+INT: 30 (-4)
+WIS: 60 (-2)
+CHA: 50 (-3)
+Stealth Rating: 40
+Crit Chance: 0%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Undead Fortitude
+When an attack would kill a zombie, the zombie makes a CON resistance check (50 + X),
+if it passes, it survives on 1 HP instead.
+X is equal to the damage taken times 10.
+
+Actions:
+
+Attack
+4 Bludgeoning Damage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
