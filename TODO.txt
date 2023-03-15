@@ -1,96 +1,189 @@
------ Metals -----
+----- Materials -----
+
+--- Foodstuffs ---
+
+Wheat
+Value: 1 CP
+
+--- Building Materials ---
+
+-- Woods --
+
+Planks x 4
+Value: 2 CP
+
+Logs x 4
+Value: 8 CP
+
+Stairs (wood) x 4
+Value: 1 SP
+
+Door (wood) 
+Value: 1 SP
+
+Trapdoor
+
+Scaffolding x 4
+Value: 5 CP
+
+-- Stones --
+
+Cobblestone x 4
+Value: 1 CP
+
+Cobblestone Wall x 4
+Value: 2 CP
+
+Cobblestone Stairs x 4
+Value: 5 CP
+
+Stone x 4
+Value: 2 CP
+
+Stone Wall x 4
+Value: 4 CP
+
+Stone Stairs x 4
+Value: 1 SP
+
+Stone Bricks x 4
+Value: 5 CP
+
+Stone Brick Wall x 4
+Value 1 SP
+
+Stone Brick Stairs x 4
+Value: 2 SP, 5 CP
+
+Cobbled Deepslate x 4
+Value: 2 CP
+
+Cobbled Deepslate Wall x 4
+Value 4 CP
+
+Cobbled Deepslate Stairs x 4
+Value: 5 CP
+
+-- Cloths --
+
+Wool x 4
+Value: 8 CP
 
 
+--- Metals ---
+
+Copper Ore
+Value: 2 CP
+
+Raw Copper
+Value: 5 CP
+
+Copper Ingot
+Value: 1 SP
+
+Copper Nugget
+Value: 1 CP
+
+Copper Block
+Value: 9 SP
+
+Iron Ore
+Value: 1 SP, 2 CP
+
+Raw Iron
+Value: 2 SP, 5 CP
+
+Iron Ingot
+Value: 5 SP
+
+Iron Nugget
+Value: 4 CP
+
+Iron Block
+Value: 4 GP, 5 SP
+
+Gold Ore
+Value: 2 SP, 5 CP
+
+Raw Gold
+Value: 5 SP
+
+Gold Ingot
+Value: 1 GP
+
+Gold Nugget
+Value: 1 SP, 1 CP
+
+Gold Block
+Value: 9 GP
+
+--- New Foodstuffs ---
+
+--- New Building Materials ---
+
+--- New Cloths ---
 
 --- New Metals ---
 
---- Silver ---
-
 Silver Ore (done)
-Cost:
-Sell:
+Value: 1 SP, 8 CP
 
 Raw Silver (done)
-Cost:
-Sell:
+Value: 3 SP, 7 CP
 
 Silver Ingot (done)
-Cost: 
-Sell:
+Value: 7 SP, 5 CP
 
 Silver Nugget
-Cost:
-Sell:
+Value: 8 CP
 
 Silver Block
-Cost: 
-Sell:
-
---- Platinum ---
+Value: 6 GP, 7 SP, 5 CP
 
 Platinum Ore (done)
-Cost: 
-Sell:
+Value: 2 GP, 5 SP
 
 Raw Platinum (done)
-Cost: 
-Sell:
+Value: 5 GP
 
 Platinum Ingot (done)
-Cost: 
-Sell:
+Value: 1 PP
 
 Platinum Nugget
-Cost: 
-Sell:
+Value: 1 GP, 1 SP, 1 CP
 
 Platinum Block
-Cost: 
-Sell:
-
---- Mithral ---
+Value: 9 PP
 
 Mithral Ore (done)
-Cost: 
-Sell:
+Value: 6 GP, 2 SP, 5 CP
 
 Raw Mithral (done)
-Cost: 
-Sell:
+Value: 1 PP, 2 GP, 5 SP
 
 Mithral Ingot (done)
-Cost: 
-Sell:
+Value: 2 PP, 5 GP
 
 Mithral Nugget
-Cost: 
-Sell:
+Value: 2 GP, 7 SP, 7 CP
 
 Mithral Block
-Cost: 
-Sell:
-
---- Adamantine ---
+Value: 22 PP, 9 GP
 
 Adamantine Ore (done)
-Cost: 
-Sell:
+Value: 1 PP, 2 GP, 5 SP
 
 Raw Adamantine (done)
-Cost: 
-Sell:
+Value: 2 PP, 5 GP
 
 Adamantine Ingot (done)
-Cost: 
-Sell:
+Value: 5 PP
 
 Adamantine Nugget
-Cost: 
-Sell:
+Value: 5 GP, 5 SP, 5 CP
 
 Adamantine Block
-Cost: 
-Sell:
+Value: 45 PP
 
 ----- Coins -----
 
@@ -689,6 +782,480 @@ Scalemail Chestplate (or) Leather Tunic (or) Chainmail Breastplate
 a light crossbow and 20 bolts (or) any Stone Simple Weapon
 a Priest's Pack (or) an Explorer's pack
 a shield and a holy symbol
+
+  -------------------
+  PROF Bonus Table 
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      3     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        1         ---
+  2    ---      3     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        2         ---
+  3    ---      3     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  4    ---      4     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  5    ---      4     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  6    ---      4     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  7    ---      4     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  8    ---      4     ----     4   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  9    ---      4     ----     4   ---   3   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  10   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  11   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        11        ---
+  12   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        12        ---
+  13   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        13        ---
+  14   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        14        ---
+  15   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        15        ---
+  16   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        16        ---
+  17   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        17        ---
+  18   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        18        ---
+  19   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        19        ---
+  20   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
+  
+ Abilities:
+
+ - LVL 1 -
+
+Spellcasting
+You have the ability to cast Holy Spells.
+Spell Resistance: 80 + ((PROF Bonus + WIS Bonus) * 10)
+You need a holy symbol in order to cast spells.
+
+Divine Domain
+Select a domain related to your Deity.
+Knowledge
+Life
+Light
+Nature
+Tempest
+Trickery
+War
+Your choice grants you domain spells and other features.
+Domain spells do not count towards your maximum spell cap.
+
+- LVL 2 -
+
+Channel Divinity
+You gain the ability Turn Undead as well as an additional ability based on your Divine Domain.
+Some Divine Domains grant additional abilities by level up.
+After using any Channel Divinity, that Ability is disabled until you rest.
+Pressing SHIFT + <ClassAbility1Key> cycles between Channel Divinity abilities.
+
+Turn Undead
+By presenting a holy symbol, you can press <ClassAbility1Key> to utter a prayer to attempt to turn undead.
+All undead that can see or hear you within a 10 block radius must succeed a Wisdom Resistance Check (CR your spell CR)
+If a creature fails, they are turned for the next minute or until they take damage.
+Turned is identical to Frieghtend.
+
+- LVL 5 -
+
+Destroy Undead
+When a undead fails it's Resistance Check against Turn Undead. They are instantly destroyed based on the table below.
+You gain no AXP for destroying enemies in this way.
+--------------------------
+     Turn Undead Table
+--------------------------
+Level ---       CR     ---
+ 5-7  --- 1/2 or lower ---
+ 8-10 --- 1 or lower   ---
+11-14 --- 2 or lower   ---
+15-19 --- 4 or lower   ---
+  20  --- 8 or lower   ---
+  
+- LVL 10 -
+
+Divine Intervention
+When absolutely nessesary, you can press <ClassAbility2Key> to call on your Deity to intervene on your behalf. there is a LVL/100 chance that your Deity will heed your call.
+If the check passes, your Deity will cast a LVL 9 cleric spell, determined by the domain.
+This ability has a cooldown of 1 real life day.
+
+- LVL 20 -
+
+Divine Favor
+Your Divine Intervention check always passes.
+
+-- Divine Domains --
+
+- Knowledge Domain-Unique Abilities -
+
+------------------------------------------
+         Knowledge Domain Spells
+------------------------------------------
+LVL ---                Spells          ---   
+ 1  ---         Command, Identify      ---
+ 3  ---         Augury, Suggestion     ---
+ 5  ---  Nondetection, Speak with Dead --- 
+ 7  ---       Arcane Eye, Confusion    ---
+ 9  ---       Legend Lore, Scrying     ---
+ 
+- LVL 1 -
+
+Blessings of Knowledge
+You learn 2 new languages of your choice. You also become proficient in 2 of the following: Arcana, History, Nature, Religion
+
+- LVL 2 -
+
+Channel Divinity - Knowledge of the Ages
+You can press <ClassAbility1Key> to tap into a divine well of knowledge. You choose 1 Skill or Tool, for the next 20 minutes, you have Proficiency in that Skill or Tool.
+
+- LVL 6 -
+
+Channel Divinity - Read Thoughts
+You can press <ClassAbility1Key> to attempt to read a creatures thoughts, you can then use your access to the creatures mind to command it.
+The ability has a range of 18 blocks, and you must be looking at the target.
+The target makes a Wisdom Resistane Check (CR: Your Spell CR) if they succeed, you cannot use this ability until you sleep through a night.
+If the target fails, you can read it's surface thoughts as long as if it's within 18 blocks of you, this effect lasts for 1 minute.
+During the 1 minute period, you can end the effect to cast Suggestion on the target without expending a spell slot, the target automatically fails it's
+Resistance Check.
+If used on a player, you can see their current HP, Hunger level, AC, Breath (if underwater), Status Effects, and Sanity. you can still casst Suggestion as normal.
+
+- LVL 8 -
+
+Potent Spellcasting
+Your Spell Power is doubled if it is a positive value.
+
+- LVL 17 -
+
+Visions of the Past
+You can press <ClassAbility2Key> call up visions of the past that relate to an object you hold or your immediate surroundings. This ability cannot be used again until after a rest.
+Object Reading
+When using this ability holding an item, you meditate for 30 seconds, after 30 seconds are up, you learn who the previous owner of the item was. How they got the item, and how they lost it. Moving before the 30 seconds are up cancels the ability.
+Area Reading
+When not holding an item, you meditate for 30 seconds, targeting the chunk your in and the chunks adjacent to it, after 30 seconds are up, you learn about any NPCS or players who has been in this area, and if any important events have happened in this area, going back up to 10 + (WIS MODIFIER) days, ordered by most recent to most dated.
+
+- Life Domain-Unique Abilities -
+
+-----------------------------------------------
+                  Life Domain Spells
+-----------------------------------------------
+LVL ---                Spells               ---   
+ 1  ---         Bless, Cure Wounds          ---
+ 3  --- Lesser Restoration, Spirital Weapon ---
+ 5  ---      Beacon of Hope, Revivify       --- 
+ 7  ---   Death Ward, Guardian of Faith     ---
+ 9  ---     Mass Cure Wounds, Raise Dead    ---
+ 
+- LVL 1 -
+
+Bonus Proficiency
+You gain Proficiency in Heavy Armor.
+
+Disciple of Life
+Whenever you cast a healing spell that restores Hit Points to a creature and is LVL 1 or higher, add 2 + (Spell Level) to the total amount restored.
+
+- LVL 2 -
+
+Channel Divinity - Preserve Life
+You can press <ClassAbility1Key> to restore 5 * LVL HP among any number of creatures within 10 blocks of you. 
+
+- LVL 6 -
+
+Blessed Healer
+When you cast a healing spell that restores Hit Points to a creature and is LVL 1 or higher, heal 2 + (Spell Level) HP.
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Radiant damage.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Radiant damage.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Supreme Healer
+You double the amount healed when using a healing spell.
+
+- Light Domain-Unique Abilities -
+
+-----------------------------------------------
+                  Light Domain Spells
+-----------------------------------------------
+LVL ---                Spells               ---   
+ 1  ---     Burning Hands, Faerie Fire      ---
+ 3  ---    Flaming Sphere, Scorching Ray    ---
+ 5  ---         Daylight, Fireball          --- 
+ 7  ---   Guardian of Faith, Wall of Fire   ---
+ 9  ---       Flame Strike, Scrying         ---
+ 
+ - LVL 1 -
+
+Bonus Cantrip
+You get Light added to your known spells, this spell dosen't count towards your max cantrips.
+
+Warding Flare
+You can press <ClassAbility2Key> to blind a enemy your looking at within 5 blocks of you for 5 seconds, allowing you to get away. You can use this ability a number of times equal to your WIS MOD. (Minimum of 1.) 
+
+
+- LVL 2 -
+
+Channel Divinity - Radiance of the Dawn
+Presenting your holy symbol, you can press <ClassAbility1Key> to dispel any magical darkness within 10 blocks of you. Additionally, each hostile creature within 10 blocks of you must make a CON Resistance Check. Each creature that fails takes 11 + Cleric Level Radiant Damage, and takes half as much on a successful save. Any creature behind cover is unaffected.
+
+- LVL 6 -
+
+Improved Flare
+Your Warding Flare now has a range of 10 Blocks.
+
+
+- LVL 8 -
+
+Potent Spellcasting
+Your Spell Power is doubled if it is a positive value.
+
+- LVL 17 -
+
+Corona of Light
+You can now press SHIFT + <ClassAbility2Key> to make yourself glow radiantly. You glow with a light level of 15 while active, and any creatures within 10 blocks of you have disadvantage on Resistance Checks for spells that deal Radiant or Fire damage.
+
+- Nature Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Nature Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---  Animal Friendship, Speak with Animals      ---
+ 3  ---            Barkskin, Spike Growth           ---
+ 5  ---            Plant Growth, Wind Wall          --- 
+ 7  ---         Dominate Beast, Grasping Vine       ---
+ 9  ---          Insect Plague, Tree Stride         ---
+ 
+ - LVL 1 -
+
+Acolyte of Nature
+You learn a druid cantrip of your choice, this spell dosen't count towards your max cantrips.
+
+Bonus Proficiency
+You gain Profiency with Heavy Armor. 
+
+
+- LVL 2 -
+
+Channel Divinity - Charm Animals and Plants
+Presenting your holy symbol, you can press <ClassAbility1Key> to attempt to charm nearby animals and plants.
+each plant and animal within 10 blocks of you must make a WIS Resistance Check (CR: Spell CR). Each creature that fails becomes charmed for 1 minute
+or until they take damage.
+they are friendly to you and creatures and players in your party.
+
+
+- LVL 6 -
+
+Dampen Elements
+You can press <ClassAbility2Key> to grant a allied creature
+in your line of sight resistance to Acid, Cold, Fire, or Thunder damage.
+Pressing SHIFT + <ClassAbility2Key> will let you select damage type.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Cold, Fire, or Lightning damage.
+The type is chosen once the ability is unlocked.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Cold, Fire, or Lightning damage.
+the type is chosen once the ability is unlocked.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Master of Nature
+While under your Charmed effect, Animals and Plants
+can be commanded like a hired unit.
+Charmed effect now lasts 3 minutes instead of 1.
+
+- Tempest Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Tempest Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---           Fog Cloud, Thunderwave            ---
+ 3  ---            Gust of Wind, Shatter            ---
+ 5  ---        Call Lightning, Sleet Storm          --- 
+ 7  ---         Control Water, Ice Storm            ---
+ 9  ---       Insect Plague, Destructive Wave       ---
+ 
+ - LVL 1 -
+
+Wrath of the Storm
+When a enemy hits you with a melee attack,
+you can press <ClassAbility2Key> within 3 seconds
+to make the attacker make a DEX Resistance Save. (CR: Spell CR)
+The attacker takes 9 Thunder damage on a failed check,
+and 4 Thunder damage on a successful one.
+This ability can be used a number of times equal to your WIS MOD (minimum of once).
+
+Bonus Proficiency
+You gain Profiency with Heavy Armor and 2 martial weapons of your choice.
+
+
+- LVL 2 -
+
+Channel Divinity - Destructive Wrath
+You can press <ClassAbility1Key> to deal 
+bonus Thunder damage equal to your level
+on your next melee attack. This effect wears
+off if no melee attack occurs in 30 seconds.
+
+
+
+
+- LVL 6 -
+
+Thunderbolt Strike
+When you deal Lightning Damage, you deal additional knockback.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Thunder damage.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Thunder damage.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Stormborn
+You can now fly while it is raining and you are outside.
+
+- Trickery Domain-Unique Abilities -
+
+-------------------------------------------------------
+                  Trickery Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---         Charm Person, Disguise Self         ---
+ 3  ---      Mirror Image, Pass Without Trace       ---
+ 5  ---              Blink, Dispel Magic            --- 
+ 7  ---         Dimensional Door, Polymorph         ---
+ 9  ---        Dominate Person, Modify Memory       ---
+ 
+ - LVL 1 -
+
+Blessing of the Trickster
+You can prsss <ClassAbility2Key> while looking
+at an allied creature within 5 blocks. This 
+creature has 50% increased stealth rating for
+the next 2 minutes.
+
+
+- LVL 2 -
+
+Channel Divinity - Duplicity
+You can press <ClassAbility1Key> to turn Invisible and create a
+illusion of yourself 3 blocks to the left, right, or behind you. the illusion mirrors your
+movements, and is incorporeal.
+The Illusion has 10 HP. It will vanish if it dies or the invisibility wears off.
+
+
+- LVL 6 -
+
+Channel Divinity - Cloak of Shadows
+You can press <ClassAbility1Key> to turn
+invisible for 1 minute.
+The invisibility wears off if you attack or cast a spell.
+
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 Poison damage.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 Poison damage.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Improved Duplicity
+You now create 4 illusions, you turn invisible and create
+illusions 3 blocks in each direction.
+The illusions each have 10 HP, and vanish when they die or the invisibility wears off.
+
+- War Domain-Unique Abilities -
+
+-------------------------------------------------------
+                     War Domain Spells
+-------------------------------------------------------
+LVL ---                   Spells                    ---   
+ 1  ---         Divine Favor, Shield of Faith       ---
+ 3  ---      Magic Weapon, Spiritual Weapon         ---
+ 5  ---     Crusader's Mantle, Spirit Guardians     --- 
+ 7  ---       Freedom of Movement, Stoneskin        ---
+ 9  ---        Flame Strike, Hold Monster           ---
+ 
+ - LVL 1 -
+
+Warpriest
+You can prsss <ClassAbility2Key> within 3
+seconds after attacking to gain 50% attack speed bonus for 5 seconds.
+You can use this skill a number of times equal to your WIS MOD (minimum of once).
+
+
+- LVL 2 -
+
+Channel Divinity - Guided Strike
+You can press <ClassAbility1Key> to grant 
+a +25% crit chance bonus to your next melee
+attack.
+This buff lasts 30 seconds.
+
+
+
+- LVL 6 -
+
+Channel Divinity - War Gods Blessing
+You can press <ClassAbility1Key> to an
+allied creature +25% crit chance bonus
+for their next melee attack.
+This buff lasts 30 seconds.
+
+- LVL 8 -
+
+Divine Strike 1
+Attacking deals an additional 4 (DamageType) damage.
+Damage Type is the damage type that the weapon does.
+This ability has a 10 second cooldown.
+
+- LVL 14 -
+
+Divine Strike 2
+Attacking deals an additional 8 (DamageType) damage.
+Damage Type is the damage type that the weapon does.
+This ability has a 10 second cooldown.
+This ability overwrites Divine Strike 1.
+
+- LVL 17 -
+
+Avatar of Battle
+You now have resistance to nonmagical
+Piercing, Slashing, and Bludgeoning damage.
 
 --- Druid ---
 
@@ -1959,6 +2526,117 @@ Can by inflicted by weapons that deal Bludgeoning damage.
 
 
 ----- Spells -----
+
+--- Abjuration ---
+
+Blade Ward
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds
+Effect: Grants resistance to melee attacks for 30 seconds.
+Range: Self
+This spell does not benefit from INT.
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Abjuration
+Required: Vocal, Free Hand
+
+Resistance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Grants +10 to the result of the next resistance check the target makes.
+This effect wears off once the resistance check occurs or once 1 minute passes.
+Range: Touch
+This spell does not benefit from INT.
+Learn Tables: Cleric, Druid
+Category: Abjuration
+Required: Vocal, Free Hand, 1 Miniature Cloak
+
+--- Conjuration ---
+
+Acid Splash
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Throw a bubble of acid at a target up to 18 blocks away. The target must pass a Dexterity Resistance Check or take 3 Acid Damage.
+This spell increases it's damage to 7 Acid Damage at LVL 5, 11 Acid Damage at LVL 11, and 14 Acid Damage at LVL 17.
+Range: 18 Blocks
+Learn Tables: Sorcerer, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Create Bonfire
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Creates a fire block that deals 4 Fire damage to whoever stands in it. Any creature caught in the fires space must pass a Dexterity Resistance Check
+or take 4 Fire Damage. 
+The fire spreads as normal fire does, however the spread fire blocks deal normal fire damage.
+This spell increases it's damage to 9 Fire Damage at LVL 5, 13 Fire Damage at LVL 11, and 18 Fire Damage at LVL 17.
+This spell does not benefit from INT.
+Range: 18 Blocks (1 Block Cube)
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Mage Hand
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute
+Effect: Creates a transluscant hand that can interact with doors, Traps, and other objects. Apon casting the spell, you must instruct the Hand what to do.
+The hand cannot move farther then 10 blocks away from you.
+This spell does not benefit from INT.
+Range: 10 Blocks
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Poison Spray
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: Shoot a puff of noxious gas from your palm, the target must succeed a CON Resistance Check or take 6 Poison Damage.
+The hand cannot move farther then 10 blocks away from you.
+This spell increases it's damage to 13 Poison Damage at LVL 5, 19 Poison Damage at LVL 11, and 26 Poison Damage at LVL 17.
+Range: 5 Blocks
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+Produce Flame
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 5 Minutes
+Effect: Create a flickering flame in your hand. The flame lasts until you cancel it or 5 minutes have passed.
+The flame produces have a Light Level of 7.
+Range: Self
+Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Category: Conjuration
+Required: Vocal, Free Hand
+
+--- Divination ---
+
+Guidance
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: Grants +20 to the stat used for the next skill check the target makes.
+This effect wears off once the skill check occurs or once 1 minute passes.
+Range: Touch
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
+
+True Strike
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 30 Seconds (Concentration)
+Effect: Grants +10% critical strike chance.
+This effect wears off once you attack or 30 seconds pass.
+Range: 10 Blocks
+Learn Tables: Cleric, Druid
+Category: Divination
+Required: Vocal, Free Hand
 
 ----- Gear -----
 
@@ -4661,13 +5339,13 @@ Default Player Reputation: 0
 
 - LEVEL 0 -
 
-- Human Commoner -
+Human Commoner
 
 Stats:
 
 Type: Humanoid
 Size: Medium
-Alignment: Good
+Alignment: Matches Town Alignment
 HP: 4
 AC: 0
 Speed: 100%
@@ -4677,12 +5355,12 @@ STR: 93 (-1)
 DEX: 93 (-1)
 CON: 93 (-1)
 INT: 93 (-1)
-WIS: 93 (=1)
+WIS: 93 (-1)
 CHA: 93 (-1)
 Melee Power: -5%
 Ranged Power: -5%
-Magic Power: -5%% 
-Stealth Rating: 30
+Magic Power: -5% 
+Base Stealth Rating: 45
 Crit Chance: 2%
 Skills: None
 Level: 0
@@ -4698,13 +5376,302 @@ Unarmed Attack
 Club (used instead of Unarmed attack if they have a Club)
 3.8 Bludgeoning Damage
 
-Sickle (used instead of Unarmed attack if they have a Stone Sickle)
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
 2.85 Slashing Damage
 
 Equipment:
 None (50%)
 Club (25%)
 Stone Sickle (25%)
+
+Human Bandit
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+Human Cultist
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+Human Guard
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.3 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+Human Merchant
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+1)
+CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+Human Tribesman
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.2 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+Human Acolyte
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+Human Noble
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 110 (0)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 -- Dwarfs --
 
@@ -4899,17 +5866,17 @@ If your above -100 Reputaion, Hostiles will capture you instead of killing you o
 
 -- LEVEL 0.125 --
 
-- Kobold -
+Kobold
 
 Base Stats:
 
 Type: Humanoid
-Size: Small 
+Size: Small
 Alignment: Lawful Evil
 HP: 5
 AC: 5
 Speed: 100%
-Senses: Passive Sight (12 Blocks), Darkvision (18 Blocks)
+Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
 STR: 70 (-2)
 DEX: 150 (+2)
@@ -4918,11 +5885,10 @@ INT: 80 (-1)
 WIS: 70 (-2)
 CHA: 80 (-1)
 Melee Power: -10%
-Ranged Power: +10%
+Ranged Power: 10%
 Magic Power: -5% 
-Stealth Rating: 30
+Base Stealth Rating: 60
 Crit Chance: 4%
-Skills: None
 Base Level: 0.125
 AXP Yield: 25
 
@@ -4937,13 +5903,13 @@ Pack Tactics
 Actions:
 
 Attack (Dagger)
-2.2 (if using Wooden Dagger) or 3.3 (if using Stone Dagger) Piercing Damage
+2.2 (wood) or 3.3 (stone) Piercing Damage
 
 Equipment:
 Wooden Dagger (75%)
 Stone Dagger (25%)
 
-- Kobold Slinger -
+Kobold Slinger
 
 Base Stats:
 
@@ -4953,7 +5919,7 @@ Alignment: Lawful Evil
 HP: 5
 AC: 5
 Speed: 100%
-Senses: Passive Sight (12 Blocks), Darkvision (18 Blocks)
+Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
 STR: 70 (-2)
 DEX: 150 (+2)
@@ -4964,9 +5930,8 @@ CHA: 80 (-1)
 Melee Power: -10%
 Ranged Power: +10%
 Magic Power: -5% 
-Stealth Rating: 30
+Base Stealth Rating: 60
 Crit Chance: 4%
-Skills: None
 Base Level: 0.125
 AXP Yield: 25
 
@@ -4981,7 +5946,7 @@ Pack Tactics
 Actions:
 
 Attack (Sling)
-4.4 Bludgeoning Damage
+4 Bludgeoning Damage
 
 Equipment
 Sling (100%)
@@ -5276,6 +6241,43 @@ Actions:
 
 Attack
 2 Bludgeoning Damage
+
+-- LEVEL 0.125 --
+
+Giant Rat
+
+Stats:
+
+Type: Beast
+Size: Small
+Alignment: Unaligned
+HP: 7
+AC: 0
+Speed: 80%
+Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Base Stealth Rating: 50
+Crit Chance: 0%
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Keen Smell
+Rats have advantage on perception checks that rely on smell.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack
+4 Piercing Damage
 
 -- LEVEL 0.25 --
 
