@@ -4680,6 +4680,38 @@ None (50%)
 Club (25%)
 Stone Sickle (25%)
 
+-- Dwarfs --
+
+-- Elves --
+
+-- Halflings --
+
+-- Dragonborn --
+
+-- Gnomes --
+
+-- Half-Elfs --
+
+-- Half-Orcs --
+
+-- Tieflings --
+
+-- Aarakocra --
+
+-- Aasimars --
+
+-- Bugbears --
+
+-- Deep Knomes --
+
+-- Duergars --
+
+-- Goblins --
+
+-- Goliaths --
+
+-- Hobgoblins --
+
 -- Kobolds --
 
 -- LEVEL 0.125 --
@@ -4770,6 +4802,8 @@ Attack (Sling)
 
 Equipment
 Sling (100%)
+
+-- Orcs --
 
 --- Animals ---
 
@@ -5388,7 +5422,7 @@ Wooden Shield (100%)
 Hide Chestplate (100%)
 Hide Leggings (50%)
 
-Flying Weapon
+- Flying Weapon -
 
 Base Stats:
 
@@ -5420,13 +5454,105 @@ Antimagic Susceptibility
 The weapon is Incapacitated while within a Antimagic Field. If targeted by Dispel Magic, 
 The weapon must succeed a CON Resistance Check against the Spells CR or fall Unconscious for 1 minute.
 
+False Appearance
+When not moving, The weapon is identical to a weapon on the ground.
+
 
 Actions:
 
 Attack
-4 Bludgeoning Damage
+X Damage
 
-Zombie
+Equipment
+Matches weapon (100%)
+
+- Skeleton -
+
+Base Stats:
+
+Type: Undead
+Size: Medium
+Alignment: Lawful Evil
+HP: 13
+AC: 0-11
+Speed: 100%
+Senses: Passive Sight (13 Blocks), Darkvision (18 Blocks)
+STR: 100 (+0)
+DEX: 140 (+2)
+CON: 150 (+2)
+INT: 60 (-2)
+WIS: 80 (-1)
+CHA: 50 (-3)
+Damage Vulnerabilities: Bludgeoning
+Damage Immunities: Poison
+Condition Immunities: Exaustion, Poison
+Languages: Understands all languages it knew in life but can't speak
+Stealth Rating: 40
+Crit Chance: 0%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Shortsword
+6 Piercing Damage
+
+Shortbow
+6 Piercing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Shortbow (50%)
+Padded Hat (50%)
+Padded Tunic (50%)
+Padded Pants (50%)
+Padded Boots (50%)
+
+- Troglodyte -
+
+Base Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Lawful Evil
+HP: 13
+AC: 5
+Speed: 100%
+Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
+STR: 140 (+2)
+DEX: 100 (0)
+CON: 140 (+2)
+INT: 60 (-2)
+WIS: 100 (0)
+CHA: 60 (-2)
+Languages: Troglodyte
+Stealth Rating: 56
+Crit Chance: 0%
+Skills: Stealth (+2)
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Stench
+Every 30 seconds, any creature within 3 blocks must pass a CON Resistance Check (CR 120)
+or become poisoned for 30 seconds. On a successful check, the creature becomes immune to this effect for 1 hour.
+
+Actions:
+
+Bite
+4 Piercing Damage
+
+Claw
+4 Slashing Damage
+
+Equipment:
+none
+
+- Zombie -
 
 Base Stats:
 
@@ -5435,7 +5561,7 @@ Size: Medium
 Alignment: Evil
 HP: 22
 AC: 8
-Speed: 80%
+Speed: 83%
 Senses: Passive Sight (12 Blocks), Darkvision (27 Blocks)
 STR: 130 (+1)
 DEX: 60 (-2)
