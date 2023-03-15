@@ -4633,6 +4633,31 @@ Tiny: 0.1-0.5 blocks
 
 -- Humans --
 
+Creature Alignemnt Chance table:
+
+
+
+Default Player Alignment: 0
+-----------------------------------------------------------------------------------------------------------------
+                                               Alignment Table
+-----------------------------------------------------------------------------------------------------------------
+--- Alignment Score ---   Rating   ---     Hostility       ---     Title     ---  Shop Prices  --- Hire Level ---
+-----------------------------------------------------------------------------------------------------------------
+---      -255       ---   Feared   ---   If recognized*    --- Feared by Man  ---   Won't Sell  ---      0     ---
+---      -100*      ---   Murderer ---   If recognized*    ---   Man-Slayer   ---   Won't Sell  ---      0     ---
+---       -50       ---   Enemy    ---   Attempt Capture   ---     Outlaw     ---   Won't Sell  ---      0     --- 
+---        -1       ---   Wanted   ---   Attempt Capture   --- Human Criminal ---     2x Price  ---      0     ---
+---         0       ---   Nuetral  ---  If commiting crime ---      None      ---   1.5x Price  ---      1     ---  
+---        50       ---   Friend   ---      If Attacked    ---      None      ---  1.25x Price  ---      1     ---  
+---       100       ---   Trusted  ---      If Attacked    ---   Human Ally   ---     1x Price  ---      2     --- 
+---       150       ---   Guardian ---      If Attacked    ---      None      ---  0.75x Price  ---      3     ---
+---       200       ---    Hero    ---      If Attacked    ---   Human Hero   ---   0.5x Price  ---      4     ---
+---       255       ---   Legend   ---      If Attacked    ---  Human Legend  ---  0.25x Price  ---      4     ---
+-----------------------------------------------------------------------------------------------------------------
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
+
 - LEVEL 0 -
 
 - Human Commoner -
@@ -4682,7 +4707,47 @@ Stone Sickle (25%)
 
 -- Dwarfs --
 
+Default Player Alignment: 0
+----------------------------------------------------------------------------------------------------------------------
+                                               Alignment Table
+-----------------------------------------------------------------------------------------------------------------------
+--- Alignment Score ---    Rating   ---      Hostility       ---        Title     ---  Shop Prices  --- Hire Level ---
+----------------------------------------------------------------------------------------------------------------------
+---      -255       --- Good as Orc ---   If recognized**   ---   Dwarf-Bane     ---   Won't Sell  ---      0     ---
+---      -100*      --- Dwarfkiller ---   If recognized*    ---   Dwarf-Slayer   ---   Won't Sell  ---      0     ---
+---       -50       ---   Enemy     ---   Attempt Capture   ---   Dwarven Enemy  ---   Won't Sell  ---      0     --- 
+---        -1       ---   Wanted    ---   Attempt Capture   --- Dwarven Criminal ---     2x Price  ---      0     ---
+---         0       ---   Nuetral   ---  If commiting crime ---      None        ---   1.5x Price  ---      0     ---  
+---        50       ---   Friend    ---      If Attacked    ---      None        ---  1.25x Price  ---      1     ---  
+---       100       ---   Clansman  ---      If Attacked    ---  Dwarf Clansman  ---     1x Price  ---      1     --- 
+---       150       ---    Chief    ---      If Attacked    ---      None        ---  0.75x Price  ---      2     ---
+---       200       ---    Hero     ---      If Attacked    ---   Dwarven Hero   ---   0.5x Price  ---      3     ---
+---       255       ---   Legend    ---      If Attacked    ---  Dwarven Legend  ---  0.25x Price  ---      4     ---
+-----------------------------------------------------------------------------------------------------------------------
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
 -- Elves --
+
+Default Player Alignment: -25
+----------------------------------------------------------------------------------------------------------------------
+                                               Alignment Table
+-----------------------------------------------------------------------------------------------------------------------
+--- Alignment Score ---    Rating   ---      Hostility       ---        Title     ---  Shop Prices  --- Hire Level ---
+----------------------------------------------------------------------------------------------------------------------
+---      -255       ---   Enemy of Nature    ---   If recognized*     ---  Enemy of Nature  ---   Won't Sell  ---      0     ---
+---      -100*      ---       Woodsbane      ---   If recognized*     ---    Elf-Slayer     ---   Won't Sell  ---      0     ---
+---       -50       ---         Enemy        ---   Attempt Capture    ---   Elven Enemy     ---   Won't Sell  ---      0     --- 
+---        -1       ---       Untrusted      ---   If commiting crime ---  Elven Criminal   ---     2x Price  ---      0     ---
+---         0       ---        Nuetral       ---   If commiting crime ---      None         ---   1.5x Price  ---      0     ---  
+---        50       ---        Friend        ---      If Attacked     ---      None         ---  1.25x Price  ---      0     ---  
+---       100       ---       Clansman       ---      If Attacked     ---  Elven Clansman   ---     1x Price  ---      1     --- 
+---       150       ---        Chief         ---      If Attacked     ---       None        ---  0.75x Price  ---      2     ---
+---       200       ---         Hero         ---      If Attacked     ---   Elven Hero      ---   0.5x Price  ---      3     ---
+---       255       ---        Legend        ---      If Attacked     ---  Elven Legend     ---  0.25x Price  ---      4     ---
+-----------------------------------------------------------------------------------------------------------------------
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
 
 -- Halflings --
 
@@ -4703,6 +4768,8 @@ Stone Sickle (25%)
 -- Bugbears --
 
 -- Deep Knomes --
+
+-- Drow --
 
 -- Duergars --
 
@@ -5465,6 +5532,58 @@ X Damage
 
 Equipment
 Matches weapon (100%)
+
+- Kuo-Toa -
+
+Base Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 18
+AC: 5-7
+Speed: 100% (Swim 100%)
+Senses: Passive Sight (13 Blocks), Darkvision (18 Blocks)
+STR: 130 (+1)
+DEX: 100 (0)
+CON: 110 (0)
+INT: 110 (0)
+WIS: 100 (0)
+CHA: 80 (-1)
+Damage Vulnerabilities: Bludgeoning
+Damage Immunities: Poison
+Condition Immunities: Exaustion, Poison
+Languages: Undercommon
+Stealth Rating: 40
+Crit Chance: 0%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Amphibious
+The Kuo-Toa can breathe air and water.
+
+Otherworldly Perception
+The Kuo-Toa can sense the oresence of invisible creatures or creatures in the etheral plane within 18 blocks.
+They can locate them if they move.
+
+Slippery
+The Kuo-Toa has resisance to Grappled.
+
+Sunlight Sensitivity
+STR and WIS are reduced by 25% while in sunlight.
+
+Actions:
+
+Spear
+4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Net (100%)
+Wooden Shield (50%)
 
 - Skeleton -
 
