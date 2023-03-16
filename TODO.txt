@@ -1,3 +1,15 @@
+---------- Progress ----------
+Entities: 0/? (0%)
+Weapons: ?/? (?%)
+Tools: ?/? (?%)
+Armor: 4/? (?%)
+Food: 0/? (0%)
+Valuables: 12/? (?%)
+Blocks: 11/? (?%)
+Classes: 0/12 (0%)
+Races: 0/9 (0%)
+Total: 27/? (?%)
+
 ----- Materials -----
 
 --- Foodstuffs ---
