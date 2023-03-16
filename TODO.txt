@@ -5282,7 +5282,7 @@ Weight: 65
 
 --- List of Entities ---
 
--- LVL 0 --
+-- LVL 0 -- (0 / 16 entities complete)
 Awakened Shrub - Stats Complete
 Bat - Model Complete
 Cat - Model Complete
@@ -5299,7 +5299,7 @@ Homunculus
 Lemure
 Rat - Model, Stats Complete
 Spider
--- LVL 0.125 --
+-- LVL 0.125 -- (0 / 39 entities complete)
 Bandit (Human)
 Bandit (Elf)
 Bandit (Dwarf)
@@ -5339,7 +5339,7 @@ Pony - Model Complete
 Stirge
 Tribesman (Human)
 Twig Blight
--- LVL 0.25 --
+-- LVL 0.25 -- (0 / 25 entities complete)
 Acolyte (Human)
 Acolyte (Elf)
 Acolyte (Dwarf)
@@ -5365,7 +5365,7 @@ Steam Mephit
 Winged Kobold
 Wolf - Model Complete
 Zombie - Model Complete
--- LVL 0.5 --
+-- LVL 0.5 -- (0 / 31 entities complete)
 Ape
 Black Bear
 Cockatrice
@@ -5397,7 +5397,7 @@ Thug (Orc)
 Vine Blight
 Warhorse - Model Complete
 Warhorse Skeleton - Model Complete
--- LVL 1 --
+-- LVL 1 -- (0 / 24 entities complete)
 Animated Armor
 Brass Dragon Wyrmling
 Brown Bear
@@ -5422,7 +5422,7 @@ Spy (Halfling)
 Spy (Goblin)
 Spy (Kobold)
 Thri-Kreen
--- LVL 2 --
+-- LVL 2 -- (0 / 58 entities complete)
 Allosaurus
 Ankheg
 Bandit Captain (Human)
@@ -5481,7 +5481,7 @@ Silver Dragon Wyrmling
 Wererat
 White Dragon Wyrmling
 Will-o-Wisp
--- LVL 3 --
+-- LVL 3 -- (0 / 28 entities complete)
 Ankylosaurus
 Basilisk
 Blue Dragon Wyrmling
@@ -5510,7 +5510,7 @@ Werewolf
 Wight
 Winter Wolf
 Yeti
--- LVL 4 --
+-- LVL 4 -- (0 / 13 entities complete)
 Banshee
 Ettin
 Ghost
@@ -5524,7 +5524,7 @@ Red Dragon Wyrmling
 Succubus
 Wereboar
 Werebull
--- LVL 5 --
+-- LVL 5 -- (0 / 28 entities complete)
 Air Elemental
 Beholder Zombie
 Bulette
@@ -5553,7 +5553,7 @@ Vampire Spawn
 Water Elemental
 Werebear
 Young Remorhaz
--- LVL 6 --
+-- LVL 6 -- (0 / 16 entities complete)
 Chimera
 Cyclops
 Galeb Duhr
@@ -5570,13 +5570,13 @@ Medusa
 Wyvern
 Young Brass Dragon
 Young White Dragon
--- LVL 7 --
+-- LVL 7 -- (0 / 5 entities complete)
 Giant Ape
 Oni
 Shield Guardian
 Young Black Dragon
 Young Copper Dragon
--- LVL 8 --
+-- LVL 8 -- (0 / 9 entities complete)
 Assassin (Human)
 Assassin (Elf)
 Assassin (Dwarf)
@@ -5586,7 +5586,7 @@ Hydra
 Tyrannosaurus
 Young Bronze Dragon
 Young Green Dragon
--- LVL 9 --
+-- LVL 9 -- (0 / 7 entities complete)
 Abominable Yeti
 Clay Golem
 Cloud Giant
@@ -5594,87 +5594,87 @@ Fire Giant
 Treant
 Young Blue Dragon
 Young Silver Dragon
--- LVL 10 --
+-- LVL 10 -- (0 / 6 entities complete)
 Aboleth
 Deva
 Guardian Naga
 Stone Golem
 Young Gold Dragon
 Young Red Dragon
--- LVL 11 --
+-- LVL 11 -- (0 / 3 entities complete)
 Gynosphinx
 Remorhaz
 Roc
--- LVL 12 --
+-- LVL 12 -- (0 / 6 entities complete)
 Archmage (Human)
 Archmage (Elf)
 Archmage (Dwarf)
 Archmage (Halfling)
 Archmage (Goblin)
 Archmage (Kobold)
--- LVL 13 --
+-- LVL 13 -- (0 / 6 entities complete)
 Adult Brass Dragon
 Adult White Dragon
 Evil Eye
 Rakshasa
 Storm Giant
 Vampire
--- LVL 14 --
+-- LVL 14 -- (0 / 4 entities complete)
 Adult Black Dragon
 Adult Copper Dragon
 Adult White Dracolich
 Death Eye
--- LVL 15 --
+-- LVL 15 -- (0 / 6 entities complete)
 Adult Black Dracolich
 Adult Bronze Dragon
 Adult Green Dragon
 Mummy Lord
 Vampire Wizard
 Vampire Lord
--- LVL 16 --
+-- LVL 16 -- (0 / 5 entities complete)
 Adult Blue Dragon
 Adult Green Dracolich
 Adult Silver Dragon
 Iron Golem
 Planetar
--- LVL 17 --
+-- LVL 17 -- (0 / 6 entities complete)
 Adult Blue Dracolich
 Adult Gold Dragon
 Adult Red Dragon
 Androsphinx
 Death Knight
 Dragon Turtle
--- LVL 18 --
+-- LVL 18 -- (0 / 2 entities complete)
 Adult Red Dracolich
 Demilich
--- LVL 19 --
+-- LVL 19 -- (0 / 1 entities complete)
 Balor
--- LVL 20 --
+-- LVL 20 -- (0 / 2 entities complete)
 Ancient Brass Dragon
 Ancient White Dragon
--- LVL 21 --
+-- LVL 21 -- (0 / 5 entities complete)
 Ancient Black Dragon
 Ancient Copper Dragon
 Ancient White Dracolich
 Lich
 Solar
--- LVL 22 --
+-- LVL 22 -- (0 / 3 entities complete)
 Ancient Black Dracolich
 Ancient Bronze Dragon
 Ancient Green Dragon
--- LVL 23 --
+-- LVL 23 -- (0 / 5 entities complete)
 Ancient Blue Dragon
 Ancient Green Dracolich
 Ancient Silver Dragon
 Empyrean
 Kraken
--- LVL 24 --
+-- LVL 24 -- (0 / 3 entities complete)
 Ancient Blue Dracolich
 Ancient Gold Dragon
 Ancient Red Dragon
--- LVL 25 --
+-- LVL 25 -- (0 / 1 entities complete)
 Ancient Red Dracolich
--- LVL 30 --
+-- LVL 30 -- (0 / 1 entities complete)
 Tarrasque
 
 --- Reference ---
