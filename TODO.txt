@@ -1,22 +1,29 @@
 ---------- Progress ----------
-Entities: 0/? (0%)
-Weapons: 18/216 (8%)
-Tools: 36/50 (72%)
-Armor: 4/48 (8%)
-Food: 0/? (0%)
-Gear: 0/90 (0%)
-Valuables: 12/? (?%)
+Total Progress Rating: 82/1655*** (4% Complete)
+Entities: 0/364 (0%)
+Weapons: 18/216* (8%)
+Tools: 36/50* (72%)
+Armor: 4/48* (8%)
+Food: 0/0*** (100%)
+Gear: 0/90* (0%)
+Materials: 8/19*** (42%)
+Valuables: 4/56 (7%)
+Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
 Uncommon Magic Items: 0/100 (0%)
 Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
-Artifacts: 0/7 (0%)
-Blocks: 11/? (?%)
-Classes: 0/12 (0%)
-Races: 0/9 (0%)
-Effects: 0/? (0%)
-Total: 27/? (?%)
+Artifacts: 0/7*** (0%)
+Blocks: 12/68 (17%)
+Classes: 0/12** (0%)
+Races: 0/9** (0%)
+Effects: 0/17*** (0%)
+
+*Not including magic weapons.
+**A class will count as finished when all subclasses are complete.
+***Eligable to expand.
+
 
 ----- Materials -----
 
