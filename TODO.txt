@@ -5541,11 +5541,141 @@ Gladiator (Goblin)
 Gladiator (Kobold)
 Gladiator (Orc)
 Gorgon
-
-
-
-
-
+Hill Giant
+Night Hag
+Revenant
+Sahugin Baron
+Shambling Mound
+Triceratops
+Troll
+Unicorn
+Vampire Spawn
+Water Elemental
+Werebear
+Young Remorhaz
+-- LVL 6 --
+Chimera
+Cyclops
+Galeb Duhr
+Hobgoblin Warlord
+Invisible Stalker
+Mage (Human)
+Mage (Elf)
+Mage (Dwarf)
+Mage (Halfling)
+Mage (Goblin)
+Mage (Kobold)
+Mammoth
+Medusa
+Wyvern
+Young Brass Dragon
+Young White Dragon
+-- LVL 7 --
+Giant Ape
+Oni
+Shield Guardian
+Young Black Dragon
+Young Copper Dragon
+-- LVL 8 --
+Assassin (Human)
+Assassin (Elf)
+Assassin (Dwarf)
+Assassin (Halfling)
+Frost Giant
+Hydra
+Tyrannosaurus
+Young Bronze Dragon
+Young Green Dragon
+-- LVL 9 --
+Abominable Yeti
+Clay Golem
+Cloud Giant
+Fire Giant
+Treant
+Young Blue Dragon
+Young Silver Dragon
+-- LVL 10 --
+Aboleth
+Deva
+Guardian Naga
+Stone Golem
+Young Gold Dragon
+Young Red Dragon
+-- LVL 11 --
+Gynosphinx
+Remorhaz
+Roc
+-- LVL 12 --
+Archmage (Human)
+Archmage (Elf)
+Archmage (Dwarf)
+Archmage (Halfling)
+Archmage (Goblin)
+Archmage (Kobold)
+-- LVL 13 --
+Adult Brass Dragon
+Adult White Dragon
+Evil Eye
+Rakshasa
+Storm Giant
+Vampire
+-- LVL 14 --
+Adult Black Dragon
+Adult Copper Dragon
+Adult White Dracolich
+Death Eye
+-- LVL 15 --
+Adult Black Dracolich
+Adult Bronze Dragon
+Adult Green Dragon
+Mummy Lord
+Vampire Wizard
+Vampire Lord
+-- LVL 16 --
+Adult Blue Dragon
+Adult Green Dracolich
+Adult Silver Dragon
+Iron Golem
+Planetar
+-- LVL 17 --
+Adult Blue Dracolich
+Adult Gold Dragon
+Adult Red Dragon
+Androsphinx
+Death Knight
+Dragon Turtle
+-- LVL 18 --
+Adult Red Dracolich
+Demilich
+-- LVL 19 --
+Balor
+-- LVL 20 --
+Ancient Brass Dragon
+Ancient White Dragon
+-- LVL 21 --
+Ancient Black Dragon
+Ancient Copper Dragon
+Ancient White Dracolich
+Lich
+Solar
+-- LVL 22 --
+Ancient Black Dracolich
+Ancient Bronze Dragon
+Ancient Green Dragon
+-- LVL 23 --
+Ancient Blue Dragon
+Ancient Green Dracolich
+Ancient Silver Dragon
+Empyrean
+Kraken
+-- LVL 24 --
+Ancient Blue Dracolich
+Ancient Gold Dragon
+Ancient Red Dragon
+-- LVL 25 --
+Ancient Red Dracolich
+-- LVL 30 --
+Tarrasque
 
 --- Reference ---
 Modifocation Table:
