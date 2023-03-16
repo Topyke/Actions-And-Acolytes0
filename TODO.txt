@@ -5280,6 +5280,273 @@ Weight: 65
 
 ----- Entities -----
 
+--- List of Entities ---
+
+-- LVL 0 --
+Awakened Shrub
+Bat - Model Complete
+Cat - Model Complete
+Commoner (Human)
+Commoner (Elf)
+Commoner (Dwarf)
+Commoner (Halfling)
+Crawling Claw
+Deer
+Eagle
+Frog - Model Complete
+Goat - Model Complete
+Homunculus
+Lemure
+Rat - Model Complete
+Spider
+-- LVL 0.125 --
+Bandit (Human)
+Bandit (Elf)
+Bandit (Dwarf)
+Bandit (Halfling)
+Bandit (Goblin)
+Bandit (Kobold)
+Bandit (Orc)
+Camel - Model Complete
+Cultist (Human)
+Cultist (Elf)
+Cultist (Dwarf)
+Cultist (Halfling)
+Cultist (Goblin)
+Cultist (Kobold)
+Cultist (Orc)
+Diseased Giant Rat - Model Complete
+Giant Rat - Model Complete
+Guard (Human)
+Guard (Elf)
+Guard (Dwarf)
+Guard (Halfling)
+Kobold - Model Complete
+Kobold Digger - Model Complete
+Kobold Slinger - Model Complete
+Kobold Trapper - Model Complete
+Merfolk
+Mule - Model Complete
+Merchant (Human)
+Merchant (Elf)
+Merchant (Dwarf)
+Merchant (Halfling)
+Merchant (Kobold)
+Merchant (Goblin)
+Merchant (Merfolk)
+Merchant (Orc)
+Pony - Model Complete
+Stirge
+Tribesman (Human)
+Twig Blight
+-- LVL 0.25 --
+Acolyte (Human)
+Acolyte (Elf)
+Acolyte (Dwarf)
+Acolyte (Halfling)
+Axe Beak
+Boar - Model Complete
+Bull
+Bullywug
+Draft Horse 
+Flying Weapon
+Giant Bat - Model Complete
+Giant Frog - Model Complete
+Giant Wolf Spider - Model Complete
+Goblin
+Kuo-Toa
+Mud Mephit
+Needle Blight
+Pteranodon
+Riding Horse - Model Complete
+Skeleton - Model Complete
+Smoke Mephit
+Steam Mephit
+Winged Kobold
+Wolf - Model Complete
+Zombie - Model Complete
+-- LVL 0.5 --
+Ape
+Black Bear
+Cockatrice
+Dust Mephit
+Giant Goat - Model Complete
+Gnoll
+Gray Ooze
+Hobgoblin
+Ice Mephit
+Lizardfolk
+Magma Mephit
+Orc
+Sahuagin
+Satyr
+Scout (Human)
+Scout (Elf)
+Scout (Dwarf)
+Scout (Halfling)
+Scout (Goblin)
+Scout (Lizardfolk)
+Scout (Merfolk)
+Scout (Orc)
+Shadow
+Thug (Human)
+Thug (Elf)
+Thug (Dwarf)
+Thug (Goblin)
+Thug (Orc)
+Vine Blight
+Warhorse - Model Complete
+Warhorse Skeleton - Model Complete
+-- LVL 1 --
+Animated Armor
+Brass Dragon Wyrmling
+Brown Bear
+Bugbear
+Death Dog
+Dire Wolf - Model Complete
+Dryad
+Ghoul
+Giant Eagle
+Giant Spider - Model Complete
+Giant Toad - Model Complete
+Goblin Boss
+Half-Ogre
+Harpy
+Hippogriff
+Imp
+Scarecrow
+Spy (Human)
+Spy (Elf)
+Spy (Dwarf)
+Spy (Halfling)
+Spy (Goblin)
+Spy (Kobold)
+Thri-Kreen
+-- LVL 2 --
+Allosaurus
+Ankheg
+Bandit Captain (Human)
+Bandit Captain (Elf)
+Bandit Captain (Dwarf)
+Bandit Captain (Halfling)
+Bandit Captain (Goblin)
+Bandit Captain (Kobold)
+Bandit Captain (Orc)
+Berserker (Human)
+Berserker (Dwarf)
+Berserker (Goblin)
+Berserker (Orc)
+Black Dragon Wyrmling
+Bronze Dragon Wyrmling
+Cave Bear
+Centaur
+Cultist Fanatic (Human)
+Cultist Fanatic (Elf)
+Cultist Fanatic (Dwarf)
+Cultist Fanatic (Halfling)
+Cultist Fanatic (Goblin)
+Cultist Fanatic (Kobold)
+Cultist Fanatic (Orc)
+Druid (Human)
+Druid (Elf)
+Druid (Dwarf)
+Druid (Halfling)
+Druid (Goblin)
+Druid (Kobold)
+Druid (Orc)
+Ettercap
+Gargoyle
+Ghast
+Giant Boar
+Giant Bull
+Gnoll Pack Lord
+Green Dragon Wyrmling
+Griffon
+Lizardfolk Shaman
+Merrow
+Mimic
+Ogre
+Ogre Zombie
+Orc, Eye of Karināšanu
+Orog
+Pegasus
+Priest (Human)
+Priest (Elf)
+Priest (Dwarf)
+Priest (Halfling)
+Rug of Smothering
+Sahuagin Priestess
+Sea Hag
+Silver Dragon Wyrmling
+Wererat
+White Dragon Wyrmling
+Will-o-Wisp
+-- LVL 3 --
+Ankylosaurus
+Basilisk
+Blue Dragon Wyrmling
+Bugbear Chief
+Displacer Beast
+Doppleganger
+Gold Dragon Wyrmling
+Green Hag
+Hobgoblin Captain
+Knight (Human)
+Knight (Elf)
+Knight (Dwarf)
+Knight (Halfling)
+Manticore
+Mummy
+Nightmare
+Owlbear
+Veteran (Human)
+Veteran (Elf)
+Veteran (Dwarf)
+Veteran (Halfling)
+Veteran (Goblin)
+Veteran (Kobold)
+Veteran (Orc)
+Werewolf
+Wight
+Winter Wolf
+Yeti
+-- LVL 4 --
+Banshee
+Ettin
+Ghost
+Gnoll, Fang of Laupīlns
+Helmed Horror
+Incubus
+Lamia
+Lizardfolk King/Queen
+Orc Warchief
+Red Dragon Wyrmling
+Succubus
+Wereboar
+Werebull
+-- LVL 5 --
+Air Elemental
+Beholder Zombie
+Bulette
+Cambion
+Dust Devil
+Earth Elemental
+Fire Elemental
+Flesh Golem
+Gladiator (Human)
+Gladiator (Elf)
+Gladiator (Dwarf)
+Gladiator (Halfling)
+Gladiator (Goblin)
+Gladiator (Kobold)
+Gladiator (Orc)
+Gorgon
+
+
+
+
+
+
 --- Reference ---
 Modifocation Table:
 Using a stat to preform a skill check
