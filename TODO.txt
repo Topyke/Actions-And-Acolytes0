@@ -5283,21 +5283,21 @@ Weight: 65
 --- List of Entities ---
 
 -- LVL 0 --
-Awakened Shrub
+Awakened Shrub - Stats Complete
 Bat - Model Complete
 Cat - Model Complete
-Commoner (Human)
+Commoner (Human) - Stats Complete
 Commoner (Elf)
 Commoner (Dwarf)
 Commoner (Halfling)
-Crawling Claw
-Deer
-Eagle
+Crawling Claw - Stats Complete
+Deer - Stats Complete
+Eagle - Stats Complete
 Frog - Model Complete
-Goat - Model Complete
+Goat - Model, Stats Complete
 Homunculus
 Lemure
-Rat - Model Complete
+Rat - Model, Stats Complete
 Spider
 -- LVL 0.125 --
 Bandit (Human)
