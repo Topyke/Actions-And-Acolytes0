@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ana:item/iron_battleaxe"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 45 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1.11, 1.11, 1.11 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 45, -90, 0 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1.11, 1.11, 1.11 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 45, -90, 0 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1.22, 1.22, 1.22 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 45 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1.22, 1.22, 1.22 ]
+    }
+  }
+}

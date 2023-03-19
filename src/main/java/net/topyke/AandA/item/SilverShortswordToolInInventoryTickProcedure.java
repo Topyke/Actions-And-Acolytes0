@@ -38,11 +38,78 @@ public class SilverShortswordToolInInventoryTickProcedure {
                 modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", (-0.25), AttributeModifier.Operation.MULTIPLY_BASE);
                 _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
             }
-            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:trident")))) {
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:greatclub")))) {
                 modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
                 modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.2, AttributeModifier.Operation.MULTIPLY_BASE);
                 _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
             }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:handaxe")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", -0.25, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:light_hammer")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", -0.25, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:quarterstaff")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.11, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:scythe")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", -0.2, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:spear")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.25, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:glaive")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.33, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:greatsword")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.2, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:halberd")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.5, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:lance")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 1, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:longsword")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.1, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:pike")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 1, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:rapier")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", -0.15, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+            if (itemstack.is(ItemTags.create(new ResourceLocation("ana:whip")))) {
+                modifierReach = itemstack.getOrCreateTag().getDouble("modifierReach");
+                modifier = new AttributeModifier(UUID.fromString("2b218791-3426-4771-9677-6ac832ed900e"), AandA.MOD_ID + "." + "ReachMod", 0.44, AttributeModifier.Operation.MULTIPLY_BASE);
+                _event.addModifier(ForgeMod.ATTACK_RANGE.get(), modifier);
+            }
+
         }
     }
 }

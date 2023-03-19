@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ana:item/iron_lance"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 140 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 140, -90, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 70, -90, 0 ],
+      "translation": [ 0, 10, -2 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 70 ],
+      "translation": [ 0, 10, -2 ],
+      "scale": [ 1.5, 1.5, 1.5 ]
+    }
+  }
+}

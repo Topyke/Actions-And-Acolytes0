@@ -24,6 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_MITHRAL);
         simpleItem(ModItems.RAW_PLATINUM);
         simpleItem(ModItems.RAW_SILVER);
+        simpleItem(ModItems.PEBBLE);
 
         simpleItem(ModItems.SILVER_INGOT);
         simpleItem(ModItems.PLATINUM_INGOT);

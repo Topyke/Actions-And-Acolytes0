@@ -1,2 +1,11 @@
-// 1.19.3	2023-03-14T16:27:52.6877164	Registries
+// 1.19.3	2023-03-14T18:23:55.2012419	Registries
+38f38c050049330af7a9218b0be0209eca81879d data/ana/worldgen/configured_feature/adamantine_ore.json
 8da2f71d108779f87bf738ba101c478202afa7f8 data/ana/worldgen/configured_feature/feywood.json
+e7289f73abb4e94345100a63711128d930c67d86 data/ana/worldgen/configured_feature/mithral_ore.json
+8db9214e75aaab2360093e5306e1fdea4e164ea5 data/ana/worldgen/configured_feature/platinum_ore.json
+327b0ac97641074fe10f07c2c905eb822be00e07 data/ana/worldgen/configured_feature/silver_ore.json
+c559621e065ee3439aa765a586ea083d636ad47a data/ana/worldgen/placed_feature/adamantine_placed.json
+df28d374dd33737554b85845b76628758e2e307a data/ana/worldgen/placed_feature/feywood_placed.json
+6f3f1072af7faa864bf4e9876fd263c1c8eff151 data/ana/worldgen/placed_feature/mithral_placed.json
+388ffb3d458e20811996d798b38d668ad57c1eee data/ana/worldgen/placed_feature/platinum_placed.json
+2a1cd94c331c5b6a69c64c122d8a71e54c1b16d1 data/ana/worldgen/placed_feature/silver_placed.json

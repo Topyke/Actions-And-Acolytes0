@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ana:item/iron_flail"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 360 ],
+      "translation": [ 0, 6, 2 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 360, -90, 0 ],
+      "translation": [ 0, 6, 2 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 315, -90, 0 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 315 ],
+      "translation": [ 0, 5, 2 ],
+      "scale": [ 1, 1, 1 ]
+    }
+  }
+}

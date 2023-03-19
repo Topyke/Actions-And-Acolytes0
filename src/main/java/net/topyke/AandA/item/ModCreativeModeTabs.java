@@ -12,11 +12,16 @@ import net.topyke.AandA.block.ModBlocks;
 
 @Mod.EventBusSubscriber(modid = AandA.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
-    public static CreativeModeTab ANA_MATERIALS;
+    public static CreativeModeTab ANA_ENTITIES;
     public static CreativeModeTab ANA_WAR;
-
     public static CreativeModeTab ANA_TOOLS;
+    public static CreativeModeTab ANA_ARMOR;
+    public static CreativeModeTab ANA_MATERIALS;
     public static CreativeModeTab ANA_NATURAL;
+    public static CreativeModeTab ANA_BUILDINGBLOCKS;
+    public static CreativeModeTab ANA_MAGIC;
+    public static CreativeModeTab ANA_CLASSES;
+
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
@@ -32,5 +37,9 @@ public class ModCreativeModeTabs {
         ANA_NATURAL = event.registerCreativeModeTab(new ResourceLocation(AandA.MOD_ID, "ana_natural"),
                 builder -> builder.icon(() -> new ItemStack(ModBlocks.ADAMANTINE_ORE.get()))
                         .title(Component.translatable("creativemodetab.ana_nature")));
+
+       // ANA_ENTITIES  = event.registerCreativeModeTab(new ResourceLocation(AandA.MOD_ID, "ana_entities"),
+       //         builder -> builder.icon(() -> new ItemStack(ModBlocks.ADAMANTINE_ORE.get()))
+       //                 .title(Component.translatable("creativemodetab.ana_mobs")));
     }
 }

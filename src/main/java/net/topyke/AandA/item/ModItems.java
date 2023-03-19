@@ -4,6 +4,7 @@ import net.mcreator.ana.item.AdamantineShortswordItem;
 import net.mcreator.ana.item.GoldenHoeItem;
 import net.mcreator.ana.item.GoldenShortswordItem;
 import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.topyke.AandA.AandA;
@@ -11,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.antlr.runtime.tree.CommonErrorNode;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -25,11 +27,16 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_DRAGON = ITEMS.register("platinum_dragon",
             () -> new PlatinumDragonItem());
 
+    public static final RegistryObject<Item> PEBBLE = ITEMS.register("pebble",
+            () -> new PebbleItem());
+
 
     public static final RegistryObject<Item> CLUB = ITEMS.register("club",
             () -> new ClubItem());
     public static final RegistryObject<Item> GREATCLUB = ITEMS.register("greatclub",
             () -> new GreatclubItem());
+    public static final RegistryObject<Item> QUARTERSTAFF = ITEMS.register("quarterstaff",
+            () -> new QuarterstaffItem());
     public static final RegistryObject<Item> WOODEN_SHORTSWORD = ITEMS.register("wooden_shortsword",
             () -> new WoodenShortswordItem());
     public static final RegistryObject<Item> WOODEN_PICKAXE = ITEMS.register("wooden_pickaxe",
@@ -53,8 +60,57 @@ public class ModItems {
     public static final RegistryObject<Item> STONE_HOE = ITEMS.register("stone_hoe",
             () -> new StoneHoeItem());
 
+    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger",
+            () -> new IronDaggerItem());
+    public static final RegistryObject<Item> IRON_HANDAXE = ITEMS.register("iron_handaxe",
+            () -> new IronHandaxeItem());
+    public static final RegistryObject<Item> IRON_JAVELIN = ITEMS.register("iron_javelin",
+            () -> new IronJavelinItem());
+    public static final RegistryObject<Item> IRON_MALLET = ITEMS.register("iron_mallet",
+            () -> new IronMalletItem());
+    public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace",
+            () -> new IronMaceItem());
+    public static final RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
+            () -> new IronScytheItem());
+    public static final RegistryObject<Item> IRON_SPEAR = ITEMS.register("iron_spear",
+            () -> new IronSpearItem());
+    public static final RegistryObject<Item> IRON_BATTLEAXE = ITEMS.register("iron_battleaxe",
+            () -> new IronBattleaxeItem());
+    public static final RegistryObject<Item> IRON_FLAIL = ITEMS.register("iron_flail",
+            () -> new IronFlailItem());
+    public static final RegistryObject<Item> IRON_GLAIVE = ITEMS.register("iron_glaive",
+            () -> new IronGlaiveItem());
+    public static final RegistryObject<Item> IRON_GREATAXE = ITEMS.register("iron_greataxe",
+            () -> new IronGreataxeItem());
+
+    public static final RegistryObject<Item> IRON_GREATSWORD = ITEMS.register("iron_greatsword",
+            () -> new IronGreatswordItem());
+    public static final RegistryObject<Item> IRON_HALBERD = ITEMS.register("iron_halberd",
+            () -> new IronHalberdItem());
+    public static final RegistryObject<Item> IRON_LANCE = ITEMS.register("iron_lance",
+            () -> new IronLanceItem());
+    public static final RegistryObject<Item> IRON_LONGSWORD = ITEMS.register("iron_longsword",
+            () -> new IronLongswordItem());
+    public static final RegistryObject<Item> IRON_MAUL = ITEMS.register("iron_maul",
+            () -> new IronMaulItem());
+    public static final RegistryObject<Item> IRON_MORNINGSTAR = ITEMS.register("iron_morningstar",
+            () -> new IronMorningstarItem());
+    public static final RegistryObject<Item> IRON_PIKE = ITEMS.register("iron_pike",
+            () -> new IronPikeItem());
+    public static final RegistryObject<Item> IRON_RAPIER = ITEMS.register("iron_rapier",
+            () -> new IronRapierItem());
+    public static final RegistryObject<Item> IRON_SCIMITAR = ITEMS.register("iron_scimitar",
+            () -> new IronScimitarItem());
     public static final RegistryObject<Item> IRON_SHORTSWORD = ITEMS.register("iron_shortsword",
             () -> new IronShortswordItem());
+    public static final RegistryObject<Item> IRON_TRIDENT = ITEMS.register("iron_trident",
+            () -> new IronTridentItem(new Item.Properties().stacksTo(1).rarity(net.minecraft.world.item.Rarity.COMMON)));
+    public static final RegistryObject<Item> IRON_WARPICK = ITEMS.register("iron_warpick",
+            () -> new IronWarpickItem());
+    public static final RegistryObject<Item> IRON_WARHAMMER = ITEMS.register("iron_warhammer",
+            () -> new IronWarhammerItem());
+    public static final RegistryObject<Item> IRON_WHIP = ITEMS.register("iron_barbed_whip",
+            () -> new IronBarbedWhipItem());
     public static final RegistryObject<Item> IRON_PICKAXE = ITEMS.register("iron_pickaxe",
             () -> new IronPickaxeItem());
     public static final RegistryObject<Item> IRON_HATCHET = ITEMS.register("iron_hatchet",
@@ -135,6 +191,13 @@ public class ModItems {
             () -> new AdamantineShovelItem());
     public static final RegistryObject<Item> ADAMANTINE_HOE = ITEMS.register("adamantine_hoe",
             () -> new AdamantineHoeItem());
+
+    public static final RegistryObject<Item> SLING = ITEMS.register("sling",
+            () -> new SlingItem());
+    public static final RegistryObject<Item> SHORTBOW = ITEMS.register("shortbow",
+            () -> new ShorbowItem(new Item.Properties().stacksTo(1).rarity(net.minecraft.world.item.Rarity.COMMON)));
+    public static final RegistryObject<Item> LIGHT_CROSSBOW = ITEMS.register("light_crossbow",
+            () -> new LightCrossbowItem(new Item.Properties().stacksTo(1).rarity(net.minecraft.world.item.Rarity.COMMON)));
 
     public static void register(IEventBus eventBus) {
 
