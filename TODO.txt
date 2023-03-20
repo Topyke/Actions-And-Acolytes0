@@ -2981,15 +2981,106 @@ Tinderbox
 
 --- Common ---
 
+Potion of Climbing
+Type: Potion
+Appearance: Layers of brown, Silver, and gray.
+Effect: Drinking this potion grants you the ability to climb up walls for 3 minutes, 
+You also gain advantage on Athletics checks made to climb up walls.
+
+Potion of Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 7 HP.
+
+Spell Scroll of (Cantrip)
+Type: Consumable
+Effect: If your class can cast a field of magic that the spell on the scroll is in, 
+You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
+normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
+Otherwise, it goes wrong.
+
+Spell Scroll of (LVL 1 Spell)
+Type: Consumable
+Effect: If your class can cast a field of magic that the spell on the scroll is in, 
+You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
+normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
+Otherwise, it goes wrong.
+
 --- Uncommon ---
+
+Alchemy Jug
+Type: Wonderous Item
+Effect: Shift+Right-click can select a liquid to create. Right Click fills anything that can hold it
+in your inventory with 1 bottles worth that liquid, see table for maximum amount.
+Once a liquid has reached it's limit, it cannot be used again for 30 minutes.
+-----------------------------
+     Alchemy Jug Liquids
+-----------------------------
+Liquid --- Max Containers ---
+Acid   ---   4 Bottles    ---
+Poison ---   1 Bottle     ---
+Beer   ---   10 Bottles   ---
+Honey  ---   5 Bottles    ---
+Oil    ---   1 Bottle     ---
+Water  ---   15 Bottles   ---
+Wine   ---   5 Bottles    ---
+-----------------------------
+
+Arrow (+1)
+Type: Ammo
+Increases Damage by 1 when shot from a bow.
+
+Amulet of Proof against Detection
+Type: Charm
+Effect: Makes you immune to Divination Magic while worn.
+
+Boots of Elvenkind
+Type: Armor
+AC: 2
+Effect: While moving, your footsteps make no sound, and you have advantage on stealth checks.
+
+Boots of Swiftness
+Requires Attunement
+Type: Armor
+AC: 0
+Effect: While worn and attuned to, Your movement speed is increased by 15%, and you gain +1 jump height.
+
+Crossbow Bolt (+1)
+Type: Ammo
+Increases Damage by 1 when shot from a crossbow.
+
+Potion of Greater Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 14 HP.
+
+Pouch of Holding
+Type: Wonderous Item
+Effect: This pouch's container can hold up to a full chest worth of items.
+
 
 --- Rare ---
 
+Adamantine (ArmorType) Armor
+Type: Armor
+AC: Original AC +1 
+Effect: While worn, +1 AC and reduce Critical Damage by 75%.
+
+Potion of Superior Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 28 HP.
+
 --- Very Rare ---
+
+Potion of Supreme Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 45 HP.
 
 --- Legendary ---
 
---- Artifact ---
+--- Artifacts ---
 
 ----- Weapons -----
 
