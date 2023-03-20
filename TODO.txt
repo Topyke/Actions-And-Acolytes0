@@ -7,6 +7,7 @@ Armor: 4/48* (8%)
 Food: 0/0*** (100%)
 Gear: 0/90* (0%)
 Materials: 8/19*** (42%)
+
 Valuables: 4/56 (7%)
 Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
@@ -53,6 +54,12 @@ Trapdoor
 Scaffolding x 4
 Value: 5 CP
 
+Barrel
+
+Chest
+
+Ladder
+
 -- Stones --
 
 Cobblestone x 4
@@ -90,6 +97,30 @@ Value 4 CP
 
 Cobbled Deepslate Stairs x 4
 Value: 5 CP
+
+-- Misc --
+
+Torch
+
+Candle
+
+Lamp
+
+Bucket
+
+Bell
+
+Book
+
+Glass Bottle 
+
+Paper
+
+Chain
+
+Fishing Rod
+
+Ink
 
 -- Cloths --
 
@@ -2767,13 +2798,7 @@ Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
 
---- Items ---
-
-Abacus
-Cost: 2 GP
-Sell: 1 GP
-Type: Block
-Emits a redstone signal based on calculations.
+--- Consumables ---
 
 Acid Vial
 Cost: 2 PP, 5 GP
@@ -2797,12 +2822,173 @@ Type: Drink
 Can be consumed to grant immunity to
 poison for 30 minutes.
 
+Holy Water
+
+--- Storage ---
+
 Backpack
 Cost: 2 GP
 Sell: 1 GP
 Type: Item
 up to 9 stacks of items can be placed in
 the backpack.
+
+Crossbow Bolt Case
+
+Component Pouch
+
+Flask / Tankard
+
+--- Blocks ---
+
+Abacus
+Cost: 2 GP
+Sell: 1 GP
+Type: Block
+Emits a redstone signal based on calculations.
+
+Acid Vial
+
+Ball Bearings
+
+Basket
+
+Bedroll
+
+Blanket
+
+Block and Tangle
+
+Caltrops
+
+Chalk
+
+Hourglass
+
+Hunting Trap
+
+Lock
+
+--- Tools ---
+
+Climbers Kit
+
+Crowbar
+
+Grappling Hook
+
+Hammer
+
+Hammer, Sledge
+
+Healers Kit
+
+Ink Pen
+
+Jug / Pitcher
+
+Lantern (Bullseye)
+
+Lantern (Hooded)
+
+--- Wearable ---
+
+Clothes (Common)
+
+Clothes (Costume)
+
+Clothes (Fine)
+
+Clothes (Traveller)
+
+
+
+
+
+
+Magnifying Glass
+
+Manacles
+
+Mess Kit
+
+Mirror (Iron)
+
+Oil Flask
+
+Paper
+
+Parchment
+
+Perfume
+
+Pickaxe
+
+Piton
+
+Poison Vial
+
+10-foot Pole
+
+Pot (Iron)
+
+Pouch
+
+Quiver
+
+Ram
+
+Robes
+
+Rope (Hemp)
+
+Rope (Silk)
+
+Sack
+
+Merchants Scale
+
+Sealing Wax
+
+Shovel
+
+Signal Whistle
+
+Signet Ring
+
+Soap
+
+Iron Spikes
+
+Spyglass
+
+Tent
+
+Tinderbox
+
+Torch
+
+Vial
+
+Waterskin
+
+Whetstone
+
+
+
+----- Magic Items -----
+
+--- Common ---
+
+--- Uncommon ---
+
+--- Rare ---
+
+--- Very Rare ---
+
+--- Legendary ---
+
+--- Artifact ---
 
 ----- Weapons -----
 
