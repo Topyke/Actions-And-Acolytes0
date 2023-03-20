@@ -1,13 +1,12 @@
 ---------- Progress ----------
-Total Progress Rating: 102/1655*** (6.16% Complete)
+Total Progress Rating: 102/1570*** (6.49% Complete)
 Entities: 0/364 (0%)
 Weapons: 38/216* (17%)
-Tools: 36/50* (72%)
+Tools: 36/72* (50%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
-Gear: 0/90* (0%)
+Gear: 0/19* (0%)
 Materials: 8/19*** (42%)
-
 Valuables: 4/56 (7%)
 Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
@@ -16,7 +15,7 @@ Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
 Artifacts: 0/7*** (0%)
-Blocks: 12/68 (17%)
+Blocks: 12/32 (37%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
 Effects: 0/17*** (0%)
@@ -121,6 +120,8 @@ Chain
 Fishing Rod
 
 Ink
+
+Spyglass
 
 -- Cloths --
 
@@ -242,6 +243,10 @@ Value: 5 GP, 5 SP, 5 CP
 
 Adamantine Block
 Value: 45 PP
+
+Geode Block
+
+Deepslate Geode Block
 
 ----- Coins -----
 
@@ -2824,6 +2829,18 @@ poison for 30 minutes.
 
 Holy Water
 
+Oil Flask
+
+Perfume
+
+Poison Vial
+
+Sealing Wax
+
+Soap
+
+Whetstone
+
 --- Storage ---
 
 Backpack
@@ -2839,6 +2856,16 @@ Component Pouch
 
 Flask / Tankard
 
+Pouch
+
+Quiver
+
+Sack
+
+Vial
+
+Waterskin
+
 --- Blocks ---
 
 Abacus
@@ -2846,8 +2873,6 @@ Cost: 2 GP
 Sell: 1 GP
 Type: Block
 Emits a redstone signal based on calculations.
-
-Acid Vial
 
 Ball Bearings
 
@@ -2869,6 +2894,16 @@ Hunting Trap
 
 Lock
 
+Pot (Iron)
+
+Rope (Hemp)
+
+Rope (Silk)
+
+Spikes (Iron)
+
+Tent
+
 --- Tools ---
 
 Climbers Kit
@@ -2876,6 +2911,8 @@ Climbers Kit
 Crowbar
 
 Grappling Hook
+
+Hatchet (Iron)
 
 Hammer
 
@@ -2887,9 +2924,37 @@ Ink Pen
 
 Jug / Pitcher
 
+Key
+
 Lantern (Bullseye)
 
 Lantern (Hooded)
+
+Magnifying Glass
+
+Manacles
+
+Mess Kit
+
+Mirror (Iron)
+
+Pickaxe (Iron)
+
+Piton
+
+10-foot Pole
+
+Ram
+
+Merchants Scale
+
+Shovel (Iron)
+
+Signal Whistle
+
+Spellbook
+
+Tinderbox
 
 --- Wearable ---
 
@@ -2901,80 +2966,9 @@ Clothes (Fine)
 
 Clothes (Traveller)
 
-
-
-
-
-
-Magnifying Glass
-
-Manacles
-
-Mess Kit
-
-Mirror (Iron)
-
-Oil Flask
-
-Paper
-
-Parchment
-
-Perfume
-
-Pickaxe
-
-Piton
-
-Poison Vial
-
-10-foot Pole
-
-Pot (Iron)
-
-Pouch
-
-Quiver
-
-Ram
-
 Robes
 
-Rope (Hemp)
-
-Rope (Silk)
-
-Sack
-
-Merchants Scale
-
-Sealing Wax
-
-Shovel
-
-Signal Whistle
-
 Signet Ring
-
-Soap
-
-Iron Spikes
-
-Spyglass
-
-Tent
-
-Tinderbox
-
-Torch
-
-Vial
-
-Waterskin
-
-Whetstone
-
-
 
 ----- Magic Items -----
 
