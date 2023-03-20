@@ -1,14 +1,19 @@
 ---------- Progress ----------
+Total Progress Rating: 102/1584*** (6.43% Complete)
 Total Progress Rating: 102/1655*** (6.16% Complete)
 Entities: 0/364 (0%)
 Weapons: 38/216* (17%)
+Tools: 36/72* (50%)
 Tools: 36/50* (72%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
+Gear: 0/19* (0%)
+Materials: 8/21*** (42%)
 Gear: 0/90* (0%)
 Materials: 8/19*** (42%)
 
 Valuables: 4/56 (7%)
+Magic Foci: 0/12 (0%)
 Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
 Uncommon Magic Items: 0/100 (0%)
@@ -16,233 +21,183 @@ Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
 Artifacts: 0/7*** (0%)
+Blocks: 12/32*** (37%)
 Blocks: 12/68 (17%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
 Effects: 0/17*** (0%)
-
 *Not including magic weapons.
 **A class will count as finished when all subclasses are complete.
 ***Eligable to expand.
-
-
 ----- Materials -----
-
 --- Foodstuffs ---
-
 Wheat
 Value: 1 CP
-
 --- Building Materials ---
-
 -- Woods --
-
 Planks x 4
 Value: 2 CP
-
 Logs x 4
 Value: 8 CP
-
 Stairs (wood) x 4
 Value: 1 SP
-
 Door (wood) 
 Value: 1 SP
-
 Trapdoor
-
 Scaffolding x 4
 Value: 5 CP
-
 Barrel
-
 Chest
-
 Ladder
-
 -- Stones --
-
 Cobblestone x 4
 Value: 1 CP
-
 Cobblestone Wall x 4
 Value: 2 CP
-
 Cobblestone Stairs x 4
 Value: 5 CP
-
 Stone x 4
 Value: 2 CP
-
 Stone Wall x 4
 Value: 4 CP
-
 Stone Stairs x 4
 Value: 1 SP
-
 Stone Bricks x 4
 Value: 5 CP
-
 Stone Brick Wall x 4
 Value 1 SP
-
 Stone Brick Stairs x 4
 Value: 2 SP, 5 CP
-
 Cobbled Deepslate x 4
 Value: 2 CP
-
 Cobbled Deepslate Wall x 4
 Value 4 CP
-
 Cobbled Deepslate Stairs x 4
 Value: 5 CP
-
 -- Misc --
-
 Torch
-
 Candle
-
 Lamp
-
 Bucket
-
 Bell
-
 Book
-
 Glass Bottle 
-
 Paper
-
 Chain
-
 Fishing Rod
 
 Ink
+
+Spyglass
 
 -- Cloths --
 
 Wool x 4
 Value: 8 CP
-
-
 --- Metals ---
-
 Copper Ore
 Value: 2 CP
-
 Raw Copper
 Value: 5 CP
-
 Copper Ingot
 Value: 1 SP
-
 Copper Nugget
 Value: 1 CP
-
 Copper Block
 Value: 9 SP
-
 Iron Ore
 Value: 1 SP, 2 CP
-
 Raw Iron
 Value: 2 SP, 5 CP
-
 Iron Ingot
 Value: 5 SP
-
 Iron Nugget
 Value: 4 CP
-
 Iron Block
 Value: 4 GP, 5 SP
-
 Gold Ore
 Value: 2 SP, 5 CP
-
 Raw Gold
 Value: 5 SP
-
 Gold Ingot
 Value: 1 GP
-
 Gold Nugget
 Value: 1 SP, 1 CP
-
 Gold Block
 Value: 9 GP
-
 --- New Foodstuffs ---
-
 --- New Building Materials ---
 
 --- New Cloths ---
+
+Canvas
+
+Linen
+
+Silk
+
+--- New Misc ---
+
+Flour
+
+Salt
+
+Ginger
+
+Cloves
+
+Saffron
+
+Parchment
 
 --- New Metals ---
 
 Silver Ore (done)
 Value: 1 SP, 8 CP
-
 Raw Silver (done)
 Value: 3 SP, 7 CP
-
 Silver Ingot (done)
 Value: 7 SP, 5 CP
-
 Silver Nugget
 Value: 8 CP
-
 Silver Block
 Value: 6 GP, 7 SP, 5 CP
-
 Platinum Ore (done)
 Value: 2 GP, 5 SP
-
 Raw Platinum (done)
 Value: 5 GP
-
 Platinum Ingot (done)
 Value: 1 PP
-
 Platinum Nugget
 Value: 1 GP, 1 SP, 1 CP
-
 Platinum Block
 Value: 9 PP
-
 Mithral Ore (done)
 Value: 6 GP, 2 SP, 5 CP
-
 Raw Mithral (done)
 Value: 1 PP, 2 GP, 5 SP
-
 Mithral Ingot (done)
 Value: 2 PP, 5 GP
-
 Mithral Nugget
 Value: 2 GP, 7 SP, 7 CP
-
 Mithral Block
 Value: 22 PP, 9 GP
-
 Adamantine Ore (done)
 Value: 1 PP, 2 GP, 5 SP
-
 Raw Adamantine (done)
 Value: 2 PP, 5 GP
-
 Adamantine Ingot (done)
 Value: 5 PP
-
 Adamantine Nugget
 Value: 5 GP, 5 SP, 5 CP
-
 Adamantine Block
 Value: 45 PP
 
+Geode Block
+
+Deepslate Geode Block
+
+----- Valuables -----
 ----- Coins -----
 
 Coins:
@@ -250,9 +205,7 @@ Copper Crow
 Silver Sentinel (Worth 10 Copper Pieces)
 Gold Griffon (Worth 10 Silver Pieces)
 Platinum Dragon (Worth 10 Gold Pieces)
-
 ----- Stats -----
-
 Stats can range from 0 to 300.
 When players select a class, they get 500 
 stat points to allocate, in groups of 5, 
@@ -268,7 +221,6 @@ Boost by skill check chance is a stat/CR chance.
 How often a stat increases by level up is based on class.
 a increased stat by level up is increased by 20.
 a increased stat by skill check in increased by 1.
-
 Modifocation Table:
 Using a stat to preform a skill check
 will result in a puzzle, your stat will determine
@@ -289,7 +241,6 @@ how many pieces you get, at a base of 10 pieces.
 260-279: +8
 280-299: +9
 300: +10
-
 STR:
 Impacts melee damage. 
 Used for athletics.
@@ -310,7 +261,6 @@ STR Table
 260-279: +40% melee damage
 280-299: +45% melee damage
 300: +50% melee damage
-
 DEX:
 Impacts movement speed, ranged damage, and stealth.
 Used for acrobatics, and slight of hand.
@@ -331,7 +281,6 @@ DEX Table
 260-279: +40% ranged damage and movement speed, +40 stralth
 280-299: +45% ranged damage and movement speed, +45 stealth
 300: +50% ranged damage and movement speed, +50 stealth
-
 CON:
 Impacts Max HP.
 Used for stamina.
@@ -352,7 +301,6 @@ CON Table
 260-279: (9 * Class Base) Max Hit Points
 280-299: (10 * Class Base) Max Hit Points
 300: (11 * Class Base) Max Hit Points
-
 INT:
 Impacts magic damage.
 Used for arcana, history, investigation, nature, and religion.
@@ -375,7 +323,6 @@ and skills you are proficient in.
 260-279: +40% magic damage
 280-299: +45% magic damage
 300: +50% magic damage
-
 WIS:
 Impacts spell slots.
 Used for animal handling, insight, medicine, perception, and survival.
@@ -396,7 +343,6 @@ WIS Table
 260-279: +8 spell slots
 280-299: +9 spell slots
 300: +10 spell slots
-
 CHA:
 Impacts NPC interaction.
 Used for deception, intimidation, performance, and persuasion.
@@ -417,13 +363,9 @@ CHA Table
 260-279: +40% positive interaction rate
 280-299: +45% positive interaction rate
 300: +50% positive interaction rate
-
-
 ----- Overhauled Level System -----
-
 Killing A&A mobs grants AXP, which can be
 used to level up.
-
 AXP Table
 LVL 1: starting level
 LVL 2: 300 AXP (300 total)
@@ -445,16 +387,12 @@ LVL 17: 225000 AXP (1223400 total)
 LVL 18: 265000 AXP (1488400 total)
 LVL 19: 305000 AXP (1793400 total)
 LVL 20: 355000 AXP (2148400 total)
-
 ----- Classes -----
-
 --- Barbarian ---
-
 Base HP: 12
 Minimum HP: 6
 Max HP: 72
 Absolute Max HP: 132
-
 Default Stats:
 HP: 12
 STR: 150 (12)
@@ -470,7 +408,6 @@ Stealth Rating: 45
 Speed: 95%
 Chat Success: 35%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 95%
 DEX: 40%
@@ -478,34 +415,24 @@ CON: 95%
 INT: 10%
 WIS: 30%
 CHA: 30%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor, Medium Armor, Shields
-
 Weapons:
 Simple Weapons, 3 Martial Weapons
-
 Tools:
 None
-
 Saving Throws:
 Strength, Consititution
-
 Skills:
 2 of the following: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival
-
 Starting Equipment:
 1 Wooden Greataxe (or) any Wooden Martial Weapon
 2 Stone Handaxes (or) any Stone Simple Weapon
 An explorer's pack
 4 Wooden Javelins
-
 Abilities:
-
 LVL 1
-
 Rage
 You can press <ClassAbility1Key> to activate Rage.
 Rage ends in 1 minute or if you fall unconsious.
@@ -524,220 +451,143 @@ Level --- Rage Charges
 20    --- Infinite
 -----------------------
 See Status Conditions to see the effects of rage.
-
-
 Unarmored Defense
 While waering no armor, you AC is equal to 5 + CON modifier.
-
 - LVL 2 -
-
 Reckless Attack
 You can press <ClassAbility2Key> to toggle Reckless attack.
 Reckless attack reduces AC by 25% but increased damage by 25%.
-
 Danger Sense
 You permanently have the Dangersense effect.
-
 - LVL 3 -
-
 You can now select a subclass.
 Subclass options:
 Berserker
 Totem Warrior
-
 - LVL 4 - 
-
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
-
 - LVL 5 - 
-
 Attack Swiftness
 Your base Attack Speed is increased to 4.1.
-
 Fast Movement
 While not wearing Heavy Armor, you gain +20% movement speed.
-
 - LVL 7 - 
-
 Feral Instinct
 Your instincts have been honed. You now have advantage on perception checks that rely on Sight, Smell, or Hearing.
-
 - LVL 8 - 
-
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
-
 - LVL 9 - 
-
 Brutal Critical 1
 Criticals deal 33% more damage.
-
 - LVL 11 -
-
 Relentless Rage
 While raging, if you would take a fatal wound, and drop to 0 HP, You make a CON Resistance Check (CR 100),
 If it passes, you drop to 1 HP instead.
 Each time this ability procs, the CR increases by 50.
 CR can be reset to 100 by completing a short rest.
-
 - LVL 12 - 
-
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
-
 - LVL 13 - 
-
 Brutal Critical 2
 Criticals deal 66% more damage.
-
 - LVL 15 -
-
 Persistant Rage
 Your rage now lasts forever until you fall unconsious or you deactivate it.
-
 - LVL 16 - 
-
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
-
 - LVL 17 - 
-
 Brutal Critical 3
 Criticals deal 99% more damage.
-
 - LVL 18 -
-
 Indomitable Might
 You now have advantage on all strength checks, even when outside of rage.
-
 - LVL 19 - 
-
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
-
 - LVL 20 - 
-
 Primal Champion
 +40 STR and CON. Your maximum base value for these stats is now 240.
-
 -- Berserker-Unique Ablities --
-
 - LVL 3 -
-
 Frenzy
 Holding Shift + <ClassAbility1Key> will enable Frenzy. 
 While under Frenzy, your Attack speed is increased by 25% in addition
 to rage's other effects.
 When Frenzy ends, you suffer one level of exaustion.
-
 - LVL 6 -
-
 Mindless Rage
 You are immune to Charmed or Frightened while raging.
 you are cured of these conditions when you enter rage.
-
 - LVL 10 -
-
 Frightening Presence
 You can use the <ClassAbility3Key> to attempt to Frighten a creature.
 The target must pass a Resistance check (CR 80 * (Profiecncy Bonus + Charisma Mod)).
 If it fails, it will become Frightened of you for 15 seconds.
 As long as they don't pass the check, you can continue to use this ability.
 If the check passes, this ability is disabled for 24 minutes.
-
 - LVL 14 -
-
 Retaliation
 When taking damage from a melee attack, you can automatically counterattack if your weapon is fully recharged.
 This ability can be disabled in the Class Passives Setting.
-
 -- Totem Warrior-Unique Ablities --
-
-
 - LVL 3 -
-
 Spirit Seeker
 You now have the ability to cast Beast Sense and Speak With Animals as Rituals.
-
 Totom Spirit
 Select a totem spirit and gain it's benefits.
-
 Bear
 While Raging, you have resistance to all damage except Psychic damage.
-
 Eagle
 While Raging, increases attack speed by 25%.
-
 Elk
 While Raging, increases movement speed by 33%.
-
 Tiger
 While Raging, increases jump height by 150%, and increases air velocity.
-
 Wolf
 While Raging, You gain Pack Tactics.
-
 - LVL 6 -
-
 Aspect of the Beast
 You gain a magical benefit based on which animal you select.
-
 Bear
 Increases break speed by 25%.
-
 Eagle
 You can use the <ClassAbility3Key> to Zoom in, as if using a spyglass. 
-
 Elk
 Your movement speed is doubled.
 Taking damage or Attacking will disable this effect for 60 seconds.
-
-
 Tiger
 Gain Proficency in two of the following skills: Athletics, Acrobatics, Stealth, Survival
-
 Wolf
 +25 Stealth Rating.
-
 - LVL 10 -
-
 Spirit Walker
 You can cast the Commune with Nature Spell, but only as a ritual.
 When cast, one of the animals you've chosen will appear and divulge the info you request.
-
 - LVL 14 -
-
 Totemic Attunement
 You gain a magical benefit based on which animal you select.
-
 Bear
 Reduces Critical Hit damage by 50% while Raging.
-
 Eagle
 While Raging, you can fly for up to 10 seconds at a time.
 You restore 1 second of flight every 2 seconds, restoring a completely depleted flight after 20 seconds.
-
 Elk
 While Raging AND sprinting, your movement speed modifier is added to your melee damage as a % bonus.
 EX. +33% movement speed = +33% melee damage.
-
 Tiger
 While Raging AND sprinting, your movement speed modifier is added to your melee attack speed as a % bonus.
 EX. +33% movement speed = +33% attack speed.
-
 Wolf
 While Raging, melee attacks have a 15% chance to inflict Bleed on a creature.
-
-
-
 --- Bard ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 6
 STR: 50 (7)
@@ -753,7 +603,6 @@ Stealth Rating: 50
 Speed: 100%
 Chat Success: 55%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 40%
 DEX: 40%
@@ -761,37 +610,27 @@ CON: 40%
 INT: 50%
 WIS: 50%
 CHA: 80%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor
-
 Weapons:
 Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords
-
 Tools:
 3 musical instruments of your choice
-
 Saving Throws:
 Dexterity, Charisma
-
 Skills:
 Any 3 skills.
-
 Starting Equipment:
 1 Stone Rapier (or) 1 Stone Longsword (or) any Stone Simple Weapon
 a Diplomats pack (or) an entertainers pack
 a lute (or) any other musical instrument
 Leather Chestplate and a Stone Dagger
-
 --- Cleric ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 8
 STR: 100 (10)
@@ -807,8 +646,6 @@ Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
 Remaining: 0 / 500
-
-
 Base Growth Rates:
 STR: 45%
 DEX: 45%
@@ -816,31 +653,23 @@ CON: 45%
 INT: 45%
 WIS: 60%
 CHA: 60%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor, Medium Armor, Shields
-
 Weapons:
 Simple Weapons
-
 Tools:
 None
-
 Saving Throws:
 Wisdom, Charisma
-
 Skills:
 2 of the following: History, Insight, Medicine, Persuasion, Religion
-
 Starting Equipment:
 1 Stone Mace (or) 1 Stone Warhammer
 Scalemail Chestplate (or) Leather Tunic (or) Chainmail Breastplate
 a light crossbow and 20 bolts (or) any Stone Simple Weapon
 a Priest's Pack (or) an Explorer's pack
 a shield and a holy symbol
-
   -------------------
   PROF Bonus Table 
   -------------------
@@ -850,7 +679,6 @@ a shield and a holy symbol
   9-12  ---  +4   ---
   13-16 ---  +5   ---
   17-20 ---  +6   ---
-
 -------------------------------------------------------------------------------------------------------------------------------------------
                                               Spell Slot Table
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -877,14 +705,11 @@ Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- L
   20   ---      5     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
   
  Abilities:
-
  - LVL 1 -
-
 Spellcasting
 You have the ability to cast Holy Spells.
 Spell Resistance: 80 + ((PROF Bonus + WIS Bonus) * 10)
 You need a holy symbol in order to cast spells.
-
 Divine Domain
 Select a domain related to your Deity.
 Knowledge
@@ -896,23 +721,18 @@ Trickery
 War
 Your choice grants you domain spells and other features.
 Domain spells do not count towards your maximum spell cap.
-
 - LVL 2 -
-
 Channel Divinity
 You gain the ability Turn Undead as well as an additional ability based on your Divine Domain.
 Some Divine Domains grant additional abilities by level up.
 After using any Channel Divinity, that Ability is disabled until you rest.
 Pressing SHIFT + <ClassAbility1Key> cycles between Channel Divinity abilities.
-
 Turn Undead
 By presenting a holy symbol, you can press <ClassAbility1Key> to utter a prayer to attempt to turn undead.
 All undead that can see or hear you within a 10 block radius must succeed a Wisdom Resistance Check (CR your spell CR)
 If a creature fails, they are turned for the next minute or until they take damage.
 Turned is identical to Frieghtend.
-
 - LVL 5 -
-
 Destroy Undead
 When a undead fails it's Resistance Check against Turn Undead. They are instantly destroyed based on the table below.
 You gain no AXP for destroying enemies in this way.
@@ -927,21 +747,15 @@ Level ---       CR     ---
   20  --- 8 or lower   ---
   
 - LVL 10 -
-
 Divine Intervention
 When absolutely nessesary, you can press <ClassAbility2Key> to call on your Deity to intervene on your behalf. there is a LVL/100 chance that your Deity will heed your call.
 If the check passes, your Deity will cast a LVL 9 cleric spell, determined by the domain.
 This ability has a cooldown of 1 real life day.
-
 - LVL 20 -
-
 Divine Favor
 Your Divine Intervention check always passes.
-
 -- Divine Domains --
-
 - Knowledge Domain-Unique Abilities -
-
 ------------------------------------------
          Knowledge Domain Spells
 ------------------------------------------
@@ -953,17 +767,12 @@ LVL ---                Spells          ---
  9  ---       Legend Lore, Scrying     ---
  
 - LVL 1 -
-
 Blessings of Knowledge
 You learn 2 new languages of your choice. You also become proficient in 2 of the following: Arcana, History, Nature, Religion
-
 - LVL 2 -
-
 Channel Divinity - Knowledge of the Ages
 You can press <ClassAbility1Key> to tap into a divine well of knowledge. You choose 1 Skill or Tool, for the next 20 minutes, you have Proficiency in that Skill or Tool.
-
 - LVL 6 -
-
 Channel Divinity - Read Thoughts
 You can press <ClassAbility1Key> to attempt to read a creatures thoughts, you can then use your access to the creatures mind to command it.
 The ability has a range of 18 blocks, and you must be looking at the target.
@@ -972,23 +781,17 @@ If the target fails, you can read it's surface thoughts as long as if it's withi
 During the 1 minute period, you can end the effect to cast Suggestion on the target without expending a spell slot, the target automatically fails it's
 Resistance Check.
 If used on a player, you can see their current HP, Hunger level, AC, Breath (if underwater), Status Effects, and Sanity. you can still casst Suggestion as normal.
-
 - LVL 8 -
-
 Potent Spellcasting
 Your Spell Power is doubled if it is a positive value.
-
 - LVL 17 -
-
 Visions of the Past
 You can press <ClassAbility2Key> call up visions of the past that relate to an object you hold or your immediate surroundings. This ability cannot be used again until after a rest.
 Object Reading
 When using this ability holding an item, you meditate for 30 seconds, after 30 seconds are up, you learn who the previous owner of the item was. How they got the item, and how they lost it. Moving before the 30 seconds are up cancels the ability.
 Area Reading
 When not holding an item, you meditate for 30 seconds, targeting the chunk your in and the chunks adjacent to it, after 30 seconds are up, you learn about any NPCS or players who has been in this area, and if any important events have happened in this area, going back up to 10 + (WIS MODIFIER) days, ordered by most recent to most dated.
-
 - Life Domain-Unique Abilities -
-
 -----------------------------------------------
                   Life Domain Spells
 -----------------------------------------------
@@ -1000,43 +803,29 @@ LVL ---                Spells               ---
  9  ---     Mass Cure Wounds, Raise Dead    ---
  
 - LVL 1 -
-
 Bonus Proficiency
 You gain Proficiency in Heavy Armor.
-
 Disciple of Life
 Whenever you cast a healing spell that restores Hit Points to a creature and is LVL 1 or higher, add 2 + (Spell Level) to the total amount restored.
-
 - LVL 2 -
-
 Channel Divinity - Preserve Life
 You can press <ClassAbility1Key> to restore 5 * LVL HP among any number of creatures within 10 blocks of you. 
-
 - LVL 6 -
-
 Blessed Healer
 When you cast a healing spell that restores Hit Points to a creature and is LVL 1 or higher, heal 2 + (Spell Level) HP.
-
 - LVL 8 -
-
 Divine Strike 1
 Attacking deals an additional 4 Radiant damage.
 This ability has a 10 second cooldown.
-
 - LVL 14 -
-
 Divine Strike 2
 Attacking deals an additional 8 Radiant damage.
 This ability has a 10 second cooldown.
 This ability overwrites Divine Strike 1.
-
 - LVL 17 -
-
 Supreme Healer
 You double the amount healed when using a healing spell.
-
 - Light Domain-Unique Abilities -
-
 -----------------------------------------------
                   Light Domain Spells
 -----------------------------------------------
@@ -1048,37 +837,23 @@ LVL ---                Spells               ---
  9  ---       Flame Strike, Scrying         ---
  
  - LVL 1 -
-
 Bonus Cantrip
 You get Light added to your known spells, this spell dosen't count towards your max cantrips.
-
 Warding Flare
 You can press <ClassAbility2Key> to blind a enemy your looking at within 5 blocks of you for 5 seconds, allowing you to get away. You can use this ability a number of times equal to your WIS MOD. (Minimum of 1.) 
-
-
 - LVL 2 -
-
 Channel Divinity - Radiance of the Dawn
 Presenting your holy symbol, you can press <ClassAbility1Key> to dispel any magical darkness within 10 blocks of you. Additionally, each hostile creature within 10 blocks of you must make a CON Resistance Check. Each creature that fails takes 11 + Cleric Level Radiant Damage, and takes half as much on a successful save. Any creature behind cover is unaffected.
-
 - LVL 6 -
-
 Improved Flare
 Your Warding Flare now has a range of 10 Blocks.
-
-
 - LVL 8 -
-
 Potent Spellcasting
 Your Spell Power is doubled if it is a positive value.
-
 - LVL 17 -
-
 Corona of Light
 You can now press SHIFT + <ClassAbility2Key> to make yourself glow radiantly. You glow with a light level of 15 while active, and any creatures within 10 blocks of you have disadvantage on Resistance Checks for spells that deal Radiant or Fire damage.
-
 - Nature Domain-Unique Abilities -
-
 -------------------------------------------------------
                   Nature Domain Spells
 -------------------------------------------------------
@@ -1090,55 +865,38 @@ LVL ---                   Spells                    ---
  9  ---          Insect Plague, Tree Stride         ---
  
  - LVL 1 -
-
 Acolyte of Nature
 You learn a druid cantrip of your choice, this spell dosen't count towards your max cantrips.
-
 Bonus Proficiency
 You gain Profiency with Heavy Armor. 
-
-
 - LVL 2 -
-
 Channel Divinity - Charm Animals and Plants
 Presenting your holy symbol, you can press <ClassAbility1Key> to attempt to charm nearby animals and plants.
 each plant and animal within 10 blocks of you must make a WIS Resistance Check (CR: Spell CR). Each creature that fails becomes charmed for 1 minute
 or until they take damage.
 they are friendly to you and creatures and players in your party.
-
-
 - LVL 6 -
-
 Dampen Elements
 You can press <ClassAbility2Key> to grant a allied creature
 in your line of sight resistance to Acid, Cold, Fire, or Thunder damage.
 Pressing SHIFT + <ClassAbility2Key> will let you select damage type.
-
-
 - LVL 8 -
-
 Divine Strike 1
 Attacking deals an additional 4 Cold, Fire, or Lightning damage.
 The type is chosen once the ability is unlocked.
 This ability has a 10 second cooldown.
-
 - LVL 14 -
-
 Divine Strike 2
 Attacking deals an additional 8 Cold, Fire, or Lightning damage.
 the type is chosen once the ability is unlocked.
 This ability has a 10 second cooldown.
 This ability overwrites Divine Strike 1.
-
 - LVL 17 -
-
 Master of Nature
 While under your Charmed effect, Animals and Plants
 can be commanded like a hired unit.
 Charmed effect now lasts 3 minutes instead of 1.
-
 - Tempest Domain-Unique Abilities -
-
 -------------------------------------------------------
                   Tempest Domain Spells
 -------------------------------------------------------
@@ -1150,7 +908,6 @@ LVL ---                   Spells                    ---
  9  ---       Insect Plague, Destructive Wave       ---
  
  - LVL 1 -
-
 Wrath of the Storm
 When a enemy hits you with a melee attack,
 you can press <ClassAbility2Key> within 3 seconds
@@ -1158,48 +915,30 @@ to make the attacker make a DEX Resistance Save. (CR: Spell CR)
 The attacker takes 9 Thunder damage on a failed check,
 and 4 Thunder damage on a successful one.
 This ability can be used a number of times equal to your WIS MOD (minimum of once).
-
 Bonus Proficiency
 You gain Profiency with Heavy Armor and 2 martial weapons of your choice.
-
-
 - LVL 2 -
-
 Channel Divinity - Destructive Wrath
 You can press <ClassAbility1Key> to deal 
 bonus Thunder damage equal to your level
 on your next melee attack. This effect wears
 off if no melee attack occurs in 30 seconds.
-
-
-
-
 - LVL 6 -
-
 Thunderbolt Strike
 When you deal Lightning Damage, you deal additional knockback.
-
-
 - LVL 8 -
-
 Divine Strike 1
 Attacking deals an additional 4 Thunder damage.
 This ability has a 10 second cooldown.
-
 - LVL 14 -
-
 Divine Strike 2
 Attacking deals an additional 8 Thunder damage.
 This ability has a 10 second cooldown.
 This ability overwrites Divine Strike 1.
-
 - LVL 17 -
-
 Stormborn
 You can now fly while it is raining and you are outside.
-
 - Trickery Domain-Unique Abilities -
-
 -------------------------------------------------------
                   Trickery Domain Spells
 -------------------------------------------------------
@@ -1211,53 +950,37 @@ LVL ---                   Spells                    ---
  9  ---        Dominate Person, Modify Memory       ---
  
  - LVL 1 -
-
 Blessing of the Trickster
 You can prsss <ClassAbility2Key> while looking
 at an allied creature within 5 blocks. This 
 creature has 50% increased stealth rating for
 the next 2 minutes.
-
-
 - LVL 2 -
-
 Channel Divinity - Duplicity
 You can press <ClassAbility1Key> to turn Invisible and create a
 illusion of yourself 3 blocks to the left, right, or behind you. the illusion mirrors your
 movements, and is incorporeal.
 The Illusion has 10 HP. It will vanish if it dies or the invisibility wears off.
-
-
 - LVL 6 -
-
 Channel Divinity - Cloak of Shadows
 You can press <ClassAbility1Key> to turn
 invisible for 1 minute.
 The invisibility wears off if you attack or cast a spell.
-
-
 - LVL 8 -
-
 Divine Strike 1
 Attacking deals an additional 4 Poison damage.
 This ability has a 10 second cooldown.
-
 - LVL 14 -
-
 Divine Strike 2
 Attacking deals an additional 8 Poison damage.
 This ability has a 10 second cooldown.
 This ability overwrites Divine Strike 1.
-
 - LVL 17 -
-
 Improved Duplicity
 You now create 4 illusions, you turn invisible and create
 illusions 3 blocks in each direction.
 The illusions each have 10 HP, and vanish when they die or the invisibility wears off.
-
 - War Domain-Unique Abilities -
-
 -------------------------------------------------------
                      War Domain Spells
 -------------------------------------------------------
@@ -1269,59 +992,42 @@ LVL ---                   Spells                    ---
  9  ---        Flame Strike, Hold Monster           ---
  
  - LVL 1 -
-
 Warpriest
 You can prsss <ClassAbility2Key> within 3
 seconds after attacking to gain 50% attack speed bonus for 5 seconds.
 You can use this skill a number of times equal to your WIS MOD (minimum of once).
-
-
 - LVL 2 -
-
 Channel Divinity - Guided Strike
 You can press <ClassAbility1Key> to grant 
 a +25% crit chance bonus to your next melee
 attack.
 This buff lasts 30 seconds.
-
-
-
 - LVL 6 -
-
 Channel Divinity - War Gods Blessing
 You can press <ClassAbility1Key> to an
 allied creature +25% crit chance bonus
 for their next melee attack.
 This buff lasts 30 seconds.
-
 - LVL 8 -
-
 Divine Strike 1
 Attacking deals an additional 4 (DamageType) damage.
 Damage Type is the damage type that the weapon does.
 This ability has a 10 second cooldown.
-
 - LVL 14 -
-
 Divine Strike 2
 Attacking deals an additional 8 (DamageType) damage.
 Damage Type is the damage type that the weapon does.
 This ability has a 10 second cooldown.
 This ability overwrites Divine Strike 1.
-
 - LVL 17 -
-
 Avatar of Battle
 You now have resistance to nonmagical
 Piercing, Slashing, and Bludgeoning damage.
-
 --- Druid ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 8
 STR: 55 (7)
@@ -1337,7 +1043,6 @@ Stealth Rating: 35
 Speed: 85%
 Chat Success: 35%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 40%
 DEX: 50%
@@ -1345,24 +1050,17 @@ CON: 30%
 INT: 60%
 WIS: 80%
 CHA: 40%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor, Medium Armor, Shields
-
 Weapons:
 Clubs, Daggers, Darts, Javelins, Maces, Quarterstaffs, Scimitars, Sickles, Slings, Spears
-
 Tools:
 Herbalism
-
 Saving Throws:
 Wisdom, Intelligence
-
 Skills:
 2 of the following: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival
-
 Starting Equipment:
 1 Wooden Shield (or) any 1 Wooden Simple Weapon
 Stone Scimitar (or) any 1 Stone Simple Weapon
@@ -1403,7 +1101,7 @@ Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- L
   18   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        18        ---
   19   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        19        ---
   20   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
-  
+
 Abilities:
 
 - LVL 1 -
@@ -1441,7 +1139,7 @@ You cannot cast spells while transformed.
 Equipment you wear have no effect.
 
 - LVL 4 -
- 
+
 Wild Shape Improvement
 You can now transform into beasts with
 a Level of 0.5 or lower.
@@ -1494,7 +1192,6 @@ Base HP: 10
 Minimum HP: 5
 Max HP: 60
 Absolute Max HP: 110
-
 Default Stats:
 HP: 10
 STR: 120 (11)
@@ -1510,7 +1207,6 @@ Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 60%
 DEX: 60%
@@ -1518,37 +1214,27 @@ CON: 60%
 INT: 40%
 WIS: 40%
 CHA: 40%
-
 Starting Proficiencies:
-
 Armor:
 All Armor, Shields
-
 Weapons:
 Simple Weapons, 5 Martial Weapons of your choice
-
 Tools:
 None
-
 Saving Throws:
 Strength, Constitution
-
 Skills:
 2 of the following: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
-
 Starting Equipment:
 Chainmail Breastplate (or) Leather Tunic, Longbow, 20 Arrows
 Any 1 Iron Martial Weapon (or) any 2 Stone Martial Weapons
 a Light Crossbow and 20 bolts (or) 2 Stone Handaxes
 a Dungeoneer's Pack (or) an Explorer's Pack
-
 --- Monk ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 6
 STR: 70 (8)
@@ -1564,7 +1250,6 @@ Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 50%
 DEX: 50%
@@ -1572,36 +1257,26 @@ CON: 50%
 INT: 50%
 WIS: 50%
 CHA: 50%
-
 Starting Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Simple Weapons, Shortswords
-
 Tools:
 Artisan's Tools (or) 1 musical instrument of your choice
-
 Saving Throws:
 Strength, Dexterity
-
 Skills:
 2 of the following: Acrobatics, Athletics, History, Insight, Religion, Stealth
-
 Starting Equipment:
 1 Iron Shortsword (or) any 1 Iron Simple Weapon
 a Dungeoneer's Pack (or) an Explorer's Pack
 10 Darts
-
 --- Paladin ---
-
 Base HP: 10
 Minimum HP: 5
 Max HP: 60
 Absolute Max HP: 110
-
 Default Stats:
 HP: 6
 STR: 130 (11)
@@ -1617,7 +1292,6 @@ Stealth Rating: 30
 Speed: 80%
 Chat Success: 55%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 60%
 DEX: 30%
@@ -1625,37 +1299,27 @@ CON: 60%
 INT: 45%
 WIS: 45%
 CHA: 60%
-
 Starting Proficiencies:
-
 Armor:
 All Armor, Shields
-
 Weapons:
 Simple Weapons, 3 Martial Weapons of your choice
-
 Tools:
 None
-
 Saving Throws:
 Wisdom, Charisma
-
 Skills:
 2 of the following: Athletics, Insight, Intimidation, Medicine, Persuasion, Religion
-
 Starting Equipment:
 any 1 Stone Martial Weapon and a Shield (or) any 1 Iron Martial Weapon
 5 Stone Javelins (or) any Stone Simple Melee Weapon
 a Priest's Pack (or) an Explorer's Pack
 Chainmail Breastplate and a Holy Symbol
-
 --- Ranger ---
-
 Base HP: 10
 Minimum HP: 5
 Max HP: 60
 Absolute Max HP: 110
-
 Default Stats:
 HP: 9
 STR: 50 (7)
@@ -1671,7 +1335,6 @@ Stealth Rating: 55
 Speed: 105%
 Chat Success: 35%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 50%
 DEX: 60%
@@ -1679,37 +1342,27 @@ CON: 40%
 INT: 50%
 WIS: 60%
 CHA: 40%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor, Medium Armor, Shields
-
 Weapons:
 Simple Weapons, 3 Martial Weapons of your choice
-
 Tools:
 None
-
 Saving Throws:
 Strength, Dexterity
-
 Skills:
 2 of the following: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
-
 Starting Equipment:
 Scalemail Chestplate (or) Leather Tunic
 2 Stone Shortswords (or) any 2 Stone Simple Melee Weapons
 a Dungeoneer's Pack (or) an Explorer's Pack
 a Longbow and a Quiver of 20 Arrows
-
 --- Rogue ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 5
 STR: 60 (8)
@@ -1725,7 +1378,6 @@ Stealth Rating: 60
 Speed: 110%
 Chat Success: 55%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 50%
 DEX: 70%
@@ -1733,37 +1385,27 @@ CON: 50%
 INT: 40%
 WIS: 40%
 CHA: 50%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor
-
 Weapons:
 Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords
-
 Tools:
 Thieves’ tools
-
 Saving Throws:
 Dexterity, Intelligence
-
 Skills:
 4 of the following: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persausion, Sleight of Hand, Stealth
-
 Starting Equipment:
 Iron Rapier (or) Iron Shortsword
 a Shortbow and a Quiver of 20 Arrows (or) a Stone Shortsword
 a Burglar's Pack (or) an Dungeoneer's Pack (or) an Explorer's Pack
 Leather Tunic, 2 Stone Daggers, and Thieves’ tools
-
 --- Sorcerer ---
-
 Base HP: 6
 Minimum HP: 3
 Max HP: 36
 Absolute Max HP: 66
-
 Default Stats:
 HP: 12
 STR: 10 (5)
@@ -1779,7 +1421,6 @@ Stealth Rating: 40
 Speed: 90%
 Chat Success: 55%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 40%
 DEX: 60%
@@ -1787,37 +1428,27 @@ CON: 50%
 INT: 50%
 WIS: 40%
 CHA: 60%
-
 Starting Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
-
 Tools:
 None
-
 Saving Throws:
 Constitution, Charisma
-
 Skills:
 2 of the following: Arcana, Deception, Insight, Intimidation, Persausion, Religion
-
 Starting Equipment:
 a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
 a component pouch (or) an Arcane Focus
 a Dungeoneer's Pack (or) an Explorer's Pack
 2 Stone Daggers
-
 --- Warlock ---
-
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
-
 Default Stats:
 HP: 16
 STR: 30 (6)
@@ -1833,7 +1464,6 @@ Stealth Rating: 30
 Speed: 80%
 Chat Success: 50%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 50%
 DEX: 50%
@@ -1841,37 +1471,27 @@ CON: 30%
 INT: 70%
 WIS: 70%
 CHA: 30%
-
 Starting Proficiencies:
-
 Armor:
 Light Armor
-
 Weapons:
 Simple Weapons
-
 Tools:
 None
-
 Saving Throws:
 Wisdom, Charisma
-
 Skills:
 2 of the following: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
-
 Starting Equipment:
 a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
 a component pouch (or) an Arcane Focus
 a Scholar's Pack (or) a Dungeoneer's Pack
 Leather Tunic, any Simple Wooden Weapon, and two Stone Daggers.
-
 --- Wizard ---
-
 Base HP: 6
 Minimum HP: 3
 Max HP: 36
 Absolute Max HP: 66
-
 Default Stats:
 HP: 6
 STR: 40 (7)
@@ -1887,7 +1507,6 @@ Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
 Remaining: 0 / 500
-
 Base Growth Rates:
 STR: 30%
 DEX: 40%
@@ -1895,36 +1514,25 @@ CON: 20%
 INT: 75%
 WIS: 75%
 CHA: 60%
-
 Starting Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
-
 Tools:
 None
-
 Saving Throws:
 Wisdom, Intelligence
-
 Skills:
 2 of the following: Arcana, History, Insight, Investigation, Medicine, Religion
-
 Starting Equipment:
 a Quarterstaff (or) a Iron Dagger
 a component pouch (or) an Arcane Focus
 a Scholar's Pack (or) a Explorer's Pack
 a Spellbook
-
 ----- Races -----
-
 ---- Common Races ----
-
 --- Hill Dwarf ---
-
 Stats:
 Size: Medium (1.5 Blocks)
 Base HP: +1
@@ -1940,37 +1548,25 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Dwarven Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
-
 Stonecunning
 You add twice your proficiency bonus when doing a history check involving stonework.
-
 Languages:
 Common, Elvish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Battleaxes, Handaxes, Light Hammers, Warhammers
-
 Tools:
 One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
-
 Skills:
 History (Stonework)
-
 --- Mountain Dwarf ---
-
 Stats:
 Size: Medium (1.5 Blocks)
 Base HP: +0
@@ -1986,37 +1582,25 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Dwarven Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
-
 Stonecunning
 You add twice your proficiency bonus when doing a history check involving stonework.
-
 Languages
 Common, Dwarvish
-
 Racial Proficiencies:
-
 Armor:
 Light Armor, Medium Armor
-
 Weapons:
 Battleaxes, Handaxes, Light Hammers, Warhammers
-
 Tools:
 One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
-
 Skills:
 History (Stonework)
-
 --- High Elf ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2032,43 +1616,29 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 105%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Fey Anscestry
 You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
-
 Trance
 You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
-
 Cantrip:
 You can learn 1 cantrip of your choice from the arcane spell list.
-
 Extra Language
 You can speak, read, and write one extra language of your choice.
-
 Languages
 Common, Elvish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Longsword, Shortsword, Shortbow, Longbow
-
 Tools:
 None
-
 Skills:
 None
-
 --- Wood Elf ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2084,41 +1654,27 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 115%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Fey Anscestry
 You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
-
 Trance
 You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
-
 Mask of the Wild
 While in nature, you get +25 Stealth Rating.
-
-
 Languages
 Common, Elvish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 Longsword, Shortsword, Shortbow, Longbow
-
 Tools:
 None
-
 Skills:
 None
-
 --- Lightfoot Halfling ---
-
 Stats:
 Size: Small (1 Block)
 Base HP: +0
@@ -2134,37 +1690,25 @@ Magic Power: 0%
 Base Stealth Rating: 65
 Base Speed: 95%
 Chat Success: 50%
-
 Racial Traits:
-
 Lucky
 If a disastrous result would occur from a check of any kind, it can be reattempted once only.
-
 Brave
 You are 50% less likely to be inflicted with Frightened.
-
 Halfling Nimbleness
 You can freely move through other creatures.
-
 Languages
 Common, Halfling
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 --- Stout Halfling ---
-
 Stats:
 Size: Small (1 Block)
 Base HP: +0
@@ -2180,40 +1724,27 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 95%
 Chat Success: 50%
-
 Racial Traits:
-
 Lucky
 If a disastrous result would occur from a check of any kind, it can be reattempted once only.
-
 Brave
 You are 50% less likely to be inflicted with Frightened.
-
 Halfling Nimbleness
 You can freely move through other creatures.
-
 Stout Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
-
 Languages
 Common, Halfling
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 --- Human ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2229,33 +1760,22 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
-
 Racial Traits:
-
 Fiery Spirit
 You may take one additional feat.
-
 Languages
 Common, One additional language of your choice.
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 ---- Uncommon Races ----
-
 --- Dragonborn ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2271,9 +1791,7 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
-
 Racial Traits:
-
 -----------------
 Draconic Ancestry
 -----------------
@@ -2289,10 +1807,8 @@ Copper - Acid
 Gold - Fire
 Diamond - Cold
 ------------------
-
 You have Draconic Ancestry, choose one type of dragon from the table. 
 Your breath weapon is determined by the origin you select.
-
 Breath Weapon
 Unleash a breath attack in a 15 block cone. the damage type is based off of your Draconic Ancestry.
 Each creature caught in the attack must make a Resistance Check with a CR of (40 * (CON Modifier + Prof Bonus)).
@@ -2307,29 +1823,20 @@ Level ---- Failed Save ---- Passed Save
 11-15 ---- 14 Damage   ---- 7 Damage
 16-20 ---- 18 Damage   ---- 9 Damage
 ---------------------------------------
-
 Draconic Resistance
 You have resistance to your Breath Weapon damage type.
-
 Languages
 Common, Draconic
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 --- Forest Gnome ---
-
 Stats:
 Size: Small (1 Blocks)
 Base HP: +0
@@ -2345,41 +1852,28 @@ Magic Power: +5%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Gnomish Cunning
 you have advantage against all INT, WIS, and CHA
 resistance checks against magic.
-
 Natural Illusionist
 You know the Minor Illusion Cantrip.
-
 Speak with small beasts
 You can communicate simple ideas with small or tiny animals.
-
 Languages
 Common, Gnomish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 --- Rock Gnome ---
-
 Stats:
 Size: Small (1 Blocks)
 Base HP: +0
@@ -2395,46 +1889,33 @@ Magic Power: +5%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Gnomish Cunning
 you have advantage against all INT, WIS, and CHA
 resistance checks against magic.
-
 Artificer's Lore
 You apply double your profcency bonus when
 making history checks involving magic items,
 Alchemical objects, and mechanical devices.
-
 Tinker
 You have the unique ability to craft the following:
 Gnomish Clockwork Toy
 Gnomish Fire Starter
 Gnomish Music Box
-
 Languages
 Common, Gnomish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 History (Magic Items, Alchemical Objects, Devices)
-
 --- Half-Elf ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2450,37 +1931,25 @@ Magic Power: +0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 55%
-
 Racial Traits:
-
 Minor Darkvision
 You can see up to 9 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Fey Anscestry
 You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
-
 Mixed Blood
 +50 stat points.
-
 Languages
 Common, Elvish, one language of your choice
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 Two skills of your choice
-
 --- Half-Orc ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2496,39 +1965,27 @@ Magic Power: +0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
-
 Racial Traits:
-
 Darkvision
 You can see up to 60 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Relentless Endurance
 If you would be killed by an attack, you drop
 to 1 HP instead. this ability cannot be used again
 until the player sleeps through a night.
-
 Harsh Criticals
 Criticals do 50% more damage.
-
 Languages
 Common, Orcish
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 Indimidation
-
 --- Teifling ---
-
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2544,41 +2001,29 @@ Magic Power: +0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 55%
-
 Racial Traits:
-
 Darkvision
 You can see up to 60 blocks away in darkness as dim light. You cannot discern color using this skill.
-
 Hellish Resistance
 You have resistance to fire damage.
-
 Infernal Legacy
 You know the Thaumaturgy Cantrip.
 at LVL 3, you can Hellish Rebuke (LVL 2) once.
 at LVL 5, you can cast Darkness (LVL 1) once.
 You regain the ability to cast these spells
 after sleeping through a night.
-
 Languages
 Common, Infernal
-
 Racial Proficiencies:
-
 Armor:
 None
-
 Weapons:
 None
-
 Tools:
 None
-
 Skills:
 None
-
 ----- Status Conditions -----
-
 Bleed
 Deals damage equal to its potency every 3 seconds.
 If bleed would be applied to a creature that is already bleeding,
@@ -2599,33 +2044,26 @@ Bleed is caused by Slashing and Piercing Weapons.
         30-33%    ---   16%  ---         35%      ---
         34-37%    ---   18%  ---         39%      ---
           >38%    ---   20%  ---         43%      ---
-
 Blinded
 Functions very similarly to blindness.
 The victim cannot see, and will fail
 all checks relying on sight automatically.
 A creatures perception range is reduced by
 75% while under this effect.
-
 Charmed
 The victim cannot attack or attempt to
 inflict negitive effects on the charmer.
 The charmer has advantage on any social
 interaction with the charmed victim.
-
 Dangersense
 When a trap or hostile creature is within 15 blocks of you, you will get the Dangersense Active status effect until you leave the 15 block range.
-
 Dangersense Active
 Dangersense Active Plays a sound that only you can hear when it is first applied.
-
 Deafened
 A creature cannot hear anything
 while under this effect.
-
 Disease
 Can do a wide variety of things.
-
 Exaustion
 --------------------------------------------
 Exaustion Table
@@ -2639,27 +2077,21 @@ Level --- Effect
 5     --- -50% movement speed and damage
 6     --- Death
 --------------------------------------------
-
 Frightened
 The victim has disadvantage on checks and
 a -25% damage penalty while the source of
 fear is within its line of sight.
-
 Grappled
 As long as the victim is within 5 blocks of the grappler,
 they cannot move, and will pulled towards the grappler.
-
 Incapacitated 
 The victim is unable to take actions or reactions.
-
 Invisible
 The user becomes impossible to see without 
 aid from magic or a special sense.
-
 Paralyzed
 The victim is unable to move.
 The victim is Incapacitated while under this effect.
-
 Petrified
 The victim is turned to stone, along with
 any non-magical items they were carrying.
@@ -2670,19 +2102,15 @@ The victim takes 50% less damage while under
 this condition.
 The victim is immune to poison and disease
 while under this effect.
-
 Poisoned
 a poisoned creature has disadvantage on
 ability checks, and have a 25% damage penalty.
-
 Rage
 +50% Strength Bonus
 Melee Damage Bonus based on level (stacks with Strength Bonus)
 Resistance to Physical Damage.
 Your Unarmored Attribute is changed from 5 + CON mod to 10 + CON mod.
 Unable to cast spells.
-
-
 Stunned
 Identical to Paralyzed.
 Can by inflicted by weapons that deal Bludgeoning damage.
@@ -2701,12 +2129,8 @@ Can by inflicted by weapons that deal Bludgeoning damage.
         30-33%    ---   16%  ---         35%      ---
         34-37%    ---   18%  ---         39%      ---
           >38%    ---   20%  ---         43%      ---
-
-
 ----- Spells -----
-
 --- Abjuration ---
-
 Blade Ward
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2717,7 +2141,6 @@ This spell does not benefit from INT.
 Learn Tables: Bard, Sorcerer, Warlock, Wizard
 Category: Abjuration
 Required: Vocal, Free Hand
-
 Resistance
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2729,9 +2152,7 @@ This spell does not benefit from INT.
 Learn Tables: Cleric, Druid
 Category: Abjuration
 Required: Vocal, Free Hand, 1 Miniature Cloak
-
 --- Conjuration ---
-
 Acid Splash
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2742,7 +2163,6 @@ Range: 18 Blocks
 Learn Tables: Sorcerer, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
-
 Create Bonfire
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2756,7 +2176,6 @@ Range: 18 Blocks (1 Block Cube)
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
-
 Mage Hand
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2768,7 +2187,6 @@ Range: 10 Blocks
 Learn Tables: Bard, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
-
 Poison Spray
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2780,7 +2198,6 @@ Range: 5 Blocks
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
-
 Produce Flame
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2791,9 +2208,7 @@ Range: Self
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
-
 --- Divination ---
-
 Guidance
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2804,7 +2219,6 @@ Range: Touch
 Learn Tables: Cleric, Druid
 Category: Divination
 Required: Vocal, Free Hand
-
 True Strike
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2815,117 +2229,94 @@ Range: 10 Blocks
 Learn Tables: Cleric, Druid
 Category: Divination
 Required: Vocal, Free Hand
-
 ----- Gear -----
-
 --- Ammo ---
-
 Arrow
 Cost: 5 CP 
 Sell: 2 CP
 Stack Size: 20
 Used as ammunition for Shortbows and Longbows.
-
 Blowgun Needle
 Cost: 2 CP
 Sell: 1 CP
 Used as ammunition for Blowguns.
-
-
 Crossbow Bolt
 Cost: 5 CP 
 Sell: 2 CP
 Stack Size: 20
 Used as ammunition for Hand Crossbows, Light Crossbows, and Heavy Crossbows. 
-
 Fine Stone
 Cost: 1 CP 
 Sell: -
 Stack Size: 20
 Used as ammunition for the Slingshot.
-
 --- Foci ---
-
 Crystal
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
-
 Orb
 Cost: 2 PP 
 Sell: 1 PP
 Instability Rate: 1%
 Used as a catalyst to cast arcane spells.
-
 Rod
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
-
 Staff
 Cost: 5 GP 
 Sell: 5 GP
 Instability Rate: 5%
 Used as a catalyst to cast arcane spells.
-
 Wand
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
-
 Sprig of mistletoe
 Cost: 1 GP 
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
-
 Totem
 Cost: 1 GP 
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
-
 Wooden Staff
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 2.5%
 Used as a catalyst to cast druidic spells.
-
 Yew Wand
 Cost: 10 GP 
 Sell: 5 GP
 Instability Rate: 1%
 Used as a catalyst to cast druidic spells.
-
 Amulet
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
-
 Emblem
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
-
 Reliquary
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
-
 --- Consumables ---
-
 Acid Vial
 Cost: 2 PP, 5 GP
 Sell: 1 PP 2 GP, 5 SP
 Type: Throwable
 Can be thrown to deal 4 Acid damage.
-
 Alchemist's Fire
 Cost: 5 PP
 Sell: 2 PP, 5 GP
@@ -2934,7 +2325,6 @@ Can be thrown to drench the target in
 the chemicals, dealing 2 fire damage 
 every 3 seconds. This can be extinguished 
 by beating a CR 10 Dexterity check.
-
 Antitoxin
 Cost: 5 PP
 Sell: 2 PP, 5 GP
@@ -2944,6 +2334,18 @@ poison for 30 minutes.
 
 Holy Water
 
+Oil Flask
+
+Perfume
+
+Poison Vial
+
+Sealing Wax
+
+Soap
+
+Whetstone
+
 --- Storage ---
 
 Backpack
@@ -2952,12 +2354,20 @@ Sell: 1 GP
 Type: Item
 up to 9 stacks of items can be placed in
 the backpack.
-
 Crossbow Bolt Case
-
 Component Pouch
 
 Flask / Tankard
+
+Pouch
+
+Quiver
+
+Sack
+
+Vial
+
+Waterskin
 
 --- Blocks ---
 
@@ -2972,40 +2382,44 @@ Acid Vial
 Ball Bearings
 
 Basket
-
 Bedroll
-
 Blanket
-
 Block and Tangle
-
 Caltrops
-
 Chalk
-
 Hourglass
-
 Hunting Trap
 
 Lock
 
+Pot (Iron)
+
+Rope (Hemp)
+
+Rope (Silk)
+
+Spikes (Iron)
+
+Tent
+
 --- Tools ---
 
 Climbers Kit
-
 Crowbar
 
 Grappling Hook
 
+Hatchet (Iron)
+
 Hammer
 
 Hammer, Sledge
-
 Healers Kit
-
 Ink Pen
 
 Jug / Pitcher
+
+Key
 
 Lantern (Bullseye)
 
@@ -3029,11 +2443,11 @@ Clothes (Traveller)
 Magnifying Glass
 
 Manacles
-
 Mess Kit
 
 Mirror (Iron)
 
+Pickaxe (Iron)
 Oil Flask
 
 Paper
@@ -3068,57 +2482,151 @@ Sack
 
 Merchants Scale
 
+Shovel (Iron)
 Sealing Wax
 
 Shovel
 
 Signal Whistle
 
+Spellbook
 Signet Ring
 
+Tinderbox
 Soap
 
+----- Magic Items -----
 Iron Spikes
 
+--- Common ---
 Spyglass
 
+Potion of Climbing
+Type: Potion
+Appearance: Layers of brown, Silver, and gray.
+Effect: Drinking this potion grants you the ability to climb up walls for 3 minutes, 
+You also gain advantage on Athletics checks made to climb up walls.
+
+Potion of Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 7 HP.
+
+Spell Scroll of (Cantrip)
+Type: Consumable
+Effect: If your class can cast a field of magic that the spell on the scroll is in, 
+You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
+normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
+Otherwise, it goes wrong.
+
+Spell Scroll of (LVL 1 Spell)
+Type: Consumable
+Effect: If your class can cast a field of magic that the spell on the scroll is in, 
+You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
+normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
+Otherwise, it goes wrong.
 Tent
 
+--- Uncommon ---
 Tinderbox
 
+Alchemy Jug
+Type: Wonderous Item
+Effect: Shift+Right-click can select a liquid to create. Right Click fills anything that can hold it
+in your inventory with 1 bottles worth that liquid, see table for maximum amount.
+Once a liquid has reached it's limit, it cannot be used again for 30 minutes.
+-----------------------------
+     Alchemy Jug Liquids
+-----------------------------
+Liquid --- Max Containers ---
+Acid   ---   4 Bottles    ---
+Poison ---   1 Bottle     ---
+Beer   ---   10 Bottles   ---
+Honey  ---   5 Bottles    ---
+Oil    ---   1 Bottle     ---
+Water  ---   15 Bottles   ---
+Wine   ---   5 Bottles    ---
+-----------------------------
+
+Arrow (+1)
+Type: Ammo
+Increases Damage by 1 when shot from a bow.
+
+Amulet of Proof against Detection
+Type: Charm
+Effect: Makes you immune to Divination Magic while worn.
+
+Boots of Elvenkind
+Type: Armor
+AC: 2
+Effect: While moving, your footsteps make no sound, and you have advantage on stealth checks.
 Torch
 
+Boots of Swiftness
+Requires Attunement
+Type: Armor
+AC: 0
+Effect: While worn and attuned to, Your movement speed is increased by 15%, and you gain +1 jump height.
 Vial
 
+Crossbow Bolt (+1)
+Type: Ammo
+Increases Damage by 1 when shot from a crossbow.
 Waterskin
 
+Potion of Greater Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 14 HP.
 Whetstone
 
+Pouch of Holding
+Type: Wonderous Item
+Effect: This pouch's container can hold up to a full chest worth of items.
 
+
+--- Rare ---
 
 ----- Magic Items -----
 
+Adamantine (ArmorType) Armor
+Type: Armor
+AC: Original AC +1 
+Effect: While worn, +1 AC and reduce Critical Damage by 75%.
+
 --- Common ---
+
+Potion of Superior Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 28 HP.
 
 --- Uncommon ---
 
+--- Very Rare ---
 --- Rare ---
+
+Potion of Supreme Healing
+Type: Potion
+Appearance: Red
+Effect: Drinking this potion restores 45 HP.
 
 --- Very Rare ---
 
 --- Legendary ---
+
+--- Artifacts ---
 
 --- Artifact ---
 
 ----- Weapons -----
 
 New Weapons:
+
 Vanilla Minecraft Swords are considered Shortswords.
 
 Simple Weapons:
-
 --- clubs ---
-
 Club
 Cost: 1 SP
 Sell: 5 CP
