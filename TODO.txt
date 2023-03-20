@@ -1,7 +1,7 @@
 ---------- Progress ----------
-Total Progress Rating: 102/1584*** (6.43% Complete)
+Total Progress Rating: 117/1584*** (7.38% Complete)
 Entities: 0/364 (0%)
-Weapons: 38/216* (17%)
+Weapons: 53/216* (24%)
 Tools: 36/72* (50%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
