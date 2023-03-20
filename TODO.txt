@@ -2638,6 +2638,27 @@ Effect: Drinking this potion restores 45 HP.
 
 --- Artifacts ---
 
+-- Heros Group --
+
+Ambition's Apex
+
+Dracostaff
+
+Earthcleaver
+
+Fateweaver
+
+Nature's Rebuke
+
+Pierce
+
+Star of Unity
+
+Vengeance
+
+Wrench of the Ancients
+
+
 ----- Weapons -----
 
 New Weapons:
