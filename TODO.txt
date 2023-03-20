@@ -1,17 +1,13 @@
 ---------- Progress ----------
 Total Progress Rating: 102/1584*** (6.43% Complete)
-Total Progress Rating: 102/1655*** (6.16% Complete)
 Entities: 0/364 (0%)
 Weapons: 38/216* (17%)
 Tools: 36/72* (50%)
-Tools: 36/50* (72%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
 Gear: 0/19* (0%)
 Materials: 8/21*** (42%)
-Gear: 0/90* (0%)
 Materials: 8/19*** (42%)
-
 Valuables: 4/56 (7%)
 Magic Foci: 0/12 (0%)
 Spells: 0/376 (0%)
@@ -21,7 +17,6 @@ Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
 Artifacts: 0/7*** (0%)
-Blocks: 12/32*** (37%)
 Blocks: 12/68 (17%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
@@ -29,12 +24,18 @@ Effects: 0/17*** (0%)
 *Not including magic weapons.
 **A class will count as finished when all subclasses are complete.
 ***Eligable to expand.
+
 ----- Materials -----
+
 --- Foodstuffs ---
+
 Wheat
 Value: 1 CP
+
 --- Building Materials ---
+
 -- Woods --
+
 Planks x 4
 Value: 2 CP
 Logs x 4
@@ -49,7 +50,9 @@ Value: 5 CP
 Barrel
 Chest
 Ladder
+
 -- Stones --
+
 Cobblestone x 4
 Value: 1 CP
 Cobblestone Wall x 4
@@ -74,7 +77,9 @@ Cobbled Deepslate Wall x 4
 Value 4 CP
 Cobbled Deepslate Stairs x 4
 Value: 5 CP
+
 -- Misc --
+
 Torch
 Candle
 Lamp
@@ -94,7 +99,9 @@ Spyglass
 
 Wool x 4
 Value: 8 CP
+
 --- Metals ---
+
 Copper Ore
 Value: 2 CP
 Raw Copper
@@ -125,7 +132,9 @@ Gold Nugget
 Value: 1 SP, 1 CP
 Gold Block
 Value: 9 GP
+
 --- New Foodstuffs ---
+
 --- New Building Materials ---
 
 --- New Cloths ---
@@ -2002,10 +2011,13 @@ Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 55%
 Racial Traits:
+
 Darkvision
 You can see up to 60 blocks away in darkness as dim light. You cannot discern color using this skill.
+
 Hellish Resistance
 You have resistance to fire damage.
+
 Infernal Legacy
 You know the Thaumaturgy Cantrip.
 at LVL 3, you can Hellish Rebuke (LVL 2) once.
@@ -2023,7 +2035,9 @@ Tools:
 None
 Skills:
 None
+
 ----- Status Conditions -----
+
 Bleed
 Deals damage equal to its potency every 3 seconds.
 If bleed would be applied to a creature that is already bleeding,
@@ -2044,26 +2058,33 @@ Bleed is caused by Slashing and Piercing Weapons.
         30-33%    ---   16%  ---         35%      ---
         34-37%    ---   18%  ---         39%      ---
           >38%    ---   20%  ---         43%      ---
+          
 Blinded
 Functions very similarly to blindness.
 The victim cannot see, and will fail
 all checks relying on sight automatically.
 A creatures perception range is reduced by
 75% while under this effect.
+
 Charmed
 The victim cannot attack or attempt to
 inflict negitive effects on the charmer.
 The charmer has advantage on any social
 interaction with the charmed victim.
+
 Dangersense
 When a trap or hostile creature is within 15 blocks of you, you will get the Dangersense Active status effect until you leave the 15 block range.
+
 Dangersense Active
 Dangersense Active Plays a sound that only you can hear when it is first applied.
+
 Deafened
 A creature cannot hear anything
 while under this effect.
+
 Disease
 Can do a wide variety of things.
+
 Exaustion
 --------------------------------------------
 Exaustion Table
@@ -2077,21 +2098,26 @@ Level --- Effect
 5     --- -50% movement speed and damage
 6     --- Death
 --------------------------------------------
+
 Frightened
 The victim has disadvantage on checks and
 a -25% damage penalty while the source of
 fear is within its line of sight.
+
 Grappled
 As long as the victim is within 5 blocks of the grappler,
 they cannot move, and will pulled towards the grappler.
 Incapacitated 
 The victim is unable to take actions or reactions.
+
 Invisible
 The user becomes impossible to see without 
 aid from magic or a special sense.
+
 Paralyzed
 The victim is unable to move.
 The victim is Incapacitated while under this effect.
+
 Petrified
 The victim is turned to stone, along with
 any non-magical items they were carrying.
@@ -2102,15 +2128,18 @@ The victim takes 50% less damage while under
 this condition.
 The victim is immune to poison and disease
 while under this effect.
+
 Poisoned
 a poisoned creature has disadvantage on
 ability checks, and have a 25% damage penalty.
+
 Rage
 +50% Strength Bonus
 Melee Damage Bonus based on level (stacks with Strength Bonus)
 Resistance to Physical Damage.
 Your Unarmored Attribute is changed from 5 + CON mod to 10 + CON mod.
 Unable to cast spells.
+
 Stunned
 Identical to Paralyzed.
 Can by inflicted by weapons that deal Bludgeoning damage.
@@ -2129,7 +2158,9 @@ Can by inflicted by weapons that deal Bludgeoning damage.
         30-33%    ---   16%  ---         35%      ---
         34-37%    ---   18%  ---         39%      ---
           >38%    ---   20%  ---         43%      ---
+          
 ----- Spells -----
+
 --- Abjuration ---
 Blade Ward
 Level: Cantrip
@@ -2435,10 +2466,7 @@ Clothes (Fine)
 
 Clothes (Traveller)
 
-
-
-
-
+---
 
 Magnifying Glass
 
@@ -2495,11 +2523,13 @@ Signet Ring
 Tinderbox
 Soap
 
+Spyglass
+Tinderbox
+
 ----- Magic Items -----
 Iron Spikes
 
 --- Common ---
-Spyglass
 
 Potion of Climbing
 Type: Potion
@@ -2528,7 +2558,6 @@ Otherwise, it goes wrong.
 Tent
 
 --- Uncommon ---
-Tinderbox
 
 Alchemy Jug
 Type: Wonderous Item
@@ -2587,37 +2616,27 @@ Effect: This pouch's container can hold up to a full chest worth of items.
 
 --- Rare ---
 
------ Magic Items -----
-
 Adamantine (ArmorType) Armor
 Type: Armor
 AC: Original AC +1 
 Effect: While worn, +1 AC and reduce Critical Damage by 75%.
-
---- Common ---
 
 Potion of Superior Healing
 Type: Potion
 Appearance: Red
 Effect: Drinking this potion restores 28 HP.
 
---- Uncommon ---
-
 --- Very Rare ---
---- Rare ---
 
 Potion of Supreme Healing
 Type: Potion
 Appearance: Red
 Effect: Drinking this potion restores 45 HP.
 
---- Very Rare ---
 
 --- Legendary ---
 
 --- Artifacts ---
-
---- Artifact ---
 
 ----- Weapons -----
 
@@ -2626,7 +2645,9 @@ New Weapons:
 Vanilla Minecraft Swords are considered Shortswords.
 
 Simple Weapons:
+
 --- clubs ---
+
 Club
 Cost: 1 SP
 Sell: 5 CP
