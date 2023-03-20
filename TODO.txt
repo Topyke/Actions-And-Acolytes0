@@ -1,14 +1,14 @@
 ---------- Progress ----------
-Total Progress Rating: 102/1584*** (6.43% Complete)
+Total Progress Rating: 102/1655*** (6.16% Complete)
 Entities: 0/364 (0%)
 Weapons: 38/216* (17%)
-Tools: 36/72* (50%)
+Tools: 36/50* (72%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
-Gear: 0/19* (0%)
-Materials: 8/21*** (42%)
+Gear: 0/90* (0%)
+Materials: 8/19*** (42%)
+
 Valuables: 4/56 (7%)
-Magic Foci: 0/12 (0%)
 Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
 Uncommon Magic Items: 0/100 (0%)
@@ -16,7 +16,7 @@ Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
 Artifacts: 0/7*** (0%)
-Blocks: 12/32*** (37%)
+Blocks: 12/68 (17%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
 Effects: 0/17*** (0%)
@@ -122,8 +122,6 @@ Fishing Rod
 
 Ink
 
-Spyglass
-
 -- Cloths --
 
 Wool x 4
@@ -182,26 +180,6 @@ Value: 9 GP
 --- New Building Materials ---
 
 --- New Cloths ---
-
-Canvas
-
-Linen
-
-Silk
-
---- New Misc ---
-
-Flour
-
-Salt
-
-Ginger
-
-Cloves
-
-Saffron
-
-Parchment
 
 --- New Metals ---
 
@@ -265,11 +243,7 @@ Value: 5 GP, 5 SP, 5 CP
 Adamantine Block
 Value: 45 PP
 
-Geode Block
-
-Deepslate Geode Block
-
------ Valuables -----
+----- Coins -----
 
 Coins:
 Copper Crow
@@ -1393,6 +1367,126 @@ Starting Equipment:
 1 Wooden Shield (or) any 1 Wooden Simple Weapon
 Stone Scimitar (or) any 1 Stone Simple Weapon
 Leather Tunic, an Explorer's Pack, Druidic Focus
+
+
+  -------------------
+  PROF Bonus Table 
+  -------------------
+  Level --- Bonus ---
+  1-4   ---  +2   ---
+  5-8   ---  +3   ---
+  9-12  ---  +4   ---
+  13-16 ---  +5   ---
+  17-20 ---  +6   ---
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        1         ---
+  2    ---      2     ----     3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        2         ---
+  3    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  4    ---      3     ----     4   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  5    ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  6    ---      3     ----     4   ---   3   ---   3   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  7    ---      3     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  8    ---      3     ----     4   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  9    ---      3     ----     4   ---   3   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  10   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  11   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        11        ---
+  12   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        12        ---
+  13   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        13        ---
+  14   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   0   ---   0   ---        14        ---
+  15   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        15        ---
+  16   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   0   ---        16        ---
+  17   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        17        ---
+  18   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   1   ---   1   ---   1   ---   1   ---        18        ---
+  19   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   1   ---   1   ---   1   ---        19        ---
+  20   ---      4     ----     4   ---   3   ---   3   ---   3   ---   2   ---   2   ---   2   ---   1   ---   1   ---        20        ---
+  
+Abilities:
+
+- LVL 1 -
+
+Druidic
+You know how to write Druidic, a secret code
+that allows you to communicate woth other druids.
+You can use it tp leave hidden messages.
+You and other druids always spot them.
+Others can spot them with a WIS skill check (DC 150)
+
+Spellcasting
+You are able to cast and learn spells 
+under the Druid spell tree without training.
+
+- LVL 2 -
+
+Wild Shape
+You can press <ClassAbility1Key> to
+transform into a beast with a Level of
+0.25 or lower.
+You must have seen the creature to transform
+into it.
+Pressing SHIFT + <ClassAbility1Key> lets
+you select from currently unlocked creatures.
+Your tranformation lasts (30 * level) seconds,
+after which you revert to your original form.
+You can revert early by pressing <ClassAbility1Key> while
+transformed, or by falling unconscious.
+Your HP, STR, DEX, and CON mirror the thing you
+transform into, and you gain all of the
+skills of the beast in addition to your own.
+evrrything else stays the same.
+You cannot cast spells while transformed.
+Equipment you wear have no effect.
+
+- LVL 4 -
+ 
+Wild Shape Improvement
+You can now transform into beasts with
+a Level of 0.5 or lower.
+
+- LVL 8 -
+
+Wild Shape Improvement
+You can now transform into beasts with a
+Level of 1 or lower.
+
+- LVL 18 -
+
+Timeless Body
+Your hunger goes down 10 times slower.
+
+Beast Spells
+You can now cast spells in beast form
+as long as they dont require a material
+component.
+
+- LVL 20 -
+
+Archdruid
+You can now use Wild Shape an unlimited
+number of times.
+You can also cast druid spells without
+needing vocal, somatic, or material
+compenents while in beast form.
+
+- Circle of the Land-Unique Abilities -
+
+- LVL 2 -
+
+Bonus Cantrip
+You can learn 1 additional cantrip
+
+Natural Recovery
+When resting, you can recover (LVL/2) spell
+slots, You pick the slots to recover,
+but you cannot recover slot Levels
+higher then 6.
+You cannot use this again until you do
+a long rest.
+
+- LVL 3 -
 
 --- Fighter ---
 
@@ -2850,18 +2944,6 @@ poison for 30 minutes.
 
 Holy Water
 
-Oil Flask
-
-Perfume
-
-Poison Vial
-
-Sealing Wax
-
-Soap
-
-Whetstone
-
 --- Storage ---
 
 Backpack
@@ -2877,16 +2959,6 @@ Component Pouch
 
 Flask / Tankard
 
-Pouch
-
-Quiver
-
-Sack
-
-Vial
-
-Waterskin
-
 --- Blocks ---
 
 Abacus
@@ -2894,6 +2966,8 @@ Cost: 2 GP
 Sell: 1 GP
 Type: Block
 Emits a redstone signal based on calculations.
+
+Acid Vial
 
 Ball Bearings
 
@@ -2915,16 +2989,6 @@ Hunting Trap
 
 Lock
 
-Pot (Iron)
-
-Rope (Hemp)
-
-Rope (Silk)
-
-Spikes (Iron)
-
-Tent
-
 --- Tools ---
 
 Climbers Kit
@@ -2932,8 +2996,6 @@ Climbers Kit
 Crowbar
 
 Grappling Hook
-
-Hatchet (Iron)
 
 Hammer
 
@@ -2945,11 +3007,24 @@ Ink Pen
 
 Jug / Pitcher
 
-Key
-
 Lantern (Bullseye)
 
 Lantern (Hooded)
+
+--- Wearable ---
+
+Clothes (Common)
+
+Clothes (Costume)
+
+Clothes (Fine)
+
+Clothes (Traveller)
+
+
+
+
+
 
 Magnifying Glass
 
@@ -2959,128 +3034,81 @@ Mess Kit
 
 Mirror (Iron)
 
-Pickaxe (Iron)
+Oil Flask
+
+Paper
+
+Parchment
+
+Perfume
+
+Pickaxe
 
 Piton
 
+Poison Vial
+
 10-foot Pole
+
+Pot (Iron)
+
+Pouch
+
+Quiver
 
 Ram
 
+Robes
+
+Rope (Hemp)
+
+Rope (Silk)
+
+Sack
+
 Merchants Scale
 
-Shovel (Iron)
+Sealing Wax
+
+Shovel
 
 Signal Whistle
 
-Spellbook
+Signet Ring
+
+Soap
+
+Iron Spikes
+
+Spyglass
+
+Tent
 
 Tinderbox
+
+Torch
+
+Vial
+
+Waterskin
+
+Whetstone
+
+
 
 ----- Magic Items -----
 
 --- Common ---
 
-Potion of Climbing
-Type: Potion
-Appearance: Layers of brown, Silver, and gray.
-Effect: Drinking this potion grants you the ability to climb up walls for 3 minutes, 
-You also gain advantage on Athletics checks made to climb up walls.
-
-Potion of Healing
-Type: Potion
-Appearance: Red
-Effect: Drinking this potion restores 7 HP.
-
-Spell Scroll of (Cantrip)
-Type: Consumable
-Effect: If your class can cast a field of magic that the spell on the scroll is in, 
-You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
-normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
-Otherwise, it goes wrong.
-
-Spell Scroll of (LVL 1 Spell)
-Type: Consumable
-Effect: If your class can cast a field of magic that the spell on the scroll is in, 
-You can cast the spell with a +50 Bonus to INT by using it. If the level of the spell is higher then what you can 
-normally cast, You must make a INT Resistance Check (DC 130) in order to cast the spell.
-Otherwise, it goes wrong.
-
 --- Uncommon ---
-
-Alchemy Jug
-Type: Wonderous Item
-Effect: Shift+Right-click can select a liquid to create. Right Click fills anything that can hold it
-in your inventory with 1 bottles worth that liquid, see table for maximum amount.
-Once a liquid has reached it's limit, it cannot be used again for 30 minutes.
------------------------------
-     Alchemy Jug Liquids
------------------------------
-Liquid --- Max Containers ---
-Acid   ---   4 Bottles    ---
-Poison ---   1 Bottle     ---
-Beer   ---   10 Bottles   ---
-Honey  ---   5 Bottles    ---
-Oil    ---   1 Bottle     ---
-Water  ---   15 Bottles   ---
-Wine   ---   5 Bottles    ---
------------------------------
-
-Arrow (+1)
-Type: Ammo
-Increases Damage by 1 when shot from a bow.
-
-Amulet of Proof against Detection
-Type: Charm
-Effect: Makes you immune to Divination Magic while worn.
-
-Boots of Elvenkind
-Type: Armor
-AC: 2
-Effect: While moving, your footsteps make no sound, and you have advantage on stealth checks.
-
-Boots of Swiftness
-Requires Attunement
-Type: Armor
-AC: 0
-Effect: While worn and attuned to, Your movement speed is increased by 15%, and you gain +1 jump height.
-
-Crossbow Bolt (+1)
-Type: Ammo
-Increases Damage by 1 when shot from a crossbow.
-
-Potion of Greater Healing
-Type: Potion
-Appearance: Red
-Effect: Drinking this potion restores 14 HP.
-
-Pouch of Holding
-Type: Wonderous Item
-Effect: This pouch's container can hold up to a full chest worth of items.
-
 
 --- Rare ---
 
-Adamantine (ArmorType) Armor
-Type: Armor
-AC: Original AC +1 
-Effect: While worn, +1 AC and reduce Critical Damage by 75%.
-
-Potion of Superior Healing
-Type: Potion
-Appearance: Red
-Effect: Drinking this potion restores 28 HP.
-
 --- Very Rare ---
-
-Potion of Supreme Healing
-Type: Potion
-Appearance: Red
-Effect: Drinking this potion restores 45 HP.
 
 --- Legendary ---
 
---- Artifacts ---
+--- Artifact ---
 
 ----- Weapons -----
 
