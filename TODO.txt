@@ -1,13 +1,14 @@
 ---------- Progress ----------
-Total Progress Rating: 102/1570*** (6.49% Complete)
+Total Progress Rating: 102/1584*** (6.43% Complete)
 Entities: 0/364 (0%)
 Weapons: 38/216* (17%)
 Tools: 36/72* (50%)
 Armor: 4/48* (8%)
 Food: 0/0*** (100%)
 Gear: 0/19* (0%)
-Materials: 8/19*** (42%)
+Materials: 8/21*** (42%)
 Valuables: 4/56 (7%)
+Magic Foci: 0/12 (0%)
 Spells: 0/376 (0%)
 Common Magic Items: 0/3 (0%)
 Uncommon Magic Items: 0/100 (0%)
@@ -15,7 +16,7 @@ Rare Magic Items: 0/104 (0%)
 Very Rare Magic Items: 0/67 (0%)
 Legendary Magic Items: 0/49 (0%)
 Artifacts: 0/7*** (0%)
-Blocks: 12/32 (37%)
+Blocks: 12/32*** (37%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
 Effects: 0/17*** (0%)
@@ -182,6 +183,26 @@ Value: 9 GP
 
 --- New Cloths ---
 
+Canvas
+
+Linen
+
+Silk
+
+--- New Misc ---
+
+Flour
+
+Salt
+
+Ginger
+
+Cloves
+
+Saffron
+
+Parchment
+
 --- New Metals ---
 
 Silver Ore (done)
@@ -248,7 +269,7 @@ Geode Block
 
 Deepslate Geode Block
 
------ Coins -----
+----- Valuables -----
 
 Coins:
 Copper Crow
@@ -2955,20 +2976,6 @@ Signal Whistle
 Spellbook
 
 Tinderbox
-
---- Wearable ---
-
-Clothes (Common)
-
-Clothes (Costume)
-
-Clothes (Fine)
-
-Clothes (Traveller)
-
-Robes
-
-Signet Ring
 
 ----- Magic Items -----
 
