@@ -1,9 +1,34 @@
----------- Progress ----------
+---------- 1.0.0 Progress ---------
+Total Progress: 113/738 (15.31%)
+Entities: 0/135**** (0%)
+Weapons: 53/216 (24%)
+Tools: 36/72 (50%)
+Armor: 0/48 (0%)
+Materials: 8/21 (38%)
+Valuables: 4/4 (100%)
+Magic Foci: 0/8 (0%)
+Spells: 0/153 (0%)
+Common Magic Items: 0/1 (0%)
+Uncommon Magic Items: 0/0 (100%)
+Rare Magic Items: 0/0 (100%)
+Very Rare Magic Items: 0/0 (100%)
+Legendary Magic Items: 0/0 (100%)
+Artifacts: 0/0 (100%)
+Blocks: 12/68 (17%)
+Classes: 0/4** (0%)
+Races: 0/5** (0%)
+Effects: 0/3*** (0%)
+Dimensions: 0/0 (0%)
+
+****: This only includes entities with a 
+level 1 or lower.
+
+---------- Overall Progress ----------
 Total Progress Rating: 117/1584*** (7.38% Complete)
-Entities: 0/364 (0%)
+Entities: 0/364*** (0%)
 Weapons: 53/216* (24%)
 Tools: 36/72* (50%)
-Armor: 4/48* (8%)
+Armor: 0/48* (8%)
 Food: 0/0*** (100%)
 Gear: 0/19* (0%)
 Materials: 8/21*** (42%)
@@ -20,6 +45,7 @@ Blocks: 12/68 (17%)
 Classes: 0/12** (0%)
 Races: 0/9** (0%)
 Effects: 0/17*** (0%)
+Dimensions: 0/6
 *Not including magic weapons.
 **A class will count as finished when all subclasses are complete.
 ***Eligable to expand.
@@ -2501,7 +2527,6 @@ Reliquary
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
-
 Used as a catalyst to cast divine spells.
 
 --- Consumables ---
