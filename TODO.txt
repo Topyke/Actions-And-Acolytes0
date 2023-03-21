@@ -1194,6 +1194,90 @@ a long rest.
 
 - LVL 3 -
 
+Circle Spells
+You gain the ability to cast spells based on
+where your spawn point is.
+------------------------------------------------------------------------------------------------------------------------
+                                                        Circle Spell List
+------------------------------------------------------------------------------------------------------------------------
+Biome Category ---    LVL 3 Spells    ---      LVL 5 Spells      ---      LVL 7 Spells       ---      LVL 9 Spells   ---
+    Arctic     --- Hold Person        --- Sleet storm            ---   Freedom of Movement   --- Commune with Nature ---
+    Arctic (2) --- Spike Growth       --- Slow                   ---   Ice Storm             --- Cone of Cold        ---
+    Coast      --- Mirror Image       --- Water Breathing        ---   Freedom of Movement   --- Conjure Elemental   ---
+    Coast (2)  --- Misty Step         --- Water Walk             ---   Control Water         --- Scrying             ---
+    Desert     --- Blur               --- Create food and water  ---   Blight                --- Insect Plague       ---
+    Desert (2) --- Silence            --- Protection from Energy ---   Halucinatory Terrain  --- Wall of Stone       ---
+    Forest     --- Barkskin           --- Call Lightning         ---   Freedom of Movement   --- Commune with Nature ---
+    Forest (2) --- Spider Climb       --- Plant Growth           ---   Divination            --- Tree Stride         ---
+ Grassland     --- Invisibility       --- Daylight               ---   Freedom of Movement   --- Dream               ---
+ Grassland (2) --- Pass Without Trace --- Haste                  ---   Divination            --- Insect Plague       ---
+  Mountain     --- Spider Climb       --- Lightning Bolt         ---   Stone Shape           --- Passwall            ---
+  Mountain (2) --- Spike Growth       --- Meld Into Stone        ---   Stoneskin             --- Wall of Stone       ---
+     Swamp     --- Darkness           --- Water Walk             ---   Freedom of Movement   --- Insect Plague       ---
+     Swamp (2) --- Acid Arrow         --- Stinking Cloud         ---   Locate Creature       --- Scrying             ---
+ Underdark     --- Spider Climb       --- Gaseous Form           ---   Greater Invisibility  --- Cloudkill           ---
+ Underdark (2) --- Web                --- Stinking Cloud         ---   Stone Shape           --- Insect Plague       ---
+
+- LVL 6 -
+
+Land's Stride
+You can move up one block as if it were stairs,
+and you are immune to thorns, spines, or similar hazards.
+You also have advantage on resistance checks against
+plants magically created or manipulated to impede movement.
+
+- LVL 10 -
+
+Nature's Ward
+You cannot be charmed by elementals or fey,
+and you are immune to Poison and Disease.
+
+- LVL 14 -
+
+Nature's Sanctuary
+Beasts and Plants are never hostile to you,
+unless you attack them first.
+
+- Circle of the Moon-Unique Abilities -
+
+- LVL 2 -
+
+Combat Wild Shape
+Wild shape happens instantly, instead of
+taking 10 seconds to activate.
+
+Circle Forms
+You can take the form of any beast
+with a Level of 1 or lower.
+Ignore the original tables level limits, but you
+must abide by the other limits.
+
+- LVL 6 -
+
+Circle Forms 2
+You can take the form of any beast
+with a Level of Druid LVL/3 (Rounded Down) or lower.
+The max Level you can achieve is 6.
+Ignore the original tables level limits, but you
+must abide by the other limits.
+
+Primal Strike
+While in beast form, your attacks are magical.
+
+- LVL 10 -
+
+Elemental Wild Shape
+You can press <ClassAbility2Key> to expend 2 charges of Wild Shape
+and transform into a Air Elemental, a Earth Elemental,
+a Fire Elemental, or a Water Elemental.
+Pressing SHIFT + <ClassAbility2Key> lets you select the elemental to become.
+
+- LVL 14 -
+
+Thousand Forms
+You can press <ClassAbility3Key> to cast
+Alter Self for free.
+
 --- Fighter ---
 
 Base HP: 10
