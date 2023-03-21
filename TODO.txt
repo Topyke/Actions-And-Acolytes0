@@ -2727,6 +2727,10 @@ Amulet of Proof against Detection
 Type: Charm
 Effect: Makes you immune to Divination Magic while worn.
 
+Bag of Tricks
+Type: Wonderous Item
+Effect: You can right-click it to pull a spawn egg out of the bag.
+
 Boots of Elvenkind
 Type: Armor
 AC: 2
@@ -2740,6 +2744,8 @@ AC: 0
 Effect: While worn and attuned to, Your movement speed is increased by 15%, and you gain +1 jump height.
 Vial
 
+Boots of the Winterlands
+
 Crossbow Bolt (+1)
 Type: Ammo
 Increases Damage by 1 when shot from a crossbow.
@@ -2751,11 +2757,11 @@ Appearance: Red
 Effect: Drinking this potion restores 14 HP.
 Whetstone
 
-Bag of Holding
+Pouch of Holding
 Type: Wonderous Item
 Effect: This pouch's container can hold up to a full chest worth of items.
 
-Bag of Tricks
+
 
 
 --- Rare ---
