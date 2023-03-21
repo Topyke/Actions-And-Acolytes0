@@ -1,9 +1,10 @@
----------- 1.0.0 Progress ---------
-Total Progress: 113/738 (15.31%)
+---------- 1.0.0-1.19.3 Progress ---------
+Current Version: 0.0.0-1.19.3
+Total Progress: 113/739 (15.29%)
 Entities: 0/135**** (0%)
-Weapons: 53/216 (24%)
-Tools: 36/72 (50%)
-Armor: 0/48 (0%)
+Weapons: 53/216* (24%)
+Tools: 36/72* (50%)
+Armor: 0/48* (0%)
 Materials: 8/21 (38%)
 Valuables: 4/4 (100%)
 Magic Foci: 0/8 (0%)
@@ -18,7 +19,7 @@ Blocks: 12/68 (17%)
 Classes: 0/4** (0%)
 Races: 0/5** (0%)
 Effects: 0/3*** (0%)
-Dimensions: 0/0 (0%)
+Leveling Mechanic: 0/1 (0%)
 
 ****: This only includes entities with a 
 level 1 or lower.
