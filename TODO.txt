@@ -2244,6 +2244,15 @@ Can by inflicted by weapons that deal Bludgeoning damage.
           
 ----- Spells -----
 
+Categories:
+Arcane: Wizard
+Bardic: Bard
+Blood: Sorcerer
+Druidic: Druid
+Divine: Paladin
+Holy: Cleric
+Pact: Warlock
+
 --- Abjuration ---
 
 Blade Ward
@@ -2253,8 +2262,7 @@ Duration: 30 Seconds
 Effect: Grants resistance to melee attacks for 30 seconds.
 Range: Self
 This spell does not benefit from INT.
-Learn Tables: Bard, Sorcerer, Warlock, Wizard
-Category: Abjuration
+Category: Bardic, Blood, Pact, Arcane
 Required: Vocal, Free Hand
 
 Resistance
@@ -2265,9 +2273,8 @@ Effect: Grants +10 to the result of the next resistance check the target makes.
 This effect wears off once the resistance check occurs or once 1 minute passes.
 Range: Touch
 This spell does not benefit from INT.
-Learn Tables: Cleric, Druid
-Category: Abjuration
-Required: Vocal, Free Hand, 1 Miniature Cloak
+Category: Holy, Druidic
+Required: Vocal, Free Hand
 
 --- Conjuration ---
 
@@ -2278,8 +2285,7 @@ Duration: Instant
 Effect: Throw a bubble of acid at a target up to 18 blocks away. The target must pass a Dexterity Resistance Check or take 3 Acid Damage.
 This spell increases it's damage to 7 Acid Damage at LVL 5, 11 Acid Damage at LVL 11, and 14 Acid Damage at LVL 17.
 Range: 18 Blocks
-Learn Tables: Sorcerer, Wizard
-Category: Conjuration
+Category: Blood, Arcane
 Required: Vocal, Free Hand
 
 Create Bonfire
@@ -2292,8 +2298,7 @@ The fire spreads as normal fire does, however the spread fire blocks deal normal
 This spell increases it's damage to 9 Fire Damage at LVL 5, 13 Fire Damage at LVL 11, and 18 Fire Damage at LVL 17.
 This spell does not benefit from INT.
 Range: 18 Blocks (1 Block Cube)
-Learn Tables: Druid, Sorcerer, Warlock, Wizard
-Category: Conjuration
+Learn Tables: Druidic, Blood, Pact, Arcane
 Required: Vocal, Free Hand
 
 Mage Hand
@@ -2304,8 +2309,7 @@ Effect: Creates a transluscant hand that can interact with doors, Traps, and oth
 The hand cannot move farther then 10 blocks away from you.
 This spell does not benefit from INT.
 Range: 10 Blocks
-Learn Tables: Bard, Sorcerer, Warlock, Wizard
-Category: Conjuration
+Learn Tables: Bardic, Blood, Pact, Arcane
 Required: Vocal, Free Hand
 
 Poison Spray
@@ -2316,7 +2320,7 @@ Effect: Shoot a puff of noxious gas from your palm, the target must succeed a CO
 The hand cannot move farther then 10 blocks away from you.
 This spell increases it's damage to 13 Poison Damage at LVL 5, 19 Poison Damage at LVL 11, and 26 Poison Damage at LVL 17.
 Range: 5 Blocks
-Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Learn Tables: Druidic, Blood, Pact, Arcane
 Category: Conjuration
 Required: Vocal, Free Hand
 
@@ -2328,7 +2332,7 @@ Effect: Create a flickering flame in your hand. The flame lasts until you cancel
 The flame produces have a Light Level of 7.
 This spell does not benefit from INT.
 Range: Self
-Learn Tables: Druid, Sorcerer, Warlock, Wizard
+Learn Tables: Druidic, Blood, Pact, Arcane
 Category: Conjuration
 Required: Vocal, Free Hand
 
@@ -2341,8 +2345,7 @@ Duration: 1 Minute (Concentration)
 Effect: Grants +20 to the stat used for the next skill check the target makes.
 This effect wears off once the skill check occurs or once 1 minute passes.
 Range: Touch
-Learn Tables: Cleric, Druid
-Category: Divination
+Category: Holy, Druidic
 Required: Vocal, Free Hand
 
 True Strike
@@ -2352,8 +2355,7 @@ Duration: 30 Seconds (Concentration)
 Effect: Grants +10% critical strike chance.
 This effect wears off once you attack or 30 seconds pass.
 Range: 10 Blocks
-Learn Tables: Cleric, Druid
-Category: Divination
+Category: Holy, Druidic
 Required: Vocal, Free Hand
 
 --- Enchantment ---
@@ -2369,9 +2371,8 @@ After the effect wears off, the target knows that
 you used magic on them and becomes hostile.
 This spell does not benefit from INT.
 Range: 10 Blocks
-Learn Tables: Bard, Sorcerer, Warlock, Wizard
-Category: Enchantment
-Required: Free Hand, A small amount of Perfume
+Category: Bardic, Blood, Pact, Arcane
+Required: Free Hand
 
 Vicious Mockery
 Level: Cantrip
@@ -2382,10 +2383,30 @@ insults at the target, it must succed a
 WIS Resistance Check or take 2 Psychic Damage.
 This spell increases to 5 Paychic Damage at LVL 5, 7 Psychic Damage at LVL 11, and 10 Psychic Damage at LVL 17.
 Range: 18 Blocks
-Learn Tables: Bard
-Category: Enchantment
+Category: Bardic
 Required: Vocal
 
+--- Evocation ---
+
+Dancing Lights
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: You create a vaguely humanoid form tha has a light level of 1.
+You can Right-Click with a empty hand to make the form
+move to that location.
+Range: 36 Blocks
+Category: Bardic, Blood, Pact, Arcane
+Required: Vocal, Free Hand
+
+Eldrich Blast
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: 
+Range: Blocks
+Category: 
+Required: 
 
 ----- Gear -----
 --- Ammo ---
