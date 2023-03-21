@@ -2780,9 +2780,74 @@ Effect: Drinking this potion restores 45 HP.
 
 --- Artifacts ---
 
--- Heros Group --
+-- Arifacts of Good --
 
 Ambition's Apex
+--------------------------------------------
+A human adventurer once roamed the land,
+He slayed monsters now lost to time, and
+was renowned as a hero. His ambition burned
+brighter then any other, and he seeked a way
+to conquer even death. So he travelled
+far, searching for one who could grant his
+wish. At last, he came apon a abandoned
+fortress, deep in the Wilderness. 
+stuck in the bones of a king, was
+a majestic silver longsword. It spoke, "You
+who's ambition is above all, take me, and
+claim your rightful place among the stars!"
+As he took the blade, he felt his old age slip
+away, and at last acheiving his ambition, he returned.
+The people heralded him as king, and the hero
+was merrier then ever. but as the years turned
+to decades, to centuries, he realized that there
+was nothing left for him to do. Nothing left 
+that he could conquer. So, he decided, to go on 
+one last journey, where he went, no one alive knows.
+But, the blade is now lost to time. As is all things.
+------------------------------------------------------
+Magic Weapon
+Ambition's Apex is a Silver Longsword
+with the attributes of a +3 Adamantite Longsword.
+Ambition's Apex is Impervious to damage by normal means.
+The sword also functions as a Amulet of Health, a Periapt
+of Wound Closure, and a Ring of Regeneration.
+
+Random Properties
+The Longsword has the following random properties:
+
+2 minor random beneficial properties
+1 major random beneficial property
+1 minor random detremental property
+
+Blessing of the stars
+If you are a human attuned to the longsword,
+you gain the following benefits:
+
+You no longer need to eat, sleep, or drink.
+All of your stats increase by 10, up to a max
+of 210.
+You no longer age.
+
+Sentience
+Ambition's Apex is a Chaotic Good
+sentient item with INT, WIS, and CHA of 20.
+It urges its wielder to continue to
+overcome bigger and bigger challenges.
+
+Curse
+Once the weilder's ambitions have been
+fulfilled, the sword starts to see them
+as unworthy, and urges them to give it
+to someone who will make use of it.
+If they don't, Ambitions Apex will drive
+the wielder to commit suicide, in which Abition's Apex
+Will dissapear, returning to a new fortress.
+
+Destroying The Sword
+The only way to destroy the sword is to kill yourself
+with it while king and while ambitions lay incomplete.
+
 
 Dracostaff
 
