@@ -2751,9 +2751,11 @@ Appearance: Red
 Effect: Drinking this potion restores 14 HP.
 Whetstone
 
-Pouch of Holding
+Bag of Holding
 Type: Wonderous Item
 Effect: This pouch's container can hold up to a full chest worth of items.
+
+Bag of Tricks
 
 
 --- Rare ---
