@@ -2245,6 +2245,7 @@ Can by inflicted by weapons that deal Bludgeoning damage.
 ----- Spells -----
 
 --- Abjuration ---
+
 Blade Ward
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2255,6 +2256,7 @@ This spell does not benefit from INT.
 Learn Tables: Bard, Sorcerer, Warlock, Wizard
 Category: Abjuration
 Required: Vocal, Free Hand
+
 Resistance
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2266,7 +2268,9 @@ This spell does not benefit from INT.
 Learn Tables: Cleric, Druid
 Category: Abjuration
 Required: Vocal, Free Hand, 1 Miniature Cloak
+
 --- Conjuration ---
+
 Acid Splash
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2277,6 +2281,7 @@ Range: 18 Blocks
 Learn Tables: Sorcerer, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
+
 Create Bonfire
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2290,6 +2295,7 @@ Range: 18 Blocks (1 Block Cube)
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
+
 Mage Hand
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2301,6 +2307,7 @@ Range: 10 Blocks
 Learn Tables: Bard, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
+
 Poison Spray
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2312,17 +2319,21 @@ Range: 5 Blocks
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
+
 Produce Flame
 Level: Cantrip
 Cast Time: 10 seconds
 Duration: 5 Minutes
 Effect: Create a flickering flame in your hand. The flame lasts until you cancel it or 5 minutes have passed.
 The flame produces have a Light Level of 7.
+This spell does not benefit from INT.
 Range: Self
 Learn Tables: Druid, Sorcerer, Warlock, Wizard
 Category: Conjuration
 Required: Vocal, Free Hand
+
 --- Divination ---
+
 Guidance
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2333,6 +2344,7 @@ Range: Touch
 Learn Tables: Cleric, Druid
 Category: Divination
 Required: Vocal, Free Hand
+
 True Strike
 Level: Cantrip
 Cast Time: 10 seconds
@@ -2343,6 +2355,38 @@ Range: 10 Blocks
 Learn Tables: Cleric, Druid
 Category: Divination
 Required: Vocal, Free Hand
+
+--- Enchantment ---
+
+Friends
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: 1 Minute (Concentration)
+Effect: You have advantage with all charisma 
+checks with the target creature that this spell
+is effecting. 
+After the effect wears off, the target knows that
+you used magic on them and becomes hostile.
+This spell does not benefit from INT.
+Range: 10 Blocks
+Learn Tables: Bard, Sorcerer, Warlock, Wizard
+Category: Enchantment
+Required: Free Hand, A small amount of Perfume
+
+Vicious Mockery
+Level: Cantrip
+Cast Time: 10 seconds
+Duration: Instant
+Effect: You unleash a string of enchanted
+insults at the target, it must succed a
+WIS Resistance Check or take 2 Psychic Damage.
+This spell increases to 5 Paychic Damage at LVL 5, 7 Psychic Damage at LVL 11, and 10 Psychic Damage at LVL 17.
+Range: 18 Blocks
+Learn Tables: Bard
+Category: Enchantment
+Required: Vocal
+
+
 ----- Gear -----
 --- Ammo ---
 Arrow
@@ -2365,72 +2409,88 @@ Sell: -
 Stack Size: 20
 Used as ammunition for the Slingshot.
 --- Foci ---
+
 Crystal
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
+
 Orb
 Cost: 2 PP 
 Sell: 1 PP
 Instability Rate: 1%
 Used as a catalyst to cast arcane spells.
+
 Rod
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
+
 Staff
 Cost: 5 GP 
 Sell: 5 GP
 Instability Rate: 5%
 Used as a catalyst to cast arcane spells.
+
 Wand
 Cost: 1 PP 
 Sell: 5 GP
 Instability Rate: 2.5%
 Used as a catalyst to cast arcane spells.
+
 Sprig of mistletoe
 Cost: 1 GP 
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
+
 Totem
 Cost: 1 GP 
 Sell: 5 SP
 Instability Rate: 5%
 Used as a catalyst to cast druidic spells.
+
 Wooden Staff
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 2.5%
 Used as a catalyst to cast druidic spells.
+
 Yew Wand
 Cost: 10 GP 
 Sell: 5 GP
 Instability Rate: 1%
 Used as a catalyst to cast druidic spells.
+
 Amulet
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
+
 Emblem
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
 Used as a catalyst to cast divine spells.
+
 Reliquary
 Cost: 5 GP 
 Sell: 2 GP, 5 SP
 Instability Rate: 3%
+
 Used as a catalyst to cast divine spells.
+
 --- Consumables ---
+
 Acid Vial
 Cost: 2 PP, 5 GP
 Sell: 1 PP 2 GP, 5 SP
 Type: Throwable
 Can be thrown to deal 4 Acid damage.
+
 Alchemist's Fire
 Cost: 5 PP
 Sell: 2 PP, 5 GP
@@ -2439,6 +2499,7 @@ Can be thrown to drench the target in
 the chemicals, dealing 2 fire damage 
 every 3 seconds. This can be extinguished 
 by beating a CR 10 Dexterity check.
+
 Antitoxin
 Cost: 5 PP
 Sell: 2 PP, 5 GP
@@ -2496,12 +2557,19 @@ Acid Vial
 Ball Bearings
 
 Basket
+
 Bedroll
+
 Blanket
+
 Block and Tangle
+
 Caltrops
+
 Chalk
+
 Hourglass
+
 Hunting Trap
 
 Lock
@@ -2519,6 +2587,7 @@ Tent
 --- Tools ---
 
 Climbers Kit
+
 Crowbar
 
 Grappling Hook
@@ -2528,7 +2597,9 @@ Hatchet (Iron)
 Hammer
 
 Hammer, Sledge
+
 Healers Kit
+
 Ink Pen
 
 Jug / Pitcher
@@ -2538,6 +2609,32 @@ Key
 Lantern (Bullseye)
 
 Lantern (Hooded)
+
+Magnifying Glass
+
+Manacles
+
+Mess Kit
+
+Merchants Scale
+
+Mirror (Iron)
+
+Pickaxe (Iron)
+
+10-foot Pole
+
+Ram
+
+Shovel (Iron)
+
+Spellbook
+
+Signet Ring
+
+Signal Whistle
+
+Tinderbox
 
 --- Wearable ---
 
@@ -2549,68 +2646,9 @@ Clothes (Fine)
 
 Clothes (Traveller)
 
----
 
-Magnifying Glass
-
-Manacles
-Mess Kit
-
-Mirror (Iron)
-
-Pickaxe (Iron)
-Oil Flask
-
-Paper
-
-Parchment
-
-Perfume
-
-Pickaxe
-
-Piton
-
-Poison Vial
-
-10-foot Pole
-
-Pot (Iron)
-
-Pouch
-
-Quiver
-
-Ram
-
-Robes
-
-Rope (Hemp)
-
-Rope (Silk)
-
-Sack
-
-Merchants Scale
-
-Shovel (Iron)
-Sealing Wax
-
-Shovel
-
-Signal Whistle
-
-Spellbook
-Signet Ring
-
-Tinderbox
-Soap
-
-Spyglass
-Tinderbox
 
 ----- Magic Items -----
-Iron Spikes
 
 --- Common ---
 
