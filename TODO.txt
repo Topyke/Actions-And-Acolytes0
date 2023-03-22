@@ -1580,6 +1580,7 @@ Stealth Rating: 55
 Speed: 105%
 Chat Success: 40%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 50%
 DEX: 50%
@@ -1587,26 +1588,35 @@ CON: 50%
 INT: 50%
 WIS: 50%
 CHA: 50%
+
 Starting Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Simple Weapons, Shortswords
+
 Tools:
 Artisan's Tools (or) 1 musical instrument of your choice
+
 Saving Throws:
 Strength, Dexterity
+
 Skills:
 2 of the following: Acrobatics, Athletics, History, Insight, Religion, Stealth
+
 Starting Equipment:
 1 Iron Shortsword (or) any 1 Iron Simple Weapon
 a Dungeoneer's Pack (or) an Explorer's Pack
 10 Darts
+
 --- Paladin ---
 Base HP: 10
 Minimum HP: 5
 Max HP: 60
 Absolute Max HP: 110
+
 Default Stats:
 HP: 6
 STR: 130 (11)
@@ -1622,6 +1632,7 @@ Stealth Rating: 30
 Speed: 80%
 Chat Success: 55%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 60%
 DEX: 30%
@@ -1629,27 +1640,37 @@ CON: 60%
 INT: 45%
 WIS: 45%
 CHA: 60%
+
 Starting Proficiencies:
+
 Armor:
 All Armor, Shields
+
 Weapons:
 Simple Weapons, 3 Martial Weapons of your choice
+
 Tools:
 None
+
 Saving Throws:
 Wisdom, Charisma
+
 Skills:
 2 of the following: Athletics, Insight, Intimidation, Medicine, Persuasion, Religion
+
 Starting Equipment:
 any 1 Stone Martial Weapon and a Shield (or) any 1 Iron Martial Weapon
 5 Stone Javelins (or) any Stone Simple Melee Weapon
 a Priest's Pack (or) an Explorer's Pack
 Chainmail Breastplate and a Holy Symbol
+
 --- Ranger ---
+
 Base HP: 10
 Minimum HP: 5
 Max HP: 60
 Absolute Max HP: 110
+
 Default Stats:
 HP: 9
 STR: 50 (7)
@@ -1665,6 +1686,7 @@ Stealth Rating: 55
 Speed: 105%
 Chat Success: 35%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 50%
 DEX: 60%
@@ -1672,27 +1694,37 @@ CON: 40%
 INT: 50%
 WIS: 60%
 CHA: 40%
+
 Starting Proficiencies:
+
 Armor:
 Light Armor, Medium Armor, Shields
+
 Weapons:
 Simple Weapons, 3 Martial Weapons of your choice
+
 Tools:
 None
+
 Saving Throws:
 Strength, Dexterity
+
 Skills:
 2 of the following: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
+
 Starting Equipment:
 Scalemail Chestplate (or) Leather Tunic
 2 Stone Shortswords (or) any 2 Stone Simple Melee Weapons
 a Dungeoneer's Pack (or) an Explorer's Pack
 a Longbow and a Quiver of 20 Arrows
+
 --- Rogue ---
+
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
+
 Default Stats:
 HP: 5
 STR: 60 (8)
@@ -1708,6 +1740,7 @@ Stealth Rating: 60
 Speed: 110%
 Chat Success: 55%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 50%
 DEX: 70%
@@ -1715,27 +1748,37 @@ CON: 50%
 INT: 40%
 WIS: 40%
 CHA: 50%
+
 Starting Proficiencies:
+
 Armor:
 Light Armor
+
 Weapons:
 Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords
+
 Tools:
 Thieves’ tools
+
 Saving Throws:
 Dexterity, Intelligence
+
 Skills:
 4 of the following: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persausion, Sleight of Hand, Stealth
+
 Starting Equipment:
 Iron Rapier (or) Iron Shortsword
 a Shortbow and a Quiver of 20 Arrows (or) a Stone Shortsword
 a Burglar's Pack (or) an Dungeoneer's Pack (or) an Explorer's Pack
 Leather Tunic, 2 Stone Daggers, and Thieves’ tools
+
 --- Sorcerer ---
+
 Base HP: 6
 Minimum HP: 3
 Max HP: 36
 Absolute Max HP: 66
+
 Default Stats:
 HP: 12
 STR: 10 (5)
@@ -1751,6 +1794,7 @@ Stealth Rating: 40
 Speed: 90%
 Chat Success: 55%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 40%
 DEX: 60%
@@ -1758,27 +1802,37 @@ CON: 50%
 INT: 50%
 WIS: 40%
 CHA: 60%
+
 Starting Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
+
 Tools:
 None
+
 Saving Throws:
 Constitution, Charisma
+
 Skills:
 2 of the following: Arcana, Deception, Insight, Intimidation, Persausion, Religion
+
 Starting Equipment:
 a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
 a component pouch (or) an Arcane Focus
 a Dungeoneer's Pack (or) an Explorer's Pack
 2 Stone Daggers
+
 --- Warlock ---
+
 Base HP: 8
 Minimum HP: 4
 Max HP: 48
 Absolute Max HP: 88
+
 Default Stats:
 HP: 16
 STR: 30 (6)
@@ -1794,6 +1848,7 @@ Stealth Rating: 30
 Speed: 80%
 Chat Success: 50%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 50%
 DEX: 50%
@@ -1801,27 +1856,37 @@ CON: 30%
 INT: 70%
 WIS: 70%
 CHA: 30%
+
 Starting Proficiencies:
+
 Armor:
 Light Armor
+
 Weapons:
 Simple Weapons
+
 Tools:
 None
+
 Saving Throws:
 Wisdom, Charisma
+
 Skills:
 2 of the following: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
+
 Starting Equipment:
 a Light Crossbow and 20 Bolts (or) any Stone Simple Weapon
 a component pouch (or) an Arcane Focus
 a Scholar's Pack (or) a Dungeoneer's Pack
 Leather Tunic, any Simple Wooden Weapon, and two Stone Daggers.
+
 --- Wizard ---
+
 Base HP: 6
 Minimum HP: 3
 Max HP: 36
 Absolute Max HP: 66
+
 Default Stats:
 HP: 6
 STR: 40 (7)
@@ -1837,6 +1902,7 @@ Stealth Rating: 35
 Speed: 85%
 Chat Success: 40%
 Remaining: 0 / 500
+
 Base Growth Rates:
 STR: 30%
 DEX: 40%
@@ -1844,24 +1910,34 @@ CON: 20%
 INT: 75%
 WIS: 75%
 CHA: 60%
+
 Starting Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Daggers, Darts, Slings, Quarterstaffs, Light Crossbows
+
 Tools:
 None
+
 Saving Throws:
 Wisdom, Intelligence
+
 Skills:
 2 of the following: Arcana, History, Insight, Investigation, Medicine, Religion
+
 Starting Equipment:
 a Quarterstaff (or) a Iron Dagger
 a component pouch (or) an Arcane Focus
 a Scholar's Pack (or) a Explorer's Pack
 a Spellbook
+
 ----- Races -----
+
 ---- Common Races ----
+
 --- Hill Dwarf ---
 Stats:
 Size: Medium (1.5 Blocks)
