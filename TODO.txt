@@ -1632,6 +1632,40 @@ Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- L
   20   ---      4     ----     3   ---   2   ---   2   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        13        ---
 * Fighters so not learn spells naturally.
 
+- LVL 1 -
+
+Fighting Style
+Select a fighting style.
+Archery
++2 Ranged Damage
+Defense
++1 AC
+Dueling
+When holding a onehanded weapon with nothing in offhand:
++2 damage
+Great Weapon Fighting
++10% Critical Hit Chance with Twohanded Weapons
+or weapons with Versatile that are being held with two hands.
+Protection
+While holding a shield, redirect damage from a party member
+within 3 blocks to you. Reduce damage by 25%.
+Two-Weapon Fighting
+When activating Duel-Weilding, no damage penalty is applied.
+
+Second Wind
+Pressing <ClassAbility1Key> will restore 5+Fighter Level HP.
+You must rest before using this ability again.
+
+- LVL 2 -
+
+Action Surge
+Pressing <ClassAbility2Key> will 
+Increase Movement Speed and Attack Speed
+by 50% for 10 seconds.
+This ability can not be used again until
+you rest.
+
+
 --- Monk ---
 
 Base HP: 8
