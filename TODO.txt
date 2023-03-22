@@ -1939,6 +1939,7 @@ a Spellbook
 ---- Common Races ----
 
 --- Hill Dwarf ---
+
 Stats:
 Size: Medium (1.5 Blocks)
 Base HP: +1
@@ -1954,25 +1955,37 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
+
 Racial Traits:
+
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
 Dwarven Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
 Stonecunning
 You add twice your proficiency bonus when doing a history check involving stonework.
+
 Languages:
-Common, Elvish
+Common, Dwarvish
+
 Racial Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Battleaxes, Handaxes, Light Hammers, Warhammers
+
 Tools:
 One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
+
 Skills:
 History (Stonework)
+
 --- Mountain Dwarf ---
+
 Stats:
 Size: Medium (1.5 Blocks)
 Base HP: +0
@@ -1988,25 +2001,37 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 90%
 Chat Success: 50%
+
 Racial Traits:
+
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
 Dwarven Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
 Stonecunning
 You add twice your proficiency bonus when doing a history check involving stonework.
+
 Languages
 Common, Dwarvish
+
 Racial Proficiencies:
+
 Armor:
 Light Armor, Medium Armor
+
 Weapons:
 Battleaxes, Handaxes, Light Hammers, Warhammers
+
 Tools:
 One tool of your choice: Smith's Tools, Brewer's Supplies, Mason's Tools
+
 Skills:
 History (Stonework)
+
 --- High Elf ---
+
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2022,29 +2047,43 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 105%
 Chat Success: 50%
+
 Racial Traits:
+
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
 Fey Anscestry
 You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
+
 Trance
 You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
+
 Cantrip:
 You can learn 1 cantrip of your choice from the arcane spell list.
+
 Extra Language
 You can speak, read, and write one extra language of your choice.
+
 Languages
 Common, Elvish
+
 Racial Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Longsword, Shortsword, Shortbow, Longbow
+
 Tools:
 None
+
 Skills:
 None
+
 --- Wood Elf ---
+
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2060,27 +2099,40 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 115%
 Chat Success: 50%
+
 Racial Traits:
+
 Darkvision
 You can see up to 18 blocks away in darkness as dim light. You cannot discern color using this skill.
+
 Fey Anscestry
 You are 50% less likely to be inflicted with Charmed, and are immune to sleep.
+
 Trance
 You don't need to sleep, and instead go into a Trance for up to 4 hours a day. While in this trance, You can mentally train yourself.
+
 Mask of the Wild
 While in nature, you get +25 Stealth Rating.
+
 Languages
 Common, Elvish
+
 Racial Proficiencies:
+
 Armor:
 None
+
 Weapons:
 Longsword, Shortsword, Shortbow, Longbow
+
 Tools:
 None
+
 Skills:
 None
+
 --- Lightfoot Halfling ---
+
 Stats:
 Size: Small (1 Block)
 Base HP: +0
@@ -2096,25 +2148,36 @@ Magic Power: 0%
 Base Stealth Rating: 65
 Base Speed: 95%
 Chat Success: 50%
+
 Racial Traits:
+
 Lucky
 If a disastrous result would occur from a check of any kind, it can be reattempted once only.
+
 Brave
 You are 50% less likely to be inflicted with Frightened.
+
 Halfling Nimbleness
 You can freely move through other creatures.
+
 Languages
 Common, Halfling
+
 Racial Proficiencies:
 Armor:
 None
+
 Weapons:
 None
+
 Tools:
 None
+
 Skills:
 None
+
 --- Stout Halfling ---
+
 Stats:
 Size: Small (1 Block)
 Base HP: +0
@@ -2130,27 +2193,40 @@ Magic Power: 0%
 Base Stealth Rating: 55
 Base Speed: 95%
 Chat Success: 50%
+
 Racial Traits:
+
 Lucky
 If a disastrous result would occur from a check of any kind, it can be reattempted once only.
+
 Brave
 You are 50% less likely to be inflicted with Frightened.
+
 Halfling Nimbleness
 You can freely move through other creatures.
+
 Stout Resilience
 You are 50% less likely to be inflicted with Poison, and take 50% less damage from it.
+
 Languages
 Common, Halfling
+
 Racial Proficiencies:
+
 Armor:
 None
+
 Weapons:
 None
+
 Tools:
 None
+
 Skills:
 None
+
 --- Human ---
+
 Stats:
 Size: Medium (2 Blocks)
 Base HP: +0
@@ -2166,20 +2242,29 @@ Magic Power: 0%
 Base Stealth Rating: 50
 Base Speed: 100%
 Chat Success: 50%
+
 Racial Traits:
+
 Fiery Spirit
 You may take one additional feat.
+
 Languages
 Common, One additional language of your choice.
+
 Racial Proficiencies:
+
 Armor:
 None
+
 Weapons:
 None
+
 Tools:
 None
+
 Skills:
 None
+
 ---- Uncommon Races ----
 --- Dragonborn ---
 Stats:
