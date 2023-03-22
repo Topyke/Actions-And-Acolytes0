@@ -5402,6 +5402,46 @@ AC: 19
 Stealth Mod: -30
 Weight: 65
 
+----- Structures -----
+
+Human Village
+A village containing 4 houses, 1 inn, a General Store,
+3 shops, a church, and a manor. While within its zone,
+blocks that were generated cannot be broken.
+
+Human House
+a house that houses 2 Human Townsfolk.
+
+Human Inn
+a bussling place, Has a lower floor with
+a bartender that sells drinks and food,
+and a upper floor where you can purchase
+rooms.
+
+General Store
+This store sells basic gear.
+
+Blacksmith
+This store sells weapons and armor.
+
+Lumberjack
+This store sells wood-based things.
+
+Clothing Shop
+This store sells clothes.
+
+Butcher
+This store sells meat.
+
+Church 
+Offers worship to a specific god.
+houses a Acolyte.
+
+Manor
+Houses a noble, who rules over the village.
+
+
+
 ----- Entities -----
 
 --- List of Entities ---
@@ -5860,7 +5900,7 @@ Default Player Reputation: 0
 
 - LEVEL 0 -
 
-Human Commoner
+- Human Commoner -
 
 Stats:
 
@@ -5872,11 +5912,368 @@ AC: 0
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
+STR: 103 (0)
+DEX: 103 (0)
+CON: 103 (0)
+INT: 103 (0)
+WIS: 103 (0)
+CHA: 103 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Unarmed Attack
+1 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+4 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+3 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+- Human Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 120 (+1)
+DEX: 130 (+1)
+CON: 130 (+1)
+INT: 110 (0)
+WIS: 120 (+1)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 120 (+1)
+DEX: 130 (+1)
+CON: 110 (0)
+INT: 110 (0)
+WIS: 120 (+1)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 140 (+2)
+DEX: 130 (+1)
+CON: 130 (+1)
+INT: 110 (0)
+WIS: 120 (+1)
+CHA: 110 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.6 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Human Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 110 (0)
+INT: 120 +1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6.3 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Tribesman -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 140 (+2)
+DEX: 120 (+1)
+CON: 130 (+1)
+INT: 90 (-1)
+WIS: 120 (+1)
+CHA: 90 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+- Human Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 110 (0)
+CON: 110 (0)
+INT: 110 (0)
+WIS: 150 (+2)
+CHA: 120 (+1)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Human Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 120 (+1)
+DEX: 130 (+1)
+CON: 120 (+1)
+INT: 130 (+1)
+WIS: 150 (+2)
+CHA: 170 (+3)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+-- Dwarfs --
+
+Default Player Reputation: -25
+----------------------------------------------------------------------------------------------------------------------
+                                               Alignment Table
+-----------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---    Rating   ---      Hostility       ---        Title     ---  Shop Prices  --- Hire Level ---
+----------------------------------------------------------------------------------------------------------------------
+---      -255        --- Good as Orc ---   If recognized**   ---   Dwarf-Bane     ---   Won't Sell  ---      0     ---
+---      -100^       --- Dwarfkiller ---   If recognized*    ---   Dwarf-Slayer   ---   Won't Sell  ---      0     ---
+---       -50        ---   Enemy     ---   Attempt Capture   ---   Dwarven Enemy  ---   Won't Sell  ---      0     --- 
+---        -1        ---   Disliked  ---  If commiting crime ---      None        ---     2x Price  ---      0     ---
+---         0        ---   Neutral   ---  If commiting crime ---      None        ---   1.5x Price  ---      0     ---  
+---        50        ---   Friend    ---      If Attacked    ---      None        ---  1.25x Price  ---      1     ---  
+---       100        ---   Clansman  ---      If Attacked    ---  Dwarf Clansman  ---     1x Price  ---      1     --- 
+---       150        ---    Chief    ---      If Attacked    ---      None        ---  0.75x Price  ---      2     ---
+---       200        ---    Hero     ---      If Attacked    ---   Dwarven Hero   ---   0.5x Price  ---      3     ---
+---       255        ---   Legend    ---      If Attacked    ---  Dwarven Legend  ---  0.25x Price  ---      4     ---
+-----------------------------------------------------------------------------------------------------------------------
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
+- Hill Dwarf Miner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Clan Alignment
+HP: 5
+AC: 0
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 93 (-1)
 DEX: 93 (-1)
-CON: 93 (-1)
+CON: 113 (0)
 INT: 93 (-1)
-WIS: 93 (-1)
+WIS: 103 (-1)
 CHA: 93 (-1)
 Melee Power: -5%
 Ranged Power: -5%
@@ -5891,37 +6288,29 @@ Special:
 
 Actions:
 
-Unarmed Attack
-0.95 Bludgeoning Damage
-
-Club (used instead of Unarmed attack if they have a Club)
-3.8 Bludgeoning Damage
-
-Stone Sickle (used instead of Unarmed attack if they have a Sickle)
-2.85 Slashing Damage
+Pickaxe
+4.75 Piercing Damage
 
 Equipment:
-None (50%)
-Club (25%)
-Stone Sickle (25%)
+Iron Pickaxe (100%)
 
-Human Bandit
+- Hill Dwarf Raider -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
-HP: 11
+HP: 14
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 110 (0)
 DEX: 120 (+1)
-CON: 120 (+1)
+CON: 140 (+2)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 0%
 Ranged Power: 5%
@@ -5949,23 +6338,23 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-Human Cultist
+- Dwarf Cultist -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Evil
-HP: 11
+HP: 13
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 110 (0)
 DEX: 120 (+1)
-CON: 100 (0)
+CON: 120 (+1)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 0%
 Ranged Power: 5%
@@ -5992,23 +6381,23 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-Human Guard
+- Hill Dwarf Guard -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
-Alignment: Matches Town Alignment
-HP: 11
+Alignment: Matches Clan Alignment
+HP: 14
 AC: 10-12
-Speed: 100%
-Senses: Passive Sight (18 Blocks)
-Languages: Common
+Speed: 83%
+Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 130 (+1)
 DEX: 120 (+1)
-CON: 120 (+1)
+CON: 140 (+2)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 5%
 Ranged Power: 5%
@@ -6023,32 +6412,32 @@ Special:
 
 Actions:
 
-Spear
-6.3 Piercing Damage
+Battleaxe
+8.4 Slashing Damage
 
 Equipment:
-Iron Spear (100%)
+Iron Battleaxe (100%)
 Light Chain Helmet (100%)
 Chainmail Breastplate (100%)
 Iron Shield (50%)
 
-Human Merchant
+- Hill Dwarf Merchant -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
-Alignment: Matches Town Alignment
-HP: 9
+Alignment: Matches Clan Alignment
+HP: 10
 AC: 9
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 100 (0)
 DEX: 110 (0)
-CON: 100 (0)
+CON: 120 (+1)
 INT: 110 (0)
-WIS: 130 (+1)
+WIS: 140 (+2)
 CHA: 150 (+2)
 Melee Power: 0%
 Ranged Power: 0%
@@ -6071,23 +6460,23 @@ Iron Shortsword (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
-Human Tribesman
+- Hill Dwarf Exile -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
-HP: 11
+HP: 14
 AC: 8
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
 STR: 130 (+1)
 DEX: 110 (0)
-CON: 120 (+1)
+CON: 140 (+2)
 INT: 80 (-1)
-WIS: 110 (0)
+WIS: 120 (0)
 CHA: 80 (-1)
 Melee Power: 5%
 Ranged Power: 0%
@@ -6105,15 +6494,698 @@ Pack Tactics
 
 Actions:
 
+Mace
+4.2 Bludgeoning Damage
+
+Equipment:
+Stone Mace (100%)
+Hide Hat (100%)
+Hide Tunic (100%)
+
+- Hill Dwarf Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 83%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Hill Dwarf Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 10
+AC: 9
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 130 (+1)
+INT: 120 (+1)
+WIS: 150 (+2)
+CHA: 160 (+3)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Mountain Dwarf Miner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Clan Alignment
+HP: 4
+AC: 0
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 113 (0)
+DEX: 93 (-1)
+CON: 113 (0)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Melee Power: 0%
+Ranged Power: -5%
+Magic Power: -5% 
+Base Stealth Rating: 45
+Crit Chance: 3%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Pickaxe
+5 Piercing Damage
+
+Equipment:
+Iron Pickaxe (100%)
+
+- Mountain Dwarf Raider -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 13
+AC: 6-10
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 130 (+1)
+DEX: 120 (+1)
+CON: 140 (+2)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leather Boots (50%)
+
+- Mountain Dwarf Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 12
+AC: 6-10
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Mountain Dwarf Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Clan Alignment
+HP: 13
+AC: 10-12
+Speed: 83%
+Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
+Languages: Common
+STR: 150 (+2)
+DEX: 120 (+1)
+CON: 140 (+2)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Battleaxe
+8.8 Slashing Damage
+
+Equipment:
+Iron Battleaxe (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Mohntain Dwarf Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Clan Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 120 (+1)
+DEX: 110 (0)
+CON: 120 (+1)
+INT: 110 (0)
+WIS: 130 (+1)
+CHA: 150 (+2)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 6%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Mountain Dwarf Exile -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 13
+AC: 8
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 150 (+2)
+DEX: 110 (0)
+CON: 140 (+2)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 10%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Mace
+4.4 Bludgeoning Damage
+
+Equipment:
+Stone Mace (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+- Mountain Dwarf Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Clan Alignment
+HP: 9
+AC: 0
+Speed: 83%
+Senses: Passive Sight (16 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 120 (+1)
+DEX: 100 (0)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 6%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4.2 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Mountain Dwarf Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 83%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Dwarvish
+STR: 130 (+1)
+DEX: 120 (+1)
+CON: 130 (+1)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+-- Elves --
+
+Default Player Reputation: -25
+---------------------------------------------------------------------------------------------------------------------------------
+                                               Alignment Table
+---------------------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---        Rating        ---      Hostility       ---        Title      ---   Shop Prices --- Hire Level ---
+---------------------------------------------------------------------------------------------------------------------------------
+---      -255        ---   Enemy of Nature    ---   If recognized*     ---  Enemy of Nature  ---   Won't Sell  ---      0     ---
+---      -100^       ---       Woodsbane      ---   If recognized*     ---     Woodsbane     ---   Won't Sell  ---      0     ---
+---       -50        ---         Enemy        ---   Attempt Capture    ---   Elven Enemy     ---   Won't Sell  ---      0     --- 
+---        -1        ---       Untrusted      ---   If commiting crime ---      None         ---     2x Price  ---      0     ---
+---         0        ---        Nuetral       ---   If commiting crime ---      None         ---   1.5x Price  ---      0     ---  
+---        50        ---        Friend        ---      If Attacked     ---      None         ---  1.25x Price  ---      0     ---  
+---       100        ---      Woodsfolk       ---      If Attacked     ---  Elven Woodsfolk  ---     1x Price  ---      1     --- 
+---       150        ---       Artisan        ---      If Attacked     ---       None        ---  0.75x Price  ---      2     ---
+---       200        ---         Hero         ---      If Attacked     ---   Elven Hero      ---   0.5x Price  ---      3     ---
+---       255        ---        Legend        ---      If Attacked     ---  Elven Legend     ---  0.25x Price  ---      4     ---
+---------------------------------------------------------------------------------------------------------------------------------
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
+- Human Commoner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 4
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Unarmed Attack
+1 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+4 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+3 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+- Human Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+2)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
 Spear
-4.2 Piercing Damage
+6.6 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Human Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+2)
+CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6.3 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Tribesman -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (+0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.4 Piercing Damage
 
 Equipment:
 Stone Spear (100%)
 Hide Hat (100%)
 Hide Tunic  (100%)
 
-Human Acolyte
+- Human Acolyte -
 
 Stats:
 
@@ -6155,7 +7227,7 @@ Equipment:
 Club (100%)
 Holy Symbol (100%)
 
-Human Noble
+- Human Noble -
 
 Stats:
 
@@ -6168,16 +7240,16 @@ Speed: 100%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 120 (0)
 CON: 110 (0)
 INT: 120 (+1)
 WIS: 140 (+2)
 CHA: 160 (+3)
-Melee Power: 0%
+Melee Power: 5%
 Ranged Power: 5%
 Magic Power: 5% 
 Base Stealth Rating: 55
-Crit Chance: 7%
+Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
 Level: 0.25
 AXP Yield: 50
@@ -6194,51 +7266,339 @@ Iron Rapier (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
--- Dwarfs --
+- Human Commoner -
 
-Default Player Reputation: 0
-----------------------------------------------------------------------------------------------------------------------
-                                               Alignment Table
------------------------------------------------------------------------------------------------------------------------
---- Reputation Score ---    Rating   ---      Hostility       ---        Title     ---  Shop Prices  --- Hire Level ---
-----------------------------------------------------------------------------------------------------------------------
----      -255        --- Good as Orc ---   If recognized**   ---   Dwarf-Bane     ---   Won't Sell  ---      0     ---
----      -100^       --- Dwarfkiller ---   If recognized*    ---   Dwarf-Slayer   ---   Won't Sell  ---      0     ---
----       -50        ---   Enemy     ---   Attempt Capture   ---   Dwarven Enemy  ---   Won't Sell  ---      0     --- 
----        -1        ---   Disliked  ---   Attempt Capture   ---      None        ---     2x Price  ---      0     ---
----         0        ---   Neutral   ---  If commiting crime ---      None        ---   1.5x Price  ---      0     ---  
----        50        ---   Friend    ---      If Attacked    ---      None        ---  1.25x Price  ---      1     ---  
----       100        ---   Clansman  ---      If Attacked    ---  Dwarf Clansman  ---     1x Price  ---      1     --- 
----       150        ---    Chief    ---      If Attacked    ---      None        ---  0.75x Price  ---      2     ---
----       200        ---    Hero     ---      If Attacked    ---   Dwarven Hero   ---   0.5x Price  ---      3     ---
----       255        ---   Legend    ---      If Attacked    ---  Dwarven Legend  ---  0.25x Price  ---      4     ---
------------------------------------------------------------------------------------------------------------------------
-^to go beyond -99 Reputation, killing is required.
-*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
-**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+Stats:
 
--- Elves --
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 4
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0
+AXP Yield: 10
 
-Default Player Reputation: -25
----------------------------------------------------------------------------------------------------------------------------------
-                                               Alignment Table
----------------------------------------------------------------------------------------------------------------------------------
---- Reputation Score ---        Rating        ---      Hostility       ---        Title      ---   Shop Prices --- Hire Level ---
----------------------------------------------------------------------------------------------------------------------------------
----      -255        ---   Enemy of Nature    ---   If recognized*     ---  Enemy of Nature  ---   Won't Sell  ---      0     ---
----      -100^       ---       Woodsbane      ---   If recognized*     ---     Woodsbane     ---   Won't Sell  ---      0     ---
----       -50        ---         Enemy        ---   Attempt Capture    ---   Elven Enemy     ---   Won't Sell  ---      0     --- 
----        -1        ---       Untrusted      ---   If commiting crime ---      None         ---     2x Price  ---      0     ---
----         0        ---        Nuetral       ---   If commiting crime ---      None         ---   1.5x Price  ---      0     ---  
----        50        ---        Friend        ---      If Attacked     ---      None         ---  1.25x Price  ---      0     ---  
----       100        ---      Woodsfolk       ---      If Attacked     ---  Elven Woodsfolk  ---     1x Price  ---      1     --- 
----       150        ---       Artisan        ---      If Attacked     ---       None        ---  0.75x Price  ---      2     ---
----       200        ---         Hero         ---      If Attacked     ---   Elven Hero      ---   0.5x Price  ---      3     ---
----       255        ---        Legend        ---      If Attacked     ---  Elven Legend     ---  0.25x Price  ---      4     ---
----------------------------------------------------------------------------------------------------------------------------------
-^to go beyond -99 Reputation, killing is required.
-*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
-**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+Special:
+
+Actions:
+
+Unarmed Attack
+1 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+4 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+3 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+- Human Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+2)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.6 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Human Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+2)
+CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6.3 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Tribesman -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (+0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+- Human Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Human Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (0)
+CON: 110 (0)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 -- Halflings --
 
@@ -6262,6 +7622,674 @@ Default Player Reputation: 50
 ^to go beyond -99 Reputation, killing is required.
 *Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
 **Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
+- Human Commoner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 4
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Unarmed Attack
+1 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+4 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+3 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+- Human Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+2)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.6 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Human Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+2)
+CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6.3 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Tribesman -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (+0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+- Human Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Human Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (0)
+CON: 110 (0)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Commoner -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 4
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 93 (-1)
+DEX: 93 (-1)
+CON: 93 (-1)
+INT: 93 (-1)
+WIS: 93 (-1)
+CHA: 93 (-1)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Actions:
+
+Unarmed Attack
+1 Bludgeoning Damage
+
+Club (used instead of Unarmed attack if they have a Club)
+4 Bludgeoning Damage
+
+Stone Sickle (used instead of Unarmed attack if they have a Sickle)
+3 Slashing Damage
+
+Equipment:
+None (50%)
+Club (25%)
+Stone Sickle (25%)
+
+- Human Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 110 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Light Crossbow
+6.3 Piercing Damage
+
+Equipment:
+Iron Scimitar or Light Crossbow (100%)
+Alignment-Dyed Mask (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Cultist -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Evil
+HP: 11
+AC: 6-10
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (+1)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 6%
+Skills: Deception (+2), Religion (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Dark Devotion
+Cultists have resistance to Frieghtened and Charmed.
+
+Actions:
+
+Scimitar
+6.3 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Tunic (100%)
+Leather Pants (50%)
+Leatheer Boots (50%)
+
+- Human Guard -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 11
+AC: 10-12
+Speed: 100%
+Senses: Passive Sight (18 Blocks)
+Languages: Common
+STR: 130 (+2)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 100 (0)
+WIS: 110 (0)
+CHA: 100 (0)
+Melee Power: 10%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Perception (+2)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Spear
+6.6 Piercing Damage
+
+Equipment:
+Iron Spear (100%)
+Light Chain Helmet (100%)
+Chainmail Breastplate (100%)
+Iron Shield (50%)
+
+- Human Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 110 (0)
+CON: 100 (0)
+INT: 110 (0)
+WIS: 130 (+2)
+CHA: 150 (+2)
+Melee Power: 0%
+Ranged Power: 5%
+Magic Power: 0% 
+Base Stealth Rating: 55
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Shortsword
+6.3 Slashing Damage
+
+Equipment:
+Iron Shortsword (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
+- Human Tribesman -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 11
+AC: 8
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 130 (+1)
+DEX: 110 (+0)
+CON: 120 (+1)
+INT: 80 (-1)
+WIS: 110 (0)
+CHA: 80 (-1)
+Melee Power: 5%
+Ranged Power: 0%
+Magic Power: -5% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Spear
+4.4 Piercing Damage
+
+Equipment:
+Stone Spear (100%)
+Hide Hat (100%)
+Hide Tunic  (100%)
+
+- Human Acolyte -
+
+Stats:
+
+Type: Humanoid 
+Size: Medium
+Alignment: Matches Town Alignment
+HP: 9
+AC: 0
+Speed: 100%
+Senses: Passive Sight (16 Blocks)
+Languages: Common
+STR: 100 (0)
+DEX: 100 (0)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 140 (+2)
+CHA: 110 (0)
+Melee Power: 0%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 5%
+Skills: Medicine (+4), Religion (+2)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Spellcasting:
+Cantrips (Unlimited): Light, Sacred Flame, Thaumaturgy
+LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
+
+Actions:
+
+Club
+4 Bludgeoning Damage
+
+Equipment:
+Club (100%)
+Holy Symbol (100%)
+
+- Human Noble -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Any Alignment
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 110 (0)
+DEX: 120 (0)
+CON: 110 (0)
+INT: 120 (+1)
+WIS: 140 (+2)
+CHA: 160 (+3)
+Melee Power: 5%
+Ranged Power: 5%
+Magic Power: 5% 
+Base Stealth Rating: 55
+Crit Chance: 8%
+Skills: Deception (+5), Insight (+4), Persuasion (+5)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Rapier
+8.4 Piercing Damage
+
+Equipment:
+Iron Rapier (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 -- Dragonborn --
 
@@ -6319,8 +8347,8 @@ Default Player Reputation: 0
 ---------------------------------------------------------------------------------------------------------------------------------------
 --- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
 ---------------------------------------------------------------------------------------------------------------------------------------
----      -255        ---        -----         ---   If recognized**    ---     Half-Breed Hater    ---   Won't Sell  ---      0     ---
----      -100^       ---        -----         ---   If recognized*     ---      Half-Elf-Slayer    ---   Won't Sell  ---      0     ---
+---      -255        ---        Hunted        ---   If recognized**    ---     Half-Breed Hater    ---   Won't Sell  ---      0     ---
+---      -100^       ---        Hated         ---   If recognized*     ---      Half-Elf-Slayer    ---   Won't Sell  ---      0     ---
 ---       -50        ---        Enemy         ---   If recognized      ---      Half-Elf Enemy     ---   Won't Sell  ---      0     --- 
 ---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
 ---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      0     ---  
@@ -6339,22 +8367,22 @@ If your above -100 Reputaion, Hostiles will capture you instead of killing you o
 
 -- Half-Orcs --
 
-Default Player Reputation: 0
+Default Player Reputation: -5
 ---------------------------------------------------------------------------------------------------------------------------------------
                                                Reputation Table
 ---------------------------------------------------------------------------------------------------------------------------------------
 --- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
 ---------------------------------------------------------------------------------------------------------------------------------------
----      -255        ---        Monster       ---   If recognized**    ---     Half-Breed Hater    ---   Won't Sell  ---      0     ---
----      -100^       ---      Hates Jokes     ---   If recognized*     ---      Half-Elf-Slayer    ---   Won't Sell  ---      0     ---
----       -50        ---        Enemy         ---   If recognized      ---      Half-Elf Enemy     ---   Won't Sell  ---      0     --- 
+---      -255        ---        Feared        ---   If recognized**    ---     "Orcslayer"         ---   Won't Sell  ---      0     ---
+---      -100^       ---        Killer        ---   If recognized*     ---      Half-Orc-Slayer    ---   Won't Sell  ---      0     ---
+---       -50        ---        Enemy         ---   If recognized      ---      Half-Orc Enemy     ---   Won't Sell  ---      0     --- 
 ---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
 ---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      0     ---  
 ---        50        ---        Friend        ---      If Attacked     ---         None            ---  1.25x Price  ---      1     ---  
----       100        ---         Ally         ---      If Attacked     ---     Half-Elf Ally       ---     1x Price  ---      1     --- 
----       150        ---       One of us      ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
----       200        ---         Hero         ---      If Attacked     ---     Half-Elf Hero       ---   0.5x Price  ---      3     ---
----       255        ---        Legend        ---      If Attacked     ---     Half-Elf Legend     ---  0.25x Price  ---      4     ---
+---       100        ---         Ally         ---      If Attacked     ---     Half-Orc Ally       ---     1x Price  ---      1     --- 
+---       150        ---        Reveler       ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
+---       200        ---         Hero         ---      If Attacked     ---     Half-Orc Hero       ---   0.5x Price  ---      3     ---
+---       255        ---        Legend        ---      If Attacked     ---     Half-Orc Legend     ---  0.25x Price  ---      4     ---
 ---------------------------------------------------------------------------------------------------------------------------------------
 If your above -100 Reputaion, Hostiles will capture you instead of killing you outright.
 ^to go beyond -99 Reputation, killing is required.
@@ -6364,6 +8392,29 @@ If your above -100 Reputaion, Hostiles will capture you instead of killing you o
 
 
 -- Tieflings --
+
+Default Player Reputation: -25
+---------------------------------------------------------------------------------------------------------------------------------------
+                                               Reputation Table
+---------------------------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
+---------------------------------------------------------------------------------------------------------------------------------------
+---      -255        ---        Monster       ---   If recognized**    ---  Killer of past regrets ---   Won't Sell  ---      0     ---
+---      -100^       ---      Hates Jokes     ---   If recognized*     ---      Teifling Slayer    ---   Won't Sell  ---      0     ---
+---       -50        ---        Enemy         ---   If recognized      ---      Teifling Enemy     ---   Won't Sell  ---      0     --- 
+---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
+---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      0     ---  
+---        50        ---        Friend        ---      If Attacked     ---         None            ---  1.25x Price  ---      0     ---  
+---       100        ---        Trusted       ---      If Attacked     ---     Tiefling Friend     ---     1x Price  ---      1     --- 
+---       150        ---        Protected     ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
+---       200        ---         Hero         ---      If Attacked     ---     Tiefling Hero       ---   0.5x Price  ---      3     ---
+---       255        ---        Legend        ---      If Attacked     ---     Tiedling Legend     ---  0.25x Price  ---      4     ---
+---------------------------------------------------------------------------------------------------------------------------------------
+If your above -100 Reputaion, Hostiles will capture you instead of killing you outright.
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
 
 -- Aarakocra --
 
@@ -6384,6 +8435,28 @@ If your above -100 Reputaion, Hostiles will capture you instead of killing you o
 -- Hobgoblins --
 
 -- Kobolds --
+
+Default Player Reputation: -75
+---------------------------------------------------------------------------------------------------------------------------------------
+                                               Reputation Table
+---------------------------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
+---------------------------------------------------------------------------------------------------------------------------------------
+---      -255        ---        Feared        ---   If recognized**    ---  Guardian of the Meek   ---   Won't Sell  ---      0     ---
+---      -100^       ---        Big Bad       ---   If recognized*     ---      Orc Slayer         ---   Won't Sell  ---      0     ---
+---       -50        ---        Enemy         ---   If recognized      ---         None            ---   Won't Sell  ---      0     --- 
+---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
+---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      1     ---  
+---        50        ---        Friend        ---      If Attacked     ---         None            ---  1.25x Price  ---      1     ---  
+---       100        ---        Protecter     ---      If Attacked     ---       Kobold Rallier    ---     1x Price  ---      2     --- 
+---       150        ---        Warchief      ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
+---       200        ---        Villian       ---      If Attacked     ---       Kobold Boss       ---   0.5x Price  ---      3     ---
+---       255        ---  Parvrosi Incarnate  ---      If Attacked     ---   Parvrosi Incarnate    ---  0.25x Price  ---      4     ---
+---------------------------------------------------------------------------------------------------------------------------------------
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
 
 -- LEVEL 0.125 --
 
@@ -6412,6 +8485,7 @@ Base Stealth Rating: 60
 Crit Chance: 4%
 Base Level: 0.125
 AXP Yield: 25
+
 
 Special:
 
@@ -6473,6 +8547,28 @@ Equipment
 Sling (100%)
 
 -- Orcs --
+
+Default Player Reputation: -75
+---------------------------------------------------------------------------------------------------------------------------------------
+                                               Reputation Table
+---------------------------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
+---------------------------------------------------------------------------------------------------------------------------------------
+---      -255        ---        Feared        ---   If recognized**    ---  Guardian of the Meek   ---   Won't Sell  ---      0     ---
+---      -100^       ---        Killer        ---   If recognized*     ---      Orc Slayer         ---   Won't Sell  ---      0     ---
+---       -50        ---        Enemy         ---   If recognized      ---         None            ---   Won't Sell  ---      0     --- 
+---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
+---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      1     ---  
+---        50        ---        Friend        ---      If Attacked     ---         None            ---  1.25x Price  ---      1     ---  
+---       100        ---        Tribesman     ---      If Attacked     ---       Orc Tribesman     ---     1x Price  ---      2     --- 
+---       150        ---        Warchief      ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
+---       200        ---        Villian       ---      If Attacked     ---       Orc Uniter        ---   0.5x Price  ---      3     ---
+---       255        ---        Legend        ---      If Attacked     ---       Orc Legend        ---  0.25x Price  ---      4     ---
+---------------------------------------------------------------------------------------------------------------------------------------
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
+
 
 --- Animals ---
 
