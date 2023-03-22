@@ -566,6 +566,7 @@ Ability Score Improvment
 
 Attack Swiftness
 Your base Attack Speed is increased to 4.1.
+
 Fast Movement
 While not wearing Heavy Armor, you gain +20% movement speed.
 
@@ -1664,6 +1665,21 @@ Increase Movement Speed and Attack Speed
 by 50% for 10 seconds.
 This ability can not be used again until
 you rest.
+
+- LVL 3 -
+
+Subclass
+Select a subclass
+Champion
+Battle Master
+Eldrlich Knight
+
+- LVL 4 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+
 
 
 --- Monk ---
