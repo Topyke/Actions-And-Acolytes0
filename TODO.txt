@@ -2,7 +2,7 @@
 Current Version: 0.0.0-1.19.3
 Total Progress: 113/739 (15.29%)
 Entities: 0/135**** (0%)
-Weapons: 53/216* (24%)
+Weapons: 74/216* (34%)
 Tools: 36/72* (50%)
 Armor: 0/48* (0%)
 Materials: 8/21 (38%)
