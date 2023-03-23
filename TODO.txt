@@ -6394,7 +6394,7 @@ Merchant (Dwarf)
 Merchant (Halfling)
 Merchant (Kobold)
 Merchant (Goblin)
-Merchant (Merfolk)
+Merchant (Merfolk) - Ignore
 Merchant (Orc)
 Pony - Model Complete
 Stirge
@@ -6415,7 +6415,7 @@ Giant Bat - Model Complete
 Giant Frog - Model Complete
 Giant Wolf Spider - Model Complete
 Goblin
-Kuo-Toa
+Kuo-Toa - Ignore
 Mud Mephit
 Needle Blight
 Pteranodon
@@ -6436,7 +6436,7 @@ Gnoll
 Gray Ooze
 Hobgoblin
 Ice Mephit
-Lizardfolk
+Lizardfolk - Ignore
 Magma Mephit
 Orc
 Sahuagin
@@ -6446,8 +6446,8 @@ Scout (Elf)
 Scout (Dwarf)
 Scout (Halfling)
 Scout (Goblin)
-Scout (Lizardfolk)
-Scout (Merfolk)
+Scout (Lizardfolk) - Ignore
+Scout (Merfolk) - Ignore
 Scout (Orc)
 Shadow
 Thug (Human)
@@ -6797,7 +6797,7 @@ Default Player Reputation: 0
 
 - LEVEL 0 -
 
-- Human Commoner -
+- Human Townsfolk -
 
 Stats:
 
@@ -8553,29 +8553,29 @@ Default Player Reputation: 50
 *Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
 **Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
 
-- Human Commoner -
+- Lightfoot Townsfolk -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Matches Town Alignment
 HP: 4
 AC: 0
-Speed: 100%
+Speed: 90%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 93 (-1)
-DEX: 93 (-1)
+DEX: 113 (0)
 CON: 93 (-1)
 INT: 93 (-1)
 WIS: 93 (-1)
-CHA: 93 (-1)
-Melee Power: 0%
+CHA: 103 (0)
+Melee Power: -10%
 Ranged Power: 0%
-Magic Power: 0% 
-Base Stealth Rating: 50
-Crit Chance: 5%
+Magic Power: -10% 
+Base Stealth Rating: 65
+Crit Chance: 3%
 Skills: None
 Level: 0
 AXP Yield: 10
@@ -8585,41 +8585,42 @@ Special:
 Actions:
 
 Unarmed Attack
-1 Bludgeoning Damage
+0.9 Bludgeoning Damage
 
 Club (used instead of Unarmed attack if they have a Club)
-4 Bludgeoning Damage
+3.6 Bludgeoning Damage
 
 Stone Sickle (used instead of Unarmed attack if they have a Sickle)
-3 Slashing Damage
+2.7 Slashing Damage
 
 Equipment:
 None (50%)
 Club (25%)
 Stone Sickle (25%)
 
-- Human Bandit -
+- Lightfoot Thief -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 10
 HP: 11
 AC: 6-10
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 110 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 0%
+Ranged Power: 10%
 Magic Power: 0% 
-Base Stealth Rating: 55
+Base Stealth Rating: 75
 Crit Chance: 7%
 Skills: None
 Level: 0.125
@@ -8630,10 +8631,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+7.2 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -8642,29 +8643,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Cultist -
+- Lightfoot Cultist -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Evil
+Class Base HP: 11
 HP: 11
 AC: 6-10
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 100 (0)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 100 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 0%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 6%
+Base Stealth Rating: 75
+Crit Chance: 7%
 Skills: Deception (+2), Religion (+2)
 Level: 0.125
 AXP Yield: 25
@@ -8677,7 +8679,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -8685,29 +8687,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Guard -
+- Lightfoot Peacekeeper -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Matches Town Alignment
+Class Base HP: 10
 HP: 11
 AC: 10-12
 Speed: 100%
 Senses: Passive Sight (18 Blocks)
-Languages: Common
-STR: 130 (+2)
-DEX: 120 (+1)
+Languages: Common, Halfling
+STR: 130 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 100 (0)
 Melee Power: 10%
-Ranged Power: 5%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 7%
+Base Stealth Rating: 75
+Crit Chance: 8%
 Skills: Perception (+2)
 Level: 0.125
 AXP Yield: 25
@@ -8716,38 +8719,39 @@ Special:
 
 Actions:
 
-Spear
-6.6 Piercing Damage
+Shortsword
+7.2 Piercing Damage
 
 Equipment:
-Iron Spear (100%)
+Iron Shortsword (100%)
 Light Chain Helmet (100%)
 Chainmail Breastplate (100%)
 Iron Shield (50%)
 
-- Human Merchant -
+- Lightfoot Merchant -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
+Speed: 95%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 100 (0)
-DEX: 110 (0)
+DEX: 130 (+1)
 CON: 100 (0)
 INT: 110 (0)
 WIS: 130 (+2)
 CHA: 150 (+2)
 Melee Power: 0%
-Ranged Power: 5%
+Ranged Power: 10%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 7%
+Base Stealth Rating: 70
+Crit Chance: 6%
 Skills: Deception (+3), Insight (+2), Persuasion (+3)
 Level: 0.125
 AXP Yield: 25
@@ -8757,35 +8761,36 @@ Special:
 Actions:
 
 Shortsword
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
-- Human Tribesman -
+- Lightfoot Tribesman -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Any Alignment
+Class Base HP: 10
 HP: 11
 AC: 8
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 130 (+1)
-DEX: 110 (+0)
+DEX: 130 (+1)
 CON: 120 (+1)
 INT: 80 (-1)
 WIS: 110 (0)
 CHA: 80 (-1)
-Melee Power: 5%
-Ranged Power: 0%
-Magic Power: -5% 
-Base Stealth Rating: 50
+Melee Power: 10%
+Ranged Power: 10%
+Magic Power: -10% 
+Base Stealth Rating: 70
 Crit Chance: 7%
 Skills: None
 Level: 0.125
@@ -8806,29 +8811,30 @@ Stone Spear (100%)
 Hide Hat (100%)
 Hide Tunic  (100%)
 
-- Human Acolyte -
+- Lightfoot Acolyte -
 
 Stats:
 
 Type: Humanoid 
-Size: Medium
+Size: Small
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 0
-Speed: 100%
+Speed: 95%
 Senses: Passive Sight (16 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 100 (0)
-DEX: 100 (0)
+DEX: 120 (+1)
 CON: 100 (0)
 INT: 100 (0)
 WIS: 140 (+2)
 CHA: 110 (0)
 Melee Power: 0%
-Ranged Power: 0%
+Ranged Power: 10%
 Magic Power: 0% 
-Base Stealth Rating: 50
-Crit Chance: 5%
+Base Stealth Rating: 70
+Crit Chance: 6%
 Skills: Medicine (+4), Religion (+2)
 Level: 0.25
 AXP Yield: 50
@@ -8848,27 +8854,28 @@ Equipment:
 Club (100%)
 Holy Symbol (100%)
 
-- Human Noble -
+- Lightfoot Noble -
 
 Stats:
 
 Type: Humanoid
-Size: Medium
+Size: Small
 Alignment: Any Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
 Speed: 100%
 Senses: Passive Sight (15 Blocks)
-Languages: Common
+Languages: Common, Halfling
 STR: 110 (0)
-DEX: 120 (0)
+DEX: 140 (+2)
 CON: 110 (0)
 INT: 120 (+1)
 WIS: 140 (+2)
 CHA: 160 (+3)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: 5% 
+Melee Power: 0%
+Ranged Power: 20%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
@@ -8880,7 +8887,7 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+9.6 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
