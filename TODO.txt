@@ -284,12 +284,13 @@ Silver Sentinel (Worth 10 Copper Pieces)
 Gold Griffon (Worth 10 Silver Pieces)
 Platinum Dragon (Worth 10 Gold Pieces)
 ----- Stats -----
+
 Stats can range from 0 to 300.
 When players select a class, they get 500 
-stat points to allocate, in groups of 5, 
+stat points to allocate, in groups of 10, 
 up to a maximum of 150. 
 Player stats cap at 200.
-Attributes increase by 25% for weapons 
+Attributes increase by 50% for weapons 
 and skills the player are proficient in. 
 Attributes can be increased by passing
 skill checks or leveling up.
@@ -297,8 +298,9 @@ Only passing a skill check that is higher then
 your current stat will be considered for a boost.
 Boost by skill check chance is a stat/CR chance.
 How often a stat increases by level up is based on class.
-a increased stat by level up is increased by 20.
+a increased stat by level up is increased by 10.
 a increased stat by skill check in increased by 1.
+
 Modifocation Table:
 Using a stat to preform a skill check
 will result in a puzzle, your stat will determine
@@ -319,6 +321,7 @@ how many pieces you get, at a base of 10 pieces.
 260-279: +8
 280-299: +9
 300: +10
+
 STR:
 Impacts melee damage. 
 Used for athletics.
@@ -339,6 +342,7 @@ STR Table
 260-279: +80% melee damage
 280-299: +90% melee damage
 300: +100% melee damage
+
 DEX:
 Impacts movement speed, ranged damage, and stealth.
 Used for acrobatics, and slight of hand.
@@ -359,6 +363,7 @@ DEX Table
 260-279: +80% ranged damage and movement speed, +40 stralth
 280-299: +90% ranged damage and movement speed, +45 stealth
 300: +100% ranged damage and movement speed, +50 stealth
+
 CON:
 Impacts Max HP.
 Used for stamina.
@@ -6799,6 +6804,7 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 4
 HP: 4
 AC: 0
 Speed: 100%
@@ -6844,9 +6850,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 10
 HP: 11
 AC: 6-10
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 120 (+1)
@@ -6855,8 +6862,8 @@ CON: 130 (+1)
 INT: 110 (0)
 WIS: 120 (+1)
 CHA: 110 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 10%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -6869,10 +6876,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+6.6 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -6888,9 +6895,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 11
 HP: 11
 AC: 6-10
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 120 (+1)
@@ -6899,8 +6907,8 @@ CON: 110 (0)
 INT: 110 (0)
 WIS: 120 (+1)
 CHA: 110 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 10%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 6%
@@ -6916,7 +6924,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -6931,9 +6939,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 10
 HP: 11
 AC: 10-12
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (18 Blocks)
 Languages: Common
 STR: 140 (+2)
@@ -6942,11 +6951,11 @@ CON: 130 (+1)
 INT: 110 (0)
 WIS: 120 (+1)
 CHA: 110 (0)
-Melee Power: 10%
-Ranged Power: 5%
+Melee Power: 20%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
-Crit Chance: 7%
+Crit Chance: 8%
 Skills: Perception (+2)
 Level: 0.125
 AXP Yield: 25
@@ -6956,7 +6965,7 @@ Special:
 Actions:
 
 Spear
-6.6 Piercing Damage
+7.2 Piercing Damage
 
 Equipment:
 Iron Spear (100%)
@@ -6971,19 +6980,20 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 110 (0)
 DEX: 120 (+1)
 CON: 110 (0)
-INT: 120 +1)
+INT: 120 (+1)
 WIS: 140 (+2)
 CHA: 160 (+3)
 Melee Power: 0%
-Ranged Power: 5%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -6996,7 +7006,7 @@ Special:
 Actions:
 
 Shortsword
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
@@ -7010,9 +7020,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 10
 HP: 11
 AC: 8
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 140 (+2)
@@ -7021,10 +7032,10 @@ CON: 130 (+1)
 INT: 90 (-1)
 WIS: 120 (+1)
 CHA: 90 (-1)
-Melee Power: 5%
-Ranged Power: 0%
-Magic Power: -5% 
-Base Stealth Rating: 50
+Melee Power: 20%
+Ranged Power: 10%
+Magic Power: -10% 
+Base Stealth Rating: 55
 Crit Chance: 7%
 Skills: None
 Level: 0.125
@@ -7038,7 +7049,7 @@ Pack Tactics
 Actions:
 
 Spear
-4.4 Piercing Damage
+4.8 Piercing Damage
 
 Equipment:
 Stone Spear (100%)
@@ -7052,6 +7063,7 @@ Stats:
 Type: Humanoid 
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 0
 Speed: 100%
@@ -7094,9 +7106,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 8
 HP: 9
 AC: 9
-Speed: 100%
+Speed: 105%
 Senses: Passive Sight (15 Blocks)
 Languages: Common
 STR: 120 (+1)
@@ -7105,9 +7118,9 @@ CON: 120 (+1)
 INT: 130 (+1)
 WIS: 150 (+2)
 CHA: 170 (+3)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: 5% 
+Melee Power: 10%
+Ranged Power: 10%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
@@ -7119,7 +7132,7 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+8.8 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
@@ -7156,9 +7169,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 4
 HP: 5
 AC: 0
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 93 (-1)
@@ -7167,9 +7181,9 @@ CON: 113 (0)
 INT: 93 (-1)
 WIS: 103 (-1)
 CHA: 93 (-1)
-Melee Power: -5%
-Ranged Power: -5%
-Magic Power: -5% 
+Melee Power: -10%
+Ranged Power: -10%
+Magic Power: -10% 
 Base Stealth Rating: 45
 Crit Chance: 2%
 Skills: None
@@ -7181,7 +7195,7 @@ Special:
 Actions:
 
 Pickaxe
-4.75 Piercing Damage
+4.5 Piercing Damage
 
 Equipment:
 Iron Pickaxe (100%)
@@ -7193,9 +7207,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 5
 HP: 14
 AC: 6-10
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 110 (0)
@@ -7205,7 +7220,7 @@ INT: 100 (0)
 WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 0%
-Ranged Power: 5%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 6%
@@ -7218,10 +7233,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+6.6 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -7230,16 +7245,17 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Dwarf Cultist -
+- Hill Dwarf Cultist -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 11
 HP: 13
 AC: 6-10
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 110 (0)
@@ -7249,7 +7265,7 @@ INT: 100 (0)
 WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 0%
-Ranged Power: 5%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 6%
@@ -7265,7 +7281,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -7280,9 +7296,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 11
 HP: 14
 AC: 10-12
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 130 (+1)
@@ -7291,8 +7308,8 @@ CON: 140 (+2)
 INT: 100 (0)
 WIS: 120 (+1)
 CHA: 100 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 10%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -7305,7 +7322,7 @@ Special:
 Actions:
 
 Battleaxe
-8.4 Slashing Damage
+8.8 Slashing Damage
 
 Equipment:
 Iron Battleaxe (100%)
@@ -7320,9 +7337,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 9
 HP: 10
 AC: 9
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 100 (0)
@@ -7359,9 +7377,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 11
 HP: 14
 AC: 8
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 130 (+1)
@@ -7370,9 +7389,9 @@ CON: 140 (+2)
 INT: 80 (-1)
 WIS: 120 (0)
 CHA: 80 (-1)
-Melee Power: 5%
+Melee Power: 10%
 Ranged Power: 0%
-Magic Power: -5% 
+Magic Power: -10% 
 Base Stealth Rating: 50
 Crit Chance: 5%
 Skills: None
@@ -7387,7 +7406,7 @@ Pack Tactics
 Actions:
 
 Mace
-4.2 Bludgeoning Damage
+4.4 Bludgeoning Damage
 
 Equipment:
 Stone Mace (100%)
@@ -7401,9 +7420,10 @@ Stats:
 Type: Humanoid 
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 0
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (16 Blocks)
 Languages: Common
 STR: 100 (0)
@@ -7443,9 +7463,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 9
 HP: 10
 AC: 9
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common
 STR: 110 (0)
@@ -7455,8 +7476,8 @@ INT: 120 (+1)
 WIS: 150 (+2)
 CHA: 160 (+3)
 Melee Power: 0%
-Ranged Power: 5%
-Magic Power: 5% 
+Ranged Power: 10%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 7%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
@@ -7468,7 +7489,7 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+8.8 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
@@ -7482,6 +7503,7 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 4
 HP: 4
 AC: 0
 Speed: 83%
@@ -7519,6 +7541,7 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 10
 HP: 13
 AC: 6-10
 Speed: 83%
@@ -7530,8 +7553,8 @@ CON: 140 (+2)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 100 (0)
-Melee Power: 0%
-Ranged Power: 5%
+Melee Power: 10%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -7544,10 +7567,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+6.6 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -7563,6 +7586,7 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 10
 HP: 12
 AC: 6-10
 Speed: 83%
@@ -7574,8 +7598,8 @@ CON: 120 (+1)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 100 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 10%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 6%
@@ -7591,7 +7615,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -7606,9 +7630,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 10
 HP: 13
 AC: 10-12
-Speed: 83%
+Speed: 95%
 Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
 Languages: Common
 STR: 150 (+2)
@@ -7617,8 +7642,8 @@ CON: 140 (+2)
 INT: 100 (0)
 WIS: 110 (0)
 CHA: 100 (0)
-Melee Power: 10%
-Ranged Power: 5%
+Melee Power: 20%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 8%
@@ -7631,7 +7656,7 @@ Special:
 Actions:
 
 Battleaxe
-8.8 Slashing Damage
+9.6 Slashing Damage
 
 Equipment:
 Iron Battleaxe (100%)
@@ -7646,9 +7671,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 8
 HP: 9
 AC: 9
-Speed: 100%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 120 (+1)
@@ -7657,7 +7683,7 @@ CON: 120 (+1)
 INT: 110 (0)
 WIS: 130 (+1)
 CHA: 150 (+2)
-Melee Power: 5%
+Melee Power: 10%
 Ranged Power: 0%
 Magic Power: 0% 
 Base Stealth Rating: 50
@@ -7685,9 +7711,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 10
 HP: 13
 AC: 8
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 150 (+2)
@@ -7700,7 +7727,7 @@ Melee Power: 10%
 Ranged Power: 0%
 Magic Power: -5% 
 Base Stealth Rating: 50
-Crit Chance: 5%
+Crit Chance: 6%
 Skills: None
 Level: 0.125
 AXP Yield: 25
@@ -7713,7 +7740,7 @@ Pack Tactics
 Actions:
 
 Mace
-4.4 Bludgeoning Damage
+4.8 Bludgeoning Damage
 
 Equipment:
 Stone Mace (100%)
@@ -7727,9 +7754,10 @@ Stats:
 Type: Humanoid 
 Size: Medium
 Alignment: Matches Clan Alignment
+Class Base HP: 8
 HP: 9
 AC: 0
-Speed: 83%
+Speed: 90%
 Senses: Passive Sight (16 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 120 (+1)
@@ -7738,7 +7766,7 @@ CON: 120 (+1)
 INT: 100 (0)
 WIS: 140 (+2)
 CHA: 110 (0)
-Melee Power: 5%
+Melee Power: 10%
 Ranged Power: 0%
 Magic Power: 0% 
 Base Stealth Rating: 50
@@ -7756,7 +7784,7 @@ LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
 Actions:
 
 Club
-4.2 Bludgeoning Damage
+4.4 Bludgeoning Damage
 
 Equipment:
 Club (100%)
@@ -7769,9 +7797,10 @@ Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 8
 HP: 9
 AC: 9
-Speed: 83%
+Speed: 95%
 Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
 Languages: Common, Dwarvish
 STR: 130 (+1)
@@ -7780,9 +7809,9 @@ CON: 130 (+1)
 INT: 120 (+1)
 WIS: 140 (+2)
 CHA: 160 (+3)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: 5% 
+Melee Power: 10%
+Ranged Power: 10%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
@@ -7794,7 +7823,7 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+8.8 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
@@ -7824,29 +7853,30 @@ Default Player Reputation: -25
 *Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
 **Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
 
-- Human Commoner -
+- High Elf Townsfolk -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 5
 HP: 4
 AC: 0
 Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 93 (-1)
-DEX: 93 (-1)
+DEX: 113 (0)
 CON: 93 (-1)
-INT: 93 (-1)
+INT: 103 (0)
 WIS: 93 (-1)
 CHA: 93 (-1)
-Melee Power: 0%
+Melee Power: -10%
 Ranged Power: 0%
 Magic Power: 0% 
 Base Stealth Rating: 50
-Crit Chance: 5%
+Crit Chance: 4%
 Skills: None
 Level: 0
 AXP Yield: 10
@@ -7856,41 +7886,34 @@ Special:
 Actions:
 
 Unarmed Attack
-1 Bludgeoning Damage
-
-Club (used instead of Unarmed attack if they have a Club)
-4 Bludgeoning Damage
-
-Stone Sickle (used instead of Unarmed attack if they have a Sickle)
-3 Slashing Damage
+0.9 Bludgeoning Damage
 
 Equipment:
-None (50%)
-Club (25%)
-Stone Sickle (25%)
+??? (100%)
 
-- Human Bandit -
+- High Elf Thief -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 10
 HP: 11
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 110%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
-INT: 100 (0)
+INT: 110 (0)
 WIS: 110 (0)
 CHA: 110 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 0%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
+Base Stealth Rating: 60
 Crit Chance: 7%
 Skills: None
 Level: 0.125
@@ -7901,10 +7924,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+7.2 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -7913,29 +7936,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Cultist -
+- High Elf Cultist -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 11
 HP: 11
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 110%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 100 (0)
-INT: 100 (0)
+INT: 110 (0)
 WIS: 110 (0)
 CHA: 100 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 0%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 6%
+Base Stealth Rating: 60
+Crit Chance: 7%
 Skills: Deception (+2), Religion (+2)
 Level: 0.125
 AXP Yield: 25
@@ -7948,7 +7972,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -7956,29 +7980,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Guard -
+- High Elf Ranger -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 10
 HP: 11
-AC: 10-12
-Speed: 100%
-Senses: Passive Sight (18 Blocks)
-Languages: Common
-STR: 130 (+2)
-DEX: 120 (+1)
+AC: 10
+Speed: 110%
+Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
+STR: 130 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
-INT: 100 (0)
+INT: 110 (0)
 WIS: 110 (0)
 CHA: 100 (0)
 Melee Power: 10%
-Ranged Power: 5%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 7%
+Base Stealth Rating: 60
+Crit Chance: 8%
 Skills: Perception (+2)
 Level: 0.125
 AXP Yield: 25
@@ -7987,36 +8012,40 @@ Special:
 
 Actions:
 
-Spear
-6.6 Piercing Damage
+Longsword
+8.8 Slashing Damage
+
+Longbow
+9.6 Piercing Damage
 
 Equipment:
-Iron Spear (100%)
+Iron Shortsword (100%)
+Longbow (50%)
 Light Chain Helmet (100%)
 Chainmail Breastplate (100%)
-Iron Shield (50%)
 
-- Human Merchant -
+- High Elf Merchant -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 105%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 100 (0)
-DEX: 110 (0)
+DEX: 130 (+1)
 CON: 100 (0)
-INT: 110 (0)
+INT: 120 (+1)
 WIS: 130 (+2)
 CHA: 150 (+2)
 Melee Power: 0%
-Ranged Power: 5%
-Magic Power: 0% 
+Ranged Power: 10%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 7%
 Skills: Deception (+3), Insight (+2), Persuasion (+3)
@@ -8028,34 +8057,35 @@ Special:
 Actions:
 
 Shortsword
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
-- Human Tribesman -
+- High Elf Tribesman -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 10
 HP: 11
 AC: 8
 Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 130 (+1)
-DEX: 110 (+0)
+DEX: 130 (+1)
 CON: 120 (+1)
-INT: 80 (-1)
+INT: 90 (-1)
 WIS: 110 (0)
 CHA: 80 (-1)
-Melee Power: 5%
+Melee Power: 10%
 Ranged Power: 0%
-Magic Power: -5% 
+Magic Power: -10% 
 Base Stealth Rating: 50
 Crit Chance: 7%
 Skills: None
@@ -8077,29 +8107,30 @@ Stone Spear (100%)
 Hide Hat (100%)
 Hide Tunic  (100%)
 
-- Human Acolyte -
+- High Elf Acolyte -
 
 Stats:
 
 Type: Humanoid 
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 0
-Speed: 100%
-Senses: Passive Sight (16 Blocks)
-Languages: Common
+Speed: 105%
+Senses: Passive Sight (16 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 100 (0)
-DEX: 100 (0)
+DEX: 120 (+1)
 CON: 100 (0)
-INT: 100 (0)
+INT: 110 (0)
 WIS: 140 (+2)
 CHA: 110 (0)
 Melee Power: 0%
-Ranged Power: 0%
+Ranged Power: 10%
 Magic Power: 0% 
-Base Stealth Rating: 50
-Crit Chance: 5%
+Base Stealth Rating: 55
+Crit Chance: 6%
 Skills: Medicine (+4), Religion (+2)
 Level: 0.25
 AXP Yield: 50
@@ -8112,35 +8143,36 @@ LVL 1 Spells (5 Casts): Bless, Cure Wounds, Sancturary
 
 Actions:
 
-Club
-4 Bludgeoning Damage
+Dagger
+4.4 Piercing Damage
 
 Equipment:
-Club (100%)
+Iron Dagger (100%)
 Holy Symbol (100%)
 
-- Human Noble -
+- High Elf Noble -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 110%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (0)
+DEX: 140 (+2)
 CON: 110 (0)
-INT: 120 (+1)
+INT: 130 (+1)
 WIS: 140 (+2)
 CHA: 160 (+3)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: 5% 
-Base Stealth Rating: 55
+Melee Power: 0%
+Ranged Power: 20%
+Magic Power: 10% 
+Base Stealth Rating: 60
 Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
 Level: 0.25
@@ -8151,36 +8183,37 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+9.6 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
-- Human Commoner -
+- Wood Elf Townsfolk -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 5
 HP: 4
 AC: 0
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 110%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 93 (-1)
-DEX: 93 (-1)
+DEX: 113 (0)
 CON: 93 (-1)
 INT: 93 (-1)
-WIS: 93 (-1)
+WIS: 103 (0)
 CHA: 93 (-1)
-Melee Power: 0%
+Melee Power: -10%
 Ranged Power: 0%
-Magic Power: 0% 
+Magic Power: -10% 
 Base Stealth Rating: 50
-Crit Chance: 5%
+Crit Chance: 3%
 Skills: None
 Level: 0
 AXP Yield: 10
@@ -8190,39 +8223,36 @@ Special:
 Actions:
 
 Unarmed Attack
-1 Bludgeoning Damage
+0.9 Bludgeoning Damage
 
-Club (used instead of Unarmed attack if they have a Club)
-4 Bludgeoning Damage
-
-Stone Sickle (used instead of Unarmed attack if they have a Sickle)
-3 Slashing Damage
+Dagger
+4 Piercing damage
 
 Equipment:
 None (50%)
-Club (25%)
-Stone Sickle (25%)
+Iron Dagger (50%)
 
-- Human Bandit -
+- Wood Elf Thief -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Random Non-Lawful Alignment
+Class Base HP: 10
 HP: 11
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 120%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 110 (0)
-Melee Power: 5%
-Ranged Power: 5%
+Melee Power: 0%
+Ranged Power: 20%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -8235,10 +8265,10 @@ Special:
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Light Crossbow
-6.3 Piercing Damage
+7.2 Piercing Damage
 
 Equipment:
 Iron Scimitar or Light Crossbow (100%)
@@ -8247,29 +8277,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Cultist -
+- Wood Elf Cultist -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 11
 HP: 11
 AC: 6-10
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 120%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (+1)
+DEX: 140 (+2)
 CON: 100 (0)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 5%
 Ranged Power: 5%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 6%
+Base Stealth Rating: 60
+Crit Chance: 7%
 Skills: Deception (+2), Religion (+2)
 Level: 0.125
 AXP Yield: 25
@@ -8282,7 +8313,7 @@ Cultists have resistance to Frieghtened and Charmed.
 Actions:
 
 Scimitar
-6.3 Slashing Damage
+7.2 Slashing Damage
 
 Equipment:
 Iron Scimitar (100%)
@@ -8290,29 +8321,30 @@ Leather Tunic (100%)
 Leather Pants (50%)
 Leatheer Boots (50%)
 
-- Human Guard -
+- Wood Elf Ranger -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 10
 HP: 11
 AC: 10-12
-Speed: 100%
-Senses: Passive Sight (18 Blocks)
-Languages: Common
-STR: 130 (+2)
-DEX: 120 (+1)
+Speed: 120%
+Senses: Passive Sight (18 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
+STR: 130 (+1)
+DEX: 140 (+2)
 CON: 120 (+1)
 INT: 100 (0)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 100 (0)
 Melee Power: 10%
-Ranged Power: 5%
+Ranged Power: 20%
 Magic Power: 0% 
-Base Stealth Rating: 55
-Crit Chance: 7%
+Base Stealth Rating: 60
+Crit Chance: 8%
 Skills: Perception (+2)
 Level: 0.125
 AXP Yield: 25
@@ -8321,35 +8353,39 @@ Special:
 
 Actions:
 
-Spear
-6.6 Piercing Damage
+Longsword
+8.8 Slashing Damage
+
+Longbow
+9.6 Piercing Damage
 
 Equipment:
-Iron Spear (100%)
+Iron Shortsword (100%)
+Longbow (50%)
 Light Chain Helmet (100%)
 Chainmail Breastplate (100%)
-Iron Shield (50%)
 
-- Human Merchant -
+- Wood Elf Merchant -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 115%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 100 (0)
-DEX: 110 (0)
+DEX: 130 (+1)
 CON: 100 (0)
 INT: 110 (0)
-WIS: 130 (+2)
+WIS: 140 (+2)
 CHA: 150 (+2)
 Melee Power: 0%
-Ranged Power: 5%
+Ranged Power: 10%
 Magic Power: 0% 
 Base Stealth Rating: 55
 Crit Chance: 7%
@@ -8362,14 +8398,14 @@ Special:
 Actions:
 
 Shortsword
-6.3 Slashing Damage
+6.6 Slashing Damage
 
 Equipment:
 Iron Shortsword (100%)
 Padded Helmet (100%)
 Mixed Breastplate (100%)
 
-- Human Tribesman -
+- Wood Elf Tribesman -
 
 Stats:
 
@@ -8378,20 +8414,20 @@ Size: Medium
 Alignment: Any Alignment
 HP: 11
 AC: 8
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 115%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 130 (+1)
-DEX: 110 (+0)
+DEX: 130 (+1)
 CON: 120 (+1)
 INT: 80 (-1)
-WIS: 110 (0)
+WIS: 120 (+1)
 CHA: 80 (-1)
-Melee Power: 5%
-Ranged Power: 0%
-Magic Power: -5% 
-Base Stealth Rating: 50
-Crit Chance: 7%
+Melee Power: 10%
+Ranged Power: 10%
+Magic Power: -10% 
+Base Stealth Rating: 55
+Crit Chance: 6%
 Skills: None
 Level: 0.125
 AXP Yield: 25
@@ -8411,29 +8447,30 @@ Stone Spear (100%)
 Hide Hat (100%)
 Hide Tunic  (100%)
 
-- Human Acolyte -
+- Wood Elf Acolyte -
 
 Stats:
 
 Type: Humanoid 
 Size: Medium
 Alignment: Matches Town Alignment
+Class Base HP: 9
 HP: 9
 AC: 0
-Speed: 100%
-Senses: Passive Sight (16 Blocks)
-Languages: Common
+Speed: 115%
+Senses: Passive Sight (16 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 100 (0)
-DEX: 100 (0)
+DEX: 120 (+1)
 CON: 100 (0)
 INT: 100 (0)
-WIS: 140 (+2)
+WIS: 150 (+2)
 CHA: 110 (0)
 Melee Power: 0%
-Ranged Power: 0%
+Ranged Power: 10%
 Magic Power: 0% 
-Base Stealth Rating: 50
-Crit Chance: 5%
+Base Stealth Rating: 55
+Crit Chance: 6%
 Skills: Medicine (+4), Religion (+2)
 Level: 0.25
 AXP Yield: 50
@@ -8453,27 +8490,28 @@ Equipment:
 Club (100%)
 Holy Symbol (100%)
 
-- Human Noble -
+- Wood Elf Noble -
 
 Stats:
 
 Type: Humanoid
 Size: Medium
 Alignment: Any Alignment
+Class Base HP: 9
 HP: 9
 AC: 9
-Speed: 100%
-Senses: Passive Sight (15 Blocks)
-Languages: Common
+Speed: 120%
+Senses: Passive Sight (15 Blocks), Darkvision (18 blocks)
+Languages: Common, Elven
 STR: 110 (0)
-DEX: 120 (0)
+DEX: 140 (+2)
 CON: 110 (0)
 INT: 120 (+1)
-WIS: 140 (+2)
+WIS: 150 (+2)
 CHA: 160 (+3)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: 5% 
+Melee Power: 0%
+Ranged Power: 20%
+Magic Power: 10% 
 Base Stealth Rating: 55
 Crit Chance: 8%
 Skills: Deception (+5), Insight (+4), Persuasion (+5)
@@ -8485,7 +8523,7 @@ Special:
 Actions:
 
 Rapier
-8.4 Piercing Damage
+9.6 Piercing Damage
 
 Equipment:
 Iron Rapier (100%)
