@@ -949,6 +949,12 @@ All undead that can see or hear you within a 10 block radius must succeed a Wisd
 If a creature fails, they are turned for the next minute or until they take damage.
 Turned is identical to Frieghtend.
 
+- LVL 4 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+
 - LVL 5 -
 
 Destroy Undead
@@ -964,13 +970,43 @@ Level ---       CR     ---
 11-14 --- 2 or lower   ---
 15-19 --- 4 or lower   ---
   20  --- 8 or lower   ---
-  
+
+- LVL 6 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 8 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
 - LVL 10 -
 
 Divine Intervention
 When absolutely nessesary, you can press <ClassAbility2Key> to call on your Deity to intervene on your behalf. there is a LVL/100 chance that your Deity will heed your call.
 If the check passes, your Deity will cast a LVL 9 cleric spell, determined by the domain.
 This ability has a cooldown of 1 real life day.
+
+- LVL 12 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 14 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 16 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 19 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
 
 - LVL 20 -
 
@@ -1956,6 +1992,83 @@ Superior Critical
 Surviver
 every 20 seconds, you restore
 5 + (CON MOD) HP if you have under half HP.
+
+- Eldrlich Knight-Unique Abilities -
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+                                              Spell Slot Table*
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level --- Cantrips Known --- LVL 1 --- LVL 2 --- LVL 3 --- LVL 4 --- LVL 5 --- LVL 6 --- LVL 7 --- LVL 8 --- LVL 9 --- Max Spells Known ---
+  1    ---      2     ----     1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  2    ---      2     ----     1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        3         ---
+  3    ---      2     ----     2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        4         ---
+  4    ---      2     ----     3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  5    ---      2     ----     3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  6    ---      2     ----     3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        5         ---
+  7    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        6         ---
+  8    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  9    ---      2     ----     4   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        7         ---
+  10   ---      3     ----     4   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        8         ---
+  11   ---      3     ----     4   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  12   ---      3     ----     4   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        9         ---
+  13   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        10        ---
+  14   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  15   ---      3     ----     4   ---   3   ---   2   ---   0   ---   0   ---   0   ---   0   ---   0   ---   0   ---        11        ---
+  16   ---      4     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  17   ---      4     ----     4   ---   3   ---   3   ---   1   ---   0   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  18   ---      4     ----     4   ---   3   ---   3   ---   1   ---   1   ---   0   ---   0   ---   0   ---   0   ---        12        ---
+  19   ---      4     ----     4   ---   3   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---   0   ---        13        ---
+  20   ---      5     ----     5   ---   4   ---   4   ---   3   ---   2   ---   1   ---   0   ---   0   ---   0   ---        14        ---
+*Eldrilich Knights can only learn Abjuration and Evocation spells.
+
+- LVL 3 -
+
+Spellcasting
+You can now learn Arcane Anjuration and Arcane Evocation spells naturally.
+Every time you level up, you may learn a new spell or cantrip as long as you meet the follwing condititons:
+You have at least one spell slot that can cast the spell.
+You aren't at maximum spells known (or cantrips known if learning a cantrip)
+You can immediately learn 2 Cantrips, and 2 spells.
+
+Weapon Bond
+You can cast a ritual to bond yourself to one weapon.
+You must preform the ritual over 1 minute, which can be done during a short rest.
+The weapon must be within your reach throughout the ritual, 
+at the end of the ritual, pick up the weapon and it becomes bonded.
+While a weapon is bonded, it cannot be removed from your inventory,
+even through death. bonding with a new weapon will break the bond
+on the old one.
+
+- LVL 7 -
+
+War Magic
+After casting a cantrip,
+your attack speed increases by 25%
+for the next 10 seconds.
+
+- LVL 10 -
+
+Eldritch Strike
+Pressing <ClassAbility2Key> infuses your
+weapon with magic. Hitting a enemy
+in the next 30 seconds will make them
+have disadvantage with their next saving throw
+against your magic.
+
+- LVL 15 -
+
+Arcane Charge
+Usinv your action surge makes you invisible 
+for 15 seconds.
+
+- LVL 18 -
+
+Improved War Magic
+After casting a cantrip,
+your attack speed increases by 50%
+for the next 10 seconds.
+
+
 
 --- Monk ---
 
