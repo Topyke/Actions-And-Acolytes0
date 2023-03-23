@@ -64,57 +64,86 @@ Value: 1 CP
 
 Planks x 4
 Value: 2 CP
+
 Logs x 4
+
 Value: 8 CP
+
 Stairs (wood) x 4
 Value: 1 SP
+
 Door (wood) 
 Value: 1 SP
+
 Trapdoor
+
 Scaffolding x 4
 Value: 5 CP
+
 Barrel
+
 Chest
+
 Ladder
 
 -- Stones --
 
 Cobblestone x 4
 Value: 1 CP
+
 Cobblestone Wall x 4
 Value: 2 CP
+
 Cobblestone Stairs x 4
 Value: 5 CP
+
 Stone x 4
 Value: 2 CP
+
 Stone Wall x 4
 Value: 4 CP
+
 Stone Stairs x 4
 Value: 1 SP
+
 Stone Bricks x 4
 Value: 5 CP
+
 Stone Brick Wall x 4
 Value 1 SP
+
 Stone Brick Stairs x 4
 Value: 2 SP, 5 CP
+
 Cobbled Deepslate x 4
 Value: 2 CP
+
 Cobbled Deepslate Wall x 4
 Value 4 CP
+
 Cobbled Deepslate Stairs x 4
 Value: 5 CP
 
 -- Misc --
 
 Torch
+
 Candle
+
 Lamp
+
 Bucket
+
 Bell
+
 Book
+
 Glass Bottle 
+
 Paper
+
 Chain
+
 Fishing Rod
 
 Ink
@@ -130,32 +159,46 @@ Value: 8 CP
 
 Copper Ore
 Value: 2 CP
+
 Raw Copper
 Value: 5 CP
+
 Copper Ingot
 Value: 1 SP
+
 Copper Nugget
 Value: 1 CP
+
 Copper Block
 Value: 9 SP
+
 Iron Ore
 Value: 1 SP, 2 CP
+
 Raw Iron
 Value: 2 SP, 5 CP
+
 Iron Ingot
 Value: 5 SP
+
 Iron Nugget
 Value: 4 CP
+
 Iron Block
 Value: 4 GP, 5 SP
+
 Gold Ore
 Value: 2 SP, 5 CP
+
 Raw Gold
 Value: 5 SP
+
 Gold Ingot
 Value: 1 GP
+
 Gold Nugget
 Value: 1 SP, 1 CP
+
 Gold Block
 Value: 9 GP
 
@@ -280,84 +323,85 @@ STR:
 Impacts melee damage. 
 Used for athletics.
 STR Table
-0-19: -25% melee damage
-20-39: -20% melee damage
-40-59: -15% melee damage
-60-79: -10% melee damage
-80-99: -5% melee damage
+0-19: -50% melee damage
+20-39: -40% melee damage
+40-59: -30% melee damage
+60-79: -20% melee damage
+80-99: -10% melee damage
 100-119: +0% melee damage
-120-139: +5% melee damage
-140-159: +10% melee damage
-160-179: +15% melee damage
-180-199: +20% melee damage
-200-219: +25% melee damage
-220-239: +30% melee damage
-240-259: +35% melee damage
-260-279: +40% melee damage
-280-299: +45% melee damage
-300: +50% melee damage
+120-139: +10% melee damage
+140-159: +20% melee damage
+160-179: +30% melee damage
+180-199: +40% melee damage
+200-219: +50% melee damage
+220-239: +60% melee damage
+240-259: +70% melee damage
+260-279: +80% melee damage
+280-299: +90% melee damage
+300: +100% melee damage
 DEX:
 Impacts movement speed, ranged damage, and stealth.
 Used for acrobatics, and slight of hand.
 DEX Table
-0-19: -25% ranged damage and movement speed, -25 stealth
-20-39: -20% ranged damage and movement speed, +20 stealth
-40-59: -15% ranged damage and movement speed, -15 stealth
-60-79: -10% ranged damage and movement speed, -10 stealth
-80-99: -5% ranged damage and movement speed, -5 stealth
+0-19: -50% ranged damage and movement speed, -25 stealth
+20-39: -40% ranged damage and movement speed, +20 stealth
+40-59: -30% ranged damage and movement speed, -15 stealth
+60-79: -20% ranged damage and movement speed, -10 stealth
+80-99: -10% ranged damage and movement speed, -5 stealth
 100-119: +0% ranged damage and movement speed
-120-139: +5% ranged damage and movement speed, +5 stealth
-140-159: +10% ranged damage and movement speed, +10 stealth
-160-179: +15% ranged damage and movement speed, +15 stealth
-180-199: +20% ranged damage and movement speed, +20 stealth
-200-219: +25% ranged damage and movement speed, +25 stealth
-220-239: +30% ranged damage and movement speed, +30 stealth
-240-259: +35% ranged damage and movement speed, +35 stealth
-260-279: +40% ranged damage and movement speed, +40 stralth
-280-299: +45% ranged damage and movement speed, +45 stealth
-300: +50% ranged damage and movement speed, +50 stealth
+120-139: +10% ranged damage and movement speed, +5 stealth
+140-159: +20% ranged damage and movement speed, +10 stealth
+160-179: +30% ranged damage and movement speed, +15 stealth
+180-199: +40% ranged damage and movement speed, +20 stealth
+200-219: +50% ranged damage and movement speed, +25 stealth
+220-239: +60% ranged damage and movement speed, +30 stealth
+240-259: +70% ranged damage and movement speed, +35 stealth
+260-279: +80% ranged damage and movement speed, +40 stralth
+280-299: +90% ranged damage and movement speed, +45 stealth
+300: +100% ranged damage and movement speed, +50 stealth
 CON:
 Impacts Max HP.
 Used for stamina.
 CON Table
-0-19: (0.5 * Class Base) Max Hit Points (rounded down)
-20-39: (0.6 * Class Base) Max Hit Points (rounded down)
-40-59: (0.7 * Class Base) Max Hit Points (rounded down)
-60-79: (0.8 * Class Base) Max Hit Points (rounded down)
-80-99: (0.9 * Class Base) Max Hit Points (rounded down)
-100-119: (1 * Class Base) Max Hit Points
-120-139: (2 * Class Base) Max Hit Points
-140-159: (3 * Class Base) Max Hit Points
-160-179: (4 * Class Base) Max Hit Points
-180-199: (5 * Class Base) Max Hit Points
-200-219: (6 * Class Base) Max Hit Points
-220-239: (7 * Class Base) Max Hit Points
-240-259: (8 * Class Base) Max Hit Points
-260-279: (9 * Class Base) Max Hit Points
-280-299: (10 * Class Base) Max Hit Points
-300: (11 * Class Base) Max Hit Points
+0-19: ((0.5 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points (rounded down)
+20-39: ((0.6 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points (rounded down)
+40-59: ((0.7 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points (rounded down)
+60-79: ((0.8 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points (rounded down)
+80-99: ((0.9 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points (rounded down)
+100-119: ((1 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+120-139: ((1.1 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+140-159: ((1.2 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+160-179: ((1.3 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+180-199: ((1.4 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+200-219: ((1.5 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+220-239: ((1.6 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+240-259: ((1.7 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+260-279: ((1.8 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+280-299: ((1.9 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
+300: ((2 * Class Base) * (Maximum: (LVL / 4), 1) Max Hit Points
 INT:
 Impacts magic damage.
 Used for arcana, history, investigation, nature, and religion.
 INT Table
 This attribute increases by 50% for weapons 
 and skills you are proficient in. 
-0-19: -25% magic damage
-20-39: -20% magic damage
-40-59: -15% magic damage
-60-79: -10% magic damage
-80-99: -5% magic damage
+0-19: -50% magic damage
+20-39: -40% magic damage
+40-59: -30% magic damage
+60-79: -20% magic damage
+80-99: -10% magic damage
 100-119: no effect
-120-139: +5% magic damage
-140-159: +10% magic damage
-160-179: +15% magic damage
-180-199: +20% magic damage
-200-219: +25% magic damage
-220-239: +30% magic damage
-240-259: +35% magic damage
-260-279: +40% magic damage
-280-299: +45% magic damage
-300: +50% magic damage
+120-139: +10% magic damage
+140-159: +20% magic damage
+160-179: +30% magic damage
+180-199: +40% magic damage
+200-219: +50% magic damage
+220-239: +60% magic damage
+240-259: +70% magic damage
+260-279: +80% magic damage
+280-299: +90% magic damage
+300: +100% magic damage
+
 WIS:
 Impacts spell slots.
 Used for animal handling, insight, medicine, perception, and survival.
@@ -368,7 +412,7 @@ WIS Table
 60-79: -2 spell slots
 80-99: -1 spell slot
 100-119: no effect
-120-139: +1 spell slot (starts at highest spell slot tier, up to 25% additonal per tier)
+120-139: +1 spell slot (starts at highest spell slot tier, up to 100% additonal per tier)
 140-159: +2 spell slots
 160-179: +3 spell slots
 180-199: +4 spell slots
@@ -378,6 +422,7 @@ WIS Table
 260-279: +8 spell slots
 280-299: +9 spell slots
 300: +10 spell slots
+
 CHA:
 Impacts NPC interaction.
 Used for deception, intimidation, performance, and persuasion.
@@ -398,11 +443,12 @@ CHA Table
 260-279: +40% positive interaction rate
 280-299: +45% positive interaction rate
 300: +50% positive interaction rate
+
 ----- Overhauled Level System -----
 Killing A&A mobs grants AXP, which can be
 used to level up.
 AXP Table
-LVL 1: starting level
+LVL 1: starting level (50 AXP to become LVL 1 for any Hires Unit below LVL 1)
 LVL 2: 300 AXP (300 total)
 LVL 3: 900 AXP (1200 total)
 LVL 4: 2700 AXP (3900 total)
@@ -429,8 +475,8 @@ LVL 20: 355000 AXP (2148400 total)
 
 Base HP: 12
 Minimum HP: 6
-Max HP: 72
-Absolute Max HP: 132
+Max HP: 90
+Absolute Max HP: 120
 
 Default Stats:
 HP: 12
@@ -440,11 +486,12 @@ CON: 100 (10)
 INT: 30 (6)
 WIS: 30 (6)
 CHA: 50 (7)
-Melee Power: +10%
-Ranged Power: -5%
-Magic Power: -20%
+Melee Power: +20%
+Ranged Power: -10%
+Magic Power: -40%
 Stealth Rating: 45
-Speed: 95%
+Speed: 90%
+Crit Chance: 2%
 Chat Success: 35%
 Remaining: 0 / 500
 
@@ -537,6 +584,7 @@ Level --- Rage Charges
 20    --- Infinite
 -----------------------
 See Status Conditions to see the effects of rage.
+
 Unarmored Defense
 While waering no armor, you AC is equal to 5 + CON modifier.
 
@@ -744,6 +792,7 @@ Ranged Power: 0%
 Magic Power: -5% 
 Stealth Rating: 50
 Speed: 100%
+Crit Chance: 1%
 Chat Success: 55%
 Remaining: 0 / 500
 
@@ -781,8 +830,8 @@ Leather Chestplate and a Stone Dagger
 
 Base HP: 8
 Minimum HP: 4
-Max HP: 48
-Absolute Max HP: 88
+Max HP: 60
+Absolute Max HP: 80
 
 Default Stats:
 HP: 8
@@ -793,10 +842,11 @@ INT: 65 (8)
 WIS: 110 (10)
 CHA: 75 (8)
 Melee Power: 0%
-Ranged Power: -15%
-Magic Power: -10% 
+Ranged Power: -30%
+Magic Power: -20% 
 Stealth Rating: 35
-Speed: 85%
+Speed: 70%
+Crit Chance: 0%
 Chat Success: 40%
 Remaining: 0 / 500
 
@@ -1288,8 +1338,8 @@ Piercing, Slashing, and Bludgeoning damage.
 --- Druid ---
 Base HP: 8
 Minimum HP: 4
-Max HP: 48
-Absolute Max HP: 88
+Max HP: 60
+Absolute Max HP: 80
 
 Default Stats:
 HP: 8
@@ -1299,11 +1349,12 @@ CON: 110 (10)
 INT: 100 (10)
 WIS: 130 (11)
 CHA: 50 (7)
-Melee Power: -15%
-Ranged Power: -15%
+Melee Power: -30%
+Ranged Power: -30%
 Magic Power: 0% 
 Stealth Rating: 35
-Speed: 85%
+Speed: 70%
+Crit Chance: 0%
 Chat Success: 35%
 Remaining: 0 / 500
 
@@ -1545,8 +1596,8 @@ Alter Self for free.
 
 Base HP: 10
 Minimum HP: 5
-Max HP: 60
-Absolute Max HP: 110
+Max HP: 75
+Absolute Max HP: 100
 
 Default Stats:
 HP: 10
@@ -1556,11 +1607,12 @@ CON: 100 (10)
 INT: 50 (7)
 WIS: 50 (7)
 CHA: 60 (8)
-Melee Power: 5%
-Ranged Power: 5%
-Magic Power: -10% 
+Melee Power: 10%
+Ranged Power: 10%
+Magic Power: -20% 
 Stealth Rating: 55
-Speed: 105%
+Speed: 110%
+Crit Chance: 4%
 Chat Success: 40%
 Remaining: 0 / 500
 
@@ -1679,15 +1731,238 @@ Eldrlich Knight
 Ability Score Improvment
 +20 Stat Points, which can be allocated in groups of 10.
 
+- LVL 5 - 
+
+Attack Swiftness 1
+Your base Attack Speed is increased to 4.1.
+
+- LVL 6 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 8 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 9 -
+
+Indomitable
+You attempt saving throws an additional time
+if the first time was a failure.
+
+- LVL 11 - 
+
+Attack Swiftness 2
+Your base Attack Speed is increased to 4.2.
 
 
+- LVL 12 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 14 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 19 -
+
+Ability Score Improvment
++20 Stat Points, which can be allocated in groups of 10.
+
+- LVL 20 - 
+
+Attack Swiftness 3
+Your base Attack Speed is increased to 4.3.
+
+- Battle Master-Unique Abilities -
+
+- LVL 3 -
+
+Superiority
+You have a pool of superiority,
+which holds 4 charges.
+Your Superiority is 4.
+You refill your superiority charges after resting.
+
+Student of War
+You gain proficiency with one Artisans tools of your choice.
+
+Maneuvers
+You learn 3 maneuvers of your choice.
+Pressing <ClassAbility2Key> Will activate 
+the selected Maneuver. SHIFT + <ClassAbility2Key>
+allows you to prepare a maneuver.
+Using a Maneuver consumes a Superiority charge.
+
+Ambush
+The next stealth sheck you make within
+the next 2 minutes will have (superiority) added to the total.
+
+Bait and Switch
+switch with a ally within 3 blocks of you.
+add (superiority) to AC for the bext 20 seconds.
+
+Brace
+Increase melee speed by (5*superiority)% for 3 seconds 
+when a enemy moves within 4 blocks of you 
+for the first time within the 
+next 15 seconds.
+
+Commander's Strike
+Increases a allies melee damage by (superiority)
+for 10 seconds.
+
+Commanding Presence
+For the next 10 minutes, add (superiority * 5)
+to any Intimidation, Performance, or Persausion check.
+
+Disarming Attack
+Your next attack within the next 10 seconds
+forces the target to make a STR resistance check (Maneuver CR),
+If they fail and hold a weapon, drop the weapon.
+
+Distracting Strike
+Your next attack within the next 10 seconds causes
+The next attack against the target has +15% crit chance
+if the attack is made within the next 10 seconds.
+
+Evasive Footwork
++(superiority) AC while moving for
+the next 15 seconds.
+
+Feinting Attack
+Your next attack within the next 10 seconds grants
+you +10% crit chance against the target 
+for the next 10 seconds.
+
+Goading Attack
+Your next attack within the next 10 seconds causes
+the target to make a WIS resistance check (CR Maneuver CR)
+if the target fails, the target aggros onto you.
+
+Grappling Strike
+Your next attack within the next 10 seconds causes
+you to attempt to grapple to target.
+
+Lunging Attack
+You have 20% increased melee range until you
+hit a target or until 10 seconds pass.
+
+Maneuvering Attack
+You can pull an ally 10 blocks towards you.
+
+Menacing Attack
+Your next attack within the next 10 seconds causes
+the target to make a WIS resistance check (CR Maneuver CR)
+if the target fails, the target becomes Frieghtened.
+
+Parry
+Gain the ability to block melee attacks
+for the next 30 seconds or until
+50 shield durability has been parried.
+
+Precision Attack
+Add your superiority to the damage of your
+next attack within 10 seconds.
+
+Pushing Attack
+Your next attack within the next 10 seconds causes
+the target (if its large or smaller) to make a STR resistance check (CR Maneuver CR)
+if the target fails, the target gets knocked back.
+
+Quick Toss
+The next thrown weapon you use
+within the next 30 seconds 
+goes twice as far.
+
+Rally
+the ally your looking at gains 
+(superiority + CHA MOD) Temporary Hit Points.
+
+Riposte
+for the next 60 seconds, 
+After taking damage, increase attack speed
+by (5*superiority)% for the next 3 seconds.
+
+Sweeping Attack
+Your next attack within the next 10 seconds causes
+any enemy within 3 blocks of the target to
+take half of the damage the target took.
+
+Tactical Assessment
+For the next 10 minutes, add (superiority * 5)
+to any Investigation, History, or Insight check.
+
+Trip Attack
+Your next attack within the next 10 seconds causes
+the target (if its large or smaller) to make a STR resistance check (CR Maneuver CR)
+if the target fails, the target becomes prone.
+
+- LVL 7 -
+
+Know Your Enemy
+You can press <ClassAbility3Key> while
+out of combat and looking at a creature
+also out of combat. You gain insight
+into if their stats, HP, and Level
+are higher, lower, or equal to yours.
+
+- LVL 10 -
+
+Improved Combat Superiority 1
+Your superiority is now 5.
+
+- LVL 15 -
+
+Relentless
+When entering combat with no superiority charges
+remaining, regain 1 charge.
+
+- LVL 18 -
+
+Improved Combat Superiority 2
+Your superiority is now 6.
+
+- Champion-Unique abilities -
+
+- LVL 3 -
+
+Improved Critical
++5% crit chance
+
+- LVL 7 -
+
+Remarkable Athlete
+You add half of your proficiency bonus
+to any Strength, Dexterity, or Constitution
+check that doesn't already have proficiency.
+
+- LVL 10 -
+
+Additional Fighting Style
+You can selext an additional fihhting style.
+
+- LVL 15 -
+
+Superior Critical
++5% Crit chance
+
+- LVL 18 -
+
+Surviver
+every 20 seconds, you restore
+5 + (CON MOD) HP if you have under half HP.
 
 --- Monk ---
 
 Base HP: 8
 Minimum HP: 4
-Max HP: 48
-Absolute Max HP: 88
+Max HP: 60
+Absolute Max HP: 80
 
 Default Stats:
 HP: 6
@@ -1697,11 +1972,12 @@ CON: 70 (8)
 INT: 70 (8)
 WIS: 100 (10)
 CHA: 70 (8)
-Melee Power: -10%
-Ranged Power: 5%
-Magic Power: -10% 
+Melee Power: -20%
+Ranged Power: 10%
+Magic Power: -20% 
 Stealth Rating: 55
-Speed: 105%
+Speed: 110%
+Crit Chance: 2%
 Chat Success: 40%
 Remaining: 0 / 500
 
@@ -1739,22 +2015,23 @@ a Dungeoneer's Pack (or) an Explorer's Pack
 
 Base HP: 10
 Minimum HP: 5
-Max HP: 60
-Absolute Max HP: 110
+Max HP: 75
+Absolute Max HP: 100
 
 Default Stats:
-HP: 6
+HP: 10
 STR: 130 (11)
 DEX: 20 (6)
 CON: 100 (10)
 INT: 60 (8)
 WIS: 60 (8)
 CHA: 130 (11)
-Melee Power: +5%
-Ranged Power: -20%
-Magic Power: -10% 
+Melee Power: +10%
+Ranged Power: -40%
+Magic Power: -20% 
 Stealth Rating: 30
-Speed: 80%
+Speed: 60%
+Crit Chance: 0%
 Chat Success: 55%
 Remaining: 0 / 500
 
@@ -1793,8 +2070,8 @@ Chainmail Breastplate and a Holy Symbol
 
 Base HP: 10
 Minimum HP: 5
-Max HP: 60
-Absolute Max HP: 110
+Max HP: 75
+Absolute Max HP: 100
 
 Default Stats:
 HP: 9
@@ -1804,11 +2081,12 @@ CON: 80 (9)
 INT: 60 (8)
 WIS: 130 (11)
 CHA: 50 (7)
-Melee Power: -15%
-Ranged Power: +5%
-Magic Power: -10% 
+Melee Power: -30%
+Ranged Power: +10%
+Magic Power: -20% 
 Stealth Rating: 55
-Speed: 105%
+Speed: 110%
+Crit Chance: 1%
 Chat Success: 35%
 Remaining: 0 / 500
 
@@ -1847,8 +2125,8 @@ a Longbow and a Quiver of 20 Arrows
 
 Base HP: 8
 Minimum HP: 4
-Max HP: 48
-Absolute Max HP: 88
+Max HP: 60
+Absolute Max HP: 80
 
 Default Stats:
 HP: 5
@@ -1858,11 +2136,12 @@ CON: 50 (7)
 INT: 70 (8)
 WIS: 40 (7)
 CHA: 130 (11)
-Melee Power: -10%
-Ranged Power: +10%
-Magic Power: -10% 
+Melee Power: -20%
+Ranged Power: +20%
+Magic Power: -20% 
 Stealth Rating: 60
-Speed: 110%
+Speed: 120%
+Crit Chance: 3%
 Chat Success: 55%
 Remaining: 0 / 500
 
@@ -1901,22 +2180,23 @@ Leather Tunic, 2 Stone Daggers, and Thieves’ tools
 
 Base HP: 6
 Minimum HP: 3
-Max HP: 36
-Absolute Max HP: 66
+Max HP: 45
+Absolute Max HP: 60
 
 Default Stats:
-HP: 12
+HP: 6
 STR: 10 (5)
 DEX: 70 (8)
-CON: 130 (11)
-INT: 80 (9)
+CON: 110 (10)
+INT: 100 (10)
 WIS: 80 (9)
 CHA: 130 (11)
-Melee Power: -25%
-Ranged Power: -10%
-Magic Power: -5% 
+Melee Power: -50%
+Ranged Power: -20%
+Magic Power: 0% 
 Stealth Rating: 40
-Speed: 90%
+Crit Chance: 0%
+Speed: 80%
 Chat Success: 55%
 Remaining: 0 / 500
 
@@ -1955,22 +2235,23 @@ a Dungeoneer's Pack (or) an Explorer's Pack
 
 Base HP: 8
 Minimum HP: 4
-Max HP: 48
-Absolute Max HP: 88
+Max HP: 60
+Absolute Max HP: 80
 
 Default Stats:
-HP: 16
+HP: 9
 STR: 30 (6)
 DEX: 30 (6)
 CON: 130 (11)
 INT: 100 (10)
 WIS: 100 (10)
 CHA: 110 (10)
-Melee Power: -20%
-Ranged Power: -20%
+Melee Power: -40%
+Ranged Power: -40%
 Magic Power: 0% 
 Stealth Rating: 30
-Speed: 80%
+Speed: 60%
+Crit Chance: 0%
 Chat Success: 50%
 Remaining: 0 / 500
 
@@ -2009,8 +2290,8 @@ Leather Tunic, any Simple Wooden Weapon, and two Stone Daggers.
 
 Base HP: 6
 Minimum HP: 3
-Max HP: 36
-Absolute Max HP: 66
+Max HP: 45
+Absolute Max HP: 90
 
 Default Stats:
 HP: 6
@@ -2020,11 +2301,12 @@ CON: 110 (10)
 INT: 150 (12)
 WIS: 100 (10)
 CHA: 60 (8)
-Melee Power: -15%
-Ranged Power: -15%
-Magic Power: 10% 
+Melee Power: -30%
+Ranged Power: -30%
+Magic Power: 20% 
 Stealth Rating: 35
-Speed: 85%
+Speed: 70%
+Crit Chance: 1%
 Chat Success: 40%
 Remaining: 0 / 500
 
