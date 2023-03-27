@@ -1,5 +1,5 @@
----------- 1.0.0-1.19.3 Progress ---------
-Current Version: 0.0.0-1.19.3
+---------- 1.19.4-1.0.0 Progress ---------
+Current Version: 1.19.4-0.0.0
 Total Progress: 138/739 (18.67%)
 Entities: 0/135**** (0%)
 Weapons: 99/216* (45%)
