@@ -55,6 +55,102 @@ Dimensions: 0/6
 
 --- Foodstuffs ---
 
+Apple
+Value: 5 CP
+
+Baked Potato
+Value: 1 SP
+
+Beetroot
+Value: 5 CP
+
+Beetroot Soup
+Value: 1 SP, 5 CP
+
+Bread
+Value: 1 SP
+
+Cake
+Value: 3 SP
+
+Carrot
+Value: 5 CP
+
+Cooked Chicken
+Value: 6 SP
+
+Cooked Cod
+Value: 3 SP
+
+Cooked Mutton
+Value: 6 SP
+
+Cooked Pockchop
+Value: 9 SP
+
+Cooked Rabbit
+Value: 3 SP
+
+Cooked Salmon
+Value: 3 SP
+
+Cookie
+Value: 1 SP
+
+Honey Bottle
+Value: 5 CP
+
+Melon Slice
+Value: 5 CP
+
+Potato
+Value: 5 CP
+
+Pumpkin Pie
+Value: 1 GP
+
+Rabbit Stew
+Value: 5 SP
+
+Raw Beef
+Value: 3 SP
+
+Raw Chicken
+Value: 2 SP
+
+Raw Cod
+Value: 1 SP
+
+Raw Mutton
+Value: 2 SP
+
+Raw Porkchop
+Value: 3 SP
+
+Raw Salmon
+Value: 1 SP
+
+Steak
+Value: 9 SP
+
+Tropical Fish
+Value: 3 SP
+
+Bowl
+Value: 5 CP
+
+Coca Beans
+Value: 5 CP
+
+Egg
+Value: 1 SP
+
+Pumpkin
+Value: 1 SP
+
+Sugar
+Value: 5 SP
+
 Wheat
 Value: 1 CP
 
@@ -66,7 +162,6 @@ Planks x 4
 Value: 2 CP
 
 Logs x 4
-
 Value: 8 CP
 
 Stairs (wood) x 4
