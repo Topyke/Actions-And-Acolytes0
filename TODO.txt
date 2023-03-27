@@ -232,42 +232,61 @@ Parchment
 
 Silver Ore (done)
 Value: 1 SP, 8 CP
+
 Raw Silver (done)
 Value: 3 SP, 7 CP
+
 Silver Ingot (done)
 Value: 7 SP, 5 CP
+
 Silver Nugget
 Value: 8 CP
+
 Silver Block
 Value: 6 GP, 7 SP, 5 CP
+
 Platinum Ore (done)
 Value: 2 GP, 5 SP
+
 Raw Platinum (done)
 Value: 5 GP
+
 Platinum Ingot (done)
 Value: 1 PP
+
 Platinum Nugget
 Value: 1 GP, 1 SP, 1 CP
+
 Platinum Block
 Value: 9 PP
+
 Mithral Ore (done)
 Value: 6 GP, 2 SP, 5 CP
+
 Raw Mithral (done)
 Value: 1 PP, 2 GP, 5 SP
+
 Mithral Ingot (done)
 Value: 2 PP, 5 GP
+
 Mithral Nugget
 Value: 2 GP, 7 SP, 7 CP
+
 Mithral Block
 Value: 22 PP, 9 GP
+
 Adamantine Ore (done)
 Value: 1 PP, 2 GP, 5 SP
+
 Raw Adamantine (done)
 Value: 2 PP, 5 GP
+
 Adamantine Ingot (done)
 Value: 5 PP
+
 Adamantine Nugget
 Value: 5 GP, 5 SP, 5 CP
+
 Adamantine Block
 Value: 45 PP
 
@@ -453,7 +472,7 @@ CHA Table
 Killing A&A mobs grants AXP, which can be
 used to level up.
 AXP Table
-LVL 1: starting level (50 AXP to become LVL 1 for any Hires Unit below LVL 1)
+LVL 1: starting level (50 AXP to become LVL 1 for any Hired Unit below LVL 1)
 LVL 2: 300 AXP (300 total)
 LVL 3: 900 AXP (1200 total)
 LVL 4: 2700 AXP (3900 total)
@@ -6309,35 +6328,132 @@ blocks that were generated cannot be broken.
 Human House
 a house that houses 2 Human Townsfolk.
 
-Human Inn
+Inn (human)
 a bussling place, Has a lower floor with
 a bartender that sells drinks and food,
 and a upper floor where you can purchase
 rooms.
 
-General Store
+General Store (Human)
 This store sells basic gear.
 
-Blacksmith
+Blacksmith (Human)
 This store sells weapons and armor.
 
-Lumberjack
+Lumberjack (Human)
 This store sells wood-based things.
 
-Clothing Shop
+Clothing Shop (Human)
 This store sells clothes.
 
-Butcher
+Butcher (Human)
 This store sells meat.
 
-Church 
+Potion Shop (Human)
+This store sells potions, they can sell
+any kind of potion.
+
+Church (Human)
 Offers worship to a specific god.
 houses a Acolyte.
 
-Manor
+Manor (Human)
 Houses a noble, who rules over the village.
 
 
+
+- Hill Dwarf Settlement -
+These are typically found underground beneath large hills..
+Contains 4 Hill Dwarven Homes, 1 Dwarven Inn,
+a general store, 3 shops, a manor, and a mine,
+with tunnels connecting them. While within its zone,
+blocks that were generated cannot be broken.
+
+Hill Dwarven Home
+Houses 2 Hill Dwarf Clansfolk.
+
+Hill Dwarf Inn
+Large underground building that has
+rooms and ale galore.
+
+General Store (Hill Dwarf)
+Sells basic gear
+
+Blacksmith (Dwarf)
+This store sells armor and weapons.
+
+Mineral Shop (Dwarf)
+This store sells ores.
+
+Trinket Stop (Dwarf)
+This store sells magical 
+but mostly useless trinkets.
+
+Jeweler (Dwarf)
+This store sells gemstones.
+
+Potion Shop (Dwarf)
+This store sells potions, favoring
+potions that aid mining ability.
+
+Dwarven Tunnel
+connects two points in a dwarven structure.
+
+Connection
+Connects tunnels together, which lead into a structure.
+
+
+--- Structure Names ---
+
+Names are randomly generated from the
+tables below.
+
+-- Towns --
+
+Town (Human)
+Human Towns are usually named after a important
+person in the towns history.
+Format (prefix)(suffix) Town
+----------------------
+  Human Town Names 
+----------------------
+Prefix  --- Suffix ---
+----------------------
+Aseir   --- far    ---
+Ander   --- sah    ---
+Aoth    --- ba     ---
+Atala   --- own    ---
+Arveene --- land   ---
+Betha   --- ou     ---
+Bai     --- ray    ---
+Balama  --- ien    ---
+Bardeid --- gel    ---
+Bor     --- ria    ---
+Chen    --- nda    ---
+Ceidel  --- eda    ---
+Cefrey  --- dove   ---
+
+----------------------
+  Dwarven Clan Names 
+----------------------
+Prefix  --- Suffix ---
+----------------------
+Bal     --- anvil  ---
+Battle  --- beard  ---
+Brawn   --- derk   ---
+Dan     --- eln    ---
+Fire    --- eer    ---
+Frost   --- forge  ---
+Gor     --- fist   ---
+Holder  --- gehr   ---
+Iron    --- gart   ---
+Lod     --- hek    ---
+Lut     --- heim   ---
+Rumna   --- hammer ---
+Stone   --- kil    ---
+Strak   --- steel  ---
+Tor     --- una    ---
+Un      --- unn    ---
 
 ----- Entities -----
 
