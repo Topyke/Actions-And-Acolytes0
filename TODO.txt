@@ -6376,8 +6376,8 @@ Hill Dwarf Inn
 Large underground building that has
 rooms and ale galore.
 
-General Store (Hill Dwarf)
-Sells basic gear
+General Store (Dwarf)
+This store sells basic gear.
 
 Blacksmith (Dwarf)
 This store sells armor and weapons.
@@ -6398,10 +6398,57 @@ potions that aid mining ability.
 
 Dwarven Tunnel
 connects two points in a dwarven structure.
+Will need variants
 
 Connection
 Connects tunnels together, which lead into a structure.
+Will need variants
 
+- Mountain Dwarf Settlement -
+These are typically found underground beneath the mountains.
+Contains 4 Hill Dwarven Homes, 1 Dwarven Inn,
+a general store, 3 shops, a manor, and a mine,
+with tunnels connecting them. While within its zone,
+blocks that were generated cannot be broken.
+
+Mountain Dwarven Home
+Houses 2 Hill Dwarf Clansfolk.
+
+Mountain Dwarf Inn
+Large underground building that has
+rooms and ale galore.
+
+General Store (Dwarf)
+This store sells basic gear.
+
+Blacksmith (Dwarf)
+This store sells armor and weapons.
+
+Mineral Shop (Dwarf)
+This store sells ores.
+
+Trinket Stop (Dwarf)
+This store sells magical 
+but mostly useless trinkets.
+
+Jeweler (Dwarf)
+This store sells gemstones.
+
+Potion Shop (Dwarf)
+This store sells potions, favoring
+potions that aid mining ability.
+
+Dwarven Tunnel
+connects two points in a dwarven structure.
+Will need variants
+
+Connection
+Connects tunnels together, which lead into a structure.
+Will need variants
+
+Mountain Dwarf Entrance
+Leads to the outside world.
+Connects to a tunnel.
 
 --- Structure Names ---
 
