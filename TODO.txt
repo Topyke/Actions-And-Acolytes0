@@ -6438,6 +6438,9 @@ Potion Shop (Dwarf)
 This store sells potions, favoring
 potions that aid mining ability.
 
+Dwarven Mine 
+Leads down into the deep.
+
 Dwarven Tunnel
 connects two points in a dwarven structure.
 Will need variants
@@ -6449,6 +6452,8 @@ Will need variants
 Mountain Dwarf Entrance
 Leads to the outside world.
 Connects to a tunnel.
+
+
 
 --- Structure Names ---
 
