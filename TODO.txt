@@ -6608,26 +6608,26 @@ Un      --- unn    ---
 
 -- LVL 0 -- (0 / 16 entities complete)
 Awakened Shrub - Stats Complete
-Bat - Model Complete
-Cat - Model Complete
+Bat - Model, Stats complete
+Cat - Model, Stats complete
 Commoner (Human) - Stats Complete
-Commoner (Elf)
-Commoner (Dwarf)
-Commoner (Halfling)
+Commoner (Elf) - Stats complete
+Commoner (Dwarf) - Stats complete
+Commoner (Halfling) - Stats complete
 Crawling Claw - Stats Complete
 Deer - Stats Complete
 Eagle - Stats Complete
 Frog - Model Complete
 Goat - Model, Stats Complete
 Homunculus
-Lemure
+Lemure - Stats complete
 Rat - Model, Stats Complete
 Spider
 -- LVL 0.125 -- (0 / 39 entities complete)
-Bandit (Human)
-Bandit (Elf)
-Bandit (Dwarf)
-Bandit (Halfling)
+Bandit (Human) - Stats complete
+Bandit (Elf) - Stats complete
+Bandit (Dwarf) - Stats complete
+Bandit (Halfling) - Stats complete
 Bandit (Goblin)
 Bandit (Kobold)
 Bandit (Orc)
@@ -6640,21 +6640,21 @@ Cultist (Goblin)
 Cultist (Kobold)
 Cultist (Orc)
 Diseased Giant Rat - Model Complete
-Giant Rat - Model Complete
-Guard (Human)
-Guard (Elf)
-Guard (Dwarf)
+Giant Rat - Model, Stats compelete
+Guard (Human) - Stats complete
+Guard (Elf) - Stats complete
+Guard (Dwarf) - Stats complete
 Guard (Halfling)
-Kobold - Model Complete
+Kobold - Model Complete - Stats complete
 Kobold Digger - Model Complete
 Kobold Slinger - Model Complete
 Kobold Trapper - Model Complete
 Merfolk
 Mule - Model Complete
-Merchant (Human)
-Merchant (Elf)
-Merchant (Dwarf)
-Merchant (Halfling)
+Merchant (Human) - Stats complete
+Merchant (Elf) - Stats complete
+Merchant (Dwarf) - Stats complete
+Merchant (Halfling) - Stats complete
 Merchant (Kobold)
 Merchant (Goblin)
 Merchant (Merfolk) - Ignore
@@ -6664,13 +6664,13 @@ Stirge
 Tribesman (Human)
 Twig Blight
 -- LVL 0.25 -- (0 / 25 entities complete)
-Acolyte (Human)
-Acolyte (Elf)
-Acolyte (Dwarf)
-Acolyte (Halfling)
+Acolyte (Human) - Stats complete
+Acolyte (Elf) - Stats complete
+Acolyte (Dwarf) - Stats complete
+Acolyte (Halfling) - Stats complete
 Axe Beak
-Boar - Model Complete
-Bull
+Boar - Model, Stats complete
+Bull - Stats complete
 Bullywug
 Draft Horse 
 Flying Weapon
@@ -10490,7 +10490,7 @@ Damage Immunities: Poison
 Condition Immunities: Exaustion, Poison
 Languages: Undercommon
 Stealth Rating: 40
-Crit Chance: 0%
+Crit Chance: 6%
 Skills: None
 Base Level: 0.25
 AXP Yield: 50
@@ -10542,7 +10542,7 @@ Damage Immunities: Poison
 Condition Immunities: Exaustion, Poison
 Languages: Understands all languages it knew in life but can't speak
 Stealth Rating: 40
-Crit Chance: 0%
+Crit Chance: 5%
 Skills: None
 Base Level: 0.25
 AXP Yield: 50
@@ -10584,7 +10584,7 @@ WIS: 100 (0)
 CHA: 60 (-2)
 Languages: Troglodyte
 Stealth Rating: 56
-Crit Chance: 0%
+Crit Chance: 5%
 Skills: Stealth (+2)
 Base Level: 0.25
 AXP Yield: 50
