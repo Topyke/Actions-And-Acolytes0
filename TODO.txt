@@ -6619,50 +6619,52 @@ Deer - Stats Complete
 Eagle - Stats Complete
 Frog - Model Complete
 Goat - Model, Stats Complete
-Homunculus
+Homunculus - Skip for 1.0.0
 Lemure - Stats complete
 Rat - Model, Stats Complete
-Spider
+Spider - Stats Complete
+
 -- LVL 0.125 -- (0 / 39 entities complete)
 Bandit (Human) - Stats complete
 Bandit (Elf) - Stats complete
 Bandit (Dwarf) - Stats complete
 Bandit (Halfling) - Stats complete
-Bandit (Goblin)
-Bandit (Kobold)
-Bandit (Orc)
-Camel - Model Complete
-Cultist (Human)
-Cultist (Elf)
-Cultist (Dwarf)
-Cultist (Halfling)
-Cultist (Goblin)
-Cultist (Kobold)
-Cultist (Orc)
-Diseased Giant Rat - Model Complete
+Bandit (Goblin) - Skip for 1.0.0
+Bandit (Kobold) - Stats Complete
+Bandit (Orc) - Skip for 1.0.0
+Camel - Model Complete - Skip for 1.0.0
+Cultist (Human) - Stats Complete
+Cultist (Elf) - Stats Complete
+Cultist (Dwarf) - Stats Complete
+Cultist (Halfling) - Stats Complete
+Cultist (Goblin) - Skip for 1.0.0
+Cultist (Kobold) - Skip for 1.0.0
+Cultist (Orc) - Skip for 1.0.0
+Diseased Giant Rat - Model, Stats Complete
 Giant Rat - Model, Stats compelete
 Guard (Human) - Stats complete
 Guard (Elf) - Stats complete
 Guard (Dwarf) - Stats complete
-Guard (Halfling)
-Kobold - Model Complete - Stats complete
-Kobold Digger - Model Complete
-Kobold Slinger - Model Complete
-Kobold Trapper - Model Complete
-Merfolk
-Mule - Model Complete
+Guard (Halfling) - Stats Complete
+Kobold - Model, Stats complete
+Kobold Digger - Model, Stats Complete
+Kobold Slinger - Model, Stats Complete
+Kobold Trapper - Model, Stats Complete
+Merfolk - Skip for 1.0.0
+Mule - Model, Stats Complete
 Merchant (Human) - Stats complete
 Merchant (Elf) - Stats complete
 Merchant (Dwarf) - Stats complete
 Merchant (Halfling) - Stats complete
-Merchant (Kobold)
-Merchant (Goblin)
-Merchant (Merfolk) - Ignore
-Merchant (Orc)
+Merchant (Kobold) - Stats complete
+Merchant (Goblin) - Skip for 1.0.0
+Merchant (Merfolk) - Skip for 1.0.0
+Merchant (Orc) - Stats complete
 Pony - Model Complete
-Stirge
-Tribesman (Human)
-Twig Blight
+Stirge - Stats complete
+Tribesman (Human) - Stats complete
+Twig Blight - Stats complete
+
 -- LVL 0.25 -- (0 / 25 entities complete)
 Acolyte (Human) - Stats complete
 Acolyte (Elf) - Stats complete
@@ -6671,14 +6673,14 @@ Acolyte (Halfling) - Stats complete
 Axe Beak
 Boar - Model, Stats complete
 Bull - Stats complete
-Bullywug
+Bullywug - Stats complete
 Draft Horse 
-Flying Weapon
+Flying Weapon - Stats complete
 Giant Bat - Model Complete
 Giant Frog - Model Complete
 Giant Wolf Spider - Model Complete
 Goblin
-Kuo-Toa - Ignore
+Kuo-Toa - Skip for 1.0.0
 Mud Mephit
 Needle Blight
 Pteranodon
@@ -6699,28 +6701,29 @@ Gnoll
 Gray Ooze
 Hobgoblin
 Ice Mephit
-Lizardfolk - Ignore
+Lizardfolk - Skip for 1.0.0
 Magma Mephit
 Orc
 Sahuagin
 Satyr
-Scout (Human)
-Scout (Elf)
-Scout (Dwarf)
-Scout (Halfling)
-Scout (Goblin)
-Scout (Lizardfolk) - Ignore
-Scout (Merfolk) - Ignore
-Scout (Orc)
+Scout (Human) - Skip for 1.0.0
+Scout (Elf) - Skip for 1.0.0
+Scout (Dwarf) - Skip for 1.0.0
+Scout (Halfling) - Skip for 1.0.0
+Scout (Goblin) - Skip for 1.0.0
+Scout (Lizardfolk) - Skip for 1.0.0
+Scout (Merfolk) - Skip for 1.0.0
+Scout (Orc) - Skip for 1.0.0
 Shadow
-Thug (Human)
-Thug (Elf)
-Thug (Dwarf)
-Thug (Goblin)
-Thug (Orc)
+Thug (Human) - Skip for 1.0.0
+Thug (Elf) - Skip for 1.0.0
+Thug (Dwarf) - Skip for 1.0.0
+Thug (Goblin) - Skip for 1.0.0
+Thug (Orc) - Skip for 1.0.0
 Vine Blight
 Warhorse - Model Complete
 Warhorse Skeleton - Model Complete
+
 -- LVL 1 -- (0 / 24 entities complete)
 Animated Armor
 Brass Dragon Wyrmling
@@ -6739,13 +6742,14 @@ Harpy
 Hippogriff
 Imp
 Scarecrow
-Spy (Human)
-Spy (Elf)
-Spy (Dwarf)
-Spy (Halfling)
-Spy (Goblin)
-Spy (Kobold)
+Spy (Human) - Skip for 1.0.0
+Spy (Elf) - Skip for 1.0.0
+Spy (Dwarf) - Skip for 1.0.0
+Spy (Halfling) - Skip for 1.0.0
+Spy (Goblin) - Skip for 1.0.0
+Spy (Kobold) - Skip for 1.0.0
 Thri-Kreen
+
 -- LVL 2 -- (0 / 58 entities complete)
 Allosaurus
 Ankheg
@@ -9667,9 +9671,10 @@ Base Stats:
 Type: Humanoid
 Size: Small
 Alignment: Lawful Evil
+Class Base HP: 6
 HP: 5
 AC: 5
-Speed: 100%
+Speed: 110%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
 STR: 70 (-2)
@@ -9678,9 +9683,9 @@ CON: 90 (-1)
 INT: 80 (-1)
 WIS: 70 (-2)
 CHA: 80 (-1)
-Melee Power: -10%
-Ranged Power: 10%
-Magic Power: -5% 
+Melee Power: -20%
+Ranged Power: 20%
+Magic Power: -10% 
 Base Stealth Rating: 60
 Crit Chance: 4%
 Base Level: 0.125
@@ -9698,7 +9703,7 @@ Pack Tactics
 Actions:
 
 Attack (Dagger)
-2.2 (wood) or 3.3 (stone) Piercing Damage
+2.4 (wood) or 3.6 (stone) Piercing Damage
 
 Equipment:
 Wooden Dagger (75%)
@@ -9711,9 +9716,10 @@ Base Stats:
 Type: Humanoid
 Size: Small
 Alignment: Lawful Evil
+Class Base HP: 6
 HP: 5
 AC: 5
-Speed: 100%
+Speed: 110%
 Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
 Languages: Common, Draconic
 STR: 70 (-2)
@@ -9722,9 +9728,9 @@ CON: 90 (-1)
 INT: 80 (-1)
 WIS: 70 (-2)
 CHA: 80 (-1)
-Melee Power: -10%
-Ranged Power: +10%
-Magic Power: -5% 
+Melee Power: -20%
+Ranged Power: +20%
+Magic Power: -10% 
 Base Stealth Rating: 60
 Crit Chance: 4%
 Base Level: 0.125
@@ -9745,6 +9751,177 @@ Attack (Sling)
 
 Equipment
 Sling (100%)
+
+Kobold Digger
+
+Base Stats:
+
+Type: Humanoid
+Size: Small
+Alignment: Lawful Evil
+Class Base HP: 6
+HP: 5
+AC: 5
+Speed: 110%
+Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
+Languages: Common, Draconic
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Melee Power: -20%
+Ranged Power: +20%
+Magic Power: -10% 
+Base Stealth Rating: 60
+Crit Chance: 4%
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Sunlight Sensitivity
+While in the sun, STR and WIS are reduced by 25%.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack
+3.2 Piercing Damage
+
+Equipment
+Stone Pickaxe (100%)
+
+Kobold Trapper
+
+Base Stats:
+
+Type: Humanoid
+Size: Small
+Alignment: Lawful Evil
+Class Base HP: 6
+HP: 5
+AC: 5
+Speed: 110%
+Senses: Passive Sight (12 Blocks), Darkvision (90 Blocks)
+Languages: Common, Draconic
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 90 (-1)
+INT: 80 (-1)
+WIS: 70 (-2)
+CHA: 80 (-1)
+Melee Power: -20%
+Ranged Power: +20%
+Magic Power: -10% 
+Base Stealth Rating: 60
+Crit Chance: 4%
+Base Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Sunlight Sensitivity
+While in the sun, STR and WIS are reduced by 25%.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack
+? Bludgeoning Damage
+
+Equipment
+Stone Shovel (100%)
+
+- Kobold Bandit -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Random Non-Lawful Alignment
+Class Base HP: 6
+HP: 6
+AC: 6-10
+Speed: 110%
+Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
+Languages: Common, Draconic
+STR: 80 (-1)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 90 (-1)
+WIS: 80 (-1)
+CHA: 90 (-1)
+Melee Power: -10%
+Ranged Power: 20%
+Magic Power: -10% 
+Base Stealth Rating: 60
+Crit Chance: 5%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Sunlight Sensitivity
+While in the sun, STR and WIS are reduced by 25%.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Attacks:
+
+Shortsword
+4.8 Slashing Damage
+
+Equipment
+Stone Shortsword (100%)
+
+- Kobold Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+Class Base HP: 4
+HP: 4
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 80 (-1)
+DEX: 150 (+2)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 120 (+1)
+CHA: 140 (+2)
+Melee Power: -10%
+Ranged Power: 20%
+Magic Power: 0% 
+Base Stealth Rating: 60
+Crit Chance: 6%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Dagger
+4.8 Piercing Damage
+
+Equipment:
+Iron Dagger (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
+
 
 -- Orcs --
 
@@ -9769,6 +9946,45 @@ Default Player Reputation: -75
 *Creatures at level 0.125 or lower (or if they are 5 or more levels lower then you), will flee instead of attacking.
 **Creatures at level 1 or lower (or if they are 3 or more levels lower then you),  will flee instead of attacking.
 
+- Orc Merchant -
+
+Stats:
+
+Type: Humanoid
+Size: Medium
+Alignment: Matches Town Alignment
+Class Base HP: 9
+HP: 9
+AC: 9
+Speed: 100%
+Senses: Passive Sight (15 Blocks)
+Languages: Common
+STR: 120 (+2)
+DEX: 110 (0)
+CON: 110 (0)
+INT: 110 (0)
+WIS: 130 (+2)
+CHA: 150 (+2)
+Melee Power: 20%
+Ranged Power: 0%
+Magic Power: 0% 
+Base Stealth Rating: 50
+Crit Chance: 7%
+Skills: Deception (+3), Insight (+2), Persuasion (+3)
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Battleaxe
+9.6 Slashing Damage
+
+Equipment:
+Iron Battleaxe (100%)
+Padded Helmet (100%)
+Mixed Breastplate (100%)
 
 --- Animals ---
 
@@ -9781,6 +9997,7 @@ Stats:
 Type: Beast
 Size: Tiny
 Alignment: Unaligned
+Class Base HP: 1
 HP: 1
 AC: 0
 Speed: 100%
@@ -9817,6 +10034,7 @@ Stats:
 Type: Beast
 Size: Tiny
 Alignment: Unaligned
+Class Base HP: 2
 HP: 2
 AC: 0
 Speed: 120%
@@ -9850,6 +10068,7 @@ Stats:
 Type: Beast
 Size: Tiny
 Alignment: Unaligned
+Class Base HP: 3
 HP: 3
 AC: 0
 Speed: 50%
@@ -9880,6 +10099,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 6
 HP: 6
 AC: 0
 Speed: 120%
@@ -9910,6 +10130,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 4
 HP: 4
 AC: 0
 Speed: 140%
@@ -9940,6 +10161,7 @@ Stats:
 Type: Beast
 Size: Small
 Alignment: Unaligned
+Class Base HP: 3
 HP: 3
 AC: 0
 Speed: 125%
@@ -9973,6 +10195,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 6
 HP: 6
 AC: 0
 Speed: 120%
@@ -10003,6 +10226,7 @@ Stats:
 Type: Beast
 Size: Timy
 Alignment: Unaligned
+Class Base HP: 2
 HP: 1
 AC: 0
 Speed: 80%
@@ -10036,6 +10260,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 5
 HP: 4
 AC: 0
 Speed: 120%
@@ -10059,18 +10284,55 @@ Actions:
 Attack
 2 Bludgeoning Damage
 
+- Spider -
+
+Stats:
+
+Type: Beast
+Size: Tiny
+Alignment: Unaligned
+Class Base HP: 1
+HP: 1
+AC: 0
+Speed: 80%, can climb walls
+Senses: Passive Sight (15 Blocks), Darkvision (9 Blocks)
+STR: 20 (-4)
+DEX: 140 (+2)
+CON: 80 (-1)
+INT: 10 (-5)
+WIS: 100 (0)
+CHA: 20 (-4)
+Stealth Rating: 76
+Crit Chance: 0%
+Skills: Stealth (+4)
+Level: 0
+AXP Yield: 10
+
+Special:
+
+Web Walker
+The spider is unaffected by cobwebs.
+
+Actions:
+
+Bite
+1 Piercing Damage
+Target must pass a CON resistance check (90)
+or take an additonal 2 poison damage.
+
 -- LEVEL 0.125 --
 
-Giant Rat
+- Diseased Giant Rat -
 
 Stats:
 
 Type: Beast
 Size: Small
 Alignment: Unaligned
+Class Base HP: 7
 HP: 7
 AC: 0
-Speed: 80%
+Speed: 100%
 Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
 STR: 70 (-2)
 DEX: 150 (+2)
@@ -10078,7 +10340,46 @@ CON: 110 (0)
 INT: 20 (-4)
 WIS: 100 (0)
 CHA: 40 (-3)
-Base Stealth Rating: 50
+Base Stealth Rating: 60
+Crit Chance: 0%
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Keen Smell
+Rats have advantage on perception checks that rely on smell.
+
+Pack Tactics
++3 damage when within 3 blocks of an allied unit.
+
+Actions:
+
+Attack
+4 Piercing Damage
+If the target is a living thing, 
+they must pass a CON resistance check (100)
+or become diseased.
+
+- Giant Rat -
+
+Stats:
+
+Type: Beast
+Size: Small
+Alignment: Unaligned
+Class Base HP: 7
+HP: 7
+AC: 0
+Speed: 100%
+Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
+STR: 70 (-2)
+DEX: 150 (+2)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 40 (-3)
+Base Stealth Rating: 60
 Crit Chance: 0%
 Level: 0.125
 AXP Yield: 25
@@ -10096,6 +10397,77 @@ Actions:
 Attack
 4 Piercing Damage
 
+- Mule -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+Class Base HP: 10
+HP: 11
+AC: 0
+Speed: 120%
+Senses: Passive Sight (15 Blocks)
+STR: 140 (+2)
+DEX: 100 (0)
+CON: 130 (+1)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 50 (-3)
+Stealth Rating: 50
+Crit Chance: 3%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Beast of Burden
+The Mule can carry twice as many objects as a
+mount of its size normally could.
+
+Surefooted
+The mule has advantage with STR and DEX
+resistance checks that would knock it prone.
+
+Actions:
+
+Attack
+4 Bludgeoning Damage
+
+- Pony -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+Class Base HP: 11
+HP: 11
+AC: 0
+Speed: 120%
+Senses: Passive Sight (15 Blocks)
+STR: 150 (+2)
+DEX: 100 (0)
+CON: 130 (+1)
+INT: 20 (-4)
+WIS: 110 (0)
+CHA: 70 (-2)
+Stealth Rating: 50
+Crit Chance: 3%
+Skills: None
+Level: 0.125
+AXP Yield: 25
+
+Special:
+
+Actions:
+
+Attack
+7 Bludgeoning Damage
+
+
 -- LEVEL 0.25 --
 
 - Boar -
@@ -10105,6 +10477,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 10
 HP: 11
 AC: 5 (natural armor)
 Speed: 120%
@@ -10144,6 +10517,7 @@ Stats:
 Type: Beast
 Size: Medium
 Alignment: Unaligned
+Class Base HP: 9
 HP: 11
 AC: 5 (natural armor)
 Speed: 120%
@@ -10187,6 +10561,7 @@ Base Stats:
 Type: Plant
 Size: Small
 Alignment: Unaligned
+Class Base HP: 10
 HP: 10
 AC: 2
 Speed: 66%
@@ -10223,6 +10598,7 @@ Base Stats:
 Type: Undead
 Size: Tiny
 Alignment: Evil
+Class Base HP
 HP: 2
 AC: 0
 Speed: 66%, Can climb walls.
@@ -10262,6 +10638,7 @@ Base Stats:
 Type: Fiend (Devil)
 Size: Medium
 Alignment: Lawful Evil
+Class Base HP: 13
 HP: 13
 AC: 3
 Speed: 50%
@@ -10305,6 +10682,7 @@ Base Stats:
 Type: Beast
 Size: Tiny
 Alignment: Unaligned
+Class Base HP: 1
 HP: 2
 AC: 0
 Speed: 33% (120% speed flight)
@@ -10338,6 +10716,7 @@ Base Stats:
 Type: Plant
 Size: Small
 Alignment: Neutral Evil
+Class Base HP: 3
 HP: 4
 AC: 13
 Speed: 66%
@@ -10377,6 +10756,7 @@ Base Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 10
 HP: 11
 AC: 8
 Speed: 66% (Swim 120%)
@@ -10431,6 +10811,7 @@ Base Stats:
 Type: Construct
 Size: Small
 Alignment: Unaligned
+Class Base HP: 17
 HP: 17
 AC: 10
 Speed: Hover 140%
@@ -10475,6 +10856,7 @@ Base Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Evil
+Class Base HP: 18
 HP: 18
 AC: 5-7
 Speed: 100% (Swim 100%)
@@ -10527,6 +10909,7 @@ Base Stats:
 Type: Undead
 Size: Medium
 Alignment: Lawful Evil
+Class Base HP: 11
 HP: 13
 AC: 0-11
 Speed: 100%
@@ -10572,6 +10955,7 @@ Base Stats:
 Type: Humanoid
 Size: Medium
 Alignment: Lawful Evil
+Class Base HP: 11
 HP: 13
 AC: 5
 Speed: 100%
@@ -10613,6 +10997,7 @@ Base Stats:
 Type: Undead
 Size: Medium
 Alignment: Evil
+Class Base HP: 17
 HP: 22
 AC: 8
 Speed: 83%
