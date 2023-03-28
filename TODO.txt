@@ -6670,11 +6670,11 @@ Acolyte (Human) - Stats complete
 Acolyte (Elf) - Stats complete
 Acolyte (Dwarf) - Stats complete
 Acolyte (Halfling) - Stats complete
-Axe Beak
+Axe Beak - Stats Complete
 Boar - Model, Stats complete
 Bull - Stats complete
 Bullywug - Stats complete
-Draft Horse 
+Draft Horse - Stats complete
 Flying Weapon - Stats complete
 Giant Bat - Model Complete
 Giant Frog - Model Complete
@@ -6685,12 +6685,13 @@ Mud Mephit
 Needle Blight
 Pteranodon
 Riding Horse - Model Complete
-Skeleton - Model Complete
+Skeleton - Model, Stats Complete
 Smoke Mephit
 Steam Mephit
 Winged Kobold
 Wolf - Model Complete
-Zombie - Model Complete
+Zombie - Model, Stats Complete
+
 -- LVL 0.5 -- (0 / 31 entities complete)
 Ape
 Black Bear
@@ -10580,6 +10581,37 @@ Charge
 The bull stops for 2 seconds, then dashes forward, anyone caught in the way takes 7 Piercing damage.
 If a creature is hit, it must pass a Strength Resistance Check (110) or be knocked back.
 This ability has a 10 second cooldown.
+
+- Draft Horse -
+
+Stats:
+
+Type: Beast
+Size: Large
+Alignment: Unaligned
+Class Base HP: 19
+HP: 19
+AC: 0
+Speed: 120%
+Senses: Passive Sight (15 Blocks)
+STR: 180 (+4)
+DEX: 100 (0)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 110 (0)
+CHA: 70 (-2)
+Stealth Rating: 50
+Crit Chance: 5%
+Skills: None
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Attack
+9 Bludgeoning Damage
 
 --- Monsters ---
 
