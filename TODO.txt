@@ -6660,7 +6660,7 @@ Merchant (Kobold) - Stats complete
 Merchant (Goblin) - Skip for 1.0.0
 Merchant (Merfolk) - Skip for 1.0.0
 Merchant (Orc) - Stats complete
-Pony - Model Complete
+Pony - Model, Stats Complete
 Stirge - Stats complete
 Tribesman (Human) - Stats complete
 Twig Blight - Stats complete
@@ -10470,6 +10470,37 @@ Attack
 
 -- LEVEL 0.25 --
 
+- Axe Beak -
+
+Base Stats:
+
+Type: Beast
+Size: Large
+Alignment: Unaligned
+Class Base HP: 17
+HP: 19
+AC: 0
+Speed: 140%
+Senses: Passive Sight (12 Blocks), Darkvision (27 Blocks)
+STR: 140 (+2)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 10 (-5)
+CHA: 50 (-3)
+Stealth Rating: 40
+Crit Chance: 3%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Attack
+6 Slashing Damage
+
 - Boar -
 
 Stats:
@@ -10748,6 +10779,8 @@ Claws
 
 
 -- LEVEL 0.25 --
+
+
 
 - Bullywug -
 
