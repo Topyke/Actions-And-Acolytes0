@@ -6685,8 +6685,8 @@ Giant Wolf Spider - Model, Stats Complete
 Goblin - Stats Complete
 Kuo-Toa - Skip for 1.0.0
 Mud Mephit - Stats Complete
-Needle Blight
-Pteranodon
+Needle Blight - Stats Complete
+Pteranodon - Stats Complete
 Riding Horse - Model Complete
 Skeleton - Model, Stats Complete
 Smoke Mephit
@@ -10844,6 +10844,67 @@ Bite
 4 Piercing Damage
 Target must make a CON resistance check (DC 110). On a failed save, they get inflicted with Venom 1 for 10 seconds.
 
+- Pteranodon -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+Class Base HP: 10
+HP: 13
+AC: 7
+Speed: 60% (Flight 130%)
+Senses: Passive Sight (16 Blocks)
+STR: 120 (+1)
+DEX: 160 (+3)
+CON: 130 (+1)
+INT: 30 (-4)
+WIS: 120 (+1)
+CHA: 40 (-3)
+Stealth Rating: 86
+Crit Chance: 5%
+Skills: Perception (+1)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Bite
+6 Piercing Damage
+
+- Riding Horse -
+
+Stats:
+
+Type: Beast
+Size: Large
+Alignment: Unaligned
+Class Base HP: 11
+HP: 13
+AC: 0
+Speed: 130%
+Senses: Passive Sight (15 Blocks)
+STR: 160 (+3)
+DEX: 100 (0)
+CON: 120 (+1)
+INT: 20 (-4)
+WIS: 110 (0)
+CHA: 70 (-2)
+Stealth Rating: 50
+Crit Chance: 4%
+Skills: None
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Attack
+8 Bludgeoning Damage
 
 
 --- Monsters ---
@@ -11241,6 +11302,41 @@ Mud Breath (30 second cooldown)
 Belches mud onto one creature within 3 blocks. 
 if the creature is Medium or smaller, they must pass a DEX Resistance Check (CR 110) or become Stunned for 15 seconds.
 
+- Needle Blight -
+
+Base Stats:
+
+Type: Undead
+Size: Medium
+Alignment: Evil
+Class Base HP: 10
+HP: 11
+AC: 6
+Speed: 100%
+Senses: Blindsight (18 Blocks)
+STR: 120 (+1)
+DEX: 120 (+1)
+CON: 130 (+1)
+INT: 40 (-3)
+WIS: 80 (-1)
+CHA: 30 (-4)
+Condition Immunities: Blinded, Deafened
+Languages: Understands common but cant spesk
+Stealth Rating: 55
+Crit Chance: 4%
+Skills: None
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Actions:
+
+Claws
+6 Piercing Damage
+
+Needles
+Ranged: 8 Piercing Damage
 
 - Skeleton -
 
