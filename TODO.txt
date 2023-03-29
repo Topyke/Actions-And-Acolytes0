@@ -3280,6 +3280,9 @@ Can by inflicted by weapons that deal Bludgeoning damage.
         34-37%    ---   18%  ---         39%      ---
           >38%    ---   20%  ---         43%      ---
           
+Venom
+Deals 1% of the targets max HP as damage at the same speed as poison.
+          
 ----- Spells -----
 
 Categories:
@@ -6676,12 +6679,12 @@ Bull - Stats complete
 Bullywug - Stats complete
 Draft Horse - Stats complete
 Flying Weapon - Stats complete
-Giant Bat - Model Complete
-Giant Frog - Model Complete
-Giant Wolf Spider - Model Complete
-Goblin
+Giant Bat - Model, Stats Complete
+Giant Frog - Model, Stats Complete
+Giant Wolf Spider - Model, Stats Complete
+Goblin - Stats Complete
 Kuo-Toa - Skip for 1.0.0
-Mud Mephit
+Mud Mephit - Stats Complete
 Needle Blight
 Pteranodon
 Riding Horse - Model Complete
@@ -9635,6 +9638,116 @@ If your above -100 Reputaion, Hostiles will capture you instead of killing you o
 
 -- Goblins --
 
+Default Player Reputation: -75
+---------------------------------------------------------------------------------------------------------------------------------------
+                                               Reputation Table
+---------------------------------------------------------------------------------------------------------------------------------------
+--- Reputation Score ---        Rating        ---  Attack player if:   ---        Title            ---   Shop Prices --- Hire Level ---
+---------------------------------------------------------------------------------------------------------------------------------------
+---      -255        ---        Feared        ---   If recognized**    ---      Goblin Slayer      ---   Won't Sell  ---      0     ---
+---      -100^       ---        Big Bad       ---   If recognized*     ---      Goblin Hunter      ---   Won't Sell  ---      0     ---
+---       -50        ---        Enemy         ---   If recognized      ---         None            ---   Won't Sell  ---      0     --- 
+---        -1        ---        Disliked      ---  If commiting crime  ---         None            ---     2x Price  ---      0     ---
+---         0        ---        Nuetral       ---  If commiting crime  ---         None            ---   1.5x Price  ---      0     ---  
+---        50        ---        Friend        ---      If Attacked     ---         None            ---  1.25x Price  ---      1     ---  
+---       100        ---        Boss          ---      If Attacked     ---      Goblin Boss        ---     1x Price  ---      1     --- 
+---       150        ---        Commander     ---      If Attacked     ---         None            ---  0.75x Price  ---      2     ---
+---       200        ---        Warlord       ---      If Attacked     ---     Goblin Warlord      ---   0.5x Price  ---      3     ---
+---       255        ---         King         ---      If Attacked     ---      Goblin King        ---  0.25x Price  ---      4     ---
+---------------------------------------------------------------------------------------------------------------------------------------
+^to go beyond -99 Reputation, killing is required.
+*Creatures at level 0.125 or lower (or if they are 10 or more levels lower then you), will flee instead of attacking.
+**Creatures at level 1 or lower (or if they are 5 or more levels lower then you),  will flee instead of attacking.
+
+-- LEVEL 0.25 --
+
+- Goblin Fighter -
+
+Base Stats:
+
+Type: Humanoid
+Size: Small
+Alignment: Neutral Evil
+Class Base HP: 7
+HP: 7
+AC: 6-8
+Speed: 110%
+Senses: Passive Sight (13 Blocks), Darkvision (18 Blocks)
+Languages: Common, Goblin
+STR: 80 (-1)
+DEX: 140 (+2)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 80 (-1)
+CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: 20%
+Magic Power: 0% 
+Base Stealth Rating: 78
+Crit Chance: 6%
+Skills: Stealth (+6)
+Base Level: 0.25
+AXP Yield: 50
+
+
+Special:
+
+Nimble Escape
+When under 33% HP, +20% movement speed.
+
+Actions:
+
+Scimitar
+7.2 Slashing Damage
+
+Equipment:
+Iron Scimitar (100%)
+Leather Chestplate (100%)
+Wooden Shield (50%)
+
+- Goblin Archer -
+
+Base Stats:
+
+Type: Humanoid
+Size: Small
+Alignment: Neutral Evil
+Class Base HP: 7
+HP: 7
+AC: 6
+Speed: 110%
+Senses: Passive Sight (13 Blocks), Darkvision (18 Blocks)
+Languages: Common, Goblin
+STR: 80 (-1)
+DEX: 140 (+2)
+CON: 100 (0)
+INT: 100 (0)
+WIS: 80 (-1)
+CHA: 80 (-1)
+Melee Power: -10%
+Ranged Power: 20%
+Magic Power: 0% 
+Base Stealth Rating: 78
+Crit Chance: 6%
+Skills: Stealth (+6)
+Base Level: 0.25
+AXP Yield: 50
+
+
+Special:
+
+Nimble Escape
+When under 33% HP, +20% movement speed.
+
+Actions:
+
+Shortbow
+7.2 Piercing Damage
+
+Equipment:
+Shortbow (100%)
+Leather Chestplate (100%)
+
 -- Goliaths --
 
 -- Hobgoblins --
@@ -10613,6 +10726,126 @@ Actions:
 Attack
 9 Bludgeoning Damage
 
+- Giant Bat -
+
+Stats:
+
+Type: Beast
+Size: Large
+Alignment: Unaligned
+Class Base HP: 22
+HP: 22
+AC: 0
+Speed: 40% (Flight 130%)
+Senses: Blindsight (18 Blocks)
+STR: 150 (+2)
+DEX: 160 (+3)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 120 (+1)
+CHA: 60 (-2)
+Stealth Rating: 65
+Crit Chance: 6%
+Skills: None
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Echolocation
+Giant Bats cannot see while deafened.
+
+Keen Hearing
+Giant Bats have advantage on perception checks involving hearing.
+
+Actions:
+
+Attack
+5 Piercing Damage
+
+- Giant Frog -
+
+Stats:
+
+Type: Beast
+Size: Large
+Alignment: Unaligned
+Class Base HP: 18
+HP: 18
+AC: 0
+Speed: 100%, Swim 100%
+Senses: Blindsight (18 Blocks)
+STR: 120 (+1)
+DEX: 130 (+1)
+CON: 110 (0)
+INT: 20 (-4)
+WIS: 100 (0)
+CHA: 30 (-4)
+Stealth Rating: 67
+Crit Chance: 3%
+Skills: Perception (+2), Stealth (+3)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Amphibious
+Giant Frogs breathe both air and water.
+
+Standing Leap
+Giant Frogs have +2 jump height.
+
+Actions:
+
+Bite
+4 Piercing Damage, and the target is grappled (Escape DC 110), Until the grappling ends, the target is Restrained,
+and the Giant Frog cannot bite another target.
+
+Swallow
+Target must be Small or Smaller, Make a Bite attack against a grappled creature, if the attack hits, the target is swallowed,
+and the grappling ends. The swallowed target is Blinded and Restrained, it cannot be attacked from outside the Giant Frog, and it takes 5
+Acid damage every 5 seconds. The target is freed if the Giant Frog dies.
+
+- Giant Wolf Spider -
+
+Stats:
+
+Type: Beast
+Size: Medium
+Alignment: Unaligned
+Class Base HP: 10
+HP: 11
+AC: 0
+Speed: 110% (Climb 110%)
+Senses: Blindsight (3 Blocks), Darkvision (18 Blocks), Passive Sight (19 Blocks)
+STR: 120 (+1)
+DEX: 160 (+3)
+CON: 130 (+1)
+INT: 30 (-4)
+WIS: 120 (+1)
+CHA: 40 (-3)
+Stealth Rating: 86
+Crit Chance: 5%
+Skills: Perception (+3), Stealth (+7)
+Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Web Sense
+While in contact with a cobweb or group of cobwebs, the Giant Wolf Spider knows exactly where all creatures also touching the cobwebs are.
+
+Web Walker
+The Giant Spider ignores movement restriction from cobwebs.
+
+Actions:
+
+Bite
+4 Piercing Damage
+Target must make a CON resistance check (DC 110). On a failed save, they get inflicted with Venom 1 for 10 seconds.
+
+
+
 --- Monsters ---
 
 -- LEVEL 0 --
@@ -10812,8 +11045,6 @@ Claws
 
 -- LEVEL 0.25 --
 
-
-
 - Bullywug -
 
 Base Stats:
@@ -10852,8 +11083,6 @@ The Bullywug has advantage when hiding in swampy biomes.
 
 Standing Leap
 Bullywugs have a jump height of 3 blocks.
-
-
 
 Actions:
 
@@ -10966,6 +11195,52 @@ Equipment:
 Stone Spear (100%)
 Net (100%)
 Wooden Shield (50%)
+
+- Mud Mephit -
+
+Base Stats:
+
+Type: Elemental
+Size: Small
+Alignment: Neutral Evil
+Class Base HP: 11
+HP: 27
+AC: 5
+Speed: 80% (Fly 80%, Swim 80%)
+Senses: Passive Sight (15 Blocks), Darkvision (18 Blocks)
+STR: 80 (-1)
+DEX: 120 (+1)
+CON: 120 (+1)
+INT: 90 (-1)
+WIS: 110 (0)
+CHA: 70 (-2)
+Damage Immunities: Poison
+Condition Immunities: Poison
+Languages: Understands Aquan, Terran
+Stealth Rating: 64
+Crit Chance: 4%
+Skills: Stealth (+3)
+Base Level: 0.25
+AXP Yield: 50
+
+Special:
+
+Death Burst
+When the Mud Mephit dies, it explodes into mud, each Medium or smaller creature must pass a DEX Resistance Check (CR 110) or become Stunned for 5 seconds.
+
+False Appearance
+While not moving, The Mud Mephit is indistinguishable from mud.
+
+
+Actions:
+
+Fists
+4 Bludgeoning Damage
+
+Mud Breath (30 second cooldown)
+Belches mud onto one creature within 3 blocks. 
+if the creature is Medium or smaller, they must pass a DEX Resistance Check (CR 110) or become Stunned for 15 seconds.
+
 
 - Skeleton -
 
