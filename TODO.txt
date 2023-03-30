@@ -2466,7 +2466,7 @@ It takes 4x as long to send a message through Thieves Cant.
 - LVL 2 -
 
 Cunning Action
-
+You hide in 1 second instead of 10.
 
 
 --- Sorcerer ---
