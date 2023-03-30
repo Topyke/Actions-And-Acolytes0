@@ -2410,8 +2410,6 @@ Leather Tunic, 2 Stone Daggers, and Thieves’ tools
 
 Abilities:
 
-Abilities:
-
 -------------------
  PROF Bonus Table 
 -------------------
@@ -2467,6 +2465,8 @@ It takes 4x as long to send a message through Thieves Cant.
 
 Cunning Action
 You hide in 1 second instead of 10.
+
+- LVL 3 -
 
 
 --- Sorcerer ---
