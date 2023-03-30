@@ -2460,6 +2460,12 @@ You deal an additional 3 damage with finnese or ranged weapons
 when you have advantage against the target.
 
 Thieves Cant
+You know a secret code that only other theives know,
+It takes 4x as long to send a message through Thieves Cant.
+
+- LVL 2 -
+
+Cunning Action
 
 
 
